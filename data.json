@@ -1,0 +1,179 @@
+{
+  "updated": "2026-11-15T21:55:00+01:00",
+  "edition": "Lunes 16 de noviembre de 2026",
+  "headline": "Fin de semana de desplome cripto, Nvidia sin CEO y campaña del 29-N en marcha: los mercados abren la semana con el Ibex por encima de 20.000 y el euro en mínimos de 19 meses.",
+  "brief_60s": [
+    "Bitcoin cae a unos 63.500 $ (−16 % en la semana) y XRP pierde el dólar: el fin de semana fue el peor del año para las cripto.",
+    "El Ibex cerró el viernes en 20.020 puntos: +3,4 % en la semana y +15,7 % en 2026. El Stoxx 600 marcó máximo histórico.",
+    "Nvidia se queda sin Jensen Huang tras su dimisión; la acción cayó un 12,8 % en cinco días y arrastró a las tecnológicas.",
+    "La inflación sigue en el 4,9 % y el BCE (2,50 %) apunta a subir tipos en diciembre. El Euríbor a 12 meses ronda el 3,2 %.",
+    "Campaña electoral, día 4: el PP lidera la media de encuestas (31,5 %) frente al PSOE (26,8 %) y Vox (19,1 %)."
+  ],
+  "ukio_takeaways": [
+    "Financiación: con el Euríbor alrededor del 3,2 % y una subida del BCE probable en diciembre, conviene que los compradores con hipoteca cierren la oferta vinculante del banco cuanto antes.",
+    "Precio: Barcelona marca máximo histórico (5.463 €/m², +4,7 %), pero las compraventas en España caen un 5,9 % interanual. El mercado está caro y con menos operaciones: hay que ajustar bien el precio de salida.",
+    "Inversores: con Nou Barris, Sant Andreu y Horta subiendo entre un 7 % y un 14 % al año y rentabilidades brutas del 5 % o más, el inversor de rentabilidad tiene más recorrido en los distritos periféricos que en Sarrià o el Eixample."
+  ],
+  "today": [
+    { "time": "09:00", "event": "Apertura del Ibex tras el desplome cripto del fin de semana", "why": "Hay que vigilar la banca y la tecnología: el viernes el bono español a 10 años se acercó al 3,95 %." },
+    { "time": "Todo el día", "event": "Campaña 29-N, cuarta jornada", "why": "La vivienda es el eje de la campaña: Feijóo propone llevarla desde una vicepresidencia." },
+    { "time": "15:30", "event": "Apertura de Wall Street", "why": "Primera sesión completa de Nvidia con Colette Kress como líder interina." },
+    { "time": "Semana", "event": "Cumbre Trump–Putin–Xi en Shenzhen (jueves 19)", "why": "Irán y el estrecho de Ormuz en la agenda: impacto directo en el petróleo y la inflación." }
+  ],
+  "markets": {
+    "asof": "Cierre del viernes 13/11 · cripto: sábado 14/11 noche",
+    "indices": [
+      { "id": "ibex", "label": "IBEX 35", "region": "España", "value": 20020.10, "change_pct": 0.27, "history": [19742.5, 19965.5, 20020.1] },
+      { "id": "sp500", "label": "S&P 500", "region": "EE. UU.", "value": 7561.67, "change_pct": -0.40, "history": [] },
+      { "id": "nasdaq", "label": "Nasdaq Comp.", "region": "EE. UU.", "value": 25136.27, "change_pct": -0.91, "history": [] },
+      { "id": "dow", "label": "Dow Jones", "region": "EE. UU.", "value": 52347.55, "change_pct": 0.10, "history": [] },
+      { "id": "dax", "label": "DAX", "region": "Alemania", "value": 26749.95, "change_pct": -0.08, "history": [] },
+      { "id": "cac", "label": "CAC 40", "region": "Francia", "value": 8368.91, "change_pct": 0.09, "history": [] },
+      { "id": "ftse", "label": "FTSE 100", "region": "Reino Unido", "value": 10902.56, "change_pct": 0.36, "history": [] },
+      { "id": "stoxx50", "label": "Euro Stoxx 50", "region": "Eurozona", "value": 6386.86, "change_pct": -0.19, "history": [] },
+      { "id": "nikkei", "label": "Nikkei 225", "region": "Japón", "value": 61142.35, "change_pct": 0.53, "history": [60459.58, 61248.59, 60819.36, 61142.35] }
+    ],
+    "fx_commodities": [
+      { "id": "eurusd", "label": "EUR/USD", "value": 1.1046, "decimals": 4, "change_pct": null, "note": "Mínimo de 19 meses", "history": [] },
+      { "id": "brent", "label": "Brent", "unit": "$", "value": 95.54, "decimals": 2, "change_pct": null, "note": "+57 % en el año", "history": [] },
+      { "id": "gold", "label": "Oro", "unit": "$/oz", "value": 3881.75, "decimals": 0, "change_pct": 0.14, "note": "−5,5 % en el mes", "history": [] },
+      { "id": "us10y", "label": "Bono EE. UU. 10a", "unit": "%", "value": 5.13, "decimals": 2, "change_pct": null, "note": "Por encima del 5 %", "history": [] }
+    ],
+    "crypto": [
+      { "id": "bitcoin", "label": "Bitcoin", "symbol": "BTC", "usd": 63528, "chg_24h": -6.6, "chg_7d": -16.0, "history": [81004, 75780, 73600, 68700, 63528] },
+      { "id": "ethereum", "label": "Ethereum", "symbol": "ETH", "usd": 1905, "chg_24h": -3.85, "chg_7d": null, "history": [2240, 1930, 1905] },
+      { "id": "xrp", "label": "XRP", "symbol": "XRP", "usd": 0.8952, "chg_24h": -9.76, "chg_7d": null, "history": [1.00, 0.9949, 0.957, 0.8952] },
+      { "id": "cardano", "label": "Cardano", "symbol": "ADA", "usd": 0.1634, "chg_24h": -0.56, "chg_7d": null, "history": [0.1643, 0.1634] }
+    ]
+  },
+  "kpis": [
+    { "id": "euribor12m", "label": "Euríbor 12M", "value": 3.217, "unit": "%", "decimals": 3, "change": 0.013, "change_unit": "pp", "date": "10/11/2026 (diario)", "detail": "Media de octubre: 3,239 % · Noviembre provisional: 3,268 %", "source": "Rankia / Banco de España", "url": "https://www.rankia.com/blog/mejores-hipotecas/7546779-euribor-hoy-11-noviembre-2026", "history": [3.247, 3.239, 3.268], "next_release": "2026-11-16", "good_when": "down" },
+    { "id": "bce", "label": "Tipo BCE (depósito)", "value": 2.50, "unit": "%", "decimals": 2, "change": 0, "change_unit": "pp", "date": "29/10/2026", "detail": "El mercado descuenta un 80 % de probabilidad de subida al 2,75 % en diciembre", "source": "BCE / CaixaBank Research", "url": "https://www.caixabankresearch.com/es/publicaciones/notas-breves-actualidad-economica-y-financiera/observatorio-bancos-centrales-122", "history": [2.00, 2.25, 2.50, 2.50], "next_release": "2026-12-17", "good_when": "down" },
+    { "id": "ipc", "label": "IPC general", "value": 4.9, "unit": "%", "decimals": 1, "change": 0, "change_unit": "pp", "date": "Octubre 2026 (adelantado)", "detail": "Subyacente: 3,1 % · Máximos desde febrero de 2023", "source": "INE / CaixaBank Research", "url": "https://www.caixabankresearch.com/es/node/14742/printable/print", "history": [4.9, 4.9], "next_release": "2026-11-27", "good_when": "down" },
+    { "id": "pib", "label": "PIB trimestral", "value": 0.6, "unit": "%", "decimals": 1, "change": -0.1, "change_unit": "pp", "date": "3T 2026", "detail": "Crecimiento intertrimestral, una décima menos que en el 2T", "source": "INE / CaixaBank Research", "url": "https://www.caixabankresearch.com/es/economia-y-mercados/analisis-coyuntura/economia-espanola-mantiene-pulso-pese-incertidumbre-y-al", "history": [0.7, 0.6], "next_release": "2027-01-29", "good_when": "up" },
+    { "id": "paro", "label": "Tasa de paro (EPA)", "value": 10.18, "unit": "%", "decimals": 2, "change": 0.31, "change_unit": "pp", "date": "3T 2026", "detail": "Ocupados récord: 22,85 millones · 2,59 millones de parados", "source": "INE / Qué!", "url": "https://www.que.es/2026/10/28/epa-tercer-trimestre-2026-paro-2/", "history": [9.87, 10.18], "next_release": "2027-01-28", "good_when": "down" },
+    { "id": "bono10", "label": "Bono España 10a", "value": 3.944, "unit": "%", "decimals": 2, "change": 0.037, "change_unit": "pp", "date": "13/11/2026", "detail": "Prima de riesgo: 65 pb", "source": "Investing.com", "url": "https://es.investing.com/news/stock-market-news/la-bolsa-hoy-ibex-35-euro-dolar-nvidia-oro-y-bitcoin-3926799", "history": [], "next_release": "2026-11-16", "good_when": "down" }
+  ],
+  "real_estate": {
+    "espana": [
+      { "id": "compraventas", "label": "Compraventas 3T", "value": -5.9, "unit": "% a/a", "decimals": 1, "date": "3T 2026", "detail": "164.148 operaciones; −2,3 % frente al 2T", "source": "Registradores / Brainsre", "url": "https://brainsre.news/?p=317648" },
+      { "id": "usada_es", "label": "Vivienda usada España", "value": 2466, "unit": "€/m²", "decimals": 0, "date": "Oct 2026", "detail": "+1,97 % interanual", "source": "pisos.com", "url": "https://www.diaridetarragona.com/vivienda/274935/precio-vivienda-tarragona-sigue-alza-supera-1-500-euros-metro-cuadrado.html" },
+      { "id": "inversion", "label": "Inversión inmobiliaria", "value": 25, "unit": "% a/a", "decimals": 0, "date": "Ene–sep 2026", "detail": "Récord histórico hasta septiembre", "source": "Alimarket", "url": "https://www.alimarket.es/construccion/noticia_amp/433179/la-compraventa-de-viviendas-aumenta-un-3-4--interanual-en-agosto" }
+    ],
+    "barcelona": [
+      { "id": "bcn_venta", "label": "Venta Barcelona", "value": 5463, "unit": "€/m²", "decimals": 0, "date": "Oct 2026", "detail": "+4,7 % a/a · máximo histórico", "source": "idealista", "url": "https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/venta/cataluna/barcelona-provincia/barcelona/" },
+      { "id": "bcn_alquiler", "label": "Alquiler Barcelona", "value": 20.5, "unit": "€/m²/mes", "decimals": 1, "date": "Oct 2026", "detail": "+0,3 % a/a · +2,2 % mensual", "source": "idealista", "url": "https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/alquiler/cataluna/barcelona-provincia/barcelona/" },
+      { "id": "bcn_obranueva", "label": "Obra nueva Barcelona", "value": 9220, "unit": "€/m²", "decimals": 0, "date": "2T 2026", "detail": "+14,1 % a/a (precio de publicación)", "source": "Brains Real Estate", "url": "https://brainsre.news/precio-vivienda-barcelona/" }
+    ]
+  },
+  "news": {
+    "politica": [
+      { "title": "Arranca la campaña del 29-N", "summary": "La campaña de las generales empezó el viernes 13 y termina el 27. Sánchez la abrió en Sevilla, Feijóo en Badalona y Abascal en la plaza de Colón.", "impact": "Alto", "source": "Demócrata", "url": "https://www.democrata.es/politica/sanchez-arranca-campana-en-sevilla-feijoo-en-badalona-y-abascal-colau-y-montero-optan-por-madrid/", "time": "13/11", "new": true },
+      { "title": "El PP lidera la media de encuestas", "summary": "La media de 15 institutos sitúa al PP en el 31,5 %, al PSOE en el 26,8 %, a Vox en el 19,1 % y a Frente Amplio en el 6,2 %. La publicación de encuestas se prohíbe desde el 24 de noviembre.", "impact": "Alto", "source": "Demócrata", "url": "https://www.democrata.es/economia/espana-vuelve-huelga-general-14-anos-despues-con-vivienda-como-detonante-puertas-29n/", "time": "10/11", "new": true },
+      { "title": "Sánchez pide a Feijóo que acepte el resultado; Feijóo pone la vivienda en una vicepresidencia", "summary": "En la segunda jornada de campaña, el candidato socialista dio por hecha su victoria, mientras el líder del PP prometió gestionar la vivienda desde una vicepresidencia si gana.", "impact": "Medio", "source": "Infobae / EFE", "url": "https://www.infobae.com/espana/agencias/2026/11/14/hoy-es-noticia-en-espana-2330/", "time": "14/11", "new": true },
+      { "title": "Los informes de la Guardia Civil y el caso Leire Díez entran en campaña", "summary": "Sánchez reconoce que el PSOE contrata despachos que pagan a Leire Díez, aunque dice desconocer el vínculo. Informes de la Guardia Civil apuntan a contactos con una persona ligada a la trama Ábalos.", "impact": "Medio", "source": "COPE", "url": "https://www.cope.es/programas/mediodia-cope/horas-completas/14-00h-14-nov-2026-mediodia-cope-20261114_3475318.html", "time": "14/11", "new": true },
+      { "title": "Abascal pide a Feijóo que aclare sus pactos antes del 29-N", "summary": "El líder de Vox exige al PP decir si volvería a pactar con el PSOE. El PNV avisa de que una mayoría PP–Vox le tendrá enfrente.", "impact": "Medio", "source": "Infobae / EFE", "url": "https://www.infobae.com/espana/agencias/2026/11/14/hoy-es-noticia-en-espana-2330/", "time": "14/11", "new": true }
+    ],
+    "economia": [
+      { "title": "La inflación se mantiene en el 4,9 %", "summary": "El IPC adelantado de octubre repite la tasa de septiembre, la más alta desde febrero de 2023, empujado por el gas y los paquetes turísticos. La subyacente sigue en el 3,1 %.", "impact": "Alto", "source": "CaixaBank Research", "url": "https://www.caixabankresearch.com/es/node/14742/printable/print", "time": "30/10", "new": false },
+      { "title": "El BCE pausa en el 2,50 % y Lagarde anuncia su salida", "summary": "El BCE mantuvo los tipos en octubre tras la subida de septiembre. Lagarde dejará el cargo en febrero y el mercado da un 80 % de probabilidad a una subida al 2,75 % en diciembre.", "impact": "Alto", "source": "CaixaBank Research", "url": "https://www.caixabankresearch.com/es/publicaciones/notas-breves-actualidad-economica-y-financiera/observatorio-bancos-centrales-122", "time": "29/10", "new": false },
+      { "title": "El Euríbor rompe cuatro bajadas seguidas", "summary": "El índice a 12 meses sube al 3,217 % el 10 de noviembre. La media provisional del mes (3,268 %) supera la de octubre y está más de un punto por encima de hace un año.", "impact": "Alto", "source": "Rankia", "url": "https://www.rankia.com/blog/mejores-hipotecas/7546779-euribor-hoy-11-noviembre-2026", "time": "11/11", "new": true },
+      { "title": "El paro sube al 10,18 % con el empleo en récord", "summary": "La EPA del tercer trimestre suma 95.900 parados, pese a que la ocupación alcanza un máximo de 22,85 millones de personas.", "impact": "Medio", "source": "Qué!", "url": "https://www.que.es/2026/10/28/epa-tercer-trimestre-2026-paro-2/", "time": "27/10", "new": false },
+      { "title": "El PIB crece un 0,6 % pese al shock energético", "summary": "La economía mantiene el pulso en el tercer trimestre gracias a la demanda interna, aunque con signos de moderación de cara al cuarto.", "impact": "Medio", "source": "CaixaBank Research", "url": "https://www.caixabankresearch.com/es/economia-y-mercados/analisis-coyuntura/economia-espanola-mantiene-pulso-pese-incertidumbre-y-al", "time": "09/11", "new": false }
+    ],
+    "sociedad": [
+      { "title": "Balance de la primera huelga general en 14 años", "summary": "El paro del 11-N, convocado por CCOO y UGT por la vivienda, los salarios y los precios, tuvo un seguimiento desigual. Los sindicatos hablan de éxito y la patronal, de fracaso.", "impact": "Alto", "source": "COPE", "url": "https://www.cope.es/programas/mediodia-cope/horas-completas/14-00h-14-nov-2026-mediodia-cope-20261114_3475318.html", "time": "11/11", "new": false },
+      { "title": "Los ferroviarios se manifiestan por la seguridad", "summary": "El Sindicato Ferroviario se movilizó en Madrid para exigir auditorías independientes tras los últimos accidentes. Cuerpo releva a la cúpula de Renfe y Adif.", "impact": "Medio", "source": "Infobae / EFE", "url": "https://www.infobae.com/espana/agencias/2026/11/14/temas-del-dia-de-efe-espana-del-sabado-14-de-noviembre-de-2026-1330h/", "time": "14/11", "new": true },
+      { "title": "Sigue la búsqueda del sospechoso de la explosión de Oviedo", "summary": "La Policía mantiene la búsqueda sin detenidos confirmados. El accidente de Urda sigue afectando a las conexiones ferroviarias con Andalucía.", "impact": "Medio", "source": "Costa Digital", "url": "https://costadigital.es/boletin-informativo-sabado-14-de-noviembre-de-2026-espana-andalucia-granada-y-provincia-costa-tropical/", "time": "14/11", "new": true },
+      { "title": "Día mundial en recuerdo de las víctimas de tráfico", "summary": "Las asociaciones piden este domingo más protección y formación para peatones, ciclistas y motoristas, los usuarios más vulnerables.", "impact": "Bajo", "source": "Infobae / EFE", "url": "https://www.infobae.com/espana/agencias/2026/11/13/temas-del-dia-de-efe-espana-del-sabado-14-de-noviembre-de-2026/", "time": "15/11", "new": true },
+      { "title": "Aviso sobre la financiación de la sanidad pública", "summary": "El nuevo presidente de la Asociación Médica Mundial advierte de que la sanidad universal española no aguantará sin más financiación.", "impact": "Bajo", "source": "Infobae / EFE", "url": "https://www.infobae.com/espana/agencias/2026/11/14/temas-del-dia-de-efe-espana-del-sabado-14-de-noviembre-de-2026-1330h/", "time": "14/11", "new": true }
+    ],
+    "mundo_geo": [
+      { "title": "Cumbre inédita Trump–Putin–Xi el jueves en Shenzhen", "summary": "La Casa Blanca y el Kremlin confirman la reunión al margen del APEC. Hablarán de la guerra con Irán, pero no de Ucrania.", "impact": "Alto", "source": "MDZ / AFP", "url": "https://www.mdzol.com/mundo/2026/11/14/inedita-cumbre-entre-trump-putin-y-xi-jinping-iran-en-la-agenda-pero-ucrania-no-1995423.html", "time": "14/11", "new": true },
+      { "title": "Trump dice que no necesita un acuerdo de paz con Irán", "summary": "El presidente apartó a JD Vance de las conversaciones. Irán exige autorización a los buques para cruzar Ormuz.", "impact": "Alto", "source": "Todo sobre RRII", "url": "https://noticiastodosobrerrii.substack.com/p/reporte-guerra-medio-oriente-todo-927", "time": "12/11", "new": true },
+      { "title": "Trump podría no atacar Irán si no hay provocaciones", "summary": "Según tres fuentes, el presidente ha dicho a sus asesores que esperará mientras Teherán y los hutíes no provoquen a EE. UU.", "impact": "Medio", "source": "Times of Israel", "url": "https://www.timesofisrael.com/liveblog-november-14-2026/", "time": "14/11", "new": true },
+      { "title": "Los hutíes atacan infraestructuras saudíes", "summary": "Los ataques y los riesgos en Ormuz provocan vaivenes diarios en el petróleo y en las bolsas europeas.", "impact": "Medio", "source": "El Imparcial / EFE", "url": "https://www.elimparcial.es/noticia/228431/economia/el-ibex-sube-un-098-y-roza-la-cota-de-los-20.000-puntos.html", "time": "13/11", "new": true },
+      { "title": "Los demócratas controlan las dos cámaras de EE. UU.", "summary": "Tras ganar las midterms, podrán bloquear nuevas iniciativas republicanas en lo que queda de mandato de Trump.", "impact": "Medio", "source": "CaixaBank Research", "url": "https://www.caixabankresearch.com/es/pulso-economico-semanal/semana-del-30-octubre-al-6-noviembre-2026", "time": "06/11", "new": false }
+    ],
+    "mundo_eco": [
+      { "title": "El bono de EE. UU. supera el 5 % y la Fed apunta a subir", "summary": "El mercado da en torno a un 85 % de probabilidad a una subida de la Fed en diciembre, e incluso se habla de medio punto.", "impact": "Alto", "source": "NordFX", "url": "https://nordfx.com/market-news/market-pulse-november-13-2026", "time": "13/11", "new": true },
+      { "title": "El euro cae a 1,1046 dólares, mínimo de 19 meses", "summary": "El índice del dólar alcanza su nivel más alto desde abril de 2025, impulsado por la inflación de EE. UU.", "impact": "Medio", "source": "Euribor.com.es", "url": "https://www.euribor.com.es/2026/11/13/analisis-de-mercados-13-de-noviembre-de-2026-13-noviembre-2026/", "time": "13/11", "new": true },
+      { "title": "El Brent vuelve a 95 $ y acumula un +57 % en el año", "summary": "El crudo repunta tras las declaraciones de Trump sobre Irán, después de caer un 17 % en diez días por las esperanzas de un acuerdo.", "impact": "Alto", "source": "Euribor.com.es", "url": "https://www.euribor.com.es/2026/11/13/analisis-de-mercados-13-de-noviembre-de-2026-13-noviembre-2026/", "time": "13/11", "new": true },
+      { "title": "El oro baja de 3.900 $ por el dólar y los rendimientos", "summary": "El metal cede un 5,5 % en el mes: con los bonos de EE. UU. por encima del 5 %, pierde atractivo frente a la renta fija.", "impact": "Bajo", "source": "Trading Economics", "url": "https://es.tradingeconomics.com/commodity/gold", "time": "13/11", "new": true },
+      { "title": "El Banco de Inglaterra sube tipos por primera vez desde 2023", "summary": "Y advierte de posibles nuevas alzas, en línea con el giro de los bancos centrales ante la inflación energética.", "impact": "Medio", "source": "Estrategias de Inversión", "url": "https://www.estrategiasdeinversion.com/actualidad/la-bolsa-hoy-en-directo/25-04-2025", "time": "05/11", "new": false }
+    ],
+    "mercados": [
+      { "title": "Jensen Huang dimite y Nvidia se desploma", "summary": "La acción cae un 12,8 % en cinco días. La directora financiera, Colette Kress, asume el liderazgo de forma interina.", "impact": "Alto", "source": "El Informador / EFE", "url": "https://www.informador.mx/economia/wall-street-cierra-una-semana-de-perdidas-en-tecnologicas-tras-la-crisis-de-nvidia-20261113-0169.html", "time": "13/11", "new": true },
+      { "title": "El Ibex recupera los 20.000 puntos", "summary": "Sube un 3,36 % en la semana y un 15,67 % en el año. El viernes Repsol ganó un 3,3 % y Acciona cayó un 8 %.", "impact": "Alto", "source": "Infobae / EFE", "url": "https://www.infobae.com/espana/agencias/2026/11/13/el-ibex-35-sube-un-027-y-cierra-en-20000-puntos-en-una-sesion-marcada-por-la-cautela/", "time": "13/11", "new": true },
+      { "title": "Wall Street logra su primera semana en verde desde octubre", "summary": "El S&P 500 gana un 2,5 % en la semana pese al tropiezo del viernes de las tecnológicas.", "impact": "Medio", "source": "El Boletín", "url": "https://www.elboletin.com/wall-street-rompe-su-racha-de-perdidas-semanales-pese-al-castigo-a-nvidia/", "time": "13/11", "new": true },
+      { "title": "El Stoxx 600 cierra en máximo histórico", "summary": "El índice europeo termina en 664 puntos, apoyado en los resultados de la banca y los pedidos industriales.", "impact": "Medio", "source": "Trading Economics", "url": "https://tradingeconomics.com/euro-area/stock-market", "time": "13/11", "new": true },
+      { "title": "AMD cae casi un 9 % y arrastra a los chips", "summary": "Los semiconductores lideraron las caídas del viernes, con Dell, Broadcom y Coherent también en rojo.", "impact": "Bajo", "source": "TradingKey", "url": "https://www.tradingkey.com/es/analysis/stocks/us-stocks/262305247-us-stock-nasdaq-falls-nvidia-drops-us-october-ppi-tradingkey", "time": "13/11", "new": true }
+    ],
+    "cripto": [
+      { "title": "Bitcoin se hunde hasta 63.500 $", "summary": "Cae un 6,6 % en 24 horas y un 16 % en la semana. Está casi un 50 % por debajo de su récord de 126.080 $.", "impact": "Alto", "source": "CryptoTicker", "url": "https://cryptoticker.io/es/noticias-criptomonedas-bitcoin-cae-63500-dolares-14-noviembre-2026/", "time": "14/11", "new": true },
+      { "title": "XRP pierde el dólar: mínimo de dos años", "summary": "Toca 0,8952 $, su nivel más bajo desde noviembre de 2024, con salidas de los ETF de XRP.", "impact": "Alto", "source": "CryptoTicker", "url": "https://cryptoticker.io/es/caida-xrp-hoy-precio-089-dolares-minimo-desde-noviembre-2024-15-noviembre-2026/", "time": "15/11", "new": true },
+      { "title": "Ethereum baja de 2.000 $ y contagia al resto", "summary": "ETH cotiza a 1.905 $. Solana, XRP y BNB caen en paralelo en un contagio de las grandes capitalizaciones.", "impact": "Medio", "source": "Euribor.com.es", "url": "https://www.euribor.com.es/2026/11/14/ethereum-cae-un-385-a-1-905-y-arrastra-a-solana/", "time": "14/11", "new": true },
+      { "title": "Fuga de los ETF de bitcoin", "summary": "Salidas netas de 1.280 millones de dólares entre el 2 y el 6 de noviembre: el saldo de 2026 vuelve a ser negativo.", "impact": "Medio", "source": "CryptoTicker", "url": "https://cryptoticker.io/es/noticias-criptomonedas-semana-resumen-calendario-noviembre-2026/", "time": "08/11", "new": false },
+      { "title": "Cardano en sobreventa", "summary": "ADA cotiza en torno a 0,163 $, por debajo de todas sus medias móviles, con un RSI de 24.", "impact": "Bajo", "source": "DiarioBitcoin", "url": "https://www.diariobitcoin.com/analisis/cardano-ada-cae-bajo-sus-medias-moviles-el-14-de-noviembre-de-2026/", "time": "14/11", "new": true }
+    ],
+    "inmo_espana": [
+      { "title": "Las compraventas caen un 5,9 % interanual", "summary": "Los registradores contabilizan 164.148 operaciones en el tercer trimestre: tercera caída trimestral consecutiva.", "impact": "Alto", "source": "Brainsre", "url": "https://brainsre.news/?p=317648", "time": "Nov", "new": true },
+      { "title": "Las hipotecas que revisan ahora pagan un punto más", "summary": "Con el Euríbor de octubre en el 3,239 %, quien revisa en noviembre paga 1,05 puntos más que hace un año.", "impact": "Alto", "source": "Hipotecas.me", "url": "https://www.hipotecas.me/noticias/euribor-octubre-2026-se-frena-revision-hipoteca-noviembre", "time": "03/11", "new": false },
+      { "title": "La inversión inmobiliaria marca récord", "summary": "Crece un 25 % hasta septiembre, el mayor volumen de la serie histórica.", "impact": "Medio", "source": "Alimarket", "url": "https://www.alimarket.es/construccion/noticia_amp/433179/la-compraventa-de-viviendas-aumenta-un-3-4--interanual-en-agosto", "time": "Oct", "new": false },
+      { "title": "La vivienda usada se estanca en 2.466 €/m²", "summary": "El precio en España apenas sube un 0,04 % mensual en octubre y un 1,97 % en el año, según pisos.com.", "impact": "Medio", "source": "Diari de Tarragona", "url": "https://www.diaridetarragona.com/vivienda/274935/precio-vivienda-tarragona-sigue-alza-supera-1-500-euros-metro-cuadrado.html", "time": "Nov", "new": true },
+      { "title": "Récord de cambios de uso", "summary": "Las reconversiones de locales y oficinas a vivienda se duplicaron en el primer semestre de 2026.", "impact": "Bajo", "source": "Alimarket", "url": "https://www.alimarket.es/construccion/noticia_amp/433179/la-compraventa-de-viviendas-aumenta-un-3-4--interanual-en-agosto", "time": "Oct", "new": false }
+    ],
+    "inmo_bcn": [
+      { "title": "Barcelona marca máximo histórico: 5.463 €/m²", "summary": "Con un +4,7 % interanual en octubre, según idealista. Nou Barris (+14,1 %) y Sant Andreu (+8,2 %) lideran las subidas.", "impact": "Alto", "source": "idealista", "url": "https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/venta/cataluna/barcelona-provincia/barcelona/", "time": "Nov", "new": true },
+      { "title": "El alquiler, contenido por los topes", "summary": "El precio de oferta queda en 20,5 €/m², solo un +0,3 % en un año, aunque repunta un 2,2 % en octubre.", "impact": "Alto", "source": "idealista", "url": "https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/alquiler/cataluna/barcelona-provincia/barcelona/", "time": "Nov", "new": true },
+      { "title": "La obra nueva roza los 9.300 €/m²", "summary": "Sube un 14,1 % en un año. Les Corts es el distrito más caro (13.171 €/m²), seguido de Sant Martí y el Eixample.", "impact": "Medio", "source": "Brains Real Estate", "url": "https://brainsre.news/?p=308687", "time": "2T", "new": false },
+      { "title": "Dentro y fuera del tope: 0,7 % frente a 11 %", "summary": "En los municipios tensionados las rentas suben un 0,7 %; fuera de la regulación, un 11 %.", "impact": "Medio", "source": "Xataka", "url": "https://xataka.com/magnet/barcelona-ha-conseguido-bajar-alquileres-ley-vivienda-problema-que-esta-pasando-pisos-disponibles", "time": "Nov", "new": true },
+      { "title": "Alquilar ya cuesta la mitad de la renta del hogar", "summary": "La tasa de esfuerzo del alquiler en Barcelona llega al 49,8 % con un coste medio de 2.633 € al mes (precio de publicación).", "impact": "Medio", "source": "Brains Real Estate", "url": "https://brainsre.news/?p=301664", "time": "2T", "new": false }
+    ],
+    "regulacion": [
+      { "title": "Fin de los pisos turísticos en Barcelona en 2028", "summary": "El Ayuntamiento no renovará las 10.101 licencias de vivienda de uso turístico cuando caduquen en noviembre de 2028.", "impact": "Alto", "source": "Vozpópuli", "url": "https://www.vozpopuli.com/espana/cataluna/collboni-eliminara-todos-los-pisos-turisticos-a-partir-de-2028-para-que-sean-residenciales.html", "time": "Vigente", "new": false },
+      { "title": "El alquiler de temporada, bajo control", "summary": "Barcelona aplica la regulación catalana de los contratos de temporada, la vía por la que se escapaba la oferta del tope.", "impact": "Alto", "source": "Ara", "url": "https://es.ara.cat/sociedad/barcelona/barcelona-aplicara-inmediatamente-regulacion-alquileres-temporada_1_5594910.amp.html", "time": "Vigente", "new": false },
+      { "title": "Cataluña endurece la definición de gran tenedor", "summary": "Basta con cinco viviendas para ser gran tenedor, sin necesidad de estar en zona tensionada.", "impact": "Medio", "source": "idealista", "url": "https://www.idealista.com/news/taxonomy/term/297", "time": "2026", "new": false },
+      { "title": "Collboni quiere limitar la compra especulativa", "summary": "El alcalde defendió prohibir la compra de vivienda a extranjeros extracomunitarios que especulen con el alquiler.", "impact": "Medio", "source": "Bolsamanía / Europa Press", "url": "https://www.bolsamania.com/noticias_amp/empresas/economia--amp-barcelona-anuncia-una-ayuda-de-400-euros-para-facilitar-el-acceso-a-la-vivienda-a-mayores-de-55-anos--21739306.html", "time": "2026", "new": false },
+      { "title": "La vivienda, eje de los programas del 29-N", "summary": "El PP propone llevarla desde una vicepresidencia. El resultado electoral puede cambiar la Ley de Vivienda y los topes.", "impact": "Alto", "source": "Infobae / EFE", "url": "https://www.infobae.com/espana/agencias/2026/11/14/hoy-es-noticia-en-espana-2330/", "time": "14/11", "new": true }
+    ]
+  },
+  "barrios": {
+    "date": "Octubre 2026",
+    "source": "idealista (precio de oferta)",
+    "url": "https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/venta/cataluna/barcelona-provincia/barcelona/",
+    "next_release": "2026-12-02",
+    "city": { "venta_m2": 5463, "alquiler_m2": 20.5, "var_yoy": 4.7 },
+    "rows": [
+      { "distrito": "Sarrià-Sant Gervasi", "venta_m2": 7236, "alquiler_m2": 20.9, "var_yoy": 7.8 },
+      { "distrito": "Eixample", "venta_m2": 6675, "alquiler_m2": 21.3, "var_yoy": 2.3 },
+      { "distrito": "Les Corts", "venta_m2": 6624, "alquiler_m2": 20.8, "var_yoy": 4.0 },
+      { "distrito": "Gràcia", "venta_m2": 5616, "alquiler_m2": 20.0, "var_yoy": 6.2 },
+      { "distrito": "Sant Martí", "venta_m2": 5350, "alquiler_m2": 21.2, "var_yoy": 3.8 },
+      { "distrito": "Ciutat Vella", "venta_m2": 4867, "alquiler_m2": 22.4, "var_yoy": 1.2 },
+      { "distrito": "Sants-Montjuïc", "venta_m2": 4601, "alquiler_m2": 19.6, "var_yoy": 4.2 },
+      { "distrito": "Horta-Guinardó", "venta_m2": 4173, "alquiler_m2": 17.4, "var_yoy": 7.5 },
+      { "distrito": "Sant Andreu", "venta_m2": 4000, "alquiler_m2": 15.9, "var_yoy": 8.2 },
+      { "distrito": "Nou Barris", "venta_m2": 3282, "alquiler_m2": 14.7, "var_yoy": 14.1 }
+    ]
+  },
+  "agenda": [
+    { "date": "Lun 16 nov", "event": "Euríbor diario y apertura de mercados", "why": "Primera lectura tras el desplome cripto." },
+    { "date": "Jue 19 nov", "event": "Cumbre Trump–Putin–Xi (Shenzhen)", "why": "Irán y Ormuz: petróleo e inflación." },
+    { "date": "Mar 24 nov", "event": "Empieza la prohibición de publicar encuestas", "why": "Últimos sondeos del 29-N." },
+    { "date": "Fin de nov", "event": "IPC adelantado de noviembre (INE)", "why": "CaixaBank espera que siga por encima del 4 %." },
+    { "date": "Dom 29 nov", "event": "Elecciones generales + reunión OPEP+", "why": "Gobierno, Ley de Vivienda y precio del crudo." },
+    { "date": "Inicio dic", "event": "Euríbor de noviembre (BOE) e idealista de noviembre", "why": "Revisión de hipotecas y precios por distrito." },
+    { "date": "Diciembre", "event": "Reunión del BCE y de la Fed", "why": "Subida de tipos descontada en ambos." }
+  ],
+  "sources": [
+    { "name": "INE", "url": "https://www.ine.es" },
+    { "name": "Banco de España", "url": "https://www.bde.es" },
+    { "name": "CaixaBank Research", "url": "https://www.caixabankresearch.com" },
+    { "name": "idealista", "url": "https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/" },
+    { "name": "Brains Real Estate", "url": "https://brainsre.news" },
+    { "name": "EFE / Infobae", "url": "https://www.infobae.com/espana/" },
+    { "name": "Trading Economics", "url": "https://tradingeconomics.com" },
+    { "name": "CryptoTicker", "url": "https://cryptoticker.io/es/" }
+  ]
+}
