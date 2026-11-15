@@ -4,85 +4,91 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Briefing diario España</title>
+<meta name="theme-color" content="#0f1a2e">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,500;6..72,600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
-/* Layout: periódico financiero de una columna ancha; resumen arriba, detalle por secciones con pestañas. */
+/* Layout: periódico financiero con portada y secciones en pestañas (hash). Resumen arriba, detalle dentro. */
 :root{
-  --paper:#f4f5f7; --surface:#ffffff; --ink:#11151b; --muted:#5a6370; --line:#dde1e7;
-  --accent:#2347a8; --accent-soft:#e8edfa; --up:#0d7a49; --down:#c2372d; --warn:#a86a00;
+  --paper:#f3f4f6; --surface:#ffffff; --ink:#10141b; --muted:#5a6370; --line:#dde1e7;
+  --accent:#2347a8; --accent-soft:#e8edfa; --navy:#0f1a2e; --up:#0d7a49; --down:#c2372d; --warn:#a86a00;
   --display:"Newsreader", Georgia, "Times New Roman", serif;
   --body:"IBM Plex Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){
-  :root:not([data-theme="light"]){
-    --paper:#0d1015; --surface:#151a21; --ink:#e6eaf0; --muted:#97a1ae; --line:#252c36;
-    --accent:#86a6ff; --accent-soft:#1b2440; --up:#41c283; --down:#ff6d61; --warn:#e3a640;
-    color-scheme:dark;
-  }
+  :root:not([data-theme="light"]){ --paper:#0c0f14; --surface:#141920; --ink:#e6eaf0; --muted:#97a1ae; --line:#252c36; --accent:#86a6ff; --accent-soft:#1b2440; --navy:#070b13; --up:#41c283; --down:#ff6d61; --warn:#e3a640; color-scheme:dark; }
 }
-:root[data-theme="dark"]{
-  --paper:#0d1015; --surface:#151a21; --ink:#e6eaf0; --muted:#97a1ae; --line:#252c36;
-  --accent:#86a6ff; --accent-soft:#1b2440; --up:#41c283; --down:#ff6d61; --warn:#e3a640;
-  color-scheme:dark;
-}
+:root[data-theme="dark"]{ --paper:#0c0f14; --surface:#141920; --ink:#e6eaf0; --muted:#97a1ae; --line:#252c36; --accent:#86a6ff; --accent-soft:#1b2440; --navy:#070b13; --up:#41c283; --down:#ff6d61; --warn:#e3a640; color-scheme:dark; }
 *{box-sizing:border-box}
 html,body{margin:0}
 body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
 a{color:inherit}
 .num{font-variant-numeric:tabular-nums}
-.wrap{max-width:1180px;margin:0 auto;padding:0 20px}
+.wrap{max-width:1200px;margin:0 auto;padding:0 20px}
+.muted{color:var(--muted)}
 
 /* Cabecera */
-.masthead{border-bottom:1px solid var(--line);background:var(--surface)}
-.masthead .wrap{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:14px;padding-bottom:12px}
+.masthead{background:var(--navy);color:#e9edf5}
+.masthead .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap;padding-top:14px;padding-bottom:12px}
 .brand{font-family:var(--display);font-weight:600;font-size:22px;letter-spacing:-.01em}
-.brand span{color:var(--accent)}
-.stamp{color:var(--muted);font-size:13px}
-.ticker{background:var(--ink);color:var(--paper);overflow:hidden;white-space:nowrap;font-size:13px}
-.ticker-track{display:inline-flex;gap:28px;padding:7px 0;animation:scroll 70s linear infinite}
+.brand span{color:#8fb0ff}
+.stamp{color:#aab4c5;font-size:13px}
+.ticker{background:#0a1220;color:#dfe5ee;overflow:hidden;white-space:nowrap;font-size:13px;border-top:1px solid #1d2a42}
+.ticker-track{display:inline-flex;gap:28px;padding:7px 0;animation:scroll 80s linear infinite}
 .ticker:hover .ticker-track{animation-play-state:paused}
-.tk b{font-weight:600;margin-right:6px}
+.tk b{font-weight:600;margin-right:6px;color:#fff}
 .tk .up{color:#5fd39a}.tk .down{color:#ff8a80}
 @keyframes scroll{from{transform:translateX(0)}to{transform:translateX(-50%)}}
 @media (prefers-reduced-motion: reduce){.ticker{overflow-x:auto}.ticker-track{animation:none}}
-nav.sections{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--paper) 92%,transparent);backdrop-filter:blur(6px);border-bottom:1px solid var(--line)}
-nav.sections .wrap{display:flex;gap:4px;overflow-x:auto;padding-top:8px;padding-bottom:8px}
-nav.sections a{text-decoration:none;font-size:13px;font-weight:500;color:var(--muted);padding:5px 10px;border-radius:999px;white-space:nowrap}
-nav.sections a:hover,nav.sections a:focus-visible{color:var(--ink);background:var(--accent-soft);outline:none}
+nav.tabsnav{position:sticky;top:0;z-index:5;background:var(--surface);border-bottom:1px solid var(--line);box-shadow:0 1px 0 rgba(0,0,0,.02)}
+nav.tabsnav .wrap{display:flex;gap:2px;overflow-x:auto;scrollbar-width:none}
+nav.tabsnav a{text-decoration:none;font-size:14px;font-weight:500;color:var(--muted);padding:13px 12px 11px;white-space:nowrap;border-bottom:2px solid transparent}
+nav.tabsnav a:hover{color:var(--ink)}
+nav.tabsnav a[aria-current="page"]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
+nav.tabsnav a:focus-visible{outline:2px solid var(--accent);outline-offset:-2px}
 
-/* Portada */
-.lead{padding:28px 0 8px}
+.view{display:none;padding-bottom:20px}
+.view.active{display:block}
+.page-head{padding:26px 0 6px;display:flex;align-items:flex-end;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:2px solid var(--ink);margin-bottom:18px}
+.page-head h1{font-family:var(--display);font-weight:600;font-size:clamp(26px,3.4vw,34px);margin:0;line-height:1.1;text-wrap:balance}
+.page-head p{margin:4px 0 6px;color:var(--muted);max-width:70ch}
 .kicker{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--accent)}
-h1{font-family:var(--display);font-weight:600;font-size:clamp(26px,3.6vw,38px);line-height:1.15;letter-spacing:-.015em;margin:6px 0 0;max-width:30ch;text-wrap:balance}
-.top-grid{display:grid;grid-template-columns:1.25fr 1fr;gap:20px;margin-top:22px}
-@media (max-width:820px){.top-grid{grid-template-columns:1fr}}
+h1.lead-h{font-family:var(--display);font-weight:600;font-size:clamp(26px,3.6vw,40px);line-height:1.13;letter-spacing:-.015em;margin:6px 0 0;max-width:32ch;text-wrap:balance}
+h3.sub{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:24px 0 10px;display:flex;justify-content:space-between;align-items:baseline;gap:8px}
+h3.sub a{font-size:12px;text-transform:none;letter-spacing:0;color:var(--accent);text-decoration:none;font-weight:500}
+.hint{font-size:13px;color:var(--muted);margin:0 0 12px}
+.grid2{display:grid;grid-template-columns:1.25fr 1fr;gap:18px}
+.grid2.even{grid-template-columns:1fr 1fr}
+@media (max-width:860px){.grid2,.grid2.even{grid-template-columns:1fr}}
 .panel{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
-.panel h2,.sec-head h2{font-family:var(--display);font-weight:600;font-size:20px;margin:0 0 10px;text-wrap:balance}
+.panel h2{font-family:var(--display);font-weight:600;font-size:20px;margin:0 0 10px;text-wrap:balance}
 ol.sixty{margin:0;padding:0;list-style:none;counter-reset:n;display:grid;gap:10px}
 ol.sixty li{counter-increment:n;display:grid;grid-template-columns:24px 1fr;gap:8px}
 ol.sixty li::before{content:counter(n);font-family:var(--display);font-weight:600;color:var(--accent);font-size:18px;line-height:1.3}
 .ukio{border-left:3px solid var(--accent)}
 .ukio ul{margin:0;padding-left:18px;display:grid;gap:10px}
-.today{margin-top:20px}
-.today-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.today-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:12px}
 .today-item{border-top:2px solid var(--ink);padding-top:8px}
 .today-item .t{font-size:12px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.05em}
 .today-item .e{font-weight:600;margin:2px 0}
 .today-item .w{color:var(--muted);font-size:14px}
 
-/* Secciones */
-section.block{padding:34px 0 6px;scroll-margin-top:52px}
-.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;flex-wrap:wrap;border-bottom:2px solid var(--ink);padding-bottom:6px;margin-bottom:16px}
-.sec-head h2{font-size:26px;margin:0}
-.sec-head .asof{font-size:12px;color:var(--muted)}
-h3.sub{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin:18px 0 10px}
+/* Semáforo */
+.signals{display:grid;grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:10px}
+.sig{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;border-top:4px solid var(--muted)}
+.sig.good,.sig.up{border-top-color:var(--up)}.sig.bad{border-top-color:var(--down)}.sig.warn{border-top-color:var(--warn)}
+.sig .l{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.sig .v{font-weight:600;font-size:17px;margin:2px 0}
+.sig.good .v,.sig.up .v{color:var(--up)}.sig.bad .v{color:var(--down)}.sig.warn .v{color:var(--warn)}
+.sig p{margin:0;font-size:13px;color:var(--muted)}
 
 /* Tarjetas de datos */
 .tiles{display:grid;grid-template-columns:repeat(auto-fill,minmax(190px,1fr));gap:10px}
-.tile{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:2px;min-width:0}
+.tile{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:flex;flex-direction:column;gap:2px;min-width:0;font:inherit;color:inherit;text-align:left;cursor:pointer;transition:border-color .15s, box-shadow .15s}
+.tile:hover{border-color:var(--accent);box-shadow:0 2px 10px color-mix(in srgb,var(--accent) 12%,transparent)}
+.tile:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .tile .lbl{font-size:13px;font-weight:600;display:flex;justify-content:space-between;gap:6px}
 .tile .lbl small{font-weight:400;color:var(--muted)}
 .tile .val{font-size:22px;font-weight:600;letter-spacing:-.01em}
@@ -90,13 +96,12 @@ h3.sub{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:upperc
 .chg{font-size:13px;font-weight:600}
 .up{color:var(--up)}.down{color:var(--down)}.flat{color:var(--muted)}
 .tile .meta{font-size:12px;color:var(--muted)}
-.tile .meta a{color:var(--muted)}
 .tile svg{width:100%;height:34px;margin-top:6px;display:block}
+.tile .info{font-size:11px;font-weight:500;color:var(--accent);margin-top:4px}
 .kpi .val{font-size:26px}
-.pill{display:inline-block;font-size:11px;font-weight:600;padding:1px 7px;border-radius:999px;background:var(--accent-soft);color:var(--accent);vertical-align:middle}
 
-/* Pestañas y noticias */
-.tabs{margin-top:20px}
+/* Noticias */
+.tabs{margin-top:8px}
 .tablist{display:flex;gap:2px;border-bottom:1px solid var(--line);overflow-x:auto}
 .tablist button{font:inherit;font-size:14px;font-weight:500;color:var(--muted);background:none;border:0;border-bottom:2px solid transparent;padding:8px 12px;cursor:pointer;white-space:nowrap;margin-bottom:-1px}
 .tablist button[aria-selected="true"]{color:var(--ink);border-bottom-color:var(--accent);font-weight:600}
@@ -109,44 +114,78 @@ h3.sub{font-size:12px;font-weight:600;letter-spacing:.08em;text-transform:upperc
 .news h4{font-family:var(--display);font-weight:600;font-size:18px;line-height:1.25;margin:0 0 4px;text-wrap:balance}
 .news h4 a{text-decoration:none}
 .news h4 a:hover{text-decoration:underline;text-underline-offset:3px}
-.news p{margin:0 0 6px;max-width:72ch;color:var(--ink)}
+.news p{margin:0 0 6px;max-width:75ch}
 .news .src{font-size:12px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
 .new{background:var(--accent);color:var(--surface);font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:3px}
+.heads{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:0 22px}
+.heads a.h{display:block;text-decoration:none;padding:12px 0;border-bottom:1px solid var(--line)}
+.heads a.h small{font-size:11px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.06em}
+.heads a.h b{display:block;font-family:var(--display);font-size:17px;line-height:1.25;margin-top:2px}
+.heads a.h:hover b{text-decoration:underline;text-underline-offset:3px}
 
-/* Barrios */
+/* Tablas */
 .table-wrap{overflow-x:auto;background:var(--surface);border:1px solid var(--line);border-radius:10px}
-table{border-collapse:collapse;width:100%;min-width:640px;font-variant-numeric:tabular-nums}
-th,td{padding:10px 14px;text-align:right;border-bottom:1px solid var(--line);font-size:14px}
-th:first-child,td:first-child{text-align:left}
-th{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;background:var(--surface)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:10px 14px;text-align:left;border-bottom:1px solid var(--line);font-size:14px;vertical-align:top}
+tr:last-child td{border-bottom:0}
+th{font-size:12px;font-weight:600;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+table.num-t{min-width:640px}
+table.num-t td:not(:first-child),table.num-t th:not(:first-child){text-align:right}
 th button{font:inherit;color:inherit;background:none;border:0;cursor:pointer;padding:0;text-transform:inherit;letter-spacing:inherit}
 th button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 th button[data-active="true"]{color:var(--accent)}
+th .i{margin-left:4px;color:var(--accent)}
 tr.city td{font-weight:600;background:var(--accent-soft)}
 .bar{display:inline-block;height:6px;border-radius:3px;background:var(--accent);opacity:.75;vertical-align:middle;margin-right:8px}
 .heat{display:inline-block;min-width:64px;padding:2px 6px;border-radius:4px}
 .note{font-size:12px;color:var(--muted);margin-top:8px}
+.pill{display:inline-block;font-size:11px;font-weight:600;padding:2px 8px;border-radius:999px;background:var(--accent-soft);color:var(--accent);white-space:nowrap}
 
-/* Agenda y pie */
-.agenda{display:grid;gap:0;background:var(--surface);border:1px solid var(--line);border-radius:10px}
-.agenda div{display:grid;grid-template-columns:110px 1fr;gap:14px;padding:11px 16px;border-bottom:1px solid var(--line)}
-.agenda div:last-child{border-bottom:0}
-.agenda .d{font-weight:600;color:var(--accent);font-size:13px}
-.agenda .w{color:var(--muted);font-size:13px}
-footer{margin:40px 0 0;padding:22px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
-footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
-.error{padding:40px 0;color:var(--down)}
-/* Tarjetas interactivas */
-button.tile{font:inherit;color:inherit;text-align:left;cursor:pointer;transition:border-color .15s, box-shadow .15s, transform .15s}
-button.tile:hover{border-color:var(--accent);box-shadow:0 2px 10px color-mix(in srgb,var(--accent) 12%,transparent)}
-button.tile:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
-.tile .info{font-size:11px;font-weight:500;color:var(--accent);margin-top:4px}
-.hint{font-size:13px;color:var(--muted);margin:-6px 0 12px}
-/* Ficha lateral */
+/* Previsiones */
+.fc{display:grid;gap:14px}
+.fc-card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px}
+.fc-card header{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap;margin-bottom:8px}
+.fc-card h3{font-family:var(--display);font-size:20px;margin:0}
+.fc-card table{margin:4px 0 10px}
+.fc-card th,.fc-card td{padding:7px 10px}
+.fc-card .read{border-left:3px solid var(--accent);padding:6px 12px;background:var(--accent-soft);border-radius:0 8px 8px 0;margin:0}
+
+/* Escenarios */
+.sc-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(330px,1fr));gap:14px}
+.sc{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px 18px;display:flex;flex-direction:column;gap:10px}
+.sc h3{font-family:var(--display);font-size:19px;margin:0;line-height:1.25;text-wrap:balance}
+.chain{list-style:none;margin:0;padding:0;display:grid;gap:6px}
+.chain li{display:grid;grid-template-columns:22px 1fr;gap:8px;font-size:14px}
+.chain li::before{content:"→";color:var(--accent);font-weight:600}
+.chain li:first-child::before{content:"●"}
+.who{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media (max-width:420px){.who{grid-template-columns:1fr}}
+.who div{border:1px solid var(--line);border-radius:8px;padding:8px 10px;font-size:13px}
+.who b{display:block;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);margin-bottom:2px}
+.who .uk{border-color:var(--accent);background:var(--accent-soft)}
+.sc .watch{font-size:12px;color:var(--muted)}
+
+/* Calculadoras */
+.calc{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:18px 20px}
+.calc h2{font-family:var(--display);font-size:22px;margin:0 0 4px}
+.form{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:10px;margin:12px 0}
+.form label{font-size:12px;font-weight:600;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+.form input{font:inherit;font-size:15px;padding:8px 10px;border:1px solid var(--line);border-radius:7px;background:var(--paper);color:var(--ink);font-variant-numeric:tabular-nums}
+.form input:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
+.range-row{display:flex;align-items:center;gap:12px;margin:6px 0 14px;flex-wrap:wrap}
+.range-row input[type=range]{flex:1;min-width:180px;accent-color:var(--accent)}
+.results{display:grid;grid-template-columns:repeat(auto-fill,minmax(175px,1fr));gap:10px}
+.res{border:1px solid var(--line);border-radius:8px;padding:10px 12px}
+.res .l{font-size:12px;color:var(--muted)}
+.res .v{font-size:19px;font-weight:600}
+.res .v small{font-size:13px}
+.res.hl{border-color:var(--accent);background:var(--accent-soft)}
+
+/* Ficha */
 .scrim{position:fixed;inset:0;background:rgba(10,14,20,.45);opacity:0;pointer-events:none;transition:opacity .2s;z-index:20}
 .scrim.open{opacity:1;pointer-events:auto}
-.drawer{position:fixed;top:0;right:0;height:100%;width:min(460px,100%);background:var(--surface);border-left:1px solid var(--line);z-index:21;transform:translateX(100%);transition:transform .25s ease;overflow-y:auto;padding:22px 24px 40px;display:flex;flex-direction:column;gap:14px}
-.drawer.open{transform:none}
+.drawer{position:fixed;top:0;right:0;height:100%;width:min(470px,100%);background:var(--surface);border-left:1px solid var(--line);z-index:21;transform:translateX(100%);transition:transform .25s ease;overflow-y:auto;padding:22px 24px 40px;display:flex;flex-direction:column;gap:14px;visibility:hidden}
+.drawer.open{transform:none;visibility:visible}
 @media (max-width:640px){.drawer{top:auto;bottom:0;height:88%;width:100%;border-left:0;border-top:1px solid var(--line);border-radius:14px 14px 0 0;transform:translateY(100%)}}
 @media (prefers-reduced-motion: reduce){.drawer,.scrim{transition:none}}
 .drawer .close{align-self:flex-end;font:inherit;font-size:14px;background:var(--accent-soft);color:var(--accent);border:0;border-radius:999px;padding:6px 12px;cursor:pointer}
@@ -164,9 +203,8 @@ button.tile:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .drawer .updown .u h3{color:var(--up)}.drawer .updown .d h3{color:var(--down)}
 .drawer .you{border-color:var(--accent)}
 .drawer .src a{color:var(--muted);font-size:13px}
+
 /* Aprende */
-.learn{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:20px}
-@media (max-width:820px){.learn{grid-template-columns:1fr}}
 .concept h3{font-family:var(--display);font-size:22px;margin:4px 0 6px}
 .figure .fig{font-family:var(--display);font-size:40px;font-weight:600;color:var(--accent);line-height:1.1;margin:4px 0}
 .figure .fl{font-weight:600}
@@ -179,91 +217,184 @@ button.tile:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .gl-item b{display:block;margin-bottom:2px}
 .gl-item span{font-size:13px;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .gl-item small{font-size:11px;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.05em}
-th .i{margin-left:4px;color:var(--accent);cursor:pointer;background:none;border:0;font:inherit}
+.chips{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:12px}
+.chips button{font:inherit;font-size:13px;border:1px solid var(--line);background:var(--surface);color:var(--muted);border-radius:999px;padding:4px 12px;cursor:pointer}
+.chips button[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:#fff}
+
+.agenda{background:var(--surface);border:1px solid var(--line);border-radius:10px}
+.agenda div{display:grid;grid-template-columns:120px 1fr;gap:14px;padding:11px 16px;border-bottom:1px solid var(--line)}
+.agenda div:last-child{border-bottom:0}
+.agenda .d{font-weight:600;color:var(--accent);font-size:13px}
+.agenda .w{color:var(--muted);font-size:13px}
+footer{margin:30px 0 0;padding:22px 0 40px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
+.error{padding:40px 0;color:var(--down)}
 @media (max-width:480px){.wrap{padding:0 16px}.agenda div{grid-template-columns:1fr;gap:2px}}
 </style>
 </head>
 <body>
 <header class="masthead">
   <div class="wrap">
-    <div class="brand">Briefing <span>·</span> España &amp; Mercados</div>
+    <div class="brand">Briefing <span>·</span> Economía &amp; Real Estate</div>
     <div class="stamp" id="stamp">Cargando…</div>
   </div>
+  <div class="ticker" aria-label="Cotizaciones"><div class="ticker-track" id="ticker"></div></div>
 </header>
-<div class="ticker" aria-label="Cotizaciones"><div class="ticker-track" id="ticker"></div></div>
-<nav class="sections" aria-label="Secciones">
-  <div class="wrap">
-    <a href="#mercados">Mercados</a><a href="#economia">Economía</a><a href="#espana">España</a><a href="#mundo">Mundo</a><a href="#inmobiliario">Inmobiliario</a><a href="#barrios">Barrios BCN</a><a href="#agenda">Agenda</a><a href="#aprende">Aprende</a>
+<nav class="tabsnav" aria-label="Secciones">
+  <div class="wrap" id="nav">
+    <a href="#portada">Portada</a><a href="#noticias">Noticias</a><a href="#mercados">Mercados</a><a href="#economia">Economía</a><a href="#inmobiliario">Inmobiliario</a><a href="#barcelona">Barcelona</a><a href="#escenarios">Escenarios</a><a href="#previsiones">Previsiones</a><a href="#agenda">Agenda</a><a href="#aprende">Aprende</a>
   </div>
 </nav>
 
 <main class="wrap" id="app">
-  <div class="lead">
+
+<!-- PORTADA -->
+<section class="view" id="v-portada">
+  <div style="padding:26px 0 4px">
     <div class="kicker" id="edition"></div>
-    <h1 id="headline"></h1>
+    <h1 class="lead-h" id="headline"></h1>
   </div>
-  <div class="top-grid">
+  <div class="grid2" style="margin-top:20px">
     <div class="panel"><h2>En 60 segundos</h2><ol class="sixty" id="sixty"></ol></div>
     <div class="panel ukio"><h2>Lo que importa para Ukio</h2><ul id="ukio"></ul></div>
   </div>
-  <div class="today panel" style="margin-top:20px"><h2>Hoy se espera</h2><div class="today-list" id="today"></div></div>
-  <div class="learn">
+  <h3 class="sub">Termómetro del mercado inmobiliario <a href="#inmobiliario">Ver inmobiliario →</a></h3>
+  <div class="signals" id="signals"></div>
+  <h3 class="sub">Mercados de un vistazo <a href="#mercados">Ver todos →</a></h3>
+  <p class="hint">Toca cualquier dato para ver qué es, por qué se mueve y en qué te afecta.</p>
+  <div class="tiles" id="p-tiles"></div>
+  <h3 class="sub">Titulares del día <a href="#noticias">Todas las noticias →</a></h3>
+  <div class="heads" id="p-heads"></div>
+  <h3 class="sub">Hoy se espera <a href="#agenda">Agenda completa →</a></h3>
+  <div class="panel"><div class="today-list" id="today"></div></div>
+  <div class="grid2 even" style="margin-top:18px">
     <div class="panel concept"><div class="kicker">Concepto del día</div><h3 id="c-title"></h3><p id="c-text" style="margin:0"></p></div>
     <div class="panel figure" id="figure"><div class="kicker">La cifra del día</div><div class="fig num" id="f-val"></div><div class="fl" id="f-label"></div><p id="f-ctx" style="margin:6px 0 0;color:var(--muted)"></p></div>
   </div>
+</section>
 
-  <section class="block" id="mercados">
-    <div class="sec-head"><h2>Mercados</h2><span class="asof" id="mk-asof"></span></div>
-    <p class="hint">Toca cualquier dato para ver qué es, por qué se mueve y en qué te afecta.</p><h3 class="sub">Bolsas</h3><div class="tiles" id="indices"></div>
-    <h3 class="sub">Divisas, materias primas y tipos</h3><div class="tiles" id="fx"></div>
-    <h3 class="sub">Criptomonedas</h3><div class="tiles" id="crypto"></div>
-    <div class="tabs" data-tabs="mk" data-keys="mercados:Bolsa y empresas,cripto:Cripto"></div>
-  </section>
+<!-- NOTICIAS -->
+<section class="view" id="v-noticias">
+  <div class="page-head"><div><h1>Noticias</h1><p>Las más importantes de cada área, con resumen propio y enlace al medio. La barra de color indica el impacto: rojo alto, ámbar medio, gris bajo.</p></div></div>
+  <h3 class="sub">España</h3><div class="tabs" data-tabs="es" data-keys="politica:Política,economia:Economía,sociedad:Sociedad"></div>
+  <h3 class="sub">Mundo</h3><div class="tabs" data-tabs="mu" data-keys="mundo_geo:Geopolítica,mundo_eco:Economía global"></div>
+  <h3 class="sub">Mercados y cripto</h3><div class="tabs" data-tabs="mk2" data-keys="mercados:Bolsa y empresas,cripto:Cripto"></div>
+  <h3 class="sub">Inmobiliario <a href="#inmobiliario">Más en Inmobiliario →</a></h3><div class="tabs" data-tabs="re2" data-keys="inmo_espana:España,inmo_bcn:Barcelona,hipotecas:Hipotecas,inversion:Inversión,regulacion:Regulación"></div>
+</section>
 
-  <section class="block" id="economia">
-    <div class="sec-head"><h2>Indicadores de España</h2><span class="asof">Último dato publicado de cada indicador</span></div>
-    <div class="tiles" id="kpis"></div>
-  </section>
+<!-- MERCADOS -->
+<section class="view" id="v-mercados">
+  <div class="page-head"><div><h1>Mercados</h1><p id="mk-asof"></p></div></div>
+  <p class="hint">Toca cualquier dato para ver su ficha.</p>
+  <h3 class="sub">Bolsas</h3><div class="tiles" id="indices"></div>
+  <h3 class="sub">Divisas, materias primas y tipos</h3><div class="tiles" id="fx"></div>
+  <h3 class="sub">Criptomonedas</h3><div class="tiles" id="crypto"></div>
+  <h3 class="sub">Noticias</h3><div class="tabs" data-tabs="mk" data-keys="mercados:Bolsa y empresas,cripto:Cripto,mundo_eco:Economía global"></div>
+</section>
 
-  <section class="block" id="espana">
-    <div class="sec-head"><h2>España</h2><span class="asof">Las 5 más importantes de cada área</span></div>
-    <div class="tabs" data-tabs="es" data-keys="politica:Política,economia:Economía,sociedad:Sociedad"></div>
-  </section>
+<!-- ECONOMÍA -->
+<section class="view" id="v-economia">
+  <div class="page-head"><div><h1>Economía española</h1><p>Los indicadores que mueven los tipos, el empleo y la demanda de vivienda. Cada uno muestra el último dato publicado.</p></div></div>
+  <div class="tiles" id="kpis"></div>
+  <h3 class="sub">Cómo se conectan</h3>
+  <div class="panel"><ol class="chain" style="gap:8px">
+    <li><span><b>Petróleo y gas</b> caros por la guerra de Irán → suben la luz, el transporte y los alimentos.</span></li>
+    <li><span><b>Inflación (IPC)</b> en el 4,9 %, muy por encima del objetivo del 2 % del BCE.</span></li>
+    <li><span><b>El BCE sube tipos</b> para enfriar la demanda (2,50 % y probablemente 2,75 % en diciembre).</span></li>
+    <li><span><b>El Euríbor sube</b> porque descuenta esas subidas → hipotecas más caras.</span></li>
+    <li><span><b>Menos compraventas</b>, pero precios sostenidos por la falta de oferta y el empleo en récord.</span></li>
+  </ol></div>
+  <h3 class="sub">Noticias de economía</h3><div class="tabs" data-tabs="eco" data-keys="economia:España,mundo_eco:Global"></div>
+</section>
 
-  <section class="block" id="mundo">
-    <div class="sec-head"><h2>Mundo</h2></div>
-    <div class="tabs" data-tabs="mu" data-keys="mundo_geo:Geopolítica,mundo_eco:Economía global"></div>
-  </section>
+<!-- INMOBILIARIO -->
+<section class="view" id="v-inmobiliario">
+  <div class="page-head"><div><h1>Mercado inmobiliario</h1><p>España, financiación, inversión institucional y regulación: todo lo que afecta a compradores, vendedores e inversores.</p></div></div>
+  <div class="signals" id="signals2"></div>
+  <h3 class="sub">Datos de España</h3><div class="tiles" id="re-es"></div>
+  <h3 class="sub">Noticias</h3><div class="tabs" data-tabs="re" data-keys="inmo_espana:Mercado,hipotecas:Hipotecas y financiación,inversion:Inversión y operaciones,regulacion:Regulación"></div>
+  <h3 class="sub" id="prog-title">Vivienda en el 29-N</h3>
+  <div class="table-wrap"><table id="programs"></table></div>
+  <p class="note" id="prog-note"></p>
+</section>
 
-  <section class="block" id="inmobiliario">
-    <div class="sec-head"><h2>Mercado inmobiliario</h2></div>
-    <h3 class="sub">España</h3><div class="tiles" id="re-es"></div>
-    <h3 class="sub">Barcelona</h3><div class="tiles" id="re-bcn"></div>
-    <div class="tabs" data-tabs="re" data-keys="inmo_espana:España,inmo_bcn:Barcelona,regulacion:Regulación"></div>
-  </section>
+<!-- BARCELONA -->
+<section class="view" id="v-barcelona">
+  <div class="page-head"><div><h1>Barcelona</h1><p>Precios, alquiler y rentabilidad por distrito, y las noticias que mueven el mercado de la ciudad.</p></div><span class="muted" id="br-asof" style="font-size:13px"></span></div>
+  <div class="tiles" id="re-bcn"></div>
+  <h3 class="sub">Por distritos</h3>
+  <div class="table-wrap"><table class="num-t" id="br-table"></table></div>
+  <p class="note">Rentabilidad bruta = alquiler €/m² × 12 ÷ venta €/m². Son precios de oferta, no de cierre. Pulsa una columna para ordenar.</p>
+  <h3 class="sub">Noticias de Barcelona</h3><div class="tabs" data-tabs="bcn" data-keys="inmo_bcn:Mercado,regulacion:Regulación"></div>
+</section>
 
-  <section class="block" id="barrios">
-    <div class="sec-head"><h2>Barcelona por distritos</h2><span class="asof" id="br-asof"></span></div>
-    <div class="table-wrap"><table id="br-table"></table></div>
-    <p class="note">Rentabilidad bruta = alquiler €/m² × 12 ÷ venta €/m². Son precios de oferta, no de cierre. Pulsa una columna para ordenar.</p>
-  </section>
+<!-- ESCENARIOS -->
+<section class="view" id="v-escenarios">
+  <div class="page-head"><div><h1>Escenarios y calculadoras</h1><p>Qué pasa si… Cadenas de causa y efecto para entender cómo un dato económico acaba afectando a tus clientes, y calculadoras para hacer números al momento.</p></div></div>
+  <div class="calc" id="calc-mort">
+    <h2>Calculadora de hipoteca</h2>
+    <p class="hint">Mueve el Euríbor y mira cómo cambia la cuota. Por defecto: piso medio de 80 m² en Barcelona.</p>
+    <div class="form">
+      <label for="m-price">Precio (€)<input id="m-price" type="number" inputmode="numeric" value="437000" step="1000"></label>
+      <label for="m-ltv">Financiación (%)<input id="m-ltv" type="number" value="80" min="0" max="100"></label>
+      <label for="m-years">Plazo (años)<input id="m-years" type="number" value="30" min="5" max="40"></label>
+      <label for="m-diff">Diferencial (%)<input id="m-diff" type="number" value="0.80" step="0.05"></label>
+      <label for="m-fixed">Tipo fijo de referencia (%)<input id="m-fixed" type="number" value="2.95" step="0.05"></label>
+      <label for="m-income">Ingresos netos del hogar (€/mes)<input id="m-income" type="number" value="6500" step="100"></label>
+    </div>
+    <div class="range-row"><label for="m-eur" style="font-size:13px;font-weight:600">Euríbor: <span id="m-eur-v" class="num"></span></label><input id="m-eur" type="range" min="0" max="5" step="0.05"></div>
+    <div class="results" id="m-res"></div>
+  </div>
+  <div class="calc" id="calc-inv" style="margin-top:16px">
+    <h2>Calculadora de rentabilidad para inversores</h2>
+    <p class="hint">Bruta, neta y rentabilidad sobre el dinero aportado. Por defecto, un piso medio de Barcelona alquilado a precio de mercado.</p>
+    <div class="form">
+      <label for="i-price">Precio de compra (€)<input id="i-price" type="number" value="437000" step="1000"></label>
+      <label for="i-rent">Alquiler (€/mes)<input id="i-rent" type="number" value="1640" step="10"></label>
+      <label for="i-tax">ITP + notaría y gastos (%)<input id="i-tax" type="number" value="11.5" step="0.5"></label>
+      <label for="i-costs">Gastos anuales (IBI, comunidad, seguro) (€)<input id="i-costs" type="number" value="2400" step="100"></label>
+      <label for="i-vac">Vacío y mantenimiento (%)<input id="i-vac" type="number" value="5" step="1"></label>
+      <label for="i-ltv">Financiación (%)<input id="i-ltv" type="number" value="60" min="0" max="100"></label>
+      <label for="i-rate">Tipo de la hipoteca (%)<input id="i-rate" type="number" value="4.0" step="0.05"></label>
+    </div>
+    <div class="results" id="i-res"></div>
+  </div>
+  <h3 class="sub">¿Qué pasa si…?</h3>
+  <div class="chips" id="sc-chips"></div>
+  <div class="sc-grid" id="sc-grid"></div>
+</section>
 
-  <section class="block" id="agenda">
-    <div class="sec-head"><h2>Agenda</h2></div>
-    <div class="agenda" id="agenda-list"></div>
-  </section>
+<!-- PREVISIONES -->
+<section class="view" id="v-previsiones">
+  <div class="page-head"><div><h1>Previsiones</h1><p>Lo que esperan bancos, organismos y el propio mercado. Las previsiones son escenarios, no certezas: fíjate siempre en la fecha en que se hicieron.</p></div></div>
+  <div class="fc" id="fc"></div>
+</section>
 
-  <section class="block" id="aprende">
-    <div class="sec-head"><h2>Glosario</h2><span class="asof">Economía, mercados e inmobiliario explicados</span></div>
-    <label for="gl-q" class="hint" style="display:block;margin:0 0 6px">Busca un término</label>
-    <input id="gl-q" class="gl-search" type="search" placeholder="Euríbor, PER, prima de riesgo, plusvalía…" autocomplete="off">
-    <div class="gl-list" id="gl-list"></div>
-  </section>
+<!-- AGENDA -->
+<section class="view" id="v-agenda">
+  <div class="page-head"><div><h1>Agenda</h1><p>Hoy y las próximas citas que pueden mover los mercados, los tipos y la vivienda.</p></div></div>
+  <h3 class="sub">Hoy</h3><div class="panel"><div class="today-list" id="today2"></div></div>
+  <h3 class="sub">Próximas fechas</h3><div class="agenda" id="agenda-list"></div>
+</section>
 
-  <footer>
-    <div id="upd"></div>
-    <div class="srcs" id="sources"></div>
-  </footer>
+<!-- APRENDE -->
+<section class="view" id="v-aprende">
+  <div class="page-head"><div><h1>Aprende</h1><p>Economía, mercados e inmobiliario explicados en claro. Toca un término para ver su ficha completa.</p></div></div>
+  <div class="grid2 even">
+    <div class="panel concept"><div class="kicker">Concepto del día</div><h3 id="c-title2"></h3><p id="c-text2" style="margin:0"></p></div>
+    <div class="panel"><div class="kicker">Regla de oro</div><h3 style="font-family:var(--display);font-size:22px;margin:4px 0 6px">La cadena que más importa hoy</h3><p style="margin:0">Petróleo → inflación → BCE → Euríbor → hipotecas → compraventas. Si entiendes en qué punto de la cadena está cada noticia, entiendes el mercado.</p></div>
+  </div>
+  <h3 class="sub">Glosario</h3>
+  <label for="gl-q" class="hint" style="display:block;margin:0 0 6px">Busca un término</label>
+  <input id="gl-q" class="gl-search" type="search" placeholder="Euríbor, PER, prima de riesgo, plusvalía, cap rate…" autocomplete="off">
+  <div class="chips" id="gl-chips"></div>
+  <div class="gl-list" id="gl-list"></div>
+</section>
+
+<footer>
+  <div id="upd"></div>
+  <div class="srcs" id="sources"></div>
+</footer>
 </main>
 
 <div class="scrim" id="scrim"></div>
@@ -271,15 +402,20 @@ th .i{margin-left:4px;color:var(--accent);cursor:pointer;background:none;border:
   <button class="close" id="dr-close" type="button">Cerrar ✕</button>
   <div id="dr-body"></div>
 </aside>
+
 <script src="glossary.js"></script>
+<script src="content.js"></script>
 <script>
 (function(){
   const $ = s => document.querySelector(s);
   const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
   const fmt = (n, d=2) => (n==null || isNaN(n)) ? "—" : Number(n).toLocaleString("es-ES",{minimumFractionDigits:d,maximumFractionDigits:d,useGrouping:"always"});
+  const eur = n => fmt(Math.round(n),0) + " €";
   const cls = v => v==null ? "flat" : v>0 ? "up" : v<0 ? "down" : "flat";
   const sign = (v,d=2,suf=" %") => v==null ? "" : (v>0?"+":v<0?"−":"") + fmt(Math.abs(v),d) + suf;
   const store = {get(k){try{return localStorage.getItem(k)}catch(e){return null}}, set(k,v){try{localStorage.setItem(k,v)}catch(e){}}};
+  const GL = window.GLOSSARY || {}, CONCEPTS = window.CONCEPTS || [], SCEN = window.SCENARIOS || [];
+  const ITEMS = {};
 
   function spark(h, colorVar){
     if(!h || h.length<2) return "";
@@ -287,176 +423,244 @@ th .i{margin-left:4px;color:var(--accent);cursor:pointer;background:none;border:
     const pts=h.map((v,i)=>[p+i*(w-2*p)/(h.length-1), ht-p-(v-mn)/r*(ht-2*p)]);
     const line=pts.map((q,i)=>(i?"L":"M")+q[0].toFixed(1)+" "+q[1].toFixed(1)).join(" ");
     const last=pts[pts.length-1];
-    return `<svg viewBox="0 0 ${w} ${ht}" preserveAspectRatio="none" aria-hidden="true">
-      <path d="${line} L${last[0]} ${ht} L${pts[0][0]} ${ht} Z" fill="var(${colorVar})" opacity=".12"/>
-      <path d="${line}" fill="none" stroke="var(${colorVar})" stroke-width="1.6" vector-effect="non-scaling-stroke"/>
-      <circle cx="${last[0]}" cy="${last[1]}" r="2.6" fill="var(${colorVar})"/></svg>`;
+    return `<svg viewBox="0 0 ${w} ${ht}" preserveAspectRatio="none" aria-hidden="true"><path d="${line} L${last[0]} ${ht} L${pts[0][0]} ${ht} Z" fill="var(${colorVar})" opacity=".12"/><path d="${line}" fill="none" stroke="var(${colorVar})" stroke-width="1.6" vector-effect="non-scaling-stroke"/><circle cx="${last[0]}" cy="${last[1]}" r="2.6" fill="var(${colorVar})"/></svg>`;
   }
   const lineColor = h => (!h||h.length<2) ? "--accent" : (h[h.length-1]>=h[0] ? "--up" : "--down");
-
-  const GL = window.GLOSSARY || {}, CONCEPTS = window.CONCEPTS || [];
-  const ITEMS = {};
-  const reg = (id, obj) => { ITEMS[id] = obj; return `<button type="button" class="tile" data-id="${esc(id)}" aria-label="${esc(obj.label)}: ver explicación">`; };
   const infoLine = id => GL[id] ? '<div class="info">Qué es y por qué se mueve →</div>' : '';
+  const open = (id, obj, extra="") => { ITEMS[id] = obj; return `<button type="button" class="tile ${extra}" data-id="${esc(id)}" aria-label="${esc(obj.label)}: ver explicación">`; };
+
+  /* ---------- Tarjetas ---------- */
+  const mkTile = x => `${open(x.id,{...x,valTxt:fmt(x.value,2),chgTxt:sign(x.change_pct),chg:x.change_pct})}
+      <div class="lbl">${esc(x.label)} <small>${esc(x.region||"")}</small></div>
+      <div class="val num">${fmt(x.value,2)}</div>
+      <div class="chg num ${cls(x.change_pct)}">${sign(x.change_pct)}</div>${spark(x.history,lineColor(x.history))}${infoLine(x.id)}</button>`;
+  const fxTile = x => { const v = x.display||fmt(x.value,x.decimals??2);
+    return `${open(x.id,{...x,valTxt:v+(x.unit&&x.unit!=="$"?" "+x.unit:""),chgTxt:x.change_pct==null?"":sign(x.change_pct),chg:x.change_pct})}
+      <div class="lbl">${esc(x.label)} <small>${esc(x.unit||"")}</small></div>
+      <div class="val num">${v}</div>
+      <div class="chg num ${cls(x.change_pct)}">${x.change_pct==null?"&nbsp;":sign(x.change_pct)}</div>
+      <div class="meta">${esc(x.note||"")}</div>${spark(x.history,lineColor(x.history))}${infoLine(x.id)}</button>`; };
+  let EURUSD = null;
+  const cryptoTile = x => { const d = x.usd<10?4:0, e = EURUSD ? x.usd/EURUSD : null;
+    return `${open(x.id,{...x,valTxt:"$"+fmt(x.usd,d)+(e?" · ≈ "+fmt(e,d)+" €":""),chgTxt:sign(x.chg_24h,1)+" en 24 h"+(x.chg_7d==null?"":" · "+sign(x.chg_7d,1)+" en 7 días"),chg:x.chg_24h})}
+      <div class="lbl">${esc(x.label)} <small>${esc(x.symbol)}</small></div>
+      <div class="val num">$${fmt(x.usd,d)}</div>
+      <div class="meta num">${e?("≈ "+fmt(e,d)+" €"):""}</div>
+      <div class="chg num"><span class="${cls(x.chg_24h)}">${sign(x.chg_24h,1)} 24 h</span>${x.chg_7d==null?"":` · <span class="${cls(x.chg_7d)}">${sign(x.chg_7d,1)} 7 d</span>`}</div>
+      ${spark(x.history,lineColor(x.history))}${infoLine(x.id)}</button>`; };
+  const kpiTile = k => {
+    const good = k.change==null||k.change===0 ? "flat" : ((k.change<0) === (k.good_when==="down") ? "up" : "down");
+    const hc = k.history&&k.history.length>1 ? (good==="flat"?"--accent":"--"+good) : "--accent";
+    const chgTxt = k.change==null?"":(k.change===0?"Sin cambios":sign(k.change,k.decimals>2?3:(k.change_unit==="pb"?1:2)," "+(k.change_unit||"pp")));
+    return `${open(k.id,{...k,valTxt:fmt(k.value,k.decimals??2)+(k.unit||""),chgTxt,chgCls:good},"kpi")}
+      <div class="lbl">${esc(k.label)}</div>
+      <div class="val num">${fmt(k.value,k.decimals??2)}<small>${esc(k.unit)}</small></div>
+      <div class="chg num ${good}">${chgTxt}</div>
+      <div class="meta">${esc(k.detail||"")}</div>
+      <div class="meta">${esc(k.date)} · ${esc(k.source)}</div>
+      ${spark(k.history,hc)}${infoLine(k.id)}</button>`; };
+  const reTile = x => { const v=(x.value>0&&x.unit.includes("a/a")?"+":"")+fmt(x.value,x.decimals??0);
+    return `${open(x.id,{...x,valTxt:v+" "+x.unit})}
+      <div class="lbl">${esc(x.label)}</div>
+      <div class="val num">${v}<small>${esc(x.unit)}</small></div>
+      <div class="meta">${esc(x.detail||"")}</div>
+      <div class="meta">${esc(x.date)} · ${esc(x.source)}</div>${infoLine(x.id)}</button>`; };
+
+  const newsList = arr => `<ul class="news">${arr.map(n=>`<li><span class="sev ${esc(n.impact)}" title="Impacto ${esc(n.impact)}"></span><div>
+      <h4><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></h4><p>${esc(n.summary)}</p>
+      <div class="src">${n.new?'<span class="new">Nuevo</span>':""}<span>${esc(n.source)}</span><span class="num">${esc(n.time)}</span><span>Impacto ${esc(n.impact).toLowerCase()}</span></div></div></li>`).join("")}</ul>`;
 
   function render(D){
-    const upd = new Date(D.updated);
+    const upd = new Date(D.updated), M = D.markets||{}, N = D.news||{};
+    EURUSD = (M.fx_commodities||[]).find(x=>x.id==="eurusd")?.value;
     $("#stamp").textContent = "Actualizado " + upd.toLocaleString("es-ES",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"});
+
+    // Ticker
+    const tk = [...(M.indices||[]).map(x=>({l:x.label,v:fmt(x.value,2),c:x.change_pct})),
+      ...(M.fx_commodities||[]).map(x=>({l:x.label,v:x.display||fmt(x.value,x.decimals??2),c:x.change_pct})),
+      ...(M.crypto||[]).map(x=>({l:x.symbol,v:"$"+fmt(x.usd,x.usd<10?4:0),c:x.chg_24h})),
+      ...(D.kpis||[]).filter(k=>["euribor12m","ipc","prima"].includes(k.id)).map(k=>({l:k.label,v:fmt(k.value,k.decimals??2)+(k.unit||""),c:null}))]
+      .map(t=>`<span class="tk num"><b>${esc(t.l)}</b>${t.v} <span class="${cls(t.c)}">${t.c==null?"":sign(t.c)}</span></span>`).join("");
+    $("#ticker").innerHTML = tk + tk;
+
+    // Portada
     $("#edition").textContent = D.edition || "";
     $("#headline").textContent = D.headline || "";
     $("#sixty").innerHTML = (D.brief_60s||[]).map(t=>`<li>${esc(t)}</li>`).join("");
     $("#ukio").innerHTML = (D.ukio_takeaways||[]).map(t=>`<li>${esc(t)}</li>`).join("");
-    $("#today").innerHTML = (D.today||[]).map(x=>`<div class="today-item"><div class="t">${esc(x.time)}</div><div class="e">${esc(x.event)}</div><div class="w">${esc(x.why)}</div></div>`).join("");
+    const sigHTML = (D.signals||[]).map(s=>`<div class="sig ${esc(s.status)}"><div class="l">${esc(s.label)}</div><div class="v">${esc(s.value)}</div><p>${esc(s.text)}</p></div>`).join("");
+    $("#signals").innerHTML = sigHTML; $("#signals2").innerHTML = sigHTML;
+    const todayHTML = (D.today||[]).map(x=>`<div class="today-item"><div class="t">${esc(x.time)}</div><div class="e">${esc(x.event)}</div><div class="w">${esc(x.why)}</div></div>`).join("");
+    $("#today").innerHTML = todayHTML; $("#today2").innerHTML = todayHTML;
 
-    const M = D.markets||{};
-    const eurusd = (M.fx_commodities||[]).find(x=>x.id==="eurusd")?.value;
-    $("#mk-asof").textContent = M.asof||"";
-
-    // Ticker
-    const tk = [...(M.indices||[]).map(x=>({l:x.label,v:fmt(x.value,2),c:x.change_pct})),
-                ...(M.crypto||[]).map(x=>({l:x.symbol,v:"$"+fmt(x.usd,x.usd<10?4:0),c:x.chg_24h})),
-                ...(M.fx_commodities||[]).map(x=>({l:x.label,v:fmt(x.value,x.decimals??2),c:x.change_pct}))]
-      .map(t=>`<span class="tk num"><b>${esc(t.l)}</b>${t.v} <span class="${cls(t.c)}">${t.c==null?"":sign(t.c)}</span></span>`).join("");
-    $("#ticker").innerHTML = tk + tk;
-
-    $("#indices").innerHTML = (M.indices||[]).map(x=>`${reg(x.id,{...x,kind:"mk",valTxt:fmt(x.value,2),chgTxt:sign(x.change_pct),chg:x.change_pct})}
-      <div class="lbl">${esc(x.label)} <small>${esc(x.region||"")}</small></div>
-      <div class="val num">${fmt(x.value,2)}</div>
-      <div class="chg num ${cls(x.change_pct)}">${sign(x.change_pct)}</div>${spark(x.history,lineColor(x.history))}${infoLine(x.id)}</button>`).join("");
-
-    $("#fx").innerHTML = (M.fx_commodities||[]).map(x=>`${reg(x.id,{...x,kind:"mk",valTxt:(x.display||fmt(x.value,x.decimals??2))+(x.unit&&x.unit!=="$"?" "+x.unit:""),chgTxt:x.change_pct==null?"":sign(x.change_pct),chg:x.change_pct})}
-      <div class="lbl">${esc(x.label)} <small>${esc(x.unit||"")}</small></div>
-      <div class="val num">${x.display||fmt(x.value,x.decimals??2)}</div>
-      <div class="chg num ${cls(x.change_pct)}">${x.change_pct==null?"&nbsp;":sign(x.change_pct)}</div>
-      <div class="meta">${esc(x.note||"")}</div>${spark(x.history,lineColor(x.history))}${infoLine(x.id)}</button>`).join("");
-
-    $("#crypto").innerHTML = (M.crypto||[]).map(x=>{
-      const d = x.usd<10?4:0, eur = eurusd ? x.usd/eurusd : null;
-      return `${reg(x.id,{...x,kind:"mk",valTxt:"$"+fmt(x.usd,d)+(eur?" · ≈ "+fmt(eur,d)+" €":""),chgTxt:sign(x.chg_24h,1)+" en 24 h"+(x.chg_7d==null?"":" · "+sign(x.chg_7d,1)+" en 7 días"),chg:x.chg_24h})}
-      <div class="lbl">${esc(x.label)} <small>${esc(x.symbol)}</small></div>
-      <div class="val num">$${fmt(x.usd,d)}</div>
-      <div class="meta num">${eur?("≈ "+fmt(eur,d)+" €"):""}</div>
-      <div class="chg num"><span class="${cls(x.chg_24h)}">${sign(x.chg_24h,1)} 24 h</span>${x.chg_7d==null?"":` · <span class="${cls(x.chg_7d)}">${sign(x.chg_7d,1)} 7 d</span>`}</div>
-      ${spark(x.history,lineColor(x.history))}${infoLine(x.id)}</button>`}).join("");
-
-    // KPIs
-    $("#kpis").innerHTML = (D.kpis||[]).map(k=>{
-      const good = k.change==null||k.change===0 ? "flat" : ((k.change<0) === (k.good_when==="down") ? "up" : "down");
-      const hc = k.history&&k.history.length>1 ? (good==="flat"?"--accent":"--"+good) : "--accent";
-      const chgTxt = k.change==null?"":(k.change===0?"Sin cambios":sign(k.change,k.decimals>2?3:(k.change_unit==="pb"?1:2)," "+(k.change_unit||"pp")));
-      return `${reg(k.id,{...k,kind:"kpi",valTxt:fmt(k.value,k.decimals??2)+(k.unit||""),chgTxt,chgCls:good}).replace('class="tile"','class="tile kpi"')}
-        <div class="lbl">${esc(k.label)}</div>
-        <div class="val num">${fmt(k.value,k.decimals??2)}<small>${esc(k.unit)}</small></div>
-        <div class="chg num ${good}">${chgTxt}</div>
-        <div class="meta">${esc(k.detail||"")}</div>
-        <div class="meta">${esc(k.date)} · ${esc(k.source)}</div>
-        ${spark(k.history,hc)}${infoLine(k.id)}</button>`}).join("");
-
-    const reTile = x=>`${reg(x.id,{...x,kind:"re",valTxt:(x.value>0&&x.unit.includes("a/a")?"+":"")+fmt(x.value,x.decimals??0)+" "+x.unit})}
-      <div class="lbl">${esc(x.label)}</div>
-      <div class="val num">${x.value>0&&x.unit.includes("a/a")?"+":""}${fmt(x.value,x.decimals??0)}<small>${esc(x.unit)}</small></div>
-      <div class="meta">${esc(x.detail||"")}</div>
-      <div class="meta">${esc(x.date)} · ${esc(x.source)}</div>${infoLine(x.id)}</button>`;
+    $("#indices").innerHTML = (M.indices||[]).map(mkTile).join("");
+    $("#fx").innerHTML = (M.fx_commodities||[]).map(fxTile).join("");
+    $("#crypto").innerHTML = (M.crypto||[]).map(cryptoTile).join("");
+    $("#kpis").innerHTML = (D.kpis||[]).map(kpiTile).join("");
     $("#re-es").innerHTML = (D.real_estate?.espana||[]).map(reTile).join("");
     $("#re-bcn").innerHTML = (D.real_estate?.barcelona||[]).map(reTile).join("");
+    $("#mk-asof").textContent = "Cotizaciones de cierre, no en tiempo real · " + (M.asof||"");
+
+    const pick = ["ibex","sp500","stoxx50"].map(id=>(M.indices||[]).find(x=>x.id===id)).filter(Boolean).map(mkTile)
+      .concat((D.kpis||[]).filter(k=>k.id==="euribor12m").map(kpiTile))
+      .concat((M.fx_commodities||[]).filter(x=>["brent","eurusd"].includes(x.id)).map(fxTile))
+      .concat((M.crypto||[]).filter(x=>x.id==="bitcoin").map(cryptoTile))
+      .concat((D.real_estate?.barcelona||[]).filter(x=>x.id==="bcn_venta").map(reTile));
+    $("#p-tiles").innerHTML = pick.join("");
+
+    const catLabel = {politica:"Política",economia:"Economía",mundo_geo:"Mundo",mercados:"Mercados",inmo_espana:"Inmobiliario",inmo_bcn:"Barcelona",hipotecas:"Hipotecas",regulacion:"Regulación",cripto:"Cripto",sociedad:"Sociedad",mundo_eco:"Economía global",inversion:"Inversión"};
+    const heads = [];
+    ["politica","economia","inmo_bcn","mercados","mundo_geo","hipotecas","inmo_espana","cripto","mundo_eco","regulacion","sociedad","inversion"].forEach(k=>{ const n=(N[k]||[])[0]; if(n) heads.push(`<a class="h" href="${esc(n.url)}" target="_blank" rel="noopener"><small>${catLabel[k]}</small><b>${esc(n.title)}</b></a>`); });
+    $("#p-heads").innerHTML = heads.join("");
+
+    if(CONCEPTS.length){ const c = CONCEPTS[Math.floor(upd.getTime()/864e5) % CONCEPTS.length];
+      $("#c-title").textContent=c.t; $("#c-text").textContent=c.d; $("#c-title2").textContent=c.t; $("#c-text2").textContent=c.d; }
+    const F = D.number_of_day; if(F){ $("#f-val").textContent=F.value; $("#f-label").textContent=F.label; $("#f-ctx").textContent=F.context||""; } else $("#figure").remove();
 
     // Pestañas de noticias
     document.querySelectorAll("[data-tabs]").forEach(box=>{
       const id = box.dataset.tabs;
-      const keys = box.dataset.keys.split(",").map(s=>s.split(":")).filter(([k])=>(D.news?.[k]||[]).length);
+      const keys = box.dataset.keys.split(",").map(s=>s.split(":")).filter(([k])=>(N[k]||[]).length);
       if(!keys.length){box.remove();return}
       let cur = store.get("tab-"+id); if(!keys.some(([k])=>k===cur)) cur = keys[0][0];
-      box.innerHTML = `<div class="tablist" role="tablist">${keys.map(([k,l])=>`<button role="tab" id="t-${id}-${k}" aria-controls="p-${id}" data-k="${k}">${esc(l)} <span class="num" style="color:var(--muted);font-weight:400">${D.news[k].filter(n=>n.new).length?"· "+D.news[k].filter(n=>n.new).length+" nuevas":""}</span></button>`).join("")}</div><div role="tabpanel" id="p-${id}"></div>`;
+      box.innerHTML = `<div class="tablist" role="tablist">${keys.map(([k,l])=>{const nn=N[k].filter(n=>n.new).length;return `<button role="tab" type="button" id="t-${id}-${k}" aria-controls="p-${id}" data-k="${k}">${esc(l)}${nn?` <span class="num" style="color:var(--muted);font-weight:400">· ${nn}</span>`:""}</button>`}).join("")}</div><div role="tabpanel" id="p-${id}"></div>`;
       const panel = box.querySelector("[role=tabpanel]");
-      const show = k=>{
-        cur=k; store.set("tab-"+id,k);
+      const show = k=>{ cur=k; store.set("tab-"+id,k);
         box.querySelectorAll("[role=tab]").forEach(b=>{const on=b.dataset.k===k;b.setAttribute("aria-selected",on);b.tabIndex=on?0:-1});
-        panel.setAttribute("aria-labelledby","t-"+id+"-"+k);
-        panel.innerHTML = `<ul class="news">${D.news[k].map(n=>`<li><span class="sev ${esc(n.impact)}" title="Impacto ${esc(n.impact)}"></span><div>
-          <h4><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></h4>
-          <p>${esc(n.summary)}</p>
-          <div class="src">${n.new?'<span class="new">Nuevo</span>':""}<span>${esc(n.source)}</span><span class="num">${esc(n.time)}</span><span>Impacto ${esc(n.impact).toLowerCase()}</span></div></div></li>`).join("")}</ul>`;
-      };
-      box.querySelector(".tablist").addEventListener("click",e=>{const b=e.target.closest("[role=tab]");if(b)show(b.dataset.k)});
-      box.querySelector(".tablist").addEventListener("keydown",e=>{
-        if(!["ArrowRight","ArrowLeft"].includes(e.key))return;
-        const i=keys.findIndex(([k])=>k===cur), n=keys[(i+(e.key==="ArrowRight"?1:keys.length-1))%keys.length][0];
-        show(n); box.querySelector(`[data-k="${n}"]`).focus();
-      });
+        panel.setAttribute("aria-labelledby","t-"+id+"-"+k); panel.innerHTML = newsList(N[k]); };
+      const tl = box.querySelector(".tablist");
+      tl.addEventListener("click",e=>{const b=e.target.closest("[role=tab]");if(b)show(b.dataset.k)});
+      tl.addEventListener("keydown",e=>{ if(!["ArrowRight","ArrowLeft"].includes(e.key))return;
+        const i=keys.findIndex(([k])=>k===cur), n=keys[(i+(e.key==="ArrowRight"?1:keys.length-1))%keys.length][0]; show(n); box.querySelector(`[data-k="${n}"]`).focus(); });
       show(cur);
     });
+
+    // Programas
+    const P = D.programs;
+    if(P){ $("#prog-title").textContent = P.title;
+      $("#programs").innerHTML = `<thead><tr><th scope="col">Partido</th><th scope="col">Ley de Vivienda</th><th scope="col">Propuestas clave</th></tr></thead><tbody>${P.rows.map(r=>`<tr><td><b>${esc(r.party)}</b></td><td><span class="pill">${esc(r.law)}</span></td><td>${esc(r.key)}</td></tr>`).join("")}</tbody>`;
+      $("#prog-note").innerHTML = `${esc(P.note)} Fuente: <a href="${esc(P.url)}" target="_blank" rel="noopener">${esc(P.source)}</a>.`;
+    } else { $("#programs").closest(".table-wrap").remove(); $("#prog-title").remove(); }
 
     // Barrios
     const B = D.barrios||{rows:[]};
     $("#br-asof").innerHTML = `${esc(B.date)} · <a href="${esc(B.url)}" target="_blank" rel="noopener">${esc(B.source)}</a>`;
     const rows = B.rows.map(r=>({...r, rent: r.alquiler_m2&&r.venta_m2 ? r.alquiler_m2*12/r.venta_m2*100 : null}));
     const maxV = Math.max(...rows.map(r=>r.venta_m2||0)), minV = Math.min(...rows.map(r=>r.venta_m2||maxV));
-    let sortKey = "venta_m2", dir = -1;
-    const cols = [["distrito","Distrito"],["venta_m2","Venta €/m²"],["var_yoy","Var. anual"],["alquiler_m2","Alquiler €/m²/mes"],["rent","Rentab. bruta"]];
-    ITEMS.rentab = {label:"Rentabilidad bruta", kind:"re", valTxt: B.city&&B.city.venta_m2 ? fmt(B.city.alquiler_m2*12/B.city.venta_m2*100,1)+" % (media de Barcelona)" : "", source:B.source, url:B.url, date:B.date};
-    const drawTable = ()=>{
+    ITEMS.rentab = {label:"Rentabilidad bruta", valTxt: B.city&&B.city.venta_m2 ? fmt(B.city.alquiler_m2*12/B.city.venta_m2*100,1)+" % (media de Barcelona)" : "", source:B.source, url:B.url, date:B.date};
+    let sortKey="venta_m2", dir=-1;
+    const cols=[["distrito","Distrito"],["venta_m2","Venta €/m²"],["var_yoy","Var. anual"],["alquiler_m2","Alquiler €/m²/mes"],["rent","Rentab. bruta"],["p80","Piso de 80 m²"]];
+    const drawTable=()=>{
+      rows.forEach(r=>r.p80=r.venta_m2*80);
       rows.sort((a,b)=> sortKey==="distrito" ? dir*a.distrito.localeCompare(b.distrito) : dir*((a[sortKey]??-1)-(b[sortKey]??-1)));
-      const heat = v=>{const t=(v-minV)/((maxV-minV)||1);return `background:color-mix(in srgb,var(--accent) ${Math.round(8+t*30)}%,transparent)`};
-      const c = B.city||{};
-      $("#br-table").innerHTML = `<thead><tr>${cols.map(([k,l])=>`<th scope="col"><button data-k="${k}" data-active="${k===sortKey}">${l}${k===sortKey?(dir<0?" ↓":" ↑"):""}</button>${k==="rent"?'<button class="i" type="button" data-id="rentab" aria-label="Qué es la rentabilidad bruta">ⓘ</button>':""}</th>`).join("")}</tr></thead>
-      <tbody>${rows.map(r=>`<tr><td>${esc(r.distrito)}</td>
-        <td><span class="bar" style="width:${Math.round((r.venta_m2/maxV)*70)}px"></span><span class="heat" style="${heat(r.venta_m2)}">${fmt(r.venta_m2,0)}</span></td>
-        <td class="${cls(r.var_yoy)}">${sign(r.var_yoy,1)}</td>
-        <td>${fmt(r.alquiler_m2,1)}</td>
-        <td>${r.rent==null?"—":fmt(r.rent,1)+" %"}</td></tr>`).join("")}
-        <tr class="city"><td>Barcelona (media)</td><td>${fmt(c.venta_m2,0)}</td><td class="${cls(c.var_yoy)}">${sign(c.var_yoy,1)}</td><td>${fmt(c.alquiler_m2,1)}</td><td>${c.venta_m2?fmt(c.alquiler_m2*12/c.venta_m2*100,1)+" %":"—"}</td></tr></tbody>`;
-      $("#br-table").querySelectorAll("th button").forEach(b=>b.onclick=()=>{const k=b.dataset.k; if(k===sortKey) dir*=-1; else {sortKey=k; dir=k==="distrito"?1:-1} drawTable()});
+      const heat=v=>{const t=(v-minV)/((maxV-minV)||1);return `background:color-mix(in srgb,var(--accent) ${Math.round(8+t*30)}%,transparent)`};
+      const c=B.city||{};
+      $("#br-table").innerHTML = `<thead><tr>${cols.map(([k,l])=>`<th scope="col"><button type="button" data-k="${k}" data-active="${k===sortKey}">${l}${k===sortKey?(dir<0?" ↓":" ↑"):""}</button>${k==="rent"?'<button type="button" class="i" data-id="rentab" aria-label="Qué es la rentabilidad bruta">ⓘ</button>':""}</th>`).join("")}</tr></thead>
+        <tbody>${rows.map(r=>`<tr><td>${esc(r.distrito)}</td><td><span class="bar" style="width:${Math.round((r.venta_m2/maxV)*60)}px"></span><span class="heat" style="${heat(r.venta_m2)}">${fmt(r.venta_m2,0)}</span></td><td class="${cls(r.var_yoy)}">${sign(r.var_yoy,1)}</td><td>${fmt(r.alquiler_m2,1)}</td><td>${r.rent==null?"—":fmt(r.rent,1)+" %"}</td><td>${eur(r.p80)}</td></tr>`).join("")}
+        <tr class="city"><td>Barcelona (media)</td><td>${fmt(c.venta_m2,0)}</td><td class="${cls(c.var_yoy)}">${sign(c.var_yoy,1)}</td><td>${fmt(c.alquiler_m2,1)}</td><td>${c.venta_m2?fmt(c.alquiler_m2*12/c.venta_m2*100,1)+" %":"—"}</td><td>${c.venta_m2?eur(c.venta_m2*80):"—"}</td></tr></tbody>`;
+      $("#br-table").querySelectorAll("th button[data-k]").forEach(b=>b.onclick=()=>{const k=b.dataset.k; if(k===sortKey) dir*=-1; else {sortKey=k; dir=k==="distrito"?1:-1} drawTable()});
     };
     drawTable();
 
+    // Previsiones
+    $("#fc").innerHTML = (D.forecasts||[]).map(f=>`<article class="fc-card"><header><h3>${esc(f.topic)}</h3><span class="pill">Ahora: ${esc(f.now)}</span></header>
+      <div class="table-wrap" style="border:0"><table><thead><tr><th>Fuente</th><th>Horizonte</th><th>Previsión</th><th>Fecha</th></tr></thead><tbody>${f.items.map(i=>`<tr><td><a href="${esc(i.url)}" target="_blank" rel="noopener">${esc(i.source)}</a></td><td>${esc(i.horizon)}</td><td class="num"><b>${esc(i.value)}</b></td><td class="muted">${esc(i.date)}</td></tr>`).join("")}</tbody></table></div>
+      <p class="read">${esc(f.read)}</p></article>`).join("");
+
+    // Agenda
     $("#agenda-list").innerHTML = (D.agenda||[]).map(a=>`<div><span class="d">${esc(a.date)}</span><span><b>${esc(a.event)}</b><br><span class="w">${esc(a.why)}</span></span></div>`).join("");
-    // Concepto y cifra del día
-    if(CONCEPTS.length){ const day = Math.floor(upd.getTime()/864e5); const c = CONCEPTS[day % CONCEPTS.length]; $("#c-title").textContent=c.t; $("#c-text").textContent=c.d; }
-    const N = D.number_of_day; if(N){ $("#f-val").textContent=N.value; $("#f-label").textContent=N.label; $("#f-ctx").textContent=N.context||""; } else { $("#figure").remove(); }
+
+    // Escenarios
+    const tags = ["Todos", ...new Set(SCEN.map(s=>s.tag))]; let tagSel = "Todos";
+    const drawSc = ()=>{ $("#sc-chips").innerHTML = tags.map(t=>`<button type="button" data-tag="${esc(t)}" aria-pressed="${t===tagSel}">${esc(t)}</button>`).join("");
+      $("#sc-grid").innerHTML = SCEN.filter(s=>tagSel==="Todos"||s.tag===tagSel).map(s=>`<article class="sc"><span class="pill" style="align-self:flex-start">${esc(s.tag)}</span><h3>${esc(s.title)}</h3>
+        <ol class="chain">${s.chain.map(c=>`<li><span>${esc(c)}</span></li>`).join("")}</ol>
+        <div class="who"><div><b>Compradores</b>${esc(s.who.compradores)}</div><div><b>Vendedores</b>${esc(s.who.vendedores)}</div><div><b>Inversores</b>${esc(s.who.inversores)}</div><div class="uk"><b>Para Ukio</b>${esc(s.who.ukio)}</div></div>
+        <div class="watch">Qué vigilar: ${esc(s.watch)}</div></article>`).join(""); };
+    $("#sc-chips").addEventListener("click",e=>{const b=e.target.closest("[data-tag]"); if(b){tagSel=b.dataset.tag; drawSc();}});
+    drawSc();
+
+    // Calculadora de hipoteca
+    const euribor = (D.kpis||[]).find(k=>k.id==="euribor12m")?.value ?? 3.2;
+    $("#m-eur").value = euribor;
+    const pay = (P, annual, years)=>{ const r=annual/100/12, n=years*12; return r===0? P/n : P*r/(1-Math.pow(1+r,-n)); };
+    const val = id => parseFloat($(id).value)||0;
+    const calcM = ()=>{
+      const price=val("#m-price"), loan=price*val("#m-ltv")/100, yrs=val("#m-years")||30, diff=val("#m-diff"), e=val("#m-eur"), inc=val("#m-income");
+      $("#m-eur-v").textContent = fmt(e,2)+" %";
+      const q = pay(loan,e+diff,yrs), qUp = pay(loan,e+diff+1,yrs), qDn = pay(loan,Math.max(e+diff-1,0),yrs), qF = pay(loan,val("#m-fixed"),yrs);
+      const eff = inc? q/inc*100 : null, entry = price-loan+price*0.115;
+      $("#m-res").innerHTML = [
+        ["Importe del préstamo", eur(loan)], ["Cuota variable (Euríbor + diferencial)", eur(q)+"/mes", true], ["Si el Euríbor sube 1 punto", eur(qUp)+"/mes <small class='down'>(+"+eur(qUp-q)+")</small>"],
+        ["Si baja 1 punto", eur(qDn)+"/mes <small class='up'>(−"+eur(q-qDn)+")</small>"], ["Cuota a tipo fijo", eur(qF)+"/mes"], ["Intereses totales (variable)", eur(q*yrs*12-loan)],
+        ["Esfuerzo sobre ingresos", eff==null?"—":`<span class="${eff>35?"down":"up"}">${fmt(eff,1)} %</span>`], ["Ahorro necesario (entrada + 11,5 % gastos)", eur(entry)]
+      ].map(([l,v,h])=>`<div class="res ${h?"hl":""}"><div class="l">${l}</div><div class="v num">${v}</div></div>`).join("");
+    };
+    document.querySelectorAll("#calc-mort input").forEach(i=>i.addEventListener("input",calcM)); calcM();
+
+    // Calculadora de rentabilidad
+    const calcI = ()=>{
+      const price=val("#i-price"), rent=val("#i-rent"), tax=val("#i-tax"), costs=val("#i-costs"), vac=val("#i-vac"), ltv=val("#i-ltv"), rate=val("#i-rate");
+      const total = price*(1+tax/100), grossY = rent*12, net = grossY*(1-vac/100)-costs;
+      const loan = price*ltv/100, q = loan? pay(loan,rate,30):0, cash = total-loan, cf = net - q*12;
+      $("#i-res").innerHTML = [
+        ["Rentabilidad bruta", fmt(grossY/price*100,2)+" %", true], ["Rentabilidad neta", fmt(net/total*100,2)+" %", true], ["Inversión total con gastos", eur(total)],
+        ["Dinero aportado", eur(cash)], ["Cuota hipoteca (30 años)", loan?eur(q)+"/mes":"Sin hipoteca"], ["Flujo de caja anual", `<span class="${cf>=0?"up":"down"}">${eur(cf)}</span>`],
+        ["Rentabilidad sobre lo aportado", `<span class="${cf>=0?"up":"down"}">${fmt(cf/cash*100,2)} %</span>`], ["Años para recuperar (neto)", net>0? fmt(total/net,1):"—"]
+      ].map(([l,v,h])=>`<div class="res ${h?"hl":""}"><div class="l">${l}</div><div class="v num">${v}</div></div>`).join("");
+    };
+    document.querySelectorAll("#calc-inv input").forEach(i=>i.addEventListener("input",calcI)); calcI();
 
     // Glosario
     const glEntries = [...Object.entries(GL).map(([id,g])=>({id,t:g.name,d:g.what,cat:g.cat})), ...CONCEPTS.map((c,i)=>({id:"c"+i,t:c.t,d:c.d,cat:"Concepto"}))].sort((a,b)=>a.t.localeCompare(b.t,"es"));
-    const norm = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g,"").toLowerCase();
-    const drawGl = q => { const n=norm(q||""); $("#gl-list").innerHTML = glEntries.filter(e=>!n||norm(e.t+" "+e.d).includes(n)).map(e=>`<button type="button" class="gl-item" data-id="${e.id}"><small>${esc(e.cat)}</small><b>${esc(e.t)}</b><span>${esc(e.d)}</span></button>`).join("") || '<p class="hint">No hay ningún término con esa búsqueda.</p>'; };
-    drawGl(""); $("#gl-q").addEventListener("input", e=>drawGl(e.target.value));
+    const cats = ["Todo", ...new Set(glEntries.map(e=>e.cat))]; let catSel="Todo";
+    const norm = s => s.normalize("NFD").replace(/[̀-ͯ]/g,"").toLowerCase();
+    const drawGl = ()=>{ const n=norm($("#gl-q").value||"");
+      $("#gl-chips").innerHTML = cats.map(c=>`<button type="button" data-cat="${esc(c)}" aria-pressed="${c===catSel}">${esc(c)}</button>`).join("");
+      $("#gl-list").innerHTML = glEntries.filter(e=>(catSel==="Todo"||e.cat===catSel)&&(!n||norm(e.t+" "+e.d).includes(n))).map(e=>`<button type="button" class="gl-item" data-id="${e.id}"><small>${esc(e.cat)}</small><b>${esc(e.t)}</b><span>${esc(e.d)}</span></button>`).join("") || '<p class="hint">No hay ningún término con esa búsqueda.</p>'; };
+    $("#gl-q").addEventListener("input",drawGl); $("#gl-chips").addEventListener("click",e=>{const b=e.target.closest("[data-cat]"); if(b){catSel=b.dataset.cat; drawGl();}});
+    drawGl();
 
-    // Ficha
-    const drawer=$("#drawer"), scrim=$("#scrim"); let lastFocus=null;
-    const openDrawer = id => {
-      const it = ITEMS[id] || {}, g = GL[id];
-      const ci = /^c\d+$/.test(id) ? CONCEPTS[+id.slice(1)] : null;
-      let h = "";
-      if(ci){ h = `<div class="cat">Concepto</div><h2 id="dr-title">${esc(ci.t)}</h2><div class="box"><p>${esc(ci.d)}</p></div>`; }
-      else {
-        h += `<div class="cat">${esc(g?g.cat:"Dato")}</div><h2 id="dr-title">${esc(g?g.name:it.label)}</h2>`;
-        if(it.valTxt) h += `<div><div class="big num">${esc(it.valTxt)}</div>${it.chgTxt?`<div class="chg num ${it.chgCls||cls(it.chg)}">${esc(it.chgTxt)}</div>`:""}${it.detail?`<div class="meta" style="color:var(--muted);font-size:13px">${esc(it.detail)}</div>`:""}</div>`;
-        if(it.history && it.history.length>1) h += `<div class="chart">${spark(it.history, it.kind==="kpi"&&it.chgCls&&it.chgCls!=="flat"?"--"+it.chgCls:lineColor(it.history))}</div><div class="meta" style="color:var(--muted);font-size:12px;margin-top:-8px">Últimos ${it.history.length} registros</div>`;
-        if(it.why) h += `<div class="box today-why"><h3>Por qué se mueve ahora</h3><p>${esc(it.why)}</p></div>`;
-        if(g){
-          h += `<div class="box"><h3>Qué es</h3><p>${esc(g.what)}</p></div>`;
-          h += `<div class="updown"><div class="box u"><h3>Si sube ↑</h3><p>${esc(g.up)}</p></div><div class="box d"><h3>Si baja ↓</h3><p>${esc(g.down)}</p></div></div>`;
-          h += `<div class="box you"><h3>Qué significa para ti</h3><p>${esc(g.you)}</p></div>`;
-        }
-        if(it.url) h += `<div class="src"><a href="${esc(it.url)}" target="_blank" rel="noopener">Fuente: ${esc(it.source||"ver dato")}${it.date?" · "+esc(it.date):""} ↗</a></div>`;
-      }
-      $("#dr-body").innerHTML = h;
-      lastFocus = document.activeElement;
-      drawer.classList.add("open"); scrim.classList.add("open"); drawer.setAttribute("aria-hidden","false");
-      document.body.style.overflow="hidden"; drawer.scrollTop=0; $("#dr-close").focus();
-    };
-    const closeDrawer = () => { drawer.classList.remove("open"); scrim.classList.remove("open"); drawer.setAttribute("aria-hidden","true"); document.body.style.overflow=""; if(lastFocus) lastFocus.focus(); };
-    document.addEventListener("click", e => { const b = e.target.closest("[data-id]"); if(b && !e.target.closest("#drawer")) { e.preventDefault(); openDrawer(b.dataset.id); } });
-    $("#dr-close").addEventListener("click", closeDrawer); scrim.addEventListener("click", closeDrawer);
-    document.addEventListener("keydown", e => { if(e.key==="Escape" && drawer.classList.contains("open")) closeDrawer();
-      if(e.key==="Tab" && drawer.classList.contains("open")){ const f=[...drawer.querySelectorAll("button,a[href]")]; if(!f.length)return; const first=f[0], last=f[f.length-1];
-        if(e.shiftKey && document.activeElement===first){e.preventDefault();last.focus()} else if(!e.shiftKey && document.activeElement===last){e.preventDefault();first.focus()} } });
-
-    $("#upd").textContent = "Edición generada el " + upd.toLocaleString("es-ES",{dateStyle:"full",timeStyle:"short"}) + ". Las cotizaciones son de cierre, no en tiempo real. Fuentes:";
+    // Pie
+    $("#upd").textContent = "Edición generada el " + upd.toLocaleString("es-ES",{dateStyle:"full",timeStyle:"short"}) + ". Las cotizaciones son de cierre, no en tiempo real. No es asesoramiento financiero. Fuentes principales:";
     $("#sources").innerHTML = (D.sources||[]).map(s=>`<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.name)}</a>`).join("");
   }
 
-  const inline = document.getElementById("data");
-  if(inline){ try{ render(JSON.parse(inline.textContent)); return; }catch(e){} }
+  /* ---------- Ficha ---------- */
+  const drawer=$("#drawer"), scrim=$("#scrim"); let lastFocus=null;
+  function openDrawer(id){
+    const it = ITEMS[id] || {}, g = GL[id], ci = /^c\d+$/.test(id) ? CONCEPTS[+id.slice(1)] : null;
+    let h = "";
+    if(ci){ h = `<div class="cat">Concepto</div><h2 id="dr-title">${esc(ci.t)}</h2><div class="box"><p>${esc(ci.d)}</p></div>`; }
+    else {
+      h += `<div class="cat">${esc(g?g.cat:"Dato")}</div><h2 id="dr-title">${esc(g?g.name:it.label)}</h2>`;
+      if(it.valTxt) h += `<div><div class="big num">${esc(it.valTxt)}</div>${it.chgTxt?`<div class="chg num ${it.chgCls||cls(it.chg)}">${esc(it.chgTxt)}</div>`:""}${it.detail?`<div style="color:var(--muted);font-size:13px">${esc(it.detail)}</div>`:""}</div>`;
+      if(it.history && it.history.length>1) h += `<div class="chart">${spark(it.history, it.chgCls&&it.chgCls!=="flat"?"--"+it.chgCls:lineColor(it.history))}</div><div style="color:var(--muted);font-size:12px;margin-top:-8px">Últimos ${it.history.length} registros</div>`;
+      if(it.why) h += `<div class="box today-why"><h3>Por qué se mueve ahora</h3><p>${esc(it.why)}</p></div>`;
+      if(g){ h += `<div class="box"><h3>Qué es</h3><p>${esc(g.what)}</p></div><div class="updown"><div class="box u"><h3>Si sube ↑</h3><p>${esc(g.up)}</p></div><div class="box d"><h3>Si baja ↓</h3><p>${esc(g.down)}</p></div></div><div class="box you"><h3>Qué significa para ti</h3><p>${esc(g.you)}</p></div>`; }
+      if(it.url) h += `<div class="src"><a href="${esc(it.url)}" target="_blank" rel="noopener">Fuente: ${esc(it.source||"ver dato")}${it.date?" · "+esc(it.date):""} ↗</a></div>`;
+    }
+    $("#dr-body").innerHTML = h; lastFocus = document.activeElement;
+    drawer.classList.add("open"); scrim.classList.add("open"); drawer.setAttribute("aria-hidden","false");
+    document.body.style.overflow="hidden"; drawer.scrollTop=0; $("#dr-close").focus();
+  }
+  function closeDrawer(){ drawer.classList.remove("open"); scrim.classList.remove("open"); drawer.setAttribute("aria-hidden","true"); document.body.style.overflow=""; if(lastFocus) lastFocus.focus(); }
+  document.addEventListener("click", e => { const b = e.target.closest("[data-id]"); if(b && !e.target.closest("#drawer")){ e.preventDefault(); openDrawer(b.dataset.id); } });
+  $("#dr-close").addEventListener("click", closeDrawer); scrim.addEventListener("click", closeDrawer);
+  document.addEventListener("keydown", e => { if(!drawer.classList.contains("open")) return; if(e.key==="Escape") closeDrawer();
+    if(e.key==="Tab"){ const f=[...drawer.querySelectorAll("button,a[href]")]; const first=f[0], last=f[f.length-1];
+      if(e.shiftKey && document.activeElement===first){e.preventDefault();last.focus()} else if(!e.shiftKey && document.activeElement===last){e.preventDefault();first.focus()} } });
+
+  /* ---------- Navegación por pestañas ---------- */
+  const VIEWS = ["portada","noticias","mercados","economia","inmobiliario","barcelona","escenarios","previsiones","agenda","aprende"];
+  function route(){ const h = location.hash.replace("#",""); const v = VIEWS.includes(h) ? h : "portada";
+    document.querySelectorAll(".view").forEach(s=>s.classList.toggle("active", s.id==="v-"+v));
+    document.querySelectorAll("#nav a").forEach(a=>{ if(a.getAttribute("href")==="#"+v) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });
+    const cur = document.querySelector('#nav a[aria-current="page"]'); if(cur) cur.scrollIntoView({block:"nearest",inline:"nearest"});
+    if(VIEWS.includes(h)) window.scrollTo(0,0);
+  }
+  window.addEventListener("hashchange", route); route();
+
   fetch("data.json",{cache:"no-store"}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(render)
     .catch(()=>{ $("#app").innerHTML = '<p class="error">No se han podido cargar los datos del briefing. Recarga la página en unos segundos.</p>'; $("#stamp").textContent=""; });
 })();

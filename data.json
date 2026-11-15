@@ -819,21 +819,30 @@
         "new": true
       },
       {
-        "title": "Las hipotecas que revisan ahora pagan un punto más",
-        "summary": "Con el Euríbor de octubre en el 3,239 %, quien revisa en noviembre paga 1,05 puntos más que hace un año.",
+        "title": "BBVA Research: los precios subirán un 12 % en 2026 y las ventas caerán un 7,3 %",
+        "summary": "El ajuste del mercado se produce vía precios: menos operaciones, pero más caras. Para 2027 prevé un +5,7 % en precios y ventas casi planas (+0,6 %).",
         "impact": "Alto",
-        "source": "Hipotecas.me",
-        "url": "https://www.hipotecas.me/noticias/euribor-octubre-2026-se-frena-revision-hipoteca-noviembre",
-        "time": "03/11",
+        "source": "Brainsre",
+        "url": "https://brainsre.news/previsiones-vivienda-espana-2026-2027/",
+        "time": "Jul",
         "new": false
       },
       {
-        "title": "La inversión inmobiliaria marca récord",
-        "summary": "Crece un 25 % hasta septiembre, el mayor volumen de la serie histórica.",
+        "title": "S&P: España liderará las subidas de la vivienda en Europa",
+        "summary": "La agencia prevé un +7,4 % en 2027 y un +6,2 % en 2028, las tasas más altas del continente, por la escasez crónica de obra nueva.",
+        "impact": "Alto",
+        "source": "Merca2",
+        "url": "https://www.merca2.es/2026/07/14/espana-lider-precio-vivienda-2027-2417028/",
+        "time": "Jul",
+        "new": false
+      },
+      {
+        "title": "Faltarán unas 885.000 viviendas en 2027",
+        "summary": "Pese al repunte de los visados (+12,6 % previsto en 2027), el déficit de vivienda seguirá creciendo, según BBVA Research.",
         "impact": "Medio",
-        "source": "Alimarket",
-        "url": "https://www.alimarket.es/construccion/noticia_amp/433179/la-compraventa-de-viviendas-aumenta-un-3-4--interanual-en-agosto",
-        "time": "Oct",
+        "source": "Brainsre",
+        "url": "https://brainsre.news/previsiones-vivienda-espana-2026-2027/",
+        "time": "Jul",
         "new": false
       },
       {
@@ -844,6 +853,15 @@
         "url": "https://www.diaridetarragona.com/vivienda/274935/precio-vivienda-tarragona-sigue-alza-supera-1-500-euros-metro-cuadrado.html",
         "time": "Nov",
         "new": true
+      },
+      {
+        "title": "España dobla a la UE en subida de precios",
+        "summary": "En el primer trimestre la vivienda española subió un 12,8 % interanual, frente al 5,1 % de la UE. Solo Portugal, Bulgaria, Eslovaquia y Croacia suben más.",
+        "impact": "Medio",
+        "source": "AHE / Eurostat",
+        "url": "https://ahe.es/sala-de-prensa/resumen-de-prensa/archivos/25-y-26-7.pdf",
+        "time": "Jul",
+        "new": false
       },
       {
         "title": "Récord de cambios de uso",
@@ -900,6 +918,33 @@
         "url": "https://brainsre.news/?p=301664",
         "time": "2T",
         "new": false
+      },
+      {
+        "title": "Barcelona vende menos pero más caro",
+        "summary": "Las compraventas en la ciudad caían un 10,8 % interanual según Gloval, mientras los precios de oferta seguían en máximos.",
+        "impact": "Medio",
+        "source": "idealista",
+        "url": "https://www.idealista.com/news/node/904332",
+        "time": "2026",
+        "new": false
+      },
+      {
+        "title": "Un piso tarda casi 4 meses en venderse",
+        "summary": "El tiempo medio en mercado en Barcelona es de 3,8 meses, ligeramente más que hace un año.",
+        "impact": "Medio",
+        "source": "Brains Real Estate",
+        "url": "https://brainsre.news/?p=300555",
+        "time": "2T",
+        "new": false
+      },
+      {
+        "title": "Más de 3.700 viviendas de obra nueva a la venta en el área metropolitana",
+        "summary": "La oferta nueva sigue siendo escasa frente a la demanda de la ciudad y su entorno.",
+        "impact": "Bajo",
+        "source": "idealista",
+        "url": "https://www.idealista.com/news/etiquetas/vivienda-barcelona",
+        "time": "2026",
+        "new": false
       }
     ],
     "regulacion": [
@@ -910,6 +955,15 @@
         "source": "Vozpópuli",
         "url": "https://www.vozpopuli.com/espana/cataluna/collboni-eliminara-todos-los-pisos-turisticos-a-partir-de-2028-para-que-sean-residenciales.html",
         "time": "Vigente",
+        "new": false
+      },
+      {
+        "title": "El Congreso tumbó los decretos de vivienda del Gobierno",
+        "summary": "El 2 de octubre PP, Vox, Junts y UPN votaron en contra; PNV y Coalición Canaria se sumaron en el que imponía la renovación automática de los contratos.",
+        "impact": "Alto",
+        "source": "Brainsre",
+        "url": "https://brainsre.news/que-propone-cada-partido-vivienda-elecciones-29n/",
+        "time": "02/10",
         "new": false
       },
       {
@@ -947,6 +1001,100 @@
         "url": "https://www.infobae.com/espana/agencias/2026/11/14/hoy-es-noticia-en-espana-2330/",
         "time": "14/11",
         "new": true
+      }
+    ],
+    "hipotecas": [
+      {
+        "title": "Banca March y Abanca encarecen su hipoteca fija",
+        "summary": "Banca March sube su fija bonificada del 2,65 % al 3,80 % y Abanca la eleva por segunda vez en un mes, al 3,35 %. Santander (2,96 %) y BBVA (2,95 %) mantienen precio.",
+        "impact": "Alto",
+        "source": "Hipotecas.me",
+        "url": "https://www.hipotecas.me/noticias/banca-march-abanca-suben-hipoteca-fija-noviembre-2026",
+        "time": "10/11",
+        "new": true
+      },
+      {
+        "title": "Las hipotecas más baratas de noviembre",
+        "summary": "BBVA ofrece fija al 2,85 % TIN (3,76 % TAE) hasta el 30 de noviembre; Kutxabank, variable desde Euríbor + 0,49 %; Sabadell, mixta al 2,10 % TIN los cinco primeros años.",
+        "impact": "Alto",
+        "source": "Rankia",
+        "url": "https://www.rankia.com/blog/mejores-hipotecas/7544203-hipotecas-fijas-mas-baratas-aguantan-por-debajo-3-8-noviembre-cuales-son-variable-que-mejor-resiste",
+        "time": "Nov",
+        "new": true
+      },
+      {
+        "title": "Quien revisa ahora paga un punto más",
+        "summary": "Con el Euríbor de octubre en el 3,239 %, las hipotecas variables que se revisan en noviembre pagan 1,05 puntos más que hace un año.",
+        "impact": "Alto",
+        "source": "Hipotecas.me",
+        "url": "https://www.hipotecas.me/noticias/euribor-octubre-2026-se-frena-revision-hipoteca-noviembre",
+        "time": "03/11",
+        "new": false
+      },
+      {
+        "title": "Sabadell, Ibercaja y CaixaBank suben sus fijas",
+        "summary": "Tras la subida del BCE de septiembre, las tres entidades elevaron el TIN de sus hipotecas fijas entre 0,15 y 0,25 puntos.",
+        "impact": "Medio",
+        "source": "Finect",
+        "url": "https://www.finect.com/usuario/davidcarmona/articulos/la-subida-de-tipos-llega-a-las-hipotecas-fijas-tres-bancos-encarecen-su-oferta",
+        "time": "Oct",
+        "new": false
+      },
+      {
+        "title": "La hipoteca mixta gana atractivo",
+        "summary": "Con el Euríbor al alza y las fijas encareciéndose, las mixtas (fijo unos años y luego variable) se perfilan como alternativa intermedia.",
+        "impact": "Medio",
+        "source": "HelpMyCash",
+        "url": "https://www.helpmycash.com/blog/evo-bank-el-enesimo-cambio-de-nombre-de-novagalicia-banco",
+        "time": "2026",
+        "new": false
+      }
+    ],
+    "inversion": [
+      {
+        "title": "España, el país más atractivo de Europa para invertir en inmuebles",
+        "summary": "Por primera vez encabeza el ranking de CBRE, por delante de Reino Unido, Polonia e Italia.",
+        "impact": "Alto",
+        "source": "idealista",
+        "url": "https://www.idealista.com/news/taxonomy/term/3821",
+        "time": "2026",
+        "new": false
+      },
+      {
+        "title": "La inversión inmobiliaria crece un 25 % hasta septiembre",
+        "summary": "Récord histórico, impulsado por hoteles, vivienda en alquiler y activos alternativos.",
+        "impact": "Alto",
+        "source": "Alimarket",
+        "url": "https://www.alimarket.es/construccion/noticia_amp/433179/la-compraventa-de-viviendas-aumenta-un-3-4--interanual-en-agosto",
+        "time": "Oct",
+        "new": false
+      },
+      {
+        "title": "La mayor operación del año: Brookfield compra Fidere",
+        "summary": "La socimi residencial de Blackstone cambió de manos por 1.050 millones. En el primer semestre se cerraron 222 operaciones, 56 de ellas residenciales.",
+        "impact": "Medio",
+        "source": "Brainsre",
+        "url": "https://brainsre.news/10-transacciones-inmobiliarias-primer-semestre-2026/",
+        "time": "H1",
+        "new": false
+      },
+      {
+        "title": "Inmocaixa compra el edificio Estel de Barcelona por 385 millones",
+        "summary": "Fue la mayor operación de oficinas del primer trimestre y confirma el interés por activos prime en la ciudad.",
+        "impact": "Medio",
+        "source": "Brainsre",
+        "url": "https://brainsre.news/resumen-trimestral-noticias-enero-marzo-2026/",
+        "time": "1T",
+        "new": false
+      },
+      {
+        "title": "Nuveen apuesta por las residencias de estudiantes",
+        "summary": "Compra la cartera Bravo Alternativo por 330 millones: el 'living' alternativo sigue atrayendo capital internacional.",
+        "impact": "Bajo",
+        "source": "Brainsre",
+        "url": "https://brainsre.news/10-transacciones-inmobiliarias-primer-semestre-2026/",
+        "time": "Jun",
+        "new": false
       }
     ]
   },
@@ -1092,11 +1240,229 @@
     {
       "name": "CryptoTicker",
       "url": "https://cryptoticker.io/es/"
+    },
+    {
+      "name": "BBVA Research",
+      "url": "https://www.bbvaresearch.com"
+    },
+    {
+      "name": "Funcas",
+      "url": "https://www.funcas.es"
+    },
+    {
+      "name": "Hipotecas.me",
+      "url": "https://www.hipotecas.me"
     }
   ],
   "number_of_day": {
     "value": "126.080 $",
     "label": "Récord histórico de bitcoin",
     "context": "Tras caer a 63.500 $, bitcoin vale casi la mitad que en su máximo. Los mercados cripto son mucho más volátiles que la bolsa: una caída del 50 % desde máximos es habitual en su historia."
-  }
+  },
+  "programs": {
+    "title": "Vivienda en el 29-N: qué propone cada partido",
+    "source": "Brainsre / El Salto",
+    "url": "https://brainsre.news/que-propone-cada-partido-vivienda-elecciones-29n/",
+    "rows": [
+      {
+        "party": "PP",
+        "law": "Derogar la Ley de Vivienda",
+        "key": "Objetivo de 1 millón de viviendas; bajar la vivienda vía más oferta y menos impuestos; gestión desde una vicepresidencia."
+      },
+      {
+        "party": "PSOE",
+        "law": "Mantener y desarrollar la Ley",
+        "key": "Aplicar la ley para alcanzar en unos años el 20 % de vivienda social."
+      },
+      {
+        "party": "Vox",
+        "law": "Derogar la Ley de Vivienda",
+        "key": "IVA 0 % en la compra de la primera vivienda, recuperar la deducción por vivienda habitual en el IRPF y 'prioridad nacional' en vivienda pública."
+      },
+      {
+        "party": "Frente Amplio (Sumar)",
+        "law": "Mantener y reforzar",
+        "key": "Corregir deficiencias de la ley y limitar el peso de fondos y empresas en la compra de vivienda."
+      },
+      {
+        "party": "Podemos",
+        "law": "Mantener y reforzar",
+        "key": "Tope del 30 % de la renta destinada al alquiler."
+      }
+    ],
+    "note": "Resumen de las posiciones públicas recogidas por los medios citados. Los programas pueden cambiar durante la campaña."
+  },
+  "signals": [
+    {
+      "label": "Precios en Barcelona",
+      "status": "up",
+      "value": "Máximos",
+      "text": "5.463 €/m², +4,7 % anual. La subida se desplaza a los distritos asequibles."
+    },
+    {
+      "label": "Financiación",
+      "status": "bad",
+      "value": "Tensionada",
+      "text": "Euríbor en el 3,2 %, los bancos suben las fijas y el BCE apunta a subir tipos en diciembre."
+    },
+    {
+      "label": "Actividad",
+      "status": "warn",
+      "value": "A la baja",
+      "text": "Compraventas −5,9 % anual en España. Menos operaciones y más negociación."
+    },
+    {
+      "label": "Regulación",
+      "status": "warn",
+      "value": "Incierta",
+      "text": "El 29-N decide el futuro de la Ley de Vivienda y los topes de alquiler."
+    },
+    {
+      "label": "Comprador extranjero",
+      "status": "good",
+      "value": "Favorable",
+      "text": "El euro en mínimos de 19 meses abarata España para compradores en dólares."
+    },
+    {
+      "label": "Inversión institucional",
+      "status": "good",
+      "value": "Fuerte",
+      "text": "España, el país europeo más atractivo para invertir según CBRE; inversión récord."
+    }
+  ],
+  "forecasts": [
+    {
+      "topic": "Euríbor a 12 meses",
+      "now": "3,22 % (10/11/2026)",
+      "items": [
+        {
+          "source": "Funcas (panel)",
+          "date": "Jul 2026",
+          "horizon": "Dic 2026 / Dic 2027",
+          "value": "2,75 % / 2,54 %",
+          "url": "https://futurfinances.com/?p=51366"
+        },
+        {
+          "source": "Bankinter",
+          "date": "2026",
+          "horizon": "Dic 2026 / Dic 2027",
+          "value": "2,65–2,75 % / 2,55–2,65 %",
+          "url": "https://futurfinances.com/?p=51397"
+        }
+      ],
+      "read": "Ambas previsiones son anteriores al último repunte: hoy el Euríbor está medio punto por encima de lo que esperaban para diciembre. La guerra de Irán y el petróleo han retrasado las bajadas."
+    },
+    {
+      "topic": "Tipos del BCE (depósito)",
+      "now": "2,50 %",
+      "items": [
+        {
+          "source": "Mercado (tras la reunión de octubre)",
+          "date": "29/10/2026",
+          "horizon": "Dic 2026 / Mar 2027",
+          "value": "2,75 % (80 %) / 3,00 % (65 %)",
+          "url": "https://www.caixabankresearch.com/ca/node/14733/printable/print"
+        },
+        {
+          "source": "Bankinter",
+          "date": "2026",
+          "horizon": "Dic 2026 / Dic 2027",
+          "value": "2,25 % / 2,25 %",
+          "url": "https://futurfinances.com/?p=51397"
+        }
+      ],
+      "read": "El mercado descuenta más subidas que los analistas. Si se cumplen las del mercado, el Euríbor seguirá alto todo 2027."
+    },
+    {
+      "topic": "Inflación en España",
+      "now": "4,9 % (octubre)",
+      "items": [
+        {
+          "source": "CaixaBank Research",
+          "date": "30/10/2026",
+          "horizon": "Nov–dic 2026",
+          "value": "Por encima del 4 %; media 2026 > 3,5 %",
+          "url": "https://www.caixabankresearch.com/es/node/14742/printable/print"
+        },
+        {
+          "source": "Bankinter",
+          "date": "2026",
+          "horizon": "2026 / 2027",
+          "value": "3,3 % / 2,4 %",
+          "url": "https://futurfinances.com/?p=51397"
+        }
+      ],
+      "read": "La clave es el petróleo: Bankinter supone un Brent a 85 $ a final de año (hoy 95 $)."
+    },
+    {
+      "topic": "PIB de España",
+      "now": "+0,6 % trimestral (3T)",
+      "items": [
+        {
+          "source": "Bankinter",
+          "date": "2026",
+          "horizon": "2026 / 2027",
+          "value": "+2,1 % / +1,7 %",
+          "url": "https://futurfinances.com/?p=51397"
+        }
+      ],
+      "read": "España seguiría creciendo por encima de la eurozona, aunque frenando por la energía cara."
+    },
+    {
+      "topic": "Precio de la vivienda en España",
+      "now": "Máximos históricos",
+      "items": [
+        {
+          "source": "BBVA Research",
+          "date": "Jul 2026",
+          "horizon": "2026 / 2027",
+          "value": "+12,0 % / +5,7 %",
+          "url": "https://brainsre.news/previsiones-vivienda-espana-2026-2027/"
+        },
+        {
+          "source": "S&P Global Ratings",
+          "date": "Jul 2026",
+          "horizon": "2026 / 2027 / 2028",
+          "value": "+9,1 % / +7,4 % / +6,2 %",
+          "url": "https://www.merca2.es/2026/07/14/espana-lider-precio-vivienda-2027-2417028/"
+        },
+        {
+          "source": "Bankinter (consenso)",
+          "date": "Mar 2026",
+          "horizon": "2026 / 2027",
+          "value": "+7 % / +4 %",
+          "url": "https://www.bankinter.com/blog/finanzas-personales/prevision-precio-vivienda"
+        }
+      ],
+      "read": "Todas apuntan a que los precios seguirán subiendo, pero más despacio en 2027. El motivo común es la falta de oferta."
+    },
+    {
+      "topic": "Compraventas de vivienda",
+      "now": "−5,9 % anual (3T)",
+      "items": [
+        {
+          "source": "BBVA Research",
+          "date": "Jul 2026",
+          "horizon": "2026 / 2027",
+          "value": "−7,3 % / +0,6 %",
+          "url": "https://brainsre.news/previsiones-vivienda-espana-2026-2027/"
+        }
+      ],
+      "read": "Menos operaciones a precios más altos: un mercado de menos volumen, donde cada comprador cuenta más."
+    },
+    {
+      "topic": "Petróleo Brent",
+      "now": "≈ 95 $",
+      "items": [
+        {
+          "source": "Bankinter",
+          "date": "2026",
+          "horizon": "Dic 2026 / Dic 2027",
+          "value": "85 $ / 80 $",
+          "url": "https://futurfinances.com/blog/bankinter-preve-euribor-265-275-finales-2026/"
+        }
+      ],
+      "read": "Si el crudo no baja, las previsiones de inflación y tipos tendrán que revisarse al alza."
+    }
+  ]
 }
