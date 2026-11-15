@@ -196,7 +196,33 @@ tr.city td{font-weight:600;background:var(--accent-soft)}
 .meter i{position:absolute;top:-4px;width:4px;height:16px;border-radius:2px;background:var(--ink);transform:translateX(-50%)}
 .risk .r small{display:block;color:var(--muted);font-size:13px}
 .ct{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
-.ct div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:4px}
+.ct .c{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:4px;text-align:left;font:inherit;color:inherit;cursor:pointer}
+.ct .c:hover,.sect .sx:hover,.watch-list button:hover,.dash button:hover,.sw button:hover{border-color:var(--accent)}
+.ct .c:focus-visible,.sect .sx:focus-visible,.watch-list button:focus-visible,.dash button:focus-visible,.sw button:focus-visible,.qi:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.more{font-size:12px;color:var(--accent);font-weight:600}
+.qi{font:inherit;font-size:12px;font-weight:600;text-transform:none;letter-spacing:0;color:var(--accent);background:none;border:0;cursor:pointer;padding:0}
+.verdict .pills button{font:inherit;font-size:12px;font-weight:600;background:#1b2a46;color:#d6e0ff;border:0;border-radius:999px;padding:4px 10px;cursor:pointer;text-align:left}
+.verdict .pills button:hover{background:#25385c}
+.block-h{font-family:var(--display);font-size:clamp(22px,2.6vw,28px);margin:34px 0 12px;padding-bottom:6px;border-bottom:2px solid var(--ink);display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap}
+.block-h:first-of-type{margin-top:8px}
+.block-h small{font-family:var(--sans,inherit);font-size:13px;color:var(--muted);font-weight:500}
+.dash{display:grid;grid-template-columns:repeat(auto-fill,minmax(170px,1fr));gap:8px}
+.dash button{background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--muted);border-radius:8px;padding:10px 12px;text-align:left;font:inherit;color:inherit;cursor:pointer;display:grid;gap:2px}
+.dash button.good{border-left-color:var(--up)}.dash button.warn{border-left-color:var(--warn)}.dash button.bad{border-left-color:var(--down)}
+.dash small{font-size:12px;color:var(--muted)}.dash b{font-size:16px;font-variant-numeric:tabular-nums}
+.sw{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media (max-width:700px){.sw{grid-template-columns:1fr}}
+.sw .col{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;border-top:4px solid var(--up);display:grid;gap:6px;align-content:start}
+.sw .col.weak{border-top-color:var(--down)}
+.sw h4{margin:0 0 4px;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+.sw button{background:none;border:1px solid transparent;border-radius:8px;padding:6px 8px;text-align:left;font:inherit;color:var(--muted);font-size:13px;cursor:pointer}
+.sw button b{display:block;color:var(--ink);font-size:14px}
+.curve{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px 18px;display:grid;gap:10px}
+.curve svg{width:100%;height:auto;display:block}
+.curve p{margin:0;color:var(--muted);font-size:14px;max-width:85ch}
+.tile .sit{font-size:13px;color:var(--ink);border-top:1px dashed var(--line);padding-top:6px;margin-top:2px}
+.box.scen ul{margin:0;padding-left:18px;display:grid;gap:6px}
+.box.now{border-left:4px solid var(--accent)}
 .st{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:2px 9px;justify-self:start}
 .st.yes{background:color-mix(in srgb,var(--down) 15%,transparent);color:var(--down)}
 .st.partial{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--warn)}
@@ -207,9 +233,10 @@ tr.city td{font-weight:600;background:var(--accent-soft)}
 .sect .col{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;border-top:4px solid var(--muted);display:grid;gap:10px;align-content:start}
 .sect .grave{border-top-color:var(--down)}.sect .presion{border-top-color:var(--warn)}.sect .resiste{border-top-color:var(--accent)}.sect .gana{border-top-color:var(--up)}
 .sect h4{margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
-.sect p{margin:0;font-size:13px;color:var(--muted)}
-.sect p b{display:block;color:var(--ink);font-size:14px}
-.watch-list{margin:0;padding-left:18px;display:grid;gap:6px}
+.sect .sx{margin:0;font:inherit;font-size:13px;color:var(--muted);background:none;border:1px solid transparent;border-radius:8px;padding:6px;text-align:left;cursor:pointer}
+.sect .sx b{display:block;color:var(--ink);font-size:14px}
+.watch-list{margin:0;padding:0;list-style:none;display:grid;gap:6px}
+.watch-list button{width:100%;text-align:left;font:inherit;color:inherit;background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 12px;cursor:pointer;display:flex;justify-content:space-between;gap:10px}
 .region{margin-top:22px}
 .region header{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:6px;margin-bottom:10px}
 .region h3{font-family:var(--display);font-size:21px;margin:0}
@@ -288,7 +315,7 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
 </header>
 <nav class="tabsnav" aria-label="Secciones">
   <div class="wrap" id="nav">
-    <a href="#portada">Portada</a><a href="#diagnostico">Diagnóstico</a><a href="#noticias">Noticias</a><a href="#mercados">Mercados</a><a href="#economia">Economía</a><a href="#inmobiliario">Inmobiliario</a><a href="#barcelona">Barcelona</a><a href="#escenarios">Escenarios</a><a href="#previsiones">Previsiones</a><a href="#agenda">Agenda</a><a href="#aprende">Aprende</a>
+    <a href="#portada">Portada</a><a href="#diagnostico">Diagnóstico</a><a href="#noticias">Noticias</a><a href="#mercados">Mercados</a><a href="#economia">Economía</a><a href="#indicadores">Indicadores</a><a href="#inmobiliario">Inmobiliario</a><a href="#barcelona">Barcelona</a><a href="#escenarios">Escenarios</a><a href="#previsiones">Previsiones</a><a href="#agenda">Agenda</a><a href="#aprende">Aprende</a>
   </div>
 </nav>
 
@@ -322,12 +349,20 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
 
 <!-- DIAGNÓSTICO -->
 <section class="view" id="v-diagnostico">
-  <div class="page-head"><div><h1>Diagnóstico económico</h1><p>¿Hay crisis? ¿De qué tipo? ¿Qué sectores sufren y cuáles ganan? La foto de conjunto, con datos.</p></div></div>
+  <div class="page-head"><div><h1>Diagnóstico económico</h1><p>¿Hay crisis? ¿De qué tipo? ¿Qué sectores sufren y cuáles ganan? Primero España, después el mundo. Toca cualquier concepto, tipo de crisis, sector o señal para ver qué es, qué pasa si empeora o mejora y qué situaciones se pueden dar.</p></div></div>
+  <h2 class="block-h">España <small>Actualizado cada lunes</small></h2>
+  <div class="verdict" id="ds-verdict"></div>
+  <h3 class="sub">Semáforo de la economía española <button type="button" class="qi" data-id="k_riesgo">ⓘ Cómo leerlo</button></h3><div class="dash" id="ds-dash"></div>
+  <h3 class="sub">Fortalezas y debilidades <button type="button" class="qi" data-id="k_fortaleza">ⓘ Qué significa</button></h3><div class="sw" id="ds-sw"></div>
+  <h3 class="sub">¿Qué tipo de crisis hay en España?</h3><div class="ct" id="ds-types"></div>
+  <h3 class="sub">Sectores en España</h3><div class="sect" id="ds-sect"></div>
+  <h3 class="sub">Señales de alarma para España</h3><ul class="watch-list" id="ds-watch"></ul>
+  <h2 class="block-h">Mundo</h2>
   <div class="verdict" id="d-verdict"></div>
-  <h3 class="sub">Riesgo de recesión por región</h3><div class="risk" id="d-risk"></div>
+  <h3 class="sub">Riesgo de recesión por región <button type="button" class="qi" data-id="k_riesgo">ⓘ Cómo leerlo</button></h3><div class="risk" id="d-risk"></div>
   <h3 class="sub">¿Qué tipo de crisis hay?</h3><div class="ct" id="d-types"></div>
   <h3 class="sub">Sectores: quién sufre y quién gana</h3><div class="sect" id="d-sect"></div>
-  <h3 class="sub">Señales de alarma a vigilar</h3><div class="panel"><ul class="watch-list" id="d-watch"></ul></div>
+  <h3 class="sub">Señales de alarma a vigilar</h3><ul class="watch-list" id="d-watch"></ul>
   <h3 class="sub">Indicadores internacionales <a href="#economia">Ver en Economía →</a></h3>
   <div class="tiles" id="d-global"></div>
 </section>
@@ -352,6 +387,11 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
 </section>
 
 <!-- ECONOMÍA -->
+<section class="view" id="v-indicadores">
+  <div class="page-head"><div><h1>Indicadores económicos de España</h1><p>Más allá del PIB y el IPC: la curva de tipos (lo que paga el Estado a cada plazo), salarios, empleo, cuentas públicas, actividad, ahorro y banca. Cada tarjeta dice cómo está ahora; tócala para saber qué es, cómo se mide, qué pasa si sube o baja y qué escenarios se pueden dar.</p></div></div>
+  <div id="macro"></div>
+</section>
+
 <section class="view" id="v-economia">
   <div class="page-head"><div><h1>Economía: España y el mundo</h1><p>Los indicadores que mueven los tipos, el empleo y la demanda de vivienda, en España, EE. UU., Europa y Asia. Cada uno muestra el último dato publicado; toca cualquiera para ver cómo interpretarlo.</p></div></div>
   <h3 class="sub">España</h3>
@@ -467,6 +507,7 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
 
 <script src="glossary.js"></script>
 <script src="content.js"></script>
+<script src="explain.js"></script>
 <script>
 (function(){
   const $ = s => document.querySelector(s);
@@ -521,7 +562,7 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
       <div class="chg num ${good}">${chgTxt}</div>
       <div class="meta">${esc(k.detail||"")}</div>
       <div class="meta">${esc(k.date)} · ${esc(k.source)}</div>
-      ${spark(k.history,hc)}${infoLine(k.id)}</button>`; };
+      ${k.situation?`<div class="sit">${esc(k.situation)}</div>`:""}${spark(k.history,hc)}${infoLine(k.id)}</button>`; };
   const reTile = x => { const v=(x.value>0&&x.unit.includes("a/a")?"+":"")+fmt(x.value,x.decimals??0);
     return `${open(x.id,{...x,valTxt:v+" "+x.unit})}
       <div class="lbl">${esc(x.label)}</div>
@@ -608,14 +649,26 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
     // Diagnóstico
     const G = D.diagnosis;
     if(G){
-      const vHTML = (link)=>`<div class="kicker">Diagnóstico de la economía</div><h2>${esc(G.verdict)}</h2><div class="pills"><span>Fase: ${esc(G.phase)}</span><span>Tipo: ${esc(G.type)}</span></div>${link?`<p><a href="#diagnostico">Ver el diagnóstico completo →</a></p>`:`<p>${esc(G.explain)}</p>`}`;
+      const vHTML = (link)=>`<div class="kicker">Diagnóstico de la economía</div><h2>${esc(G.verdict)}</h2><div class="pills"><button type="button" data-id="k_fase">Fase: ${esc(G.phase)} ⓘ</button><button type="button" data-id="k_energia">Tipo: ${esc(G.type)} ⓘ</button></div>${link?`<p><a href="#diagnostico">Ver el diagnóstico completo →</a></p>`:`<p>${esc(G.explain)}</p>`}`;
       $("#p-verdict").innerHTML = vHTML(true); $("#d-verdict").innerHTML = vHTML(false);
       $("#d-risk").innerHTML = G.regions.map(r=>`<div class="r"><b>${esc(r.name)}</b> <span class="muted" style="font-size:13px">· riesgo ${esc(r.risk).toLowerCase()}</span><div class="meter" aria-hidden="true"><i style="left:${r.score}%"></i></div><small>Crecimiento: ${esc(r.growth)}</small><small>Inflación: ${esc(r.inflation)}</small></div>`).join("");
       const stl = {yes:"Sí",partial:"Parcial / riesgo",no:"No"};
-      $("#d-types").innerHTML = G.crisis_types.map(c=>`<div><span class="st ${esc(c.status)}">${stl[c.status]||esc(c.status)}</span><b>${esc(c.type)}</b><span class="muted" style="font-size:14px">${esc(c.text)}</span></div>`).join("");
+      const reg = (id,label,valTxt,why,title) => { if(id) ITEMS[id] = Object.assign({}, ITEMS[id]||{}, {label,valTxt,why,whyTitle:title}); };
+      const sectL = {grave:"Grave",presion:"Bajo presión",resiste:"Resiste",gana:"Gana"};
+      const types = (el,arr,where) => { $(el).innerHTML = arr.map(c=>{ reg(c.id,c.type,(stl[c.status]||c.status)+" "+where,c.text,"Situación actual"); return `<button type="button" class="c" ${c.id?`data-id="${esc(c.id)}"`:""}><span class="st ${esc(c.status)}">${stl[c.status]||esc(c.status)}</span><b>${esc(c.type)}</b><span class="muted" style="font-size:14px">${esc(c.text)}</span><span class="more">Qué es y qué puede pasar →</span></button>`; }).join(""); };
+      const sects = (el,arr,where) => { $(el).innerHTML = cols.map(([k,l])=>`<div class="col ${k}"><h4>${l}</h4>${arr.filter(x=>x.status===k).map(x=>{ reg(x.id,x.name,sectL[k]+" "+where,x.why,"Situación actual"); return `<button type="button" class="sx" ${x.id?`data-id="${esc(x.id)}"`:""}><b>${esc(x.name)}</b>${esc(x.why)}</button>`; }).join("")}</div>`).join(""); };
+      const watch = (el,arr) => { $(el).innerHTML = arr.map(w=>{ const t = typeof w==="string"?w:w.text, id = typeof w==="string"?"":w.id; return `<li><button type="button" ${id?`data-id="${esc(id)}"`:""}><span>${esc(t)}</span>${id?'<span class="more">ⓘ</span>':""}</button></li>`; }).join(""); };
       const cols = [["grave","Grave"],["presion","Bajo presión"],["resiste","Resiste"],["gana","Gana"]];
-      $("#d-sect").innerHTML = cols.map(([k,l])=>`<div class="col ${k}"><h4>${l}</h4>${G.sectors.filter(x=>x.status===k).map(x=>`<p><b>${esc(x.name)}</b>${esc(x.why)}</p>`).join("")}</div>`).join("");
-      $("#d-watch").innerHTML = G.watch.map(w=>`<li>${esc(w)}</li>`).join("");
+      types("#d-types",G.crisis_types,"en el mundo"); sects("#d-sect",G.sectors,"en el mundo"); watch("#d-watch",G.watch);
+      const S = G.spain;
+      if(S){
+        $("#ds-verdict").innerHTML = `<div class="kicker">Diagnóstico de España</div><h2>${esc(S.verdict)}</h2><div class="pills"><button type="button" data-id="k_fase">Fase: ${esc(S.phase)} ⓘ</button><button type="button" data-id="k_riesgo">Riesgo de recesión: ${esc(S.risk)} ⓘ</button></div><p>${esc(S.type)}</p><p>${esc(S.explain)}</p>`;
+        $("#ds-dash").innerHTML = S.dashboard.map(x=>`<button type="button" class="${esc(x.status)}" data-id="${esc(x.id)}"><small>${esc(x.label)}</small><b>${esc(x.value)}</b></button>`).join("");
+        const swc = (arr,cl,t) => `<div class="col ${cl}"><h4>${t}</h4>${arr.map(x=>`<button type="button" data-id="${esc(x.id)}"><b>${esc(x.t)}</b>${esc(x.d)}</button>`).join("")}</div>`;
+        $("#ds-sw").innerHTML = swc(S.strengths,"","Fortalezas") + swc(S.weaknesses,"weak","Debilidades");
+        $("#p-verdict").innerHTML = `<div class="kicker">Diagnóstico: España y mundo</div><h2>${esc(S.verdict)}</h2><div class="pills"><button type="button" data-id="k_fase">España: ${esc(S.phase)} ⓘ</button><button type="button" data-id="k_fase">Mundo: ${esc(G.phase)} ⓘ</button></div><p><a href="#diagnostico">Ver el diagnóstico completo →</a> · <a href="#indicadores">Indicadores de España →</a></p>`;
+        types("#ds-types",S.crisis_types,"en España"); sects("#ds-sect",S.sectors,"en España"); watch("#ds-watch",S.watch);
+      }
     } else { $("#p-verdict").remove(); }
 
     // Indicadores globales
@@ -623,6 +676,22 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
     $("#global-regions").innerHTML = GLB.map(r=>`<section class="region"><header><h3>${esc(r.region)}</h3><p>${esc(r.summary)}</p></header><div class="tiles">${r.items.map(kpiTile).join("")}</div></section>`).join("");
     const keyG = ["us_gdp","us_cpi","fed_rate","ez_gdp","ez_hicp","ez_pmi","cn_gdp","uk_rate"];
     $("#d-global").innerHTML = GLB.flatMap(r=>r.items).filter(x=>keyG.includes(x.id)).map(kpiTile).join("");
+
+    // Indicadores macro
+    const MC = D.macro;
+    if(MC){
+      let h = "";
+      if(MC.curve){ const pts=MC.curve.points, W=640, H=230, pl=46, pr=16, pt=18, pb=34;
+        const lx = y => Math.log(y+0.5), xs = pts.map(p=>lx(p.years)), x0=Math.min(...xs), x1=Math.max(...xs);
+        const vs = pts.map(p=>p.value), v0=Math.floor((Math.min(...vs)-0.2)*2)/2, v1=Math.ceil((Math.max(...vs)+0.2)*2)/2;
+        const X = y => pl+(lx(y)-x0)/(x1-x0)*(W-pl-pr), Y = v => pt+(v1-v)/(v1-v0)*(H-pt-pb);
+        let grid=""; for(let v=v0; v<=v1+1e-9; v+=0.5) grid+=`<line x1="${pl}" x2="${W-pr}" y1="${Y(v)}" y2="${Y(v)}" stroke="var(--line)"/><text x="${pl-8}" y="${Y(v)+4}" text-anchor="end" font-size="11" fill="var(--muted)">${fmt(v,1)} %</text>`;
+        const path = pts.map((p,i)=>`${i?"L":"M"}${X(p.years).toFixed(1)},${Y(p.value).toFixed(1)}`).join(" ");
+        const dots = pts.map(p=>`<circle cx="${X(p.years)}" cy="${Y(p.value)}" r="4.5" fill="var(--accent)"/><text x="${X(p.years)}" y="${Y(p.value)-10}" text-anchor="middle" font-size="12" font-weight="600" fill="var(--ink)">${fmt(p.value,2)}</text><text x="${X(p.years)}" y="${H-12}" text-anchor="middle" font-size="12" fill="var(--muted)">${esc(p.plazo)}</text>`).join("");
+        h += `<h3 class="sub">La curva de tipos española <button type="button" class="qi" data-id="curva">ⓘ Qué es la curva de tipos</button></h3><div class="curve"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="Curva de tipos: ${pts.map(p=>p.plazo+" "+fmt(p.value,2)+" %").join(", ")}">${grid}<path d="${path}" fill="none" stroke="var(--accent)" stroke-width="2.5"/>${dots}</svg><p>${esc(MC.curve.read)}</p><p style="font-size:12px">${esc(MC.curve.date)}. Escala horizontal logarítmica.</p></div>`; }
+      h += MC.groups.map(gr=>`<h3 class="sub">${esc(gr.group)}${gr.id?` <button type="button" class="qi" data-id="${esc(gr.id)}">ⓘ Explicación</button>`:""}</h3>${gr.intro?`<p class="hint" style="margin:-4px 0 10px">${esc(gr.intro)}</p>`:""}<div class="tiles">${gr.items.map(kpiTile).join("")}</div>`).join("");
+      $("#macro").innerHTML = h;
+    }
 
     // Marco regulatorio
     $("#rules").innerHTML = (D.rules||[]).map(r=>`<div class="rule"><header><b>${esc(r.name)}</b><span class="st ${r.status==="Decaído"?"off":"on"}">${esc(r.status)}</span></header><span class="pill" style="justify-self:start">${esc(r.scope)}</span><p>${esc(r.text)}</p><a href="${esc(r.url)}" target="_blank" rel="noopener">Ver detalle ↗</a></div>`).join("");
@@ -721,13 +790,14 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
       h += `<div class="cat">${esc(g?g.cat:"Dato")}</div><h2 id="dr-title">${esc(g?g.name:it.label)}</h2>`;
       if(it.valTxt) h += `<div><div class="big num">${esc(it.valTxt)}</div>${it.chgTxt?`<div class="chg num ${it.chgCls||cls(it.chg)}">${esc(it.chgTxt)}</div>`:""}${it.detail?`<div style="color:var(--muted);font-size:13px">${esc(it.detail)}</div>`:""}</div>`;
       if(it.history && it.history.length>1) h += `<div class="chart">${spark(it.history, it.chgCls&&it.chgCls!=="flat"?"--"+it.chgCls:lineColor(it.history))}</div><div style="color:var(--muted);font-size:12px;margin-top:-8px">Últimos ${it.history.length} registros</div>`;
-      if(it.why) h += `<div class="box today-why"><h3>Por qué se mueve ahora</h3><p>${esc(it.why)}</p></div>`;
+      if(it.situation) h += `<div class="box now"><h3>Cómo está ahora</h3><p>${esc(it.situation)}</p></div>`;
+      if(it.why) h += `<div class="box today-why"><h3>${esc(it.whyTitle||"Por qué se mueve ahora")}</h3><p>${esc(it.why)}</p></div>`;
       const LV = (window.LEVELS||{})[id];
       if(LV){ const v = typeof it.value==="number" ? it.value : null;
         const parseR = t => { const m = t.replace(/−/g,"-").replace(/\./g,"").replace(/,/g,".").match(/-?\d+(\.\d+)?/g)||[]; return m.map(Number); };
         const cur = i => { if(v==null) return false; const t=LV[i][0]; const nums=parseR(t); if(/Menos/.test(t)) return v<nums[0]; if(/Más/.test(t)) return v>=nums[0]; return nums.length>=2 && v>=nums[0] && v<nums[1]; };
         h += `<div class="box"><h3>Cómo interpretarlo</h3><table class="lv">${LV.map((l,i)=>`<tr class="${cur(i)?"cur":""}"><td>${esc(l[0])}</td><td>${esc(l[1])}${cur(i)?" ← ahora":""}</td></tr>`).join("")}</table></div>`; }
-      if(g){ h += `<div class="box"><h3>Qué es</h3><p>${esc(g.what)}</p></div><div class="updown"><div class="box u"><h3>Si sube ↑</h3><p>${esc(g.up)}</p></div><div class="box d"><h3>Si baja ↓</h3><p>${esc(g.down)}</p></div></div><div class="box you"><h3>Qué significa para ti</h3><p>${esc(g.you)}</p></div>`; }
+      if(g){ h += `<div class="box"><h3>Qué es</h3><p>${esc(g.what)}</p></div>${g.how?`<div class="box"><h3>Cómo se mide</h3><p>${esc(g.how)}</p></div>`:""}<div class="updown"><div class="box u"><h3>Si sube ↑</h3><p>${esc(g.up)}</p></div><div class="box d"><h3>Si baja ↓</h3><p>${esc(g.down)}</p></div></div><div class="box you"><h3>Qué significa para ti</h3><p>${esc(g.you)}</p></div>${g.scen&&g.scen.length?`<div class="box scen"><h3>Situaciones que se pueden dar</h3><ul>${g.scen.map(x=>`<li><b>${esc(x[0])}.</b> ${esc(x[1])}</li>`).join("")}</ul></div>`:""}`; }
       if(it.url) h += `<div class="src"><a href="${esc(it.url)}" target="_blank" rel="noopener">Fuente: ${esc(it.source||"ver dato")}${it.date?" · "+esc(it.date):""} ↗</a></div>`;
     }
     $("#dr-body").innerHTML = h; lastFocus = document.activeElement;
@@ -742,7 +812,7 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
       if(e.shiftKey && document.activeElement===first){e.preventDefault();last.focus()} else if(!e.shiftKey && document.activeElement===last){e.preventDefault();first.focus()} } });
 
   /* ---------- Navegación por pestañas ---------- */
-  const VIEWS = ["portada","diagnostico","noticias","mercados","economia","inmobiliario","barcelona","escenarios","previsiones","agenda","aprende"];
+  const VIEWS = ["portada","diagnostico","noticias","mercados","economia","indicadores","inmobiliario","barcelona","escenarios","previsiones","agenda","aprende"];
   function route(){ const h = location.hash.replace("#",""); const v = VIEWS.includes(h) ? h : "portada";
     document.querySelectorAll(".view").forEach(s=>s.classList.toggle("active", s.id==="v-"+v));
     document.querySelectorAll("#nav a").forEach(a=>{ if(a.getAttribute("href")==="#"+v) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });

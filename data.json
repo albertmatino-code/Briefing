@@ -2026,97 +2026,943 @@
       {
         "type": "Crisis energética / de oferta",
         "status": "yes",
-        "text": "Sí. Petróleo y gas caros por la guerra de Irán: es el origen de todo lo demás."
+        "text": "Sí. Petróleo y gas caros por la guerra de Irán: es el origen de todo lo demás.",
+        "id": "k_energia"
       },
       {
         "type": "Estanflación",
         "status": "partial",
-        "text": "Riesgo en Europa: inflación del 4 % con crecimiento casi nulo en Francia e Italia. España y EE. UU. siguen creciendo."
+        "text": "Riesgo en Europa: inflación del 4 % con crecimiento casi nulo en Francia e Italia. España y EE. UU. siguen creciendo.",
+        "id": "k_estanflacion"
       },
       {
         "type": "Recesión",
         "status": "no",
-        "text": "No. Ninguna gran economía encadena dos trimestres de caída del PIB."
+        "text": "No. Ninguna gran economía encadena dos trimestres de caída del PIB.",
+        "id": "k_recesion"
       },
       {
         "type": "Crisis financiera o bancaria",
         "status": "no",
-        "text": "No. La banca es rentable con tipos altos y la morosidad está en mínimos."
+        "text": "No. La banca es rentable con tipos altos y la morosidad está en mínimos.",
+        "id": "k_financiera"
       },
       {
         "type": "Burbuja inmobiliaria",
         "status": "no",
-        "text": "No en sentido clásico: los precios suben por falta de oferta, no por crédito fácil. Las compraventas ya caen."
+        "text": "No en sentido clásico: los precios suben por falta de oferta, no por crédito fácil. Las compraventas ya caen.",
+        "id": "k_burbuja"
       },
       {
         "type": "Corrección en tecnología y cripto",
         "status": "partial",
-        "text": "Sí en curso: bitcoin −50 % desde máximos y dudas sobre las valoraciones de la IA tras la crisis de Nvidia."
+        "text": "Sí en curso: bitcoin −50 % desde máximos y dudas sobre las valoraciones de la IA tras la crisis de Nvidia.",
+        "id": "k_correccion"
       }
     ],
     "sectors": [
       {
         "name": "Industria intensiva en energía",
         "status": "grave",
-        "why": "Química, acero, cerámica o papel son los más golpeados por el coste de la energía, según CaixaBank Research."
+        "why": "Química, acero, cerámica o papel son los más golpeados por el coste de la energía, según CaixaBank Research.",
+        "id": "s_industria"
       },
       {
         "name": "Criptomonedas",
         "status": "grave",
-        "why": "Bitcoin cae casi un 50 % desde su máximo; salidas de los ETF y liquidaciones."
+        "why": "Bitcoin cae casi un 50 % desde su máximo; salidas de los ETF y liquidaciones.",
+        "id": "s_cripto"
       },
       {
         "name": "Tecnología y semiconductores",
         "status": "presion",
-        "why": "La salida de Jensen Huang y las dudas sobre la IA castigan a Nvidia, AMD y Broadcom."
+        "why": "La salida de Jensen Huang y las dudas sobre la IA castigan a Nvidia, AMD y Broadcom.",
+        "id": "s_tech"
       },
       {
         "name": "Transporte y aerolíneas",
         "status": "presion",
-        "why": "El combustible caro aprieta márgenes."
+        "why": "El combustible caro aprieta márgenes.",
+        "id": "s_transporte"
       },
       {
         "name": "Promoción y construcción",
         "status": "presion",
-        "why": "Costes, falta de suelo y de mano de obra frenan la oferta nueva."
+        "why": "Costes, falta de suelo y de mano de obra frenan la oferta nueva.",
+        "id": "s_promocion"
       },
       {
         "name": "Vivienda (actividad)",
         "status": "presion",
-        "why": "Compraventas −5,9 % por las hipotecas más caras; los precios aguantan."
+        "why": "Compraventas −5,9 % por las hipotecas más caras; los precios aguantan.",
+        "id": "s_vivienda"
       },
       {
         "name": "Servicios y consumo interno",
         "status": "resiste",
-        "why": "Menos expuestos a la energía; el empleo en récord sostiene el gasto."
+        "why": "Menos expuestos a la energía; el empleo en récord sostiene el gasto.",
+        "id": "s_consumo"
       },
       {
         "name": "Turismo",
         "status": "resiste",
-        "why": "Buena temporada; España se ve como destino seguro frente a Oriente Medio."
+        "why": "Buena temporada; España se ve como destino seguro frente a Oriente Medio.",
+        "id": "s_turismo"
       },
       {
         "name": "Energía y petroleras",
         "status": "gana",
-        "why": "El crudo a 95 $ impulsa beneficios (Repsol +3,3 % el viernes)."
+        "why": "El crudo a 95 $ impulsa beneficios (Repsol +3,3 % el viernes).",
+        "id": "s_energia"
       },
       {
         "name": "Banca",
         "status": "gana",
-        "why": "Los tipos altos elevan el margen de intereses; resultados fuertes en Europa."
+        "why": "Los tipos altos elevan el margen de intereses; resultados fuertes en Europa.",
+        "id": "s_banca"
       },
       {
         "name": "Defensa e infraestructuras",
         "status": "gana",
-        "why": "El gasto público alemán en defensa sostiene la industria."
+        "why": "El gasto público alemán en defensa sostiene la industria.",
+        "id": "s_defensa"
       }
     ],
     "watch": [
-      "Brent por encima de 110 $ → el riesgo de recesión en Europa se dispara.",
-      "Inflación subyacente: si sube, la inflación se 'contagia' a salarios y servicios.",
-      "PMI por debajo de 50 en la eurozona → contracción.",
-      "Bono a 10 años de EE. UU. por encima del 5,5 % → presión sobre bolsas y vivienda.",
-      "Paro en EE. UU. por encima del 4,5 % → enfriamiento serio."
+      {
+        "text": "Brent por encima de 110 $ → el riesgo de recesión en Europa se dispara.",
+        "id": "brent"
+      },
+      {
+        "text": "Inflación subyacente: si sube, la inflación se 'contagia' a salarios y servicios.",
+        "id": "ipc_sub"
+      },
+      {
+        "text": "PMI por debajo de 50 en la eurozona → contracción.",
+        "id": "ez_pmi"
+      },
+      {
+        "text": "Bono a 10 años de EE. UU. por encima del 5,5 % → presión sobre bolsas y vivienda.",
+        "id": "us10y"
+      },
+      {
+        "text": "Paro en EE. UU. por encima del 4,5 % → enfriamiento serio.",
+        "id": "us_unemp"
+      }
+    ],
+    "spain": {
+      "verdict": "España crece más que Europa y bate récords de empleo, pero la inflación alta se come la subida de los sueldos y no queda margen fiscal. No hay crisis: hay pérdida de poder adquisitivo y tensión en vivienda.",
+      "phase": "Expansión tardía: empleo fuerte, precios y tipos al alza",
+      "type": "Sin crisis general. Riesgo de estanflación importada por la energía y crisis de acceso a la vivienda.",
+      "explain": "El motor es el empleo (22,6 millones de afiliados), los servicios y el turismo, que siguen en máximos. El punto débil son los precios: la inflación general está en el 4,9 % y la subyacente en el 3,1 %, casi un punto por encima de la media europea. Los sueldos suben al mismo ritmo que los precios, así que las familias no ganan poder de compra y ahorran menos. Las cuentas públicas mejoran en porcentaje por el crecimiento, pero el déficit vuelve a subir por las ayudas energéticas y España incumplirá las reglas fiscales europeas. Las elecciones del 29-N añaden incertidumbre sobre impuestos y vivienda.",
+      "risk": "Bajo",
+      "score": 25,
+      "dashboard": [
+        {
+          "label": "Crecimiento",
+          "value": "+0,6 % trim.",
+          "status": "good",
+          "id": "pib"
+        },
+        {
+          "label": "Empleo",
+          "value": "22,62 M afiliados",
+          "status": "good",
+          "id": "afiliacion"
+        },
+        {
+          "label": "Paro (EPA)",
+          "value": "10,18 %",
+          "status": "warn",
+          "id": "paro"
+        },
+        {
+          "label": "Inflación",
+          "value": "4,9 %",
+          "status": "bad",
+          "id": "ipc"
+        },
+        {
+          "label": "Subyacente",
+          "value": "3,1 %",
+          "status": "warn",
+          "id": "ipc_sub"
+        },
+        {
+          "label": "Poder adquisitivo",
+          "value": "≈ 0 pp",
+          "status": "warn",
+          "id": "poder_adq"
+        },
+        {
+          "label": "Deuda pública",
+          "value": "99,9 % PIB",
+          "status": "warn",
+          "id": "deuda"
+        },
+        {
+          "label": "Déficit 2026",
+          "value": "2,8 % PIB",
+          "status": "warn",
+          "id": "deficit"
+        },
+        {
+          "label": "Prima de riesgo",
+          "value": "65 pb",
+          "status": "good",
+          "id": "prima"
+        },
+        {
+          "label": "Morosidad",
+          "value": "2,54 %",
+          "status": "good",
+          "id": "morosidad"
+        },
+        {
+          "label": "Ahorro hogares",
+          "value": "11,0 %",
+          "status": "warn",
+          "id": "ahorro"
+        },
+        {
+          "label": "Precio vivienda",
+          "value": "+12,9 % anual",
+          "status": "bad",
+          "id": "ipv"
+        }
+      ],
+      "strengths": [
+        {
+          "t": "Empleo en récord",
+          "d": "22,62 millones de afiliados en octubre, el mayor octubre de la serie.",
+          "id": "afiliacion"
+        },
+        {
+          "t": "Servicios y turismo",
+          "d": "PMI de servicios en 57,2 y gasto turístico +8,1 % en septiembre.",
+          "id": "pmi_serv"
+        },
+        {
+          "t": "Banca sana",
+          "d": "Morosidad en mínimos desde 2008: el crédito fluye.",
+          "id": "morosidad"
+        },
+        {
+          "t": "Confianza de los mercados",
+          "d": "Prima de riesgo baja pese a una deuda cercana al 100 %.",
+          "id": "prima"
+        },
+        {
+          "t": "Pensiones más holgadas",
+          "d": "2,51 cotizantes por pensionista, máximo desde 2011.",
+          "id": "ratio_pens"
+        }
+      ],
+      "weaknesses": [
+        {
+          "t": "Inflación enquistada",
+          "d": "Subyacente del 3,1 % frente al 2,2 % de la UE: el mayor diferencial en 20 años.",
+          "id": "ipc_sub"
+        },
+        {
+          "t": "Sueldos que solo empatan con los precios",
+          "d": "El coste salarial sube un 4,9 %, igual que el IPC: no hay ganancia real.",
+          "id": "poder_adq"
+        },
+        {
+          "t": "Familias con menos colchón",
+          "d": "Tasa de ahorro del 11 %, a la baja: el consumo crece más que la renta.",
+          "id": "ahorro"
+        },
+        {
+          "t": "Sin margen fiscal",
+          "d": "Déficit previsto del 2,8 % y deuda en torno al 100 %; la AIReF avisa de que se incumplirán las reglas europeas.",
+          "id": "deficit"
+        },
+        {
+          "t": "Vivienda inaccesible",
+          "d": "Precios +12,9 % en un año con salarios +5 %: crisis de acceso y más regulación.",
+          "id": "k_vivienda"
+        }
+      ],
+      "crisis_types": [
+        {
+          "type": "Crisis energética / de oferta",
+          "id": "k_energia",
+          "status": "partial",
+          "text": "Golpea vía precios (luz, carburantes, gas), pero las renovables amortiguan más que en Alemania o Italia."
+        },
+        {
+          "type": "Estanflación",
+          "id": "k_estanflacion",
+          "status": "partial",
+          "text": "Riesgo, no realidad: la inflación es alta pero el crecimiento sigue siendo sólido."
+        },
+        {
+          "type": "Recesión",
+          "id": "k_recesion",
+          "status": "no",
+          "text": "PIB +0,6 % trimestral y PMI compuesto en 56: lejos de una contracción."
+        },
+        {
+          "type": "Crisis financiera o bancaria",
+          "id": "k_financiera",
+          "status": "no",
+          "text": "Morosidad del 2,54 % y bancos con beneficios récord."
+        },
+        {
+          "type": "Crisis fiscal o de deuda",
+          "id": "k_deuda",
+          "status": "no",
+          "text": "Prima en mínimos desde 2009; el riesgo es a medio plazo, por el déficit estructural."
+        },
+        {
+          "type": "Burbuja inmobiliaria",
+          "id": "k_burbuja",
+          "status": "partial",
+          "text": "Precios a doble dígito, pero por escasez de oferta y con crédito prudente: tensión, no burbuja de crédito."
+        },
+        {
+          "type": "Crisis de acceso a la vivienda",
+          "id": "k_vivienda",
+          "status": "yes",
+          "text": "Sí: precios y alquileres crecen el doble que los sueldos; motiva el RDL 29/2026 y la campaña electoral."
+        }
+      ],
+      "sectors": [
+        {
+          "name": "Industria intensiva en energía",
+          "id": "s_industria",
+          "status": "grave",
+          "why": "Cerámica, química y siderurgia sufren el gas caro."
+        },
+        {
+          "name": "Transporte y aerolíneas",
+          "id": "s_transporte",
+          "status": "presion",
+          "why": "El combustible encarece costes; el turismo compensa por ahora."
+        },
+        {
+          "name": "Vivienda (actividad)",
+          "id": "s_vivienda",
+          "status": "presion",
+          "why": "Tipos altos y nuevas limitaciones a fondos y grandes tenedores frenan operaciones."
+        },
+        {
+          "name": "Promoción y construcción",
+          "id": "s_promocion",
+          "status": "resiste",
+          "why": "Costes altos, pero el empleo en construcción crece un 7,3 % anual."
+        },
+        {
+          "name": "Servicios y consumo interno",
+          "id": "s_consumo",
+          "status": "resiste",
+          "why": "El empleo récord sostiene el gasto pese a la inflación."
+        },
+        {
+          "name": "Turismo",
+          "id": "s_turismo",
+          "status": "gana",
+          "why": "Récord de llegadas y de gasto; rumbo a más de 100 millones de turistas."
+        },
+        {
+          "name": "Banca",
+          "id": "s_banca",
+          "status": "gana",
+          "why": "Tipos altos y morosidad mínima."
+        },
+        {
+          "name": "Energía y petroleras",
+          "id": "s_energia",
+          "status": "gana",
+          "why": "Precios altos de la energía y peso de las renovables."
+        }
+      ],
+      "watch": [
+        {
+          "text": "Inflación subyacente por encima del 3,5 % → inflación enquistada y más subidas del BCE.",
+          "id": "ipc_sub"
+        },
+        {
+          "text": "Afiliación cayendo dos meses seguidos (sin estacionalidad) → fin del motor del empleo.",
+          "id": "afiliacion"
+        },
+        {
+          "text": "Prima de riesgo por encima de 150 pb tras las elecciones → dudas sobre las cuentas.",
+          "id": "prima"
+        },
+        {
+          "text": "Tasa de ahorro por debajo del 10 % → familias al límite.",
+          "id": "ahorro"
+        },
+        {
+          "text": "Euríbor por encima del 3,5 % → frenazo de compraventas.",
+          "id": "euribor12m"
+        },
+        {
+          "text": "PMI compuesto por debajo de 52 → la economía empieza a enfriarse.",
+          "id": "pmi_comp"
+        }
+      ]
+    }
+  },
+  "macro": {
+    "updated": "2026-11-15",
+    "curve": {
+      "date": "Noviembre 2026 (últimas subastas y mercado)",
+      "points": [
+        {
+          "plazo": "6 m",
+          "years": 0.5,
+          "value": 2.845
+        },
+        {
+          "plazo": "12 m",
+          "years": 1,
+          "value": 3.068
+        },
+        {
+          "plazo": "5 a",
+          "years": 5,
+          "value": 3.008
+        },
+        {
+          "plazo": "10 a",
+          "years": 10,
+          "value": 3.944
+        },
+        {
+          "plazo": "15 a",
+          "years": 15,
+          "value": 4.101
+        },
+        {
+          "plazo": "30 a",
+          "years": 30,
+          "value": 4.29
+        }
+      ],
+      "read": "La curva tiene pendiente positiva: prestar a 10 años cuesta casi un punto más que a 1 año. No hay inversión, así que el mercado no descuenta una recesión en España. La parte corta ha subido desde el verano porque se espera que el BCE suba tipos en diciembre."
+    },
+    "groups": [
+      {
+        "group": "Curva de tipos: lo que paga el Estado a cada plazo",
+        "id": "curva",
+        "intro": "Toca cada plazo para ver qué es y cómo afecta a hipotecas e inversión. La curva completa está en el gráfico.",
+        "items": [
+          {
+            "id": "letras6m",
+            "label": "Letras a 6 meses",
+            "value": 2.845,
+            "unit": "%",
+            "decimals": 3,
+            "change": 0.047,
+            "change_unit": "pp",
+            "date": "Subasta 3/11/2026",
+            "detail": "",
+            "source": "Tesoro / Raisin",
+            "url": "https://www.raisin.com/es-es/noticias/letras-tesoro-6-12-meses-rentabilidad-noviembre/",
+            "history": [
+              2.409,
+              2.798,
+              2.845
+            ],
+            "good_when": "down",
+            "why": "Sube por tercer mes porque el mercado descuenta una subida del BCE en diciembre.",
+            "situation": "Encarecido: del 2,41 % de julio al 2,85 %. El dinero a corto plazo es más caro que hace seis meses."
+          },
+          {
+            "id": "letras12m",
+            "label": "Letras a 12 meses",
+            "value": 3.068,
+            "unit": "%",
+            "decimals": 3,
+            "change": 0.042,
+            "change_unit": "pp",
+            "date": "Subasta 3/11/2026",
+            "detail": "",
+            "source": "Tesoro / Finect",
+            "url": "https://www.finect.com/usuario/eduardogarcia/articulos/la-rentabilidad-de-las-letras-del-tesoro-a-12-meses-x-al-x",
+            "history": [
+              2.523,
+              3.026,
+              3.068
+            ],
+            "good_when": "down",
+            "why": "Máximo desde julio de 2024: anticipa un Euríbor que seguirá por encima del 3 %.",
+            "situation": "Por encima del 3 % por primera vez en más de dos años. Compite con la rentabilidad neta de un piso en alquiler."
+          },
+          {
+            "id": "bono5",
+            "label": "Bono a 5 años",
+            "value": 3.008,
+            "unit": "%",
+            "decimals": 3,
+            "change": 0.168,
+            "change_unit": "pp",
+            "date": "Subasta 6/8/2026",
+            "detail": "",
+            "source": "Tesoro / Bolsamanía",
+            "url": "https://www.bolsamania.com/noticias_print/economia/tesoro-coloca-6043-millones-deuda-medio-largo-plazo--23203069.html",
+            "history": [
+              2.84,
+              3.008
+            ],
+            "good_when": "down",
+            "why": "La última subasta a 5 años subió del 2,84 % al 3,01 %.",
+            "situation": "En torno al 3 %: hipotecas fijas a plazo medio alrededor del 3-3,5 %."
+          },
+          {
+            "id": "bono10",
+            "label": "Bono a 10 años",
+            "value": 3.944,
+            "unit": "%",
+            "decimals": 3,
+            "change": null,
+            "change_unit": null,
+            "date": "13/11/2026",
+            "detail": "",
+            "source": "Mercado",
+            "url": "https://www.idealista.com/news/taxonomy/term/17056",
+            "history": [],
+            "good_when": null,
+            "why": "La referencia de la curva; ver también la prima de riesgo.",
+            "situation": "Rango normal (3-4,5 %); con una prima de riesgo baja frente a Alemania."
+          },
+          {
+            "id": "bono15",
+            "label": "Obligación a 15 años",
+            "value": 4.101,
+            "unit": "%",
+            "decimals": 3,
+            "change": null,
+            "change_unit": null,
+            "date": "Subasta 5/11/2026",
+            "detail": "",
+            "source": "Tesoro / Finect",
+            "url": "https://www.finect.com/usuario/eduardogarcia/articulos/la-rentabilidad-de-las-obligaciones-del-tesoro-a-15-anos-sube-al-4101",
+            "history": [],
+            "good_when": "down",
+            "why": "En la subasta del 5 de noviembre superó el 4 %.",
+            "situation": "Por encima del 4 %: los inversores piden más por prestar a muy largo plazo."
+          },
+          {
+            "id": "bono30",
+            "label": "Obligación a 30 años",
+            "value": 4.29,
+            "unit": "%",
+            "decimals": 3,
+            "change": 0.31,
+            "change_unit": "pp",
+            "date": "Subasta 16/7/2026",
+            "detail": "",
+            "source": "Tesoro / Raisin",
+            "url": "https://www.raisin.com/es-es/noticias/la-rentabilidad-de-los-bonos-del-estado-sube-en-todos-los-plazos/",
+            "history": [
+              3.98,
+              4.29
+            ],
+            "good_when": "down",
+            "why": "Subió del 3,98 % al 4,29 % en la última subasta a 30 años.",
+            "situation": "En la parte alta del rango reciente: inflación esperada alta a largo plazo."
+          },
+          {
+            "id": "pendiente",
+            "label": "Pendiente 10 a − 12 m",
+            "value": 0.876,
+            "unit": " pp",
+            "decimals": 2,
+            "change": null,
+            "change_unit": null,
+            "date": "Noviembre 2026",
+            "detail": "",
+            "source": "Cálculo propio",
+            "url": "https://www.finect.com/usuario/eduardogarcia/articulos/la-rentabilidad-de-las-letras-del-tesoro-a-12-meses-x-al-x",
+            "history": [],
+            "good_when": "up",
+            "why": "Se ha aplanado algo porque el corto plazo sube más que el largo.",
+            "situation": "Positiva: no hay señal de recesión. Se aplanaría si el BCE sube mucho los tipos."
+          }
+        ]
+      },
+      {
+        "group": "Salarios y empleo",
+        "intro": "Cuánto se gana, cómo evoluciona frente a los precios y cuánta gente trabaja.",
+        "items": [
+          {
+            "id": "salario_medio",
+            "label": "Salario medio bruto",
+            "value": 29540,
+            "unit": "€/año",
+            "decimals": 0,
+            "change": 5.3,
+            "change_unit": "%",
+            "date": "2024 (publicado 28/5/2026)",
+            "detail": "País Vasco 35.170 € · Extremadura 24.979 €",
+            "source": "INE · Encuesta de Estructura Salarial",
+            "url": "https://www.bolsamania.com/noticias_amp/economia/economialaboral--el-salario-mas-frecuente-en-espana-alcanza-los-16520-euros-tras-la-subida-del-smi--22566287.html",
+            "history": [],
+            "good_when": "up",
+            "why": "Undécimo año seguido de subidas.",
+            "situation": "Unos 2.110 € brutos al mes en 14 pagas. Hombres 32.058 €, mujeres 26.905 €. El 63 % de los asalariados cobra menos que la media."
+          },
+          {
+            "id": "salario_moda",
+            "label": "Salario más frecuente",
+            "value": 16520,
+            "unit": "€/año",
+            "decimals": 0,
+            "change": null,
+            "change_unit": null,
+            "date": "2024",
+            "detail": "",
+            "source": "INE · Encuesta de Estructura Salarial",
+            "url": "https://www.que.es/2026/07/17/salario-medio-espana-2026-ccoo/",
+            "history": [],
+            "good_when": "up",
+            "why": "Empujado por las subidas del SMI.",
+            "situation": "Muy por debajo de la media (29.540 €): la mayoría de trabajadores cobra cerca del salario mínimo."
+          },
+          {
+            "id": "smi",
+            "label": "Salario mínimo (SMI)",
+            "value": 1221,
+            "unit": "€/mes",
+            "decimals": 0,
+            "change": 3.1,
+            "change_unit": "%",
+            "date": "2026 · RD 126/2026",
+            "detail": "17.094 € al año",
+            "source": "BOE / Deia",
+            "url": "https://www.deia.eus/economia/2026/02/17/gobierno-espanol-da-luz-verde-10711068.amp.html",
+            "history": [],
+            "good_when": "up",
+            "why": "Subida del 3,1 % aprobada en febrero con efectos desde enero.",
+            "situation": "1.221 € en 14 pagas: 17.094 € al año o 40,70 € al día. Mantiene el objetivo del 60 % del salario medio."
+          },
+          {
+            "id": "coste_salarial",
+            "label": "Coste salarial",
+            "value": 2403.8,
+            "unit": "€/mes",
+            "decimals": 0,
+            "change": 4.9,
+            "change_unit": "%",
+            "date": "1T 2026",
+            "detail": "",
+            "source": "INE · ETCL (vía Infobae)",
+            "url": "https://www.infobae.com/espana/2026/06/30/los-hogares-espanoles-ingresan-mas-pero-ahorran-un-115-menos-el-consumo-de-las-familias-crece-por-encima-de-su-renta/",
+            "history": [],
+            "good_when": "up",
+            "why": "El dato salarial más reciente: sube a ritmo récord en 26 años.",
+            "situation": "Los sueldos crecen un 4,9 % anual, al mismo ritmo que la inflación."
+          },
+          {
+            "id": "poder_adq",
+            "label": "Poder adquisitivo",
+            "value": 0.0,
+            "unit": " pp",
+            "decimals": 1,
+            "change": null,
+            "change_unit": null,
+            "date": "Salarios 1T 2026 · IPC oct. 2026",
+            "detail": "",
+            "source": "Cálculo propio con datos INE",
+            "url": "https://www.infobae.com/espana/2026/06/30/los-hogares-espanoles-ingresan-mas-pero-ahorran-un-115-menos-el-consumo-de-las-familias-crece-por-encima-de-su-renta/",
+            "history": [],
+            "good_when": "up",
+            "why": "Coste salarial +4,9 % menos IPC 4,9 %.",
+            "situation": "Empate: los sueldos solo compensan la subida de precios. En 2025 y principios de 2026 sí se ganaba algo de poder de compra; el repunte de la inflación energética lo ha anulado."
+          },
+          {
+            "id": "afiliacion",
+            "label": "Afiliados a la Seguridad Social",
+            "value": 22624165,
+            "unit": "",
+            "decimals": 0,
+            "change": 0.8,
+            "change_unit": "% mes",
+            "date": "Octubre 2026",
+            "detail": "",
+            "source": "Seguridad Social",
+            "url": "https://revista.seg-social.es/-/afiliacion-octubre-2026",
+            "history": [],
+            "good_when": "up",
+            "why": "+186.612 en el mes, el mayor octubre de la serie; casi 491.000 altas vinculadas a la regularización extraordinaria.",
+            "situation": "Récord histórico: 784.573 más que hace un año. Los extranjeros ya son el 16,4 % de los afiliados.",
+            "display": "22,62 M"
+          },
+          {
+            "id": "paro_reg",
+            "label": "Paro registrado",
+            "value": 2422633,
+            "unit": "",
+            "decimals": 0,
+            "change": 1.8,
+            "change_unit": "% mes",
+            "date": "Octubre 2026",
+            "detail": "",
+            "source": "Ministerio de Trabajo / El Salto",
+            "url": "https://www.elsaltodiario.com/desempleo/afiliacion-bate-nuevo-record-octubre-impulsado-regularizacion-paro-sube-43-128-personas",
+            "history": [],
+            "good_when": "down",
+            "why": "+43.128 en el mes, en parte por personas regularizadas que se inscriben por primera vez.",
+            "situation": "Sexto mes de subida, pero con afiliación récord: es efecto de nuevas inscripciones, no de despidos.",
+            "display": "2,42 M"
+          }
+        ]
+      },
+      {
+        "group": "Cuentas públicas",
+        "intro": "Lo que debe y gasta el Estado. Importa porque decide impuestos futuros y la confianza de los mercados.",
+        "items": [
+          {
+            "id": "deuda",
+            "label": "Deuda pública",
+            "value": 99.9,
+            "unit": "% PIB",
+            "decimals": 1,
+            "change": -2.4,
+            "change_unit": "pp",
+            "date": "Julio 2026",
+            "detail": "",
+            "source": "Banco de España / Ara",
+            "url": "https://es.ara.cat/economia/cuentas-publicas/deuda-publica-espanola-baja-100-pib-primera-vez-pandemia_1_5852669.html",
+            "history": [
+              101.2,
+              101.0,
+              100.2,
+              101.5,
+              99.9
+            ],
+            "good_when": "down",
+            "why": "Baja del 100 % por primera vez desde la pandemia, porque el PIB crece más que la deuda.",
+            "situation": "1,744 billones de euros, récord en euros pero a la baja en porcentaje. Sigue por encima de la media de la eurozona (87,8 %)."
+          },
+          {
+            "id": "deficit",
+            "label": "Déficit público (previsión 2026)",
+            "value": 2.8,
+            "unit": "% PIB",
+            "decimals": 1,
+            "change": 0.4,
+            "change_unit": "pp",
+            "date": "AIReF, noviembre 2026",
+            "detail": "",
+            "source": "AIReF / Artículo 14",
+            "url": "https://www.articulo14.es/economia/la-airef-advierte-del-escaso-margen-para-invertir-en-infraestructuras-20261104.html",
+            "history": [
+              2.4,
+              2.6,
+              2.8
+            ],
+            "good_when": "down",
+            "why": "La AIReF lo eleva por las ayudas por la crisis energética.",
+            "situation": "Sube desde el 2,4 % de 2025. Por debajo del 3 %, pero la AIReF avisa de que se incumplirán las reglas de gasto europeas."
+          },
+          {
+            "id": "ratio_pens",
+            "label": "Cotizantes por pensionista",
+            "value": 2.51,
+            "unit": "",
+            "decimals": 2,
+            "change": null,
+            "change_unit": null,
+            "date": "Octubre 2026",
+            "detail": "",
+            "source": "Seguridad Social",
+            "url": "https://revista.seg-social.es/-/afiliacion-octubre-2026",
+            "history": [],
+            "good_when": "up",
+            "why": "El empleo récord mejora la ratio.",
+            "situation": "Máximo desde 2011."
+          }
+        ]
+      },
+      {
+        "group": "Actividad: empresas y turismo",
+        "intro": "Los datos que primero avisan de si la economía acelera o se frena.",
+        "items": [
+          {
+            "id": "pmi_comp",
+            "label": "PMI compuesto",
+            "value": 56.2,
+            "unit": "",
+            "decimals": 1,
+            "change": -0.6,
+            "change_unit": "pts",
+            "date": "Octubre 2026",
+            "detail": "",
+            "source": "S&P Global / HCOB",
+            "url": "https://www.democrata.es/economia/la-empresa-privada-espanola-enfria-su-avance-en-octubre-pero-encadena-seis-meses-de-expansion/",
+            "history": [
+              56.8,
+              56.2
+            ],
+            "good_when": "up",
+            "why": "Se modera ligeramente, pero encadena meses en expansión.",
+            "situation": "Crecimiento fuerte (por encima de 55): España es de las economías más dinámicas de la eurozona."
+          },
+          {
+            "id": "pmi_serv",
+            "label": "PMI servicios",
+            "value": 57.2,
+            "unit": "",
+            "decimals": 1,
+            "change": -1.1,
+            "change_unit": "pts",
+            "date": "Octubre 2026",
+            "detail": "",
+            "source": "S&P Global / HCOB",
+            "url": "https://www.democrata.es/economia/la-empresa-privada-espanola-enfria-su-avance-en-octubre-pero-encadena-seis-meses-de-expansion/",
+            "history": [
+              58.3,
+              57.2
+            ],
+            "good_when": "up",
+            "why": "Baja desde 58,3 pero sigue muy por encima de 50.",
+            "situation": "Servicios en plena expansión: es el motor de la economía."
+          },
+          {
+            "id": "pmi_manuf",
+            "label": "PMI manufacturas",
+            "value": 52.2,
+            "unit": "",
+            "decimals": 1,
+            "change": 1.2,
+            "change_unit": "pts",
+            "date": "Octubre 2026",
+            "detail": "",
+            "source": "S&P Global / HCOB",
+            "url": "https://www.democrata.es/economia/la-empresa-privada-espanola-enfria-su-avance-en-octubre-pero-encadena-seis-meses-de-expansion/",
+            "history": [
+              51.0,
+              52.2
+            ],
+            "good_when": "up",
+            "why": "Mejora con nuevos pedidos por primera vez en seis meses, aunque suben los costes.",
+            "situation": "Crecimiento moderado pese a la energía cara."
+          },
+          {
+            "id": "turistas",
+            "label": "Turistas internacionales",
+            "value": 10.1,
+            "unit": "M",
+            "decimals": 1,
+            "change": 4.3,
+            "change_unit": "%",
+            "date": "Septiembre 2026",
+            "detail": "",
+            "source": "INE · FRONTUR",
+            "url": "https://www.ine.es/dyngs/Prensa/FRONTUR0926.pdf",
+            "history": [],
+            "good_when": "up",
+            "why": "+4,3 % anual; 80,5 millones en nueve meses (+5,2 %).",
+            "situation": "Récord: España va camino de superar por primera vez los 100 millones de turistas en un año."
+          },
+          {
+            "id": "gasto_tur",
+            "label": "Gasto de turistas",
+            "value": 14488,
+            "unit": "M€",
+            "decimals": 0,
+            "change": 8.1,
+            "change_unit": "%",
+            "date": "Septiembre 2026",
+            "detail": "",
+            "source": "INE · EGATUR",
+            "url": "https://www.ine.es/dyngs/Prensa/EGATUR0926.pdf",
+            "history": [],
+            "good_when": "up",
+            "why": "El gasto crece casi el doble que las llegadas; en Cataluña +7,8 %.",
+            "situation": "Récord: 1.429 € por turista y 212 € al día. Acumulado del año: unos 114.380 millones (+8 %)."
+          }
+        ]
+      },
+      {
+        "group": "Precios, hogares y banca",
+        "intro": "Si las familias pueden gastar y endeudarse, y si los bancos prestan.",
+        "items": [
+          {
+            "id": "ipc_sub",
+            "label": "IPC subyacente",
+            "value": 3.1,
+            "unit": "%",
+            "decimals": 1,
+            "change": 0.0,
+            "change_unit": "pp",
+            "date": "Octubre 2026 (avance)",
+            "detail": "UE: 2,2 %",
+            "source": "INE / Vozpópuli",
+            "url": "https://www.vozpopuli.com/economia/macroeconomia/la-inflacion-se-dispara-de-nuevo-hasta-el-49-en-octubre-pese-a-las-ayudas-de-los-carburantes.html",
+            "history": [],
+            "good_when": "down",
+            "why": "Se mantiene en el 3,1 %, frente al 2,2 % de la UE: el mayor diferencial en 20 años.",
+            "situation": "Algo alta y estable: la energía se está contagiando poco a poco a servicios."
+          },
+          {
+            "id": "ahorro",
+            "label": "Tasa de ahorro de los hogares",
+            "value": 11.0,
+            "unit": "%",
+            "decimals": 1,
+            "change": -0.6,
+            "change_unit": "pp",
+            "date": "2T 2026 (desestacionalizada)",
+            "detail": "",
+            "source": "INE",
+            "url": "https://ine.es/dyngs/Prensa/CTNFSI2T26.htm",
+            "history": [
+              12.1,
+              11.6,
+              11.0
+            ],
+            "good_when": "up",
+            "why": "El consumo (+7,1 %) crece más que la renta disponible (+5,5 %).",
+            "situation": "Normal pero bajando: en mínimos desde 2023. Serie sin desestacionalizar: 18,7 %."
+          },
+          {
+            "id": "morosidad",
+            "label": "Morosidad bancaria",
+            "value": 2.54,
+            "unit": "%",
+            "decimals": 2,
+            "change": -0.05,
+            "change_unit": "pp",
+            "date": "Junio 2026",
+            "detail": "",
+            "source": "Banco de España",
+            "url": "https://finantresnoticias.com/bancos/morosidad-bancaria-cae-minimos-desde-2008-cambia-clientes/",
+            "history": [
+              2.71,
+              2.62,
+              2.59,
+              2.54
+            ],
+            "good_when": "down",
+            "why": "El crédito crece y los impagos bajan.",
+            "situation": "Mínimos desde agosto de 2008: banca muy saneada. La banca, sin embargo, endureció algo la concesión de crédito en el segundo trimestre."
+          },
+          {
+            "id": "ipv",
+            "label": "Precio de la vivienda (INE)",
+            "value": 12.9,
+            "unit": "% anual",
+            "decimals": 1,
+            "change": null,
+            "change_unit": null,
+            "date": "1T 2026",
+            "detail": "",
+            "source": "INE · IPV (vía Infobae)",
+            "url": "https://www.infobae.com/espana/2026/06/30/los-hogares-espanoles-ingresan-mas-pero-ahorran-un-115-menos-el-consumo-de-las-familias-crece-por-encima-de-su-renta/",
+            "history": [],
+            "good_when": null,
+            "why": "Usada +13,5 %, nueva +9,1 %.",
+            "situation": "Tensión fuerte: la vivienda sube más del doble que los sueldos."
+          }
+        ]
+      }
     ]
   }
 }
