@@ -181,6 +181,52 @@ tr.city td{font-weight:600;background:var(--accent-soft)}
 .res .v small{font-size:13px}
 .res.hl{border-color:var(--accent);background:var(--accent-soft)}
 
+/* Diagnóstico */
+.verdict{background:var(--navy);color:#eef2f8;border-radius:12px;padding:22px 24px;display:grid;gap:10px}
+.verdict .kicker{color:#8fb0ff}
+.verdict h2{font-family:var(--display);font-size:clamp(22px,2.8vw,30px);line-height:1.2;margin:0;text-wrap:balance;max-width:40ch}
+.verdict p{margin:0;color:#c8d1df;max-width:80ch}
+.verdict .pills{display:flex;gap:8px;flex-wrap:wrap}
+.verdict .pills span{font-size:12px;font-weight:600;background:#1b2a46;color:#d6e0ff;border-radius:999px;padding:4px 10px}
+.verdict a{color:#8fb0ff;font-weight:600;text-decoration:none}
+.risk{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px}
+.risk .r{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+.risk .r b{font-size:16px}
+.meter{height:8px;border-radius:4px;background:linear-gradient(90deg,var(--up),var(--warn),var(--down));position:relative;margin:10px 0 6px}
+.meter i{position:absolute;top:-4px;width:4px;height:16px;border-radius:2px;background:var(--ink);transform:translateX(-50%)}
+.risk .r small{display:block;color:var(--muted);font-size:13px}
+.ct{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.ct div{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:4px}
+.st{font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;border-radius:999px;padding:2px 9px;justify-self:start}
+.st.yes{background:color-mix(in srgb,var(--down) 15%,transparent);color:var(--down)}
+.st.partial{background:color-mix(in srgb,var(--warn) 18%,transparent);color:var(--warn)}
+.st.no{background:color-mix(in srgb,var(--up) 15%,transparent);color:var(--up)}
+.sect{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media (max-width:900px){.sect{grid-template-columns:1fr 1fr}}
+@media (max-width:520px){.sect{grid-template-columns:1fr}}
+.sect .col{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;border-top:4px solid var(--muted);display:grid;gap:10px;align-content:start}
+.sect .grave{border-top-color:var(--down)}.sect .presion{border-top-color:var(--warn)}.sect .resiste{border-top-color:var(--accent)}.sect .gana{border-top-color:var(--up)}
+.sect h4{margin:0;font-size:13px;text-transform:uppercase;letter-spacing:.06em}
+.sect p{margin:0;font-size:13px;color:var(--muted)}
+.sect p b{display:block;color:var(--ink);font-size:14px}
+.watch-list{margin:0;padding-left:18px;display:grid;gap:6px}
+.region{margin-top:22px}
+.region header{display:flex;align-items:baseline;justify-content:space-between;gap:10px;flex-wrap:wrap;border-bottom:1px solid var(--line);padding-bottom:6px;margin-bottom:10px}
+.region h3{font-family:var(--display);font-size:21px;margin:0}
+.region header p{margin:0;color:var(--muted);font-size:14px;max-width:70ch}
+.rules{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px}
+.rule{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;gap:6px;align-content:start}
+.rule header{display:flex;justify-content:space-between;gap:8px;align-items:center;flex-wrap:wrap}
+.rule b{font-size:14px}
+.rule p{margin:0;font-size:13px;color:var(--muted)}
+.rule a{font-size:12px;color:var(--accent);text-decoration:none}
+.rule .st.on{background:color-mix(in srgb,var(--accent) 14%,transparent);color:var(--accent)}
+.rule .st.off{background:var(--line);color:var(--muted)}
+.lv{width:100%;border-collapse:collapse;font-size:13px}
+.lv td{padding:6px 8px;border-bottom:1px solid var(--line)}
+.lv td:first-child{font-weight:600;white-space:nowrap}
+.lv tr.cur td{background:var(--accent-soft)}
+
 /* Ficha */
 .scrim{position:fixed;inset:0;background:rgba(10,14,20,.45);opacity:0;pointer-events:none;transition:opacity .2s;z-index:20}
 .scrim.open{opacity:1;pointer-events:auto}
@@ -242,7 +288,7 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
 </header>
 <nav class="tabsnav" aria-label="Secciones">
   <div class="wrap" id="nav">
-    <a href="#portada">Portada</a><a href="#noticias">Noticias</a><a href="#mercados">Mercados</a><a href="#economia">Economía</a><a href="#inmobiliario">Inmobiliario</a><a href="#barcelona">Barcelona</a><a href="#escenarios">Escenarios</a><a href="#previsiones">Previsiones</a><a href="#agenda">Agenda</a><a href="#aprende">Aprende</a>
+    <a href="#portada">Portada</a><a href="#diagnostico">Diagnóstico</a><a href="#noticias">Noticias</a><a href="#mercados">Mercados</a><a href="#economia">Economía</a><a href="#inmobiliario">Inmobiliario</a><a href="#barcelona">Barcelona</a><a href="#escenarios">Escenarios</a><a href="#previsiones">Previsiones</a><a href="#agenda">Agenda</a><a href="#aprende">Aprende</a>
   </div>
 </nav>
 
@@ -258,6 +304,7 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
     <div class="panel"><h2>En 60 segundos</h2><ol class="sixty" id="sixty"></ol></div>
     <div class="panel ukio"><h2>Lo que importa para Ukio</h2><ul id="ukio"></ul></div>
   </div>
+  <div class="verdict" id="p-verdict" style="margin-top:18px"></div>
   <h3 class="sub">Termómetro del mercado inmobiliario <a href="#inmobiliario">Ver inmobiliario →</a></h3>
   <div class="signals" id="signals"></div>
   <h3 class="sub">Mercados de un vistazo <a href="#mercados">Ver todos →</a></h3>
@@ -273,13 +320,25 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
   </div>
 </section>
 
+<!-- DIAGNÓSTICO -->
+<section class="view" id="v-diagnostico">
+  <div class="page-head"><div><h1>Diagnóstico económico</h1><p>¿Hay crisis? ¿De qué tipo? ¿Qué sectores sufren y cuáles ganan? La foto de conjunto, con datos.</p></div></div>
+  <div class="verdict" id="d-verdict"></div>
+  <h3 class="sub">Riesgo de recesión por región</h3><div class="risk" id="d-risk"></div>
+  <h3 class="sub">¿Qué tipo de crisis hay?</h3><div class="ct" id="d-types"></div>
+  <h3 class="sub">Sectores: quién sufre y quién gana</h3><div class="sect" id="d-sect"></div>
+  <h3 class="sub">Señales de alarma a vigilar</h3><div class="panel"><ul class="watch-list" id="d-watch"></ul></div>
+  <h3 class="sub">Indicadores internacionales <a href="#economia">Ver en Economía →</a></h3>
+  <div class="tiles" id="d-global"></div>
+</section>
+
 <!-- NOTICIAS -->
 <section class="view" id="v-noticias">
   <div class="page-head"><div><h1>Noticias</h1><p>Las más importantes de cada área, con resumen propio y enlace al medio. La barra de color indica el impacto: rojo alto, ámbar medio, gris bajo.</p></div></div>
   <h3 class="sub">España</h3><div class="tabs" data-tabs="es" data-keys="politica:Política,economia:Economía,sociedad:Sociedad"></div>
   <h3 class="sub">Mundo</h3><div class="tabs" data-tabs="mu" data-keys="mundo_geo:Geopolítica,mundo_eco:Economía global"></div>
   <h3 class="sub">Mercados y cripto</h3><div class="tabs" data-tabs="mk2" data-keys="mercados:Bolsa y empresas,cripto:Cripto"></div>
-  <h3 class="sub">Inmobiliario <a href="#inmobiliario">Más en Inmobiliario →</a></h3><div class="tabs" data-tabs="re2" data-keys="inmo_espana:España,inmo_bcn:Barcelona,hipotecas:Hipotecas,inversion:Inversión,regulacion:Regulación"></div>
+  <h3 class="sub">Inmobiliario <a href="#inmobiliario">Más en Inmobiliario →</a></h3><div class="tabs" data-tabs="re2" data-keys="inmo_espana:España,inmo_bcn:Barcelona,regulacion:Regulación,hipotecas:Hipotecas,alquiler:Alquiler,inversion:Operaciones,desinversion:Desinversiones,obra_nueva:Obra nueva"></div>
 </section>
 
 <!-- MERCADOS -->
@@ -294,8 +353,10 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
 
 <!-- ECONOMÍA -->
 <section class="view" id="v-economia">
-  <div class="page-head"><div><h1>Economía española</h1><p>Los indicadores que mueven los tipos, el empleo y la demanda de vivienda. Cada uno muestra el último dato publicado.</p></div></div>
+  <div class="page-head"><div><h1>Economía: España y el mundo</h1><p>Los indicadores que mueven los tipos, el empleo y la demanda de vivienda, en España, EE. UU., Europa y Asia. Cada uno muestra el último dato publicado; toca cualquiera para ver cómo interpretarlo.</p></div></div>
+  <h3 class="sub">España</h3>
   <div class="tiles" id="kpis"></div>
+  <div id="global-regions"></div>
   <h3 class="sub">Cómo se conectan</h3>
   <div class="panel"><ol class="chain" style="gap:8px">
     <li><span><b>Petróleo y gas</b> caros por la guerra de Irán → suben la luz, el transporte y los alimentos.</span></li>
@@ -312,7 +373,8 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
   <div class="page-head"><div><h1>Mercado inmobiliario</h1><p>España, financiación, inversión institucional y regulación: todo lo que afecta a compradores, vendedores e inversores.</p></div></div>
   <div class="signals" id="signals2"></div>
   <h3 class="sub">Datos de España</h3><div class="tiles" id="re-es"></div>
-  <h3 class="sub">Noticias</h3><div class="tabs" data-tabs="re" data-keys="inmo_espana:Mercado,hipotecas:Hipotecas y financiación,inversion:Inversión y operaciones,regulacion:Regulación"></div>
+  <h3 class="sub">Marco regulatorio vigente</h3><div class="rules" id="rules"></div>
+  <h3 class="sub">Noticias</h3><div class="tabs" data-tabs="re" data-keys="inmo_espana:Mercado,regulacion:Regulación,hipotecas:Hipotecas,alquiler:Alquiler,obra_nueva:Obra nueva,inversion:Grandes operaciones,desinversion:Desinversiones"></div>
   <h3 class="sub" id="prog-title">Vivienda en el 29-N</h3>
   <div class="table-wrap"><table id="programs"></table></div>
   <p class="note" id="prog-note"></p>
@@ -325,7 +387,7 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
   <h3 class="sub">Por distritos</h3>
   <div class="table-wrap"><table class="num-t" id="br-table"></table></div>
   <p class="note">Rentabilidad bruta = alquiler €/m² × 12 ÷ venta €/m². Son precios de oferta, no de cierre. Pulsa una columna para ordenar.</p>
-  <h3 class="sub">Noticias de Barcelona</h3><div class="tabs" data-tabs="bcn" data-keys="inmo_bcn:Mercado,regulacion:Regulación"></div>
+  <h3 class="sub">Noticias de Barcelona</h3><div class="tabs" data-tabs="bcn" data-keys="inmo_bcn:Mercado,regulacion:Regulación,alquiler:Alquiler"></div>
 </section>
 
 <!-- ESCENARIOS -->
@@ -452,9 +514,10 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
     const good = k.change==null||k.change===0 ? "flat" : ((k.change<0) === (k.good_when==="down") ? "up" : "down");
     const hc = k.history&&k.history.length>1 ? (good==="flat"?"--accent":"--"+good) : "--accent";
     const chgTxt = k.change==null?"":(k.change===0?"Sin cambios":sign(k.change,k.decimals>2?3:(k.change_unit==="pb"?1:2)," "+(k.change_unit||"pp")));
-    return `${open(k.id,{...k,valTxt:fmt(k.value,k.decimals??2)+(k.unit||""),chgTxt,chgCls:good},"kpi")}
+    const vv = k.display || fmt(k.value,k.decimals??2);
+    return `${open(k.id,{...k,valTxt:vv+(k.unit||""),chgTxt,chgCls:good},"kpi")}
       <div class="lbl">${esc(k.label)}</div>
-      <div class="val num">${fmt(k.value,k.decimals??2)}<small>${esc(k.unit)}</small></div>
+      <div class="val num">${vv}<small>${esc(k.unit)}</small></div>
       <div class="chg num ${good}">${chgTxt}</div>
       <div class="meta">${esc(k.detail||"")}</div>
       <div class="meta">${esc(k.date)} · ${esc(k.source)}</div>
@@ -508,9 +571,9 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
       .concat((D.real_estate?.barcelona||[]).filter(x=>x.id==="bcn_venta").map(reTile));
     $("#p-tiles").innerHTML = pick.join("");
 
-    const catLabel = {politica:"Política",economia:"Economía",mundo_geo:"Mundo",mercados:"Mercados",inmo_espana:"Inmobiliario",inmo_bcn:"Barcelona",hipotecas:"Hipotecas",regulacion:"Regulación",cripto:"Cripto",sociedad:"Sociedad",mundo_eco:"Economía global",inversion:"Inversión"};
+    const catLabel = {desinversion:"Desinversión",alquiler:"Alquiler",obra_nueva:"Obra nueva",politica:"Política",economia:"Economía",mundo_geo:"Mundo",mercados:"Mercados",inmo_espana:"Inmobiliario",inmo_bcn:"Barcelona",hipotecas:"Hipotecas",regulacion:"Regulación",cripto:"Cripto",sociedad:"Sociedad",mundo_eco:"Economía global",inversion:"Inversión"};
     const heads = [];
-    ["politica","economia","inmo_bcn","mercados","mundo_geo","hipotecas","inmo_espana","cripto","mundo_eco","regulacion","sociedad","inversion"].forEach(k=>{ const n=(N[k]||[])[0]; if(n) heads.push(`<a class="h" href="${esc(n.url)}" target="_blank" rel="noopener"><small>${catLabel[k]}</small><b>${esc(n.title)}</b></a>`); });
+    ["regulacion","politica","economia","inmo_bcn","mercados","mundo_geo","hipotecas","desinversion","inmo_espana","cripto","alquiler","inversion"].forEach(k=>{ const n=(N[k]||[])[0]; if(n) heads.push(`<a class="h" href="${esc(n.url)}" target="_blank" rel="noopener"><small>${catLabel[k]}</small><b>${esc(n.title)}</b></a>`); });
     $("#p-heads").innerHTML = heads.join("");
 
     if(CONCEPTS.length){ const c = CONCEPTS[Math.floor(upd.getTime()/864e5) % CONCEPTS.length];
@@ -541,6 +604,28 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
       $("#programs").innerHTML = `<thead><tr><th scope="col">Partido</th><th scope="col">Ley de Vivienda</th><th scope="col">Propuestas clave</th></tr></thead><tbody>${P.rows.map(r=>`<tr><td><b>${esc(r.party)}</b></td><td><span class="pill">${esc(r.law)}</span></td><td>${esc(r.key)}</td></tr>`).join("")}</tbody>`;
       $("#prog-note").innerHTML = `${esc(P.note)} Fuente: <a href="${esc(P.url)}" target="_blank" rel="noopener">${esc(P.source)}</a>.`;
     } else { $("#programs").closest(".table-wrap").remove(); $("#prog-title").remove(); }
+
+    // Diagnóstico
+    const G = D.diagnosis;
+    if(G){
+      const vHTML = (link)=>`<div class="kicker">Diagnóstico de la economía</div><h2>${esc(G.verdict)}</h2><div class="pills"><span>Fase: ${esc(G.phase)}</span><span>Tipo: ${esc(G.type)}</span></div>${link?`<p><a href="#diagnostico">Ver el diagnóstico completo →</a></p>`:`<p>${esc(G.explain)}</p>`}`;
+      $("#p-verdict").innerHTML = vHTML(true); $("#d-verdict").innerHTML = vHTML(false);
+      $("#d-risk").innerHTML = G.regions.map(r=>`<div class="r"><b>${esc(r.name)}</b> <span class="muted" style="font-size:13px">· riesgo ${esc(r.risk).toLowerCase()}</span><div class="meter" aria-hidden="true"><i style="left:${r.score}%"></i></div><small>Crecimiento: ${esc(r.growth)}</small><small>Inflación: ${esc(r.inflation)}</small></div>`).join("");
+      const stl = {yes:"Sí",partial:"Parcial / riesgo",no:"No"};
+      $("#d-types").innerHTML = G.crisis_types.map(c=>`<div><span class="st ${esc(c.status)}">${stl[c.status]||esc(c.status)}</span><b>${esc(c.type)}</b><span class="muted" style="font-size:14px">${esc(c.text)}</span></div>`).join("");
+      const cols = [["grave","Grave"],["presion","Bajo presión"],["resiste","Resiste"],["gana","Gana"]];
+      $("#d-sect").innerHTML = cols.map(([k,l])=>`<div class="col ${k}"><h4>${l}</h4>${G.sectors.filter(x=>x.status===k).map(x=>`<p><b>${esc(x.name)}</b>${esc(x.why)}</p>`).join("")}</div>`).join("");
+      $("#d-watch").innerHTML = G.watch.map(w=>`<li>${esc(w)}</li>`).join("");
+    } else { $("#p-verdict").remove(); }
+
+    // Indicadores globales
+    const GLB = D.global||[];
+    $("#global-regions").innerHTML = GLB.map(r=>`<section class="region"><header><h3>${esc(r.region)}</h3><p>${esc(r.summary)}</p></header><div class="tiles">${r.items.map(kpiTile).join("")}</div></section>`).join("");
+    const keyG = ["us_gdp","us_cpi","fed_rate","ez_gdp","ez_hicp","ez_pmi","cn_gdp","uk_rate"];
+    $("#d-global").innerHTML = GLB.flatMap(r=>r.items).filter(x=>keyG.includes(x.id)).map(kpiTile).join("");
+
+    // Marco regulatorio
+    $("#rules").innerHTML = (D.rules||[]).map(r=>`<div class="rule"><header><b>${esc(r.name)}</b><span class="st ${r.status==="Decaído"?"off":"on"}">${esc(r.status)}</span></header><span class="pill" style="justify-self:start">${esc(r.scope)}</span><p>${esc(r.text)}</p><a href="${esc(r.url)}" target="_blank" rel="noopener">Ver detalle ↗</a></div>`).join("");
 
     // Barrios
     const B = D.barrios||{rows:[]};
@@ -637,6 +722,11 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
       if(it.valTxt) h += `<div><div class="big num">${esc(it.valTxt)}</div>${it.chgTxt?`<div class="chg num ${it.chgCls||cls(it.chg)}">${esc(it.chgTxt)}</div>`:""}${it.detail?`<div style="color:var(--muted);font-size:13px">${esc(it.detail)}</div>`:""}</div>`;
       if(it.history && it.history.length>1) h += `<div class="chart">${spark(it.history, it.chgCls&&it.chgCls!=="flat"?"--"+it.chgCls:lineColor(it.history))}</div><div style="color:var(--muted);font-size:12px;margin-top:-8px">Últimos ${it.history.length} registros</div>`;
       if(it.why) h += `<div class="box today-why"><h3>Por qué se mueve ahora</h3><p>${esc(it.why)}</p></div>`;
+      const LV = (window.LEVELS||{})[id];
+      if(LV){ const v = typeof it.value==="number" ? it.value : null;
+        const parseR = t => { const m = t.replace(/−/g,"-").replace(/\./g,"").replace(/,/g,".").match(/-?\d+(\.\d+)?/g)||[]; return m.map(Number); };
+        const cur = i => { if(v==null) return false; const t=LV[i][0]; const nums=parseR(t); if(/Menos/.test(t)) return v<nums[0]; if(/Más/.test(t)) return v>=nums[0]; return nums.length>=2 && v>=nums[0] && v<nums[1]; };
+        h += `<div class="box"><h3>Cómo interpretarlo</h3><table class="lv">${LV.map((l,i)=>`<tr class="${cur(i)?"cur":""}"><td>${esc(l[0])}</td><td>${esc(l[1])}${cur(i)?" ← ahora":""}</td></tr>`).join("")}</table></div>`; }
       if(g){ h += `<div class="box"><h3>Qué es</h3><p>${esc(g.what)}</p></div><div class="updown"><div class="box u"><h3>Si sube ↑</h3><p>${esc(g.up)}</p></div><div class="box d"><h3>Si baja ↓</h3><p>${esc(g.down)}</p></div></div><div class="box you"><h3>Qué significa para ti</h3><p>${esc(g.you)}</p></div>`; }
       if(it.url) h += `<div class="src"><a href="${esc(it.url)}" target="_blank" rel="noopener">Fuente: ${esc(it.source||"ver dato")}${it.date?" · "+esc(it.date):""} ↗</a></div>`;
     }
@@ -652,7 +742,7 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
       if(e.shiftKey && document.activeElement===first){e.preventDefault();last.focus()} else if(!e.shiftKey && document.activeElement===last){e.preventDefault();first.focus()} } });
 
   /* ---------- Navegación por pestañas ---------- */
-  const VIEWS = ["portada","noticias","mercados","economia","inmobiliario","barcelona","escenarios","previsiones","agenda","aprende"];
+  const VIEWS = ["portada","diagnostico","noticias","mercados","economia","inmobiliario","barcelona","escenarios","previsiones","agenda","aprende"];
   function route(){ const h = location.hash.replace("#",""); const v = VIEWS.includes(h) ? h : "portada";
     document.querySelectorAll(".view").forEach(s=>s.classList.toggle("active", s.id==="v-"+v));
     document.querySelectorAll("#nav a").forEach(a=>{ if(a.getAttribute("href")==="#"+v) a.setAttribute("aria-current","page"); else a.removeAttribute("aria-current"); });

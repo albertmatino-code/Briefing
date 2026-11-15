@@ -7,12 +7,12 @@
     "El Ibex cerró el viernes en 20.020 puntos: +3,4 % en la semana y +15,7 % en 2026. El Stoxx 600 marcó máximo histórico.",
     "Nvidia se queda sin Jensen Huang tras su dimisión; la acción cayó un 12,8 % en cinco días y arrastró a las tecnológicas.",
     "La inflación sigue en el 4,9 % y el BCE (2,50 %) apunta a subir tipos en diciembre. El Euríbor a 12 meses ronda el 3,2 %.",
-    "Campaña electoral, día 4: el PP lidera la media de encuestas (31,5 %) frente al PSOE (26,8 %) y Vox (19,1 %)."
+    "Vivienda: convalidado el decreto que limita compras de fondos hasta 2030 y topa el alquiler al 2 %; decae el de alquileres indefinidos. Campaña del 29-N, día 4."
   ],
   "ukio_takeaways": [
     "Financiación: con el Euríbor alrededor del 3,2 % y una subida del BCE probable en diciembre, conviene que los compradores con hipoteca cierren la oferta vinculante del banco cuanto antes.",
     "Precio: Barcelona marca máximo histórico (5.463 €/m², +4,7 %), pero las compraventas en España caen un 5,9 % interanual. El mercado está caro y con menos operaciones: hay que ajustar bien el precio de salida.",
-    "Inversores: con Nou Barris, Sant Andreu y Horta subiendo entre un 7 % y un 14 % al año y rentabilidades brutas del 5 % o más, el inversor de rentabilidad tiene más recorrido en los distritos periféricos que en Sarrià o el Eixample."
+    "Inversores institucionales: el decreto convalidado limita hasta 2030 ciertas compras de vivienda por fondos y grandes tenedores. Antes de presentar un edificio o una cartera a un fondo, hay que revisar si la operación queda afectada; el inversor particular y el family office ganan peso como compradores."
   ],
   "today": [
     {
@@ -949,21 +949,66 @@
     ],
     "regulacion": [
       {
+        "title": "Convalidado el decreto de vivienda: límites a fondos hasta 2030 y tope del 2 % al alquiler",
+        "summary": "La Diputación Permanente aprobó el RDL 29/2026 por 35 votos a 34. Limita hasta 2030 ciertas compras de vivienda por fondos y grandes tenedores, topa las subidas de alquiler al 2 % hasta 2027, permite prórrogas extraordinarias y crea la línea TU CASA de 10.000 millones.",
+        "impact": "Alto",
+        "source": "idealista",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/12/923779-la-diputacion-permanente-convalida-el-decreto-de-vivienda-y-rechaza-el-de",
+        "time": "12/11",
+        "new": true
+      },
+      {
+        "title": "Decae el decreto de alquileres indefinidos",
+        "summary": "El RDL 28/2026, que imponía prórrogas de cinco años e indemnizar al inquilino si no se renovaba, no fue convalidado y no llegará a aplicarse.",
+        "impact": "Alto",
+        "source": "Wolorent",
+        "url": "https://www.wolorent.com/blog/convalidacion-decreto-vivienda-diputacion-permanente-congreso",
+        "time": "12/11",
+        "new": true
+      },
+      {
+        "title": "Préstamos al 0 % para la primera vivienda",
+        "summary": "El decreto convalidado incluye financiación sin intereses con aval del Estado de hasta el 20 % del valor de la vivienda (máximo 50.000 €), a devolver en 10 años.",
+        "impact": "Alto",
+        "source": "idealista",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/12/923779-la-diputacion-permanente-convalida-el-decreto-de-vivienda-y-rechaza-el-de",
+        "time": "12/11",
+        "new": true
+      },
+      {
+        "title": "Vivienda asequible, definida por ley, y deducción del 10 % para inquilinos",
+        "summary": "Asequible será la vivienda cuyo coste no supere el 30 % de la renta mediana del municipio. Los inquilinos tendrán una deducción del 10 % en el IRPF.",
+        "impact": "Medio",
+        "source": "Provivienda",
+        "url": "https://provivienda.org/observatorio/real-decreto-ley-26-2026-que-cambia-en-el-precio-del-alquiler-y-la-vivienda-asequible/",
+        "time": "12/11",
+        "new": true
+      },
+      {
+        "title": "Cataluña ya regula el alquiler de temporada y por habitaciones",
+        "summary": "La Ley 11/2025, vigente desde el 1 de enero, somete estos contratos al índice de precios en zonas tensionadas si no tienen causa justificada (trabajo, estudios, salud).",
+        "impact": "Alto",
+        "source": "Net2rent",
+        "url": "https://net2rent.com/nueva-ley-regulacion-alquiler-temporal-cataluna/",
+        "time": "Vigente",
+        "new": false
+      },
+      {
+        "title": "Multas de hasta 900.000 € en Cataluña",
+        "summary": "El régimen sancionador catalán alcanza a propietarios e intermediarios, con inspecciones a agencias y especial atención al alquiler de temporada encubierto.",
+        "impact": "Medio",
+        "source": "Vivara",
+        "url": "https://www.vivara.io/en/blog/legal/nuevo-regimen-sancionador-de-la-ley-de-vivienda-en-catalunya/",
+        "time": "Vigente",
+        "new": false
+      },
+      {
         "title": "Fin de los pisos turísticos en Barcelona en 2028",
         "summary": "El Ayuntamiento no renovará las 10.101 licencias de vivienda de uso turístico cuando caduquen en noviembre de 2028.",
         "impact": "Alto",
         "source": "Vozpópuli",
         "url": "https://www.vozpopuli.com/espana/cataluna/collboni-eliminara-todos-los-pisos-turisticos-a-partir-de-2028-para-que-sean-residenciales.html",
         "time": "Vigente",
-        "new": false
-      },
-      {
-        "title": "El Congreso tumbó los decretos de vivienda del Gobierno",
-        "summary": "El 2 de octubre PP, Vox, Junts y UPN votaron en contra; PNV y Coalición Canaria se sumaron en el que imponía la renovación automática de los contratos.",
-        "impact": "Alto",
-        "source": "Brainsre",
-        "url": "https://brainsre.news/que-propone-cada-partido-vivienda-elecciones-29n/",
-        "time": "02/10",
         "new": false
       },
       {
@@ -992,15 +1037,6 @@
         "url": "https://www.bolsamania.com/noticias_amp/empresas/economia--amp-barcelona-anuncia-una-ayuda-de-400-euros-para-facilitar-el-acceso-a-la-vivienda-a-mayores-de-55-anos--21739306.html",
         "time": "2026",
         "new": false
-      },
-      {
-        "title": "La vivienda, eje de los programas del 29-N",
-        "summary": "El PP propone llevarla desde una vicepresidencia. El resultado electoral puede cambiar la Ley de Vivienda y los topes.",
-        "impact": "Alto",
-        "source": "Infobae / EFE",
-        "url": "https://www.infobae.com/espana/agencias/2026/11/14/hoy-es-noticia-en-espana-2330/",
-        "time": "14/11",
-        "new": true
       }
     ],
     "hipotecas": [
@@ -1080,11 +1116,38 @@
       },
       {
         "title": "Inmocaixa compra el edificio Estel de Barcelona por 385 millones",
-        "summary": "Fue la mayor operación de oficinas del primer trimestre y confirma el interés por activos prime en la ciudad.",
+        "summary": "La mayor operación por un único edificio de oficinas en la historia de la ciudad: 52.000 m² con más del 93 % ocupado.",
+        "impact": "Medio",
+        "source": "idealista",
+        "url": "https://www.idealista.com/news/node/882260",
+        "time": "Ene",
+        "new": false
+      },
+      {
+        "title": "Tishman Speyer y FREO compran Two Parc Central en el 22@",
+        "summary": "El distrito 22@ se consolida como polo de inversión en oficinas de nueva generación en Barcelona.",
         "impact": "Medio",
         "source": "Brainsre",
-        "url": "https://brainsre.news/resumen-trimestral-noticias-enero-marzo-2026/",
-        "time": "1T",
+        "url": "https://brainsre.news/tishman-speyer-freo-compran-edificio-oficinas/",
+        "time": "2026",
+        "new": false
+      },
+      {
+        "title": "El Govern compra siete plantas del Banco de España en plaza Catalunya",
+        "summary": "58,4 millones por 13.114 m², más unos 36,9 millones de rehabilitación; traslado previsto hacia 2033.",
+        "impact": "Bajo",
+        "source": "Brainsre",
+        "url": "https://brainsre.news/generalitat-compra-banco-espana-barcelona-58-4/",
+        "time": "Jun",
+        "new": false
+      },
+      {
+        "title": "La socimi de Messi compra las galerías Wagner por 11,5 millones",
+        "summary": "Las reformará para alquiler corporativo en la zona de Turó Park.",
+        "impact": "Bajo",
+        "source": "Ara",
+        "url": "https://es.ara.cat/economia/inmobiliario/messi-compra-antiguas-galerias-wagner-11-5-m_1_5734542.html",
+        "time": "May",
         "new": false
       },
       {
@@ -1094,6 +1157,156 @@
         "source": "Brainsre",
         "url": "https://brainsre.news/10-transacciones-inmobiliarias-primer-semestre-2026/",
         "time": "Jun",
+        "new": false
+      }
+    ],
+    "desinversion": [
+      {
+        "title": "Brookfield vende 1.550 viviendas que compró a Blackstone hace meses",
+        "summary": "Negocia dos carteras (unas 850 y 700 viviendas) con un fondo asiático y un family office español; la incertidumbre regulatoria puede condicionar la operación.",
+        "impact": "Alto",
+        "source": "Brainsre",
+        "url": "https://brainsre.news/?p=317087",
+        "time": "Nov",
+        "new": true
+      },
+      {
+        "title": "Blackstone acelera su salida del alquiler residencial en España",
+        "summary": "Tras vender Fidere, el fondo prepara la desinversión de Testa, su mayor cartera, con horizonte en 2027.",
+        "impact": "Alto",
+        "source": "Vozpópuli",
+        "url": "https://www.vozpopuli.com/economia/inmobiliario/blackstone-vendera-fidere-antes-de-verano-y-buscara-una-salida-de-testa-en-2027.html",
+        "time": "2026",
+        "new": false
+      },
+      {
+        "title": "Los grandes fondos preparan su retirada para 2027",
+        "summary": "Se cumple el plazo medio de siete años de sus planes de inversión; Testa suma unas 9.000 viviendas.",
+        "impact": "Medio",
+        "source": "Vozpópuli",
+        "url": "https://www.vozpopuli.com/economia/empresas/los-grandes-fondos-se-retiraran-del-ladrillo-en-2027-en-plena-amenaza-de-burbuja-.html",
+        "time": "2026",
+        "new": false
+      },
+      {
+        "title": "Lone Star pone en venta activos de Coral Homes por casi 1.000 millones",
+        "summary": "Otro gran fondo oportunista acelera su salida del inmobiliario español.",
+        "impact": "Medio",
+        "source": "Brainsre",
+        "url": "https://brainsre.news/resumen-mensual-noticias-inmobiliarias-2026/",
+        "time": "Jun",
+        "new": false
+      },
+      {
+        "title": "Ares vende 6.000 viviendas gestionadas por Avalon",
+        "summary": "Una cartera valorada en 1.200 millones, gran parte procedente del plan VIVE de Madrid.",
+        "impact": "Medio",
+        "source": "El Salto",
+        "url": "https://www.elsaltodiario.com/madrid/giro-fondos-buitre-abre-debate-destino-decenas-miles-viviendas-venta",
+        "time": "Feb",
+        "new": false
+      },
+      {
+        "title": "Cerberus vende 3.300 pisos en alquiler",
+        "summary": "Ha encargado a Deutsche Bank la desinversión de una cartera valorada en hasta 800 millones, sobre todo en Madrid y Valencia.",
+        "impact": "Medio",
+        "source": "Brainsre",
+        "url": "https://brainsre.news/resumen-semanal-inmobiliario-12-16-enero-2026/",
+        "time": "Ene",
+        "new": false
+      }
+    ],
+    "alquiler": [
+      {
+        "title": "El alquiler en España sube un 5,6 % y llega a 15,1 €/m²",
+        "summary": "Datos de idealista de octubre: las rentas siguen subiendo, aunque a menor ritmo que en 2024.",
+        "impact": "Alto",
+        "source": "ESdiario / idealista",
+        "url": "https://www.esdiario.com/economia/261103/201953/precio-alquiler-sigue-imparable-sube-5-6-interanual-octubre.html",
+        "time": "Nov",
+        "new": true
+      },
+      {
+        "title": "Donde hay tope, las rentas bajan; donde no, suben",
+        "summary": "Según idealista, los mercados con precios topados registran bajadas, mientras los no intervenidos siguen subiendo.",
+        "impact": "Medio",
+        "source": "Forbes",
+        "url": "https://forbes.es/?p=968818",
+        "time": "Jul",
+        "new": false
+      },
+      {
+        "title": "Cada piso en alquiler recibe 41 contactos antes de retirarse",
+        "summary": "La demanda crece un 17 % en un año mientras la oferta de larga duración sigue en mínimos.",
+        "impact": "Medio",
+        "source": "idealista",
+        "url": "https://www.idealista.com/news/taxonomy/term/71958",
+        "time": "1T",
+        "new": false
+      },
+      {
+        "title": "Alquilar 80 m² cuesta de media 1.131 € al mes",
+        "summary": "Fotocasa detecta una ligera moderación interanual, pero en niveles históricamente altos.",
+        "impact": "Medio",
+        "source": "Euronews",
+        "url": "https://es.euronews.com/business/2026/08/12/alquiler-espana-supera-1100-euros-80-m2-ciudades-caras-baratas",
+        "time": "Ago",
+        "new": false
+      },
+      {
+        "title": "El alquiler de temporada supera la cuarta parte de los contratos en Barcelona",
+        "summary": "Por eso la Generalitat decidió regularlo desde enero.",
+        "impact": "Medio",
+        "source": "Vivara",
+        "url": "https://www.vivara.io/en/blog/legal/nueva-regulacion-del-alquiler.md",
+        "time": "2026",
+        "new": false
+      }
+    ],
+    "obra_nueva": [
+      {
+        "title": "La superficie visada para construir crece un 18 %",
+        "summary": "20,99 millones de m² en el primer semestre, pero la creación de hogares sigue por encima del ritmo de construcción.",
+        "impact": "Medio",
+        "source": "Brainsre",
+        "url": "https://brainsre.news/superficie-visada-construir-rehabilitar-crece-18/",
+        "time": "2026",
+        "new": false
+      },
+      {
+        "title": "BBVA Research: los visados crecerán un 10,1 % en 2026 y un 12,6 % en 2027",
+        "summary": "Aun así, la producción seguirá siendo insuficiente: pasan unos 25 meses entre el inicio de una vivienda y su venta.",
+        "impact": "Medio",
+        "source": "BBVA Research",
+        "url": "https://www.bbvaresearch.com/wp-content/uploads/2026/07/Perspectivas_y_electricidad.pdf",
+        "time": "Jul",
+        "new": false
+      },
+      {
+        "title": "Las promotoras descartan bajar precios",
+        "summary": "Falta de suelo finalista, costes de construcción, mano de obra y burocracia limitan la oferta.",
+        "impact": "Medio",
+        "source": "Capitalbolsa",
+        "url": "https://www.bolsamania.com/capitalbolsa/noticias_amp/empresas/las-promotoras-descartan-bajadas-de-precios-por-la-fuerte-escasez-de-vivienda-nueva--22773314.html",
+        "time": "Jun",
+        "new": false
+      },
+      {
+        "title": "Salas, Incasol y Corp lideran la obra nueva en Cataluña",
+        "summary": "Kronos Homes encabeza el ranking nacional de promotoras en 2026 con 1.184 viviendas.",
+        "impact": "Bajo",
+        "source": "Alimarket / Brainsre",
+        "url": "https://www.alimarket.es/construccion/informe_amp/416978/informe-2025-sobre-las-231-000-viviendas-que-las-promotoras-inmobiliarias-construiran-en-espana-hasta-2028",
+        "time": "2026",
+        "new": false
+      },
+      {
+        "title": "231.000 viviendas en curso hasta 2028",
+        "summary": "Cerca de 800 promotoras desarrollan 3.672 promociones que se entregarán entre 2026 y 2028.",
+        "impact": "Bajo",
+        "source": "Alimarket",
+        "url": "https://www.alimarket.es/construccion/informe_amp/416978/informe-2025-sobre-las-231-000-viviendas-que-las-promotoras-inmobiliarias-construiran-en-espana-hasta-2028/informe-completo",
+        "time": "2026",
         "new": false
       }
     ]
@@ -1252,6 +1465,14 @@
     {
       "name": "Hipotecas.me",
       "url": "https://www.hipotecas.me"
+    },
+    {
+      "name": "Eurostat / Euronews",
+      "url": "https://es.euronews.com"
+    },
+    {
+      "name": "BOE",
+      "url": "https://www.boe.es"
     }
   ],
   "number_of_day": {
@@ -1313,9 +1534,9 @@
     },
     {
       "label": "Regulación",
-      "status": "warn",
-      "value": "Incierta",
-      "text": "El 29-N decide el futuro de la Ley de Vivienda y los topes de alquiler."
+      "status": "bad",
+      "value": "Más intervención",
+      "text": "Convalidado el RDL 29/2026: límites a compras de fondos y grandes tenedores hasta 2030 y tope del 2 % al alquiler."
     },
     {
       "label": "Comprador extranjero",
@@ -1464,5 +1685,438 @@
       ],
       "read": "Si el crudo no baja, las previsiones de inflación y tipos tendrán que revisarse al alza."
     }
-  ]
+  ],
+  "rules": [
+    {
+      "name": "RDL 29/2026 (convalidado el 12/11)",
+      "scope": "España",
+      "status": "En vigor",
+      "text": "Limita hasta 2030 ciertas compras de vivienda por fondos y grandes tenedores; tope del 2 % a las subidas de alquiler hasta 2027; prórrogas extraordinarias; suspensión de desahucios de hogares vulnerables; deducción del 10 % para inquilinos; préstamos TU CASA al 0 %.",
+      "url": "https://www.moncloa.com/2026/11/13/reforma-ley-vivienda-congreso-desahucios-3466984/"
+    },
+    {
+      "name": "RDL 28/2026 (alquiler indefinido)",
+      "scope": "España",
+      "status": "Decaído",
+      "text": "No convalidado: no habrá prórrogas obligatorias de cinco años ni indemnización por no renovar.",
+      "url": "https://www.wolorent.com/blog/convalidacion-decreto-vivienda-diputacion-permanente-congreso"
+    },
+    {
+      "name": "Ley de Vivienda 12/2023 · zona tensionada",
+      "scope": "Barcelona",
+      "status": "En vigor",
+      "text": "Los nuevos contratos de vivienda habitual no pueden superar el índice de precios de referencia.",
+      "url": "https://www.vivara.io/en/blog/legal/regulacion-del-alquiler-en-cataluna.md"
+    },
+    {
+      "name": "Ley catalana 11/2025 · temporada y habitaciones",
+      "scope": "Cataluña",
+      "status": "En vigor",
+      "text": "Desde el 1 de enero de 2026, el alquiler de temporada sin causa justificada y por habitaciones sigue el índice en zonas tensionadas. Multas de hasta 900.000 €.",
+      "url": "https://net2rent.com/nueva-ley-regulacion-alquiler-temporal-cataluna/"
+    },
+    {
+      "name": "Gran tenedor: 5 viviendas",
+      "scope": "Cataluña",
+      "status": "En vigor",
+      "text": "Basta con cinco viviendas para tener obligaciones reforzadas, sin necesidad de estar en zona tensionada.",
+      "url": "https://www.idealista.com/news/taxonomy/term/297"
+    },
+    {
+      "name": "Pisos turísticos: fin en noviembre de 2028",
+      "scope": "Barcelona",
+      "status": "Calendario",
+      "text": "No se renovarán las 10.101 licencias de vivienda de uso turístico.",
+      "url": "https://www.vozpopuli.com/espana/cataluna/collboni-eliminara-todos-los-pisos-turisticos-a-partir-de-2028-para-que-sean-residenciales.html"
+    }
+  ],
+  "global": [
+    {
+      "region": "Estados Unidos",
+      "summary": "Crece con fuerza gracias al consumo y la inversión en IA, pero la inflación energética empuja a la Fed a subir tipos.",
+      "items": [
+        {
+          "id": "us_gdp",
+          "label": "PIB (anualizado)",
+          "value": 3.4,
+          "unit": "%",
+          "decimals": 1,
+          "date": "3T 2026",
+          "detail": "+0,8 % trimestral; +2,1 % interanual",
+          "source": "CaixaBank Research",
+          "url": "https://www.caixabankresearch.com/ca/node/14732/printable/print",
+          "why": "El consumo y la inversión en equipos informáticos para IA siguen tirando de la economía.",
+          "good_when": "up",
+          "change": 1.2,
+          "change_unit": "pp",
+          "history": []
+        },
+        {
+          "id": "us_cpi",
+          "label": "Inflación (IPC)",
+          "value": 3.7,
+          "unit": "%",
+          "decimals": 1,
+          "date": "Septiembre 2026",
+          "detail": "Octubre: +0,4 % mensual (sin dato interanual por el cierre de 2025)",
+          "source": "Emol / Bloomberg",
+          "url": "https://www.emol.com/noticias/Economia/2026/11/10/1216665/eeuu-ipc-inflacion-tasas-fed.html",
+          "why": "La gasolina por encima de 4 $ el galón y los servicios mantienen la inflación alta.",
+          "good_when": "down",
+          "change": null,
+          "change_unit": "pp",
+          "history": []
+        },
+        {
+          "id": "us_unemp",
+          "label": "Tasa de paro",
+          "value": 4.2,
+          "unit": "%",
+          "decimals": 1,
+          "date": "Último dato",
+          "detail": "Repunta una décima",
+          "source": "CaixaBank Research",
+          "url": "https://www.caixabankresearch.com/en/economics-markets/recent-developments/solidez-economia-internacional-ante-horizonte-mas-complejo",
+          "why": "La creación de empleo se modera, aunque el mercado laboral sigue sólido.",
+          "good_when": "down",
+          "change": 0.1,
+          "change_unit": "pp",
+          "history": []
+        },
+        {
+          "id": "fed_rate",
+          "label": "Tipo de la Fed",
+          "value": 3.875,
+          "unit": "%",
+          "decimals": 2,
+          "date": "Septiembre 2026",
+          "detail": "Próxima reunión: 8-9 de diciembre",
+          "source": "Euronews",
+          "url": "https://es.euronews.com/business/2026/09/17/el-banco-de-inglaterra-mantiene-tipos-en-375-la-inflacion-alcanza-maximo-de-5-meses",
+          "why": "Subió en septiembre por primera vez desde 2023; el mercado espera otra subida en diciembre.",
+          "good_when": "down",
+          "change": null,
+          "change_unit": "pp",
+          "history": [],
+          "display": "3,75–4,00"
+        }
+      ]
+    },
+    {
+      "region": "Eurozona",
+      "summary": "Crecimiento débil e inflación del 4 %: Oxford Economics habla de tendencias estanflacionarias. Francia e Italia, estancadas.",
+      "items": [
+        {
+          "id": "ez_gdp",
+          "label": "PIB trimestral",
+          "value": 0.4,
+          "unit": "%",
+          "decimals": 1,
+          "date": "3T 2026",
+          "detail": "Sin Irlanda: +0,2 %. Alemania +0,2 %, Italia 0,0 %, España +0,6 %",
+          "source": "Euronews / Eurostat",
+          "url": "https://es.euronews.com/2026/10/30/la-inflacion-de-italia-se-dispara-al-54-en-octubre-por-el-encarecimiento-de-la-energia",
+          "why": "Resiste mejor de lo previsto, pero el dato está inflado por Irlanda.",
+          "good_when": "up",
+          "change": -0.2,
+          "change_unit": "pp",
+          "history": []
+        },
+        {
+          "id": "ez_hicp",
+          "label": "Inflación (IPCA)",
+          "value": 4.0,
+          "unit": "%",
+          "decimals": 1,
+          "date": "Octubre 2026",
+          "detail": "Septiembre: 3,8 %. Italia: 5,4 %",
+          "source": "CaixaBank Research",
+          "url": "https://www.caixabankresearch.com/en/economics-markets/recent-developments/solidez-economia-internacional-ante-horizonte-mas-complejo",
+          "why": "La energía (casi +20 % interanual) es la que más aporta.",
+          "good_when": "down",
+          "change": 0.2,
+          "change_unit": "pp",
+          "history": []
+        },
+        {
+          "id": "ez_pmi",
+          "label": "PMI compuesto",
+          "value": 51.9,
+          "unit": "",
+          "decimals": 1,
+          "date": "Octubre 2026",
+          "detail": "Septiembre: 53,1. Francia vuelve a contraerse",
+          "source": "Euronews",
+          "url": "https://es.euronews.com/2026/10/23/francia-vuelve-a-la-contraccion-mientras-se-ralentiza-el-crecimiento-europeo",
+          "why": "Sigue por encima de 50 (expansión), pero pierde impulso por los costes energéticos.",
+          "good_when": "up",
+          "change": -1.2,
+          "change_unit": "pts",
+          "history": []
+        },
+        {
+          "id": "bce_rate",
+          "label": "Tipo del BCE (depósito)",
+          "value": 2.5,
+          "unit": "%",
+          "decimals": 2,
+          "date": "29/10/2026",
+          "detail": "Mercado: 80 % de probabilidad de subir al 2,75 % en diciembre",
+          "source": "BCE",
+          "url": "https://www.bde.es/f/webbe/GAP/Secciones/SalaPrensa/ComunicadosBCE/DecisionesPoliticaMonetaria/26/mp261029.pdf",
+          "why": "Pausa tras la subida de septiembre; Lagarde dejará el cargo en febrero.",
+          "good_when": "down",
+          "change": 0,
+          "change_unit": "pp",
+          "history": []
+        }
+      ]
+    },
+    {
+      "region": "Reino Unido",
+      "summary": "El Banco de Inglaterra vuelve a subir tipos por primera vez desde 2023 para frenar la inflación energética.",
+      "items": [
+        {
+          "id": "uk_rate",
+          "label": "Tipo del Banco de Inglaterra",
+          "value": 4.0,
+          "unit": "%",
+          "decimals": 2,
+          "date": "05/11/2026",
+          "detail": "El mercado da un 50 % a otra subida en diciembre",
+          "source": "CaixaBank Research",
+          "url": "https://www.caixabankresearch.com/es/publicaciones/notas-breves-actualidad-economica-y-financiera/observatorio-bancos-centrales/vuelven",
+          "why": "Primera subida desde 2023 por el impacto de la energía en los precios.",
+          "good_when": "down",
+          "change": 0.25,
+          "change_unit": "pp",
+          "history": []
+        },
+        {
+          "id": "uk_cpi",
+          "label": "Inflación (IPC)",
+          "value": 3.5,
+          "unit": "%",
+          "decimals": 1,
+          "date": "Septiembre 2026",
+          "detail": "El BoE prevé un pico cercano al 4,9 % en 2027",
+          "source": "La República / Bloomberg",
+          "url": "https://www.larepublica.co/globoeconomia/el-banco-de-inglaterra-sube-de-nuevo-los-tipos-de-interes-por-unanimidad-4518162",
+          "why": "La factura energética se traslada a los precios.",
+          "good_when": "down",
+          "change": null,
+          "change_unit": "pp",
+          "history": []
+        }
+      ]
+    },
+    {
+      "region": "Asia-Pacífico",
+      "summary": "China vuelve al rango objetivo apoyada en exportaciones y la IA; Japón mantiene tipos y Australia sube por quinta vez en el año.",
+      "items": [
+        {
+          "id": "cn_gdp",
+          "label": "PIB China (interanual)",
+          "value": 4.5,
+          "unit": "%",
+          "decimals": 1,
+          "date": "3T 2026",
+          "detail": "+1,2 % trimestral; objetivo oficial 4,5–5 %",
+          "source": "CaixaBank Research",
+          "url": "https://www.caixabankresearch.com/ca/economia-i-mercats?page=169",
+          "why": "Impulso de la industria y las exportaciones; el consumo y la vivienda siguen débiles.",
+          "good_when": "up",
+          "change": 0.2,
+          "change_unit": "pp",
+          "history": []
+        },
+        {
+          "id": "jp_rate",
+          "label": "Tipo del Banco de Japón",
+          "value": 1.25,
+          "unit": "%",
+          "decimals": 2,
+          "date": "Noviembre 2026",
+          "detail": "Mantiene una orientación restrictiva",
+          "source": "CaixaBank Research",
+          "url": "https://www.caixabankresearch.com/es/publicaciones/notas-breves-actualidad-economica-y-financiera/observatorio-bancos-centrales/vuelven",
+          "why": "El yen débil (160 por dólar) encarece las importaciones y presiona al alza.",
+          "good_when": "down",
+          "change": 0,
+          "change_unit": "pp",
+          "history": []
+        },
+        {
+          "id": "au_rate",
+          "label": "Tipo del Banco de Australia",
+          "value": 4.85,
+          "unit": "%",
+          "decimals": 2,
+          "date": "Noviembre 2026",
+          "detail": "Quinta subida de 2026",
+          "source": "InvestingLive",
+          "url": "https://investinglive.com/es/bancos-centrales",
+          "why": "Prevé un pico de inflación del 4,5 %.",
+          "good_when": "down",
+          "change": 0.25,
+          "change_unit": "pp",
+          "history": []
+        }
+      ]
+    },
+    {
+      "region": "Mundo",
+      "summary": "El FMI habla de 'resiliencia bajo presión': la economía global aguanta el shock energético gracias al empuje de la IA.",
+      "items": [
+        {
+          "id": "imf_world",
+          "label": "Crecimiento mundial 2026 (FMI)",
+          "value": 3.1,
+          "unit": "%",
+          "decimals": 1,
+          "date": "Otoño 2026",
+          "detail": "2025: 3,5 %",
+          "source": "CaixaBank Research",
+          "url": "https://www.caixabankresearch.com/en/economics-markets/recent-developments/solidez-economia-internacional-ante-horizonte-mas-complejo",
+          "why": "El FMI mantiene la previsión pese a la guerra de Irán.",
+          "good_when": "up",
+          "change": -0.4,
+          "change_unit": "pp",
+          "history": []
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "verdict": "No hay recesión. Hay un shock energético que frena Europa y mantiene la inflación alta: riesgo de estanflación, no crisis financiera.",
+    "phase": "Desaceleración con inflación alta (fase tardía del ciclo)",
+    "type": "Crisis de oferta energética: la guerra de Irán y el estrecho de Ormuz encarecen petróleo y gas.",
+    "explain": "A diferencia de 2008, el problema no está en los bancos ni en el crédito: está en el precio de la energía. Eso sube la inflación, obliga a los bancos centrales a subir tipos y frena a los países más dependientes del gas y del petróleo importado (Europa). España aguanta mejor por el empleo, el turismo y las renovables. La IA sostiene la inversión en EE. UU. y Asia.",
+    "regions": [
+      {
+        "name": "España",
+        "risk": "Bajo",
+        "growth": "Sólido (+0,6 % trimestral)",
+        "inflation": "Alta (4,9 %)",
+        "score": 25
+      },
+      {
+        "name": "Eurozona",
+        "risk": "Moderado",
+        "growth": "Débil (+0,2 % sin Irlanda)",
+        "inflation": "Alta (4,0 %)",
+        "score": 50
+      },
+      {
+        "name": "EE. UU.",
+        "risk": "Bajo",
+        "growth": "Fuerte (+3,4 % anualizado)",
+        "inflation": "Alta (3,7 %)",
+        "score": 25
+      },
+      {
+        "name": "China",
+        "risk": "Bajo-moderado",
+        "growth": "En objetivo (+4,5 %)",
+        "inflation": "Baja",
+        "score": 35
+      }
+    ],
+    "crisis_types": [
+      {
+        "type": "Crisis energética / de oferta",
+        "status": "yes",
+        "text": "Sí. Petróleo y gas caros por la guerra de Irán: es el origen de todo lo demás."
+      },
+      {
+        "type": "Estanflación",
+        "status": "partial",
+        "text": "Riesgo en Europa: inflación del 4 % con crecimiento casi nulo en Francia e Italia. España y EE. UU. siguen creciendo."
+      },
+      {
+        "type": "Recesión",
+        "status": "no",
+        "text": "No. Ninguna gran economía encadena dos trimestres de caída del PIB."
+      },
+      {
+        "type": "Crisis financiera o bancaria",
+        "status": "no",
+        "text": "No. La banca es rentable con tipos altos y la morosidad está en mínimos."
+      },
+      {
+        "type": "Burbuja inmobiliaria",
+        "status": "no",
+        "text": "No en sentido clásico: los precios suben por falta de oferta, no por crédito fácil. Las compraventas ya caen."
+      },
+      {
+        "type": "Corrección en tecnología y cripto",
+        "status": "partial",
+        "text": "Sí en curso: bitcoin −50 % desde máximos y dudas sobre las valoraciones de la IA tras la crisis de Nvidia."
+      }
+    ],
+    "sectors": [
+      {
+        "name": "Industria intensiva en energía",
+        "status": "grave",
+        "why": "Química, acero, cerámica o papel son los más golpeados por el coste de la energía, según CaixaBank Research."
+      },
+      {
+        "name": "Criptomonedas",
+        "status": "grave",
+        "why": "Bitcoin cae casi un 50 % desde su máximo; salidas de los ETF y liquidaciones."
+      },
+      {
+        "name": "Tecnología y semiconductores",
+        "status": "presion",
+        "why": "La salida de Jensen Huang y las dudas sobre la IA castigan a Nvidia, AMD y Broadcom."
+      },
+      {
+        "name": "Transporte y aerolíneas",
+        "status": "presion",
+        "why": "El combustible caro aprieta márgenes."
+      },
+      {
+        "name": "Promoción y construcción",
+        "status": "presion",
+        "why": "Costes, falta de suelo y de mano de obra frenan la oferta nueva."
+      },
+      {
+        "name": "Vivienda (actividad)",
+        "status": "presion",
+        "why": "Compraventas −5,9 % por las hipotecas más caras; los precios aguantan."
+      },
+      {
+        "name": "Servicios y consumo interno",
+        "status": "resiste",
+        "why": "Menos expuestos a la energía; el empleo en récord sostiene el gasto."
+      },
+      {
+        "name": "Turismo",
+        "status": "resiste",
+        "why": "Buena temporada; España se ve como destino seguro frente a Oriente Medio."
+      },
+      {
+        "name": "Energía y petroleras",
+        "status": "gana",
+        "why": "El crudo a 95 $ impulsa beneficios (Repsol +3,3 % el viernes)."
+      },
+      {
+        "name": "Banca",
+        "status": "gana",
+        "why": "Los tipos altos elevan el margen de intereses; resultados fuertes en Europa."
+      },
+      {
+        "name": "Defensa e infraestructuras",
+        "status": "gana",
+        "why": "El gasto público alemán en defensa sostiene la industria."
+      }
+    ],
+    "watch": [
+      "Brent por encima de 110 $ → el riesgo de recesión en Europa se dispara.",
+      "Inflación subyacente: si sube, la inflación se 'contagia' a salarios y servicios.",
+      "PMI por debajo de 50 en la eurozona → contracción.",
+      "Bono a 10 años de EE. UU. por encima del 5,5 % → presión sobre bolsas y vivienda.",
+      "Paro en EE. UU. por encima del 4,5 % → enfriamiento serio."
+    ]
+  }
 }

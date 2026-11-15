@@ -172,3 +172,55 @@ window.CONCEPTS = [
   { t: "Liquidez de un activo", d: "Lo rápido que puedes venderlo sin perder valor. Una acción del Ibex se vende en segundos; un piso tarda meses. Por eso los inmuebles exigen más rentabilidad." },
   { t: "Efecto riqueza", d: "Cuando suben la bolsa o la vivienda, la gente se siente más rica y consume más, aunque no haya vendido nada." }
 ];
+
+/* Indicadores internacionales */
+Object.assign(window.GLOSSARY, {
+  us_gdp: { name: "PIB de EE. UU. (anualizado)", cat: "Actividad", what: "Crecimiento de la economía estadounidense. EE. UU. lo publica 'anualizado': el crecimiento del trimestre elevado a ritmo de un año (un 0,8 % trimestral equivale a un 3,4 % anualizado).",
+    up: "Más empleo, beneficios y demanda mundial; también más presión sobre la inflación y los tipos.", down: "Riesgo de recesión en la primera economía del mundo, con contagio global.", you: "Un EE. UU. fuerte mantiene el dólar alto y a los compradores americanos con poder adquisitivo en Europa." },
+  us_cpi: { name: "Inflación de EE. UU. (IPC)", cat: "Precios", what: "Subida de precios al consumo en EE. UU. La Fed apunta a un 2 % (medido con el índice PCE).",
+    up: "La Fed sube tipos: dólar fuerte, bolsas y cripto bajo presión.", down: "Margen para bajar tipos: impulso a bolsas y activos de riesgo.", you: "Lo que haga la Fed acaba influyendo en el BCE y, por tanto, en el Euríbor." },
+  us_unemp: { name: "Paro en EE. UU.", cat: "Empleo", what: "Porcentaje de la población activa sin empleo. Por debajo del 4,5 % se considera pleno empleo en EE. UU.",
+    up: "Señal de enfriamiento: la Fed podría bajar tipos, pero aumenta el riesgo de recesión.", down: "Mercado laboral fuerte: más consumo y más presión salarial.", you: "Una subida rápida del paro estadounidense suele anticipar recesión global." },
+  fed_rate: window.GLOSSARY.fed,
+  ez_gdp: { name: "PIB de la eurozona", cat: "Actividad", what: "Crecimiento trimestral de los 21 países del euro. Ojo: Irlanda distorsiona el dato por las multinacionales que tributan allí.",
+    up: "Europa resiste: más demanda para la industria y el turismo.", down: "Riesgo de recesión. Dos trimestres en negativo = recesión técnica.", you: "España crece el triple que la media: eso atrae capital europeo a nuestro inmobiliario." },
+  ez_hicp: { name: "Inflación de la eurozona (IPCA)", cat: "Precios", what: "El índice armonizado que usa el BCE para decidir los tipos. Objetivo: 2 %.",
+    up: "El BCE sube tipos → Euríbor al alza.", down: "El BCE puede bajar tipos → hipotecas más baratas.", you: "Es el dato que más directamente decide el Euríbor de tus compradores." },
+  ez_pmi: { name: "PMI compuesto de la eurozona", cat: "Actividad", what: "Encuesta mensual a directores de compras de empresas de industria y servicios. Es el primer dato de actividad de cada mes.",
+    up: "Por encima de 50 = expansión; cuanto más alto, más dinamismo.", down: "Por debajo de 50 = contracción: suele anticipar un mal PIB.", you: "Es un termómetro adelantado: si cae por debajo de 50, el BCE tendrá menos margen para subir tipos." },
+  bce_rate: window.GLOSSARY.bce,
+  uk_rate: { name: "Tipo del Banco de Inglaterra", cat: "Tipos", what: "El precio del dinero en el Reino Unido.", up: "Hipotecas británicas más caras; la libra se fortalece.", down: "Alivio para hogares británicos.", you: "Los compradores británicos son clave en Barcelona y la costa: su financiación en casa les afecta." },
+  uk_cpi: { name: "Inflación del Reino Unido", cat: "Precios", what: "Subida de precios al consumo en Reino Unido. Objetivo: 2 %.", up: "El Banco de Inglaterra sube tipos.", down: "Margen para bajar tipos.", you: "Afecta al poder de compra del comprador británico." },
+  cn_gdp: { name: "PIB de China", cat: "Actividad", what: "Crecimiento interanual de la segunda economía del mundo. Pekín fija un objetivo anual (4,5–5 % en 2026).",
+    up: "Más demanda de materias primas y de productos europeos de lujo e industriales.", down: "Menos exportaciones europeas y caída de materias primas.", you: "Una China débil suele presionar a la baja al petróleo, lo que ayudaría a la inflación europea." },
+  jp_rate: { name: "Tipo del Banco de Japón", cat: "Tipos", what: "Japón tuvo tipos negativos durante años y ahora los sube poco a poco.", up: "El yen se fortalece; puede provocar ventas en bolsas globales (fin del 'carry trade').", down: "Yen débil: favorece a exportadores japoneses.", you: "Movimientos bruscos del yen han provocado caídas globales de bolsa en el pasado." },
+  au_rate: { name: "Tipo del Banco de Australia", cat: "Tipos", what: "Referencia de un banco central muy sensible a la inflación y a las materias primas.", up: "Endurecimiento global contra la inflación.", down: "Alivio.", you: "Sirve como señal de que la inflación energética es un problema mundial." },
+  imf_world: { name: "Crecimiento mundial (FMI)", cat: "Actividad", what: "Previsión del Fondo Monetario Internacional para la economía global.", up: "Más comercio y demanda mundial.", down: "Desaceleración global.", you: "Por debajo del 3 %, el FMI suele hablar de economía mundial débil." }
+});
+
+/* Cómo interpretar cada nivel (rangos orientativos) */
+window.LEVELS = {
+  euribor12m: [["Menos del 2 %","Bajo: hipotecas baratas, mucha demanda"],["2 % – 3,5 %","Normal"],["Más del 3,5 %","Alto: frena compras y aprieta a hipotecados"]],
+  bce: [["Menos del 2 %","Expansivo: estimula la economía"],["2 % – 2,5 %","Neutral"],["Más del 2,5 %","Restrictivo: frena la inflación y el crédito"]],
+  bce_rate: [["Menos del 2 %","Expansivo"],["2 % – 2,5 %","Neutral"],["Más del 2,5 %","Restrictivo"]],
+  ipc: [["Menos del 0 %","Deflación: peligroso"],["0 % – 2 %","En objetivo"],["2 % – 3,5 %","Moderada"],["Más del 3,5 %","Alta: el BCE sube tipos"]],
+  ez_hicp: [["0 % – 2 %","En objetivo del BCE"],["2 % – 3,5 %","Moderada"],["Más del 3,5 %","Alta"]],
+  us_cpi: [["0 % – 2 %","En objetivo de la Fed"],["2 % – 3,5 %","Moderada"],["Más del 3,5 %","Alta"]],
+  uk_cpi: [["0 % – 2 %","En objetivo"],["2 % – 3,5 %","Moderada"],["Más del 3,5 %","Alta"]],
+  pib: [["Menos del 0 %","Contracción (2 trimestres = recesión técnica)"],["0 % – 0,4 %","Débil"],["0,4 % – 0,8 %","Sólido"],["Más del 0,8 %","Muy fuerte"]],
+  ez_gdp: [["Menos del 0 %","Contracción"],["0 % – 0,3 %","Débil"],["Más del 0,3 %","Sólido para la eurozona"]],
+  us_gdp: [["Menos del 0 %","Contracción"],["0 % – 2 %","Moderado"],["Más del 2 %","Fuerte"]],
+  cn_gdp: [["Menos del 4,5 %","Por debajo del objetivo"],["4,5 % – 5 %","En objetivo"],["Más del 5 %","Fuerte"]],
+  paro: [["Menos del 8 %","Bajo para España"],["8 % – 12 %","Normal reciente"],["Más del 12 %","Alto"]],
+  us_unemp: [["Menos del 4,5 %","Pleno empleo"],["4,5 % – 5,5 %","Enfriamiento"],["Más del 5,5 %","Recesión probable"]],
+  prima: [["Menos de 100 pb","Baja: confianza en España"],["100 – 250 pb","Vigilancia"],["Más de 250 pb","Tensión (en 2012 superó 600)"]],
+  bono10: [["Menos del 3 %","Financiación barata"],["3 % – 4,5 %","Normal"],["Más del 4,5 %","Caro"]],
+  us10y: [["Menos del 4 %","Holgado"],["4 % – 5 %","Exigente"],["Más del 5 %","Presión fuerte sobre bolsas y vivienda"]],
+  brent: [["Menos de 70 $","Barato: alivia la inflación"],["70 – 90 $","Normal"],["90 – 110 $","Caro"],["Más de 110 $","Shock: riesgo de recesión en Europa"]],
+  ez_pmi: [["Menos de 50","Contracción"],["50 – 52","Expansión débil"],["Más de 52","Expansión sólida"]],
+  eurusd: [["Menos de 1,05","Euro muy débil"],["1,05 – 1,15","Normal"],["Más de 1,15","Euro fuerte"]],
+  rentab: [["Menos del 3,5 %","Baja: se compra por revalorización"],["3,5 % – 5 %","Media en Barcelona"],["Más del 5 %","Alta: zonas periféricas o con más riesgo"]],
+  compraventas: [["Menos del −5 %","Caída clara de actividad"],["−5 % – +5 %","Estable"],["Más del +5 %","Mercado muy activo"]],
+  fed: [["Menos del 2,5 %","Expansivo"],["2,5 % – 3,5 %","Neutral"],["Más del 3,5 %","Restrictivo"]],
+  fed_rate: [["Menos del 2,5 %","Expansivo"],["2,5 % – 3,5 %","Neutral"],["Más del 3,5 %","Restrictivo"]]
+};
