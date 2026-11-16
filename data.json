@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T10:15:00+01:00",
+  "updated": "2026-11-16T11:00:00+01:00",
   "edition": "Lunes 16 de noviembre de 2026",
   "headline": "Lunes de cara a cara: Sánchez y Feijóo tienen previsto su único debate a dos, con la vivienda en el centro, mientras los mercados digieren el desplome cripto y CaixaBank eleva al 2,6 % el crecimiento de España.",
   "brief_60s": [
@@ -1316,40 +1316,10 @@
         "time": "16/11",
         "new": true,
         "cat": "Política"
-      },
-      {
-        "title": "XRP pierde el dólar: mínimo de dos años",
-        "summary": "Toca 0,8952 $, su nivel más bajo desde noviembre de 2024, con salidas de los ETF de XRP.",
-        "impact": "Alto",
-        "source": "CryptoTicker",
-        "url": "https://cryptoticker.io/es/caida-xrp-hoy-precio-089-dolares-minimo-desde-noviembre-2024-15-noviembre-2026/",
-        "time": "15/11",
-        "new": false,
-        "cat": "Cripto"
-      },
-      {
-        "title": "Día mundial en recuerdo de las víctimas de tráfico",
-        "summary": "Las asociaciones piden este domingo más protección y formación para peatones, ciclistas y motoristas, los usuarios más vulnerables.",
-        "impact": "Bajo",
-        "source": "Infobae / EFE",
-        "url": "https://www.infobae.com/espana/agencias/2026/11/13/temas-del-dia-de-efe-espana-del-sabado-14-de-noviembre-de-2026/",
-        "time": "15/11",
-        "new": false,
-        "cat": "Sociedad"
       }
     ],
     "semana": [
       {
-        "title": "Sánchez y Feijóo, ante su cara a cara previsto para esta noche",
-        "summary": "El PP confirmó su asistencia a un debate a dos el 16 de noviembre en Mediaset y a un debate a cuatro el día 26; algunos calendarios aún lo daban sin fecha cerrada.",
-        "impact": "Alto",
-        "source": "Demócrata",
-        "url": "https://www.democrata.es/elecciones-generales-espana/feijoo-confirma-su-asistencia-cara-cara-con-sanchez-16-noviembre-debate-cuatro-dia-26/",
-        "time": "16/11",
-        "new": true,
-        "cat": "Política"
-      },
-      {
         "title": "XRP pierde el dólar: mínimo de dos años",
         "summary": "Toca 0,8952 $, su nivel más bajo desde noviembre de 2024, con salidas de los ETF de XRP.",
         "impact": "Alto",
@@ -1358,16 +1328,6 @@
         "time": "15/11",
         "new": false,
         "cat": "Cripto"
-      },
-      {
-        "title": "Cumbre inédita Trump–Putin–Xi el jueves en Shenzhen",
-        "summary": "La Casa Blanca y el Kremlin confirman la reunión al margen del APEC. Hablarán de la guerra con Irán, pero no de Ucrania.",
-        "impact": "Alto",
-        "source": "MDZ / AFP",
-        "url": "https://www.mdzol.com/mundo/2026/11/14/inedita-cumbre-entre-trump-putin-y-xi-jinping-iran-en-la-agenda-pero-ucrania-no-1995423.html",
-        "time": "14/11",
-        "new": false,
-        "cat": "Geopolítica"
       },
       {
         "title": "Bitcoin se hunde hasta 63.500 $",
@@ -1380,14 +1340,14 @@
         "cat": "Cripto"
       },
       {
-        "title": "El bono de EE. UU. supera el 5 % y la Fed apunta a subir",
-        "summary": "El mercado da en torno a un 85 % de probabilidad a una subida de la Fed en diciembre, e incluso se habla de medio punto.",
+        "title": "Cumbre inédita Trump–Putin–Xi el jueves en Shenzhen",
+        "summary": "La Casa Blanca y el Kremlin confirman la reunión al margen del APEC. Hablarán de la guerra con Irán, pero no de Ucrania.",
         "impact": "Alto",
-        "source": "NordFX",
-        "url": "https://nordfx.com/market-news/market-pulse-november-13-2026",
-        "time": "13/11",
+        "source": "MDZ / AFP",
+        "url": "https://www.mdzol.com/mundo/2026/11/14/inedita-cumbre-entre-trump-putin-y-xi-jinping-iran-en-la-agenda-pero-ucrania-no-1995423.html",
+        "time": "14/11",
         "new": false,
-        "cat": "Economía global"
+        "cat": "Geopolítica"
       },
       {
         "title": "Jensen Huang dimite y Nvidia se desploma",
@@ -1410,14 +1370,14 @@
         "cat": "Mercados"
       },
       {
-        "title": "Trump dice que no necesita un acuerdo de paz con Irán",
-        "summary": "El presidente apartó a JD Vance de las conversaciones. Irán exige autorización a los buques para cruzar Ormuz.",
+        "title": "El bono de EE. UU. supera el 5 % y la Fed apunta a subir",
+        "summary": "El mercado da en torno a un 85 % de probabilidad a una subida de la Fed en diciembre, e incluso se habla de medio punto.",
         "impact": "Alto",
-        "source": "Todo sobre RRII",
-        "url": "https://noticiastodosobrerrii.substack.com/p/reporte-guerra-medio-oriente-todo-927",
-        "time": "12/11",
+        "source": "NordFX",
+        "url": "https://nordfx.com/market-news/market-pulse-november-13-2026",
+        "time": "13/11",
         "new": false,
-        "cat": "Geopolítica"
+        "cat": "Economía global"
       },
       {
         "title": "Convalidado el decreto de vivienda: límites a fondos hasta 2030 y tope del 2 % al alquiler",
@@ -1440,24 +1400,44 @@
         "cat": "Regulación"
       },
       {
-        "title": "El Euríbor rompe cuatro bajadas seguidas",
-        "summary": "El índice a 12 meses sube al 3,217 % el 10 de noviembre. La media provisional del mes (3,268 %) supera la de octubre y está más de un punto por encima de hace un año.",
+        "title": "Balance de la primera huelga general en 14 años",
+        "summary": "El paro del 11-N, convocado por CCOO y UGT por la vivienda, los salarios y los precios, tuvo un seguimiento desigual. Los sindicatos hablan de éxito y la patronal, de fracaso.",
         "impact": "Alto",
-        "source": "Rankia",
-        "url": "https://www.rankia.com/blog/mejores-hipotecas/7546779-euribor-hoy-11-noviembre-2026",
+        "source": "COPE",
+        "url": "https://www.cope.es/programas/mediodia-cope/horas-completas/14-00h-14-nov-2026-mediodia-cope-20261114_3475318.html",
         "time": "11/11",
+        "new": false,
+        "cat": "Sociedad"
+      },
+      {
+        "title": "Banca March y Abanca encarecen su hipoteca fija",
+        "summary": "Banca March sube su fija bonificada del 2,65 % al 3,80 % y Abanca la eleva por segunda vez en un mes, al 3,35 %. Santander (2,96 %) y BBVA (2,95 %) mantienen precio.",
+        "impact": "Alto",
+        "source": "Hipotecas.me",
+        "url": "https://www.hipotecas.me/noticias/banca-march-abanca-suben-hipoteca-fija-noviembre-2026",
+        "time": "10/11",
+        "new": false,
+        "cat": "Hipotecas"
+      },
+      {
+        "title": "CaixaBank eleva al 2,6 % el crecimiento de España en 2026",
+        "summary": "El servicio de estudios prevé un 2 % para 2027 y destaca la baja deuda de los hogares (41 % del PIB frente al 50 % de la eurozona).",
+        "impact": "Medio",
+        "source": "Ara",
+        "url": "https://es.ara.cat/economia/macroeconomia/caixabank-espanola-seguira-economia-europea-crecera_1_5905111.html",
+        "time": "09/11",
         "new": false,
         "cat": "Economía"
       },
       {
-        "title": "El PP lidera la media de encuestas",
-        "summary": "La media de 15 institutos sitúa al PP en el 31,5 %, al PSOE en el 26,8 %, a Vox en el 19,1 % y a Frente Amplio en el 6,2 %. La publicación de encuestas se prohíbe desde el 24 de noviembre.",
-        "impact": "Alto",
-        "source": "Demócrata",
-        "url": "https://www.democrata.es/economia/espana-vuelve-huelga-general-14-anos-despues-con-vivienda-como-detonante-puertas-29n/",
-        "time": "10/11",
+        "title": "Vecinos llevan al Ayuntamiento a los tribunales por la reserva del 30 %",
+        "summary": "Denuncian que no se exige vivienda protegida a un fondo que quiere convertir un edificio en coliving; crece la presión para que el consistorio compre bloques en riesgo.",
+        "impact": "Medio",
+        "source": "Ara",
+        "url": "https://es.ara.cat/sociedad/barcelona/llevan-ayuntamiento-barcelona-tribunales-no-cumplir-reserva-30-vivienda-protegida_1_5903484.html",
+        "time": "07/11",
         "new": false,
-        "cat": "Política"
+        "cat": "Barcelona"
       }
     ]
   },
