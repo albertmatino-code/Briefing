@@ -371,8 +371,8 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
 <!-- NOTICIAS -->
 <section class="view" id="v-noticias">
   <div class="page-head"><div><h1>Noticias</h1><p>Las más importantes de cada área, con resumen propio y enlace al medio. La barra de color indica el impacto: rojo alto, ámbar medio, gris bajo.</p></div></div>
-  <div id="n-hoy-box"><h3 class="sub">Hoy <span class="muted" id="n-hoy-date" style="text-transform:none;letter-spacing:0;font-weight:400"></span></h3><div class="panel"><div id="n-hoy"></div></div></div>
-  <div id="n-semana-box"><h3 class="sub">Lo más importante de los últimos 7-10 días</h3><div class="panel"><div id="n-semana"></div></div></div>
+  <div id="n-hoy-box"><h3 class="sub">Hoy <span class="muted" id="n-hoy-date" style="text-transform:none;letter-spacing:0;font-weight:400"></span></h3><div class="tabs" data-tabs="hoy" data-src="hoy" data-keys="politica:Política,economia:Economía,sociedad:Sociedad,inmobiliario:Mercado inmobiliario"></div></div>
+  <div id="n-semana-box"><h3 class="sub">Lo más importante de los últimos 7-10 días</h3><div class="tabs" data-tabs="sem" data-src="semana" data-keys="politica:Política,economia:Economía,sociedad:Sociedad,inmobiliario:Mercado inmobiliario"></div></div>
   <h3 class="sub">España</h3><div class="tabs" data-tabs="es" data-keys="politica:Política,economia:Economía,sociedad:Sociedad"></div>
   <h3 class="sub">Mundo</h3><div class="tabs" data-tabs="mu" data-keys="mundo_geo:Geopolítica,mundo_eco:Economía global"></div>
   <h3 class="sub">Mercados y cripto</h3><div class="tabs" data-tabs="mk2" data-keys="mercados:Bolsa y empresas,cripto:Cripto"></div>
@@ -625,22 +625,19 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
     const F = D.number_of_day; if(F){ $("#f-val").textContent=F.value; $("#f-label").textContent=F.label; $("#f-ctx").textContent=F.context||""; } else $("#figure").remove();
 
     // Noticias de hoy y de los últimos 7-10 días
-    [["hoy","#n-hoy"],["semana","#n-semana"]].forEach(([k,sel])=>{
-      const arr = N[k]||[]; if(!arr.length){ $(sel+"-box").remove(); return; }
-      $(sel).innerHTML = newsList(arr); });
     const hd = $("#n-hoy-date"); if(hd) hd.textContent = upd.toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"});
 
     // Pestañas de noticias
     document.querySelectorAll("[data-tabs]").forEach(box=>{
-      const id = box.dataset.tabs;
-      const keys = box.dataset.keys.split(",").map(s=>s.split(":")).filter(([k])=>(N[k]||[]).length);
-      if(!keys.length){box.remove();return}
+      const id = box.dataset.tabs, S = box.dataset.src ? (N[box.dataset.src]||{}) : N;
+      const keys = box.dataset.keys.split(",").map(s=>s.split(":")).filter(([k])=>Array.isArray(S[k])&&S[k].length);
+      if(!keys.length){(box.closest("[id$='-box']")||box).remove();return}
       let cur = store.get("tab-"+id); if(!keys.some(([k])=>k===cur)) cur = keys[0][0];
-      box.innerHTML = `<div class="tablist" role="tablist">${keys.map(([k,l])=>{const nn=N[k].filter(n=>n.new).length;return `<button role="tab" type="button" id="t-${id}-${k}" aria-controls="p-${id}" data-k="${k}">${esc(l)}${nn?` <span class="num" style="color:var(--muted);font-weight:400">· ${nn}</span>`:""}</button>`}).join("")}</div><div role="tabpanel" id="p-${id}"></div>`;
+      box.innerHTML = `<div class="tablist" role="tablist">${keys.map(([k,l])=>{const nn=S[k].filter(n=>n.new).length;return `<button role="tab" type="button" id="t-${id}-${k}" aria-controls="p-${id}" data-k="${k}">${esc(l)}${nn?` <span class="num" style="color:var(--muted);font-weight:400">· ${nn}</span>`:""}</button>`}).join("")}</div><div role="tabpanel" id="p-${id}"></div>`;
       const panel = box.querySelector("[role=tabpanel]");
       const show = k=>{ cur=k; store.set("tab-"+id,k);
         box.querySelectorAll("[role=tab]").forEach(b=>{const on=b.dataset.k===k;b.setAttribute("aria-selected",on);b.tabIndex=on?0:-1});
-        panel.setAttribute("aria-labelledby","t-"+id+"-"+k); panel.innerHTML = newsList(N[k]); };
+        panel.setAttribute("aria-labelledby","t-"+id+"-"+k); panel.innerHTML = newsList(S[k]); };
       const tl = box.querySelector(".tablist");
       tl.addEventListener("click",e=>{const b=e.target.closest("[role=tab]");if(b)show(b.dataset.k)});
       tl.addEventListener("keydown",e=>{ if(!["ArrowRight","ArrowLeft"].includes(e.key))return;
