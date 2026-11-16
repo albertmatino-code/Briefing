@@ -1318,7 +1318,17 @@
           "new": true
         }
       ],
-      "economia": [],
+      "economia": [
+        {
+          "title": "XRP pierde el dólar: mínimo de dos años",
+          "summary": "Toca 0,8952 $, su nivel más bajo desde noviembre de 2024, con salidas de los ETF de XRP.",
+          "impact": "Alto",
+          "source": "CryptoTicker",
+          "url": "https://cryptoticker.io/es/caida-xrp-hoy-precio-089-dolares-minimo-desde-noviembre-2024-15-noviembre-2026/",
+          "time": "15/11",
+          "new": true
+        }
+      ],
       "sociedad": [
         {
           "title": "Día mundial en recuerdo de las víctimas de tráfico",
@@ -1327,22 +1337,13 @@
           "source": "Infobae / EFE",
           "url": "https://www.infobae.com/espana/agencias/2026/11/13/temas-del-dia-de-efe-espana-del-sabado-14-de-noviembre-de-2026/",
           "time": "15/11",
-          "new": false
+          "new": true
         }
       ],
       "inmobiliario": []
     },
     "semana": {
       "politica": [
-        {
-          "title": "Sánchez y Feijóo, ante su cara a cara previsto para esta noche",
-          "summary": "El PP confirmó su asistencia a un debate a dos el 16 de noviembre en Mediaset y a un debate a cuatro el día 26; algunos calendarios aún lo daban sin fecha cerrada.",
-          "impact": "Alto",
-          "source": "Demócrata",
-          "url": "https://www.democrata.es/elecciones-generales-espana/feijoo-confirma-su-asistencia-cara-cara-con-sanchez-16-noviembre-debate-cuatro-dia-26/",
-          "time": "16/11",
-          "new": true
-        },
         {
           "title": "Sánchez pide a Feijóo que acepte el resultado; Feijóo pone la vivienda en una vicepresidencia",
           "summary": "En la segunda jornada de campaña, el candidato socialista dio por hecha su victoria, mientras el líder del PP prometió gestionar la vivienda desde una vicepresidencia si gana.",
@@ -1362,6 +1363,24 @@
           "new": false
         },
         {
+          "title": "Abascal pide a Feijóo que aclare sus pactos antes del 29-N",
+          "summary": "El líder de Vox exige al PP decir si volvería a pactar con el PSOE. El PNV avisa de que una mayoría PP–Vox le tendrá enfrente.",
+          "impact": "Medio",
+          "source": "Infobae / EFE",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/14/hoy-es-noticia-en-espana-2330/",
+          "time": "14/11",
+          "new": false
+        },
+        {
+          "title": "Arranca la campaña del 29-N",
+          "summary": "La campaña de las generales empezó el viernes 13 y termina el 27. Sánchez la abrió en Sevilla, Feijóo en Badalona y Abascal en la plaza de Colón.",
+          "impact": "Alto",
+          "source": "Demócrata",
+          "url": "https://www.democrata.es/politica/sanchez-arranca-campana-en-sevilla-feijoo-en-badalona-y-abascal-colau-y-montero-optan-por-madrid/",
+          "time": "13/11",
+          "new": false
+        },
+        {
           "title": "El PP lidera la media de encuestas",
           "summary": "La media de 15 institutos sitúa al PP en el 31,5 %, al PSOE en el 26,8 %, a Vox en el 19,1 % y a Frente Amplio en el 6,2 %. La publicación de encuestas se prohíbe desde el 24 de noviembre.",
           "impact": "Alto",
@@ -1373,12 +1392,39 @@
       ],
       "economia": [
         {
-          "title": "El Euríbor rompe cuatro bajadas seguidas",
-          "summary": "El índice a 12 meses sube al 3,217 % el 10 de noviembre. La media provisional del mes (3,268 %) supera la de octubre y está más de un punto por encima de hace un año.",
+          "title": "Bitcoin se hunde hasta 63.500 $",
+          "summary": "Cae un 6,6 % en 24 horas y un 16 % en la semana. Está casi un 50 % por debajo de su récord de 126.080 $.",
           "impact": "Alto",
-          "source": "Rankia",
-          "url": "https://www.rankia.com/blog/mejores-hipotecas/7546779-euribor-hoy-11-noviembre-2026",
-          "time": "11/11",
+          "source": "CryptoTicker",
+          "url": "https://cryptoticker.io/es/noticias-criptomonedas-bitcoin-cae-63500-dolares-14-noviembre-2026/",
+          "time": "14/11",
+          "new": false
+        },
+        {
+          "title": "Jensen Huang dimite y Nvidia se desploma",
+          "summary": "La acción cae un 12,8 % en cinco días. La directora financiera, Colette Kress, asume el liderazgo de forma interina.",
+          "impact": "Alto",
+          "source": "El Informador / EFE",
+          "url": "https://www.informador.mx/economia/wall-street-cierra-una-semana-de-perdidas-en-tecnologicas-tras-la-crisis-de-nvidia-20261113-0169.html",
+          "time": "13/11",
+          "new": false
+        },
+        {
+          "title": "El Ibex recupera los 20.000 puntos",
+          "summary": "Sube un 3,36 % en la semana y un 15,67 % en el año. El viernes Repsol ganó un 3,3 % y Acciona cayó un 8 %.",
+          "impact": "Alto",
+          "source": "Infobae / EFE",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/13/el-ibex-35-sube-un-027-y-cierra-en-20000-puntos-en-una-sesion-marcada-por-la-cautela/",
+          "time": "13/11",
+          "new": false
+        },
+        {
+          "title": "El bono de EE. UU. supera el 5 % y la Fed apunta a subir",
+          "summary": "El mercado da en torno a un 85 % de probabilidad a una subida de la Fed en diciembre, e incluso se habla de medio punto.",
+          "impact": "Alto",
+          "source": "NordFX",
+          "url": "https://nordfx.com/market-news/market-pulse-november-13-2026",
+          "time": "13/11",
           "new": false
         },
         {
@@ -1387,15 +1433,6 @@
           "impact": "Medio",
           "source": "Ara",
           "url": "https://es.ara.cat/economia/macroeconomia/caixabank-espanola-seguira-economia-europea-crecera_1_5905111.html",
-          "time": "09/11",
-          "new": true
-        },
-        {
-          "title": "El PIB crece un 0,6 % pese al shock energético",
-          "summary": "La economía mantiene el pulso en el tercer trimestre gracias a la demanda interna, aunque con signos de moderación de cara al cuarto.",
-          "impact": "Medio",
-          "source": "CaixaBank Research",
-          "url": "https://www.caixabankresearch.com/es/economia-y-mercados/analisis-coyuntura/economia-espanola-mantiene-pulso-pese-incertidumbre-y-al",
           "time": "09/11",
           "new": false
         }
@@ -1429,6 +1466,15 @@
           "new": false
         },
         {
+          "title": "Aviso sobre la financiación de la sanidad pública",
+          "summary": "El nuevo presidente de la Asociación Médica Mundial advierte de que la sanidad universal española no aguantará sin más financiación.",
+          "impact": "Bajo",
+          "source": "Infobae / EFE",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/14/temas-del-dia-de-efe-espana-del-sabado-14-de-noviembre-de-2026-1330h/",
+          "time": "14/11",
+          "new": false
+        },
+        {
           "title": "Balance de la primera huelga general en 14 años",
           "summary": "El paro del 11-N, convocado por CCOO y UGT por la vivienda, los salarios y los precios, tuvo un seguimiento desigual. Los sindicatos hablan de éxito y la patronal, de fracaso.",
           "impact": "Alto",
@@ -1458,11 +1504,11 @@
           "new": false
         },
         {
-          "title": "Vivienda asequible, definida por ley, y deducción del 10 % para inquilinos",
-          "summary": "Asequible será la vivienda cuyo coste no supere el 30 % de la renta mediana del municipio. Los inquilinos tendrán una deducción del 10 % en el IRPF.",
-          "impact": "Medio",
-          "source": "Provivienda",
-          "url": "https://provivienda.org/observatorio/real-decreto-ley-26-2026-que-cambia-en-el-precio-del-alquiler-y-la-vivienda-asequible/",
+          "title": "Préstamos al 0 % para la primera vivienda",
+          "summary": "El decreto convalidado incluye financiación sin intereses con aval del Estado de hasta el 20 % del valor de la vivienda (máximo 50.000 €), a devolver en 10 años.",
+          "impact": "Alto",
+          "source": "idealista",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/12/923779-la-diputacion-permanente-convalida-el-decreto-de-vivienda-y-rechaza-el-de",
           "time": "12/11",
           "new": false
         },
@@ -1482,7 +1528,7 @@
           "source": "Ara",
           "url": "https://es.ara.cat/sociedad/barcelona/llevan-ayuntamiento-barcelona-tribunales-no-cumplir-reserva-30-vivienda-protegida_1_5903484.html",
           "time": "07/11",
-          "new": true
+          "new": false
         }
       ]
     }
