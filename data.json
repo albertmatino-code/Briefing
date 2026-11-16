@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-16T18:00:00+01:00",
+  "updated": "2026-11-16T18:30:00+01:00",
   "edition": "Lunes 16 de noviembre de 2026",
   "headline": "La vivienda marca el lunes de campaña: el PSOE promete el 1 % del PIB al año y 100.000 pisos públicos, las promotoras tachan de insuficiente el Plan de Vivienda y el Euríbor abre la semana en máximos del mes (3,328 %).",
   "brief_60s": [
@@ -32,20 +32,21 @@
     }
   ],
   "markets": {
-    "asof": "Cierre del viernes 13/11 · cripto: sábado 14/11 noche",
+    "asof": "Ibex, divisas, materias primas y bonos: cierre del lunes 16/11 · Resto de bolsas: cierre del viernes 13/11 · Cripto: lunes 16/11 por la tarde",
     "indices": [
       {
         "id": "ibex",
         "label": "IBEX 35",
         "region": "España",
-        "value": 20020.1,
-        "change_pct": 0.27,
+        "value": 19946.6,
+        "change_pct": -0.37,
         "history": [
           19742.5,
           19965.5,
-          20020.1
+          20020.1,
+          19946.6
         ],
-        "why": "Cerró por encima de 20.000 puntos gracias a Repsol (+3,3 %), que se benefició del repunte del crudo, y a las eléctricas. Acciona (−8 %) lastró tras decepcionar con su plan de desinversiones."
+        "why": "Pierde los 20.000 puntos arrastrado por las eléctricas y renovables: Solaria cayó un 5,4 %, Endesa un 2,7 % e Iberdrola un 2,4 %, en una jornada de caídas en toda Europa y de ventas en las tecnológicas de EE. UU."
       },
       {
         "id": "sp500",
@@ -129,34 +130,40 @@
       {
         "id": "eurusd",
         "label": "EUR/USD",
-        "value": 1.1046,
+        "value": 1.1023,
         "decimals": 4,
         "change_pct": null,
-        "note": "Mínimo de 19 meses",
-        "history": [],
-        "why": "El dólar se fortalece porque el mercado espera que la Fed suba tipos en diciembre tras una inflación de EE. UU. más alta de lo previsto."
+        "note": "Nuevo mínimo de 19 meses",
+        "history": [
+          1.1023
+        ],
+        "why": "El dólar sigue fuerte porque el mercado da por hecha una subida de tipos de la Fed en diciembre y el bono de EE. UU. paga más del 5 %."
       },
       {
         "id": "brent",
         "label": "Brent",
         "unit": "$",
-        "value": 95.54,
+        "value": 95.4,
         "decimals": 2,
         "change_pct": null,
         "note": "+57 % en el año",
-        "history": [],
-        "why": "Repuntó después de que Trump dijera que no necesita un acuerdo con Irán y por los ataques hutíes a instalaciones saudíes."
+        "history": [
+          95.4
+        ],
+        "why": "Se mantiene cerca de 95 $ con la tensión en Oriente Medio, aunque cerró la semana pasada con una caída del 2,4 % a la espera de la cumbre del jueves sobre Irán."
       },
       {
         "id": "gold",
         "label": "Oro",
         "unit": "$/oz",
-        "value": 3881.75,
+        "value": 3874,
         "decimals": 0,
-        "change_pct": 0.14,
+        "change_pct": -0.2,
         "note": "−5,5 % en el mes",
-        "history": [],
-        "why": "Cae porque, con el bono de EE. UU. pagando más del 5 % y el dólar fuerte, mantener un activo que no da intereses resulta menos atractivo."
+        "history": [
+          3874
+        ],
+        "why": "Sigue bajo presión: con el bono de EE. UU. por encima del 5 % y el dólar fuerte, un activo sin intereses resulta menos atractivo."
       },
       {
         "id": "dxy",
@@ -172,12 +179,14 @@
         "id": "us10y",
         "label": "Bono EE. UU. 10a",
         "unit": "%",
-        "value": 5.13,
+        "value": 5.14,
         "decimals": 2,
         "change_pct": null,
-        "note": "Por encima del 5 %",
-        "history": [],
-        "why": "Sube por las apuestas de una subida de tipos de la Fed en diciembre tras el dato de inflación."
+        "note": "+29 pb en cinco sesiones",
+        "history": [
+          5.14
+        ],
+        "why": "Ha subido 29 puntos básicos en cinco sesiones por las apuestas de una subida de la Fed en diciembre."
       },
       {
         "id": "fed",
@@ -197,59 +206,63 @@
         "id": "bitcoin",
         "label": "Bitcoin",
         "symbol": "BTC",
-        "usd": 63528,
-        "chg_24h": -6.6,
-        "chg_7d": -16.0,
+        "usd": 64637,
+        "chg_24h": 0.18,
+        "chg_7d": -14.7,
         "history": [
           81004,
           75780,
           73600,
           68700,
-          63528
+          63528,
+          64637
         ],
-        "why": "Desplome del fin de semana: salidas de los ETF, liquidaciones de posiciones apalancadas y menos apetito por el riesgo con tipos al alza."
+        "why": "Estabiliza en torno a 64.600 $ tras el desplome del fin de semana, pero siguen las salidas de los ETF y el apetito por el riesgo es bajo con los tipos al alza."
       },
       {
         "id": "ethereum",
         "label": "Ethereum",
         "symbol": "ETH",
-        "usd": 1905,
-        "chg_24h": -3.85,
-        "chg_7d": null,
+        "usd": 1815,
+        "chg_24h": 0.56,
+        "chg_7d": -19.0,
         "history": [
           2240,
           1930,
-          1905
+          1905,
+          1815
         ],
-        "why": "Contagio de la caída de bitcoin; perder los 2.000 $ activó más ventas."
+        "why": "Cotiza cerca de los 1.800 $, un soporte clave; los ETF de ether perdieron 399 millones la semana pasada."
       },
       {
         "id": "xrp",
         "label": "XRP",
         "symbol": "XRP",
-        "usd": 0.8952,
-        "chg_24h": -9.76,
-        "chg_7d": null,
+        "usd": 0.96,
+        "chg_24h": null,
+        "chg_7d": -17.2,
         "history": [
           1.0,
           0.9949,
           0.957,
-          0.8952
+          0.8952,
+          0.96
         ],
-        "why": "Salidas de los ETF de XRP y ruptura del soporte del dólar; cae a mínimos de dos años."
+        "why": "Sigue por debajo del dólar con salidas de capital y una estructura técnica débil."
       },
       {
         "id": "cardano",
         "label": "Cardano",
         "symbol": "ADA",
-        "usd": 0.1634,
-        "chg_24h": -0.56,
+        "usd": 0.1534,
+        "chg_24h": null,
         "chg_7d": null,
         "history": [
           0.1643,
-          0.1634
+          0.1634,
+          0.1534
         ],
-        "why": "Sigue a la baja con el resto del mercado; indicadores en sobreventa."
+        "why": "Rebote frágil en torno a 0,15 $, todavía bajo presión vendedora como el resto del mercado."
       }
     ]
   },
@@ -361,19 +374,21 @@
     {
       "id": "bono10",
       "label": "Bono España 10a",
-      "value": 3.944,
+      "value": 3.952,
       "unit": "%",
       "decimals": 2,
-      "change": 0.037,
+      "change": 0.008,
       "change_unit": "pp",
-      "date": "13/11/2026",
+      "date": "16/11/2026",
       "detail": "Prima de riesgo: 65 pb",
       "source": "Investing.com",
-      "url": "https://es.investing.com/news/stock-market-news/la-bolsa-hoy-ibex-35-euro-dolar-nvidia-oro-y-bitcoin-3926799",
-      "history": [],
+      "url": "https://es.investing.com/rates-bonds/spain-10-year-bond-yield",
+      "history": [
+        3.952
+      ],
       "next_release": "2026-11-16",
       "good_when": "down",
-      "why": "Sube arrastrado por los tipos globales (el bono de EE. UU. supera el 5 %) y la expectativa de subidas del BCE."
+      "why": "Repunta ligeramente arrastrado por los tipos globales: el bono de EE. UU. supera el 5 % y se espera una subida del BCE."
     },
     {
       "id": "prima",
@@ -383,17 +398,18 @@
       "decimals": 0,
       "change": -1.7,
       "change_unit": "pb",
-      "date": "13/11/2026",
+      "date": "16/11/2026",
       "detail": "Diferencial del bono español frente al alemán a 10 años",
       "source": "Investing.com",
-      "url": "https://es.investing.com/news/stock-market-news/la-bolsa-hoy-ibex-35-euro-dolar-nvidia-oro-y-bitcoin-3926799",
+      "url": "https://es.investing.com/rates-bonds/spain-10-year-bond-yield",
       "history": [
         45,
+        65,
         65
       ],
       "next_release": "2026-11-16",
       "good_when": "down",
-      "why": "Estable en niveles bajos: el mercado ve a España como un emisor solvente pese a la incertidumbre electoral."
+      "why": "Estable en niveles bajos: el mercado sigue viendo a España como un emisor solvente pese a las elecciones del 29-N."
     }
   ],
   "real_estate": {
@@ -2798,7 +2814,7 @@
   "macro": {
     "updated": "2026-11-15",
     "curve": {
-      "date": "Noviembre 2026 (últimas subastas y mercado)",
+      "date": "16/11/2026 (10 a) · últimas subastas",
       "points": [
         {
           "plazo": "6 m",
@@ -2818,7 +2834,7 @@
         {
           "plazo": "10 a",
           "years": 10,
-          "value": 3.944
+          "value": 3.952
         },
         {
           "plazo": "15 a",
@@ -2904,16 +2920,18 @@
           {
             "id": "bono10",
             "label": "Bono a 10 años",
-            "value": 3.944,
+            "value": 3.952,
             "unit": "%",
             "decimals": 3,
             "change": null,
             "change_unit": null,
-            "date": "13/11/2026",
+            "date": "16/11/2026",
             "detail": "",
             "source": "Mercado",
             "url": "https://www.idealista.com/news/taxonomy/term/17056",
-            "history": [],
+            "history": [
+              3.952
+            ],
             "good_when": null,
             "why": "La referencia de la curva; ver también la prima de riesgo.",
             "situation": "Rango normal (3-4,5 %); con una prima de riesgo baja frente a Alemania."
@@ -2958,12 +2976,12 @@
           {
             "id": "pendiente",
             "label": "Pendiente 10 a − 12 m",
-            "value": 0.876,
+            "value": 0.884,
             "unit": " pp",
             "decimals": 2,
             "change": null,
             "change_unit": null,
-            "date": "Noviembre 2026",
+            "date": "16/11/2026",
             "detail": "",
             "source": "Cálculo propio",
             "url": "https://www.finect.com/usuario/eduardogarcia/articulos/la-rentabilidad-de-las-letras-del-tesoro-a-12-meses-x-al-x",
