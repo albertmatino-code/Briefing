@@ -1,13 +1,13 @@
 {
-  "updated": "2026-11-16T17:15:00+01:00",
+  "updated": "2026-11-16T18:00:00+01:00",
   "edition": "Lunes 16 de noviembre de 2026",
-  "headline": "Lunes de cara a cara: Sánchez y Feijóo tienen previsto su único debate a dos, con la vivienda en el centro, mientras los mercados digieren el desplome cripto y CaixaBank eleva al 2,6 % el crecimiento de España.",
+  "headline": "La vivienda marca el lunes de campaña: el PSOE promete el 1 % del PIB al año y 100.000 pisos públicos, las promotoras tachan de insuficiente el Plan de Vivienda y el Euríbor abre la semana en máximos del mes (3,328 %).",
   "brief_60s": [
-    "Campaña del 29-N: el cara a cara Sánchez–Feijóo está previsto para esta noche en Mediaset; el debate a cuatro, el jueves 26. La vivienda será uno de los ejes.",
+    "Campaña del 29-N: el PSOE promete el 1 % del PIB anual para vivienda y 100.000 pisos públicos; el PP, un millón de viviendas. Cara a cara Sánchez–Feijóo previsto esta noche.",
     "Las bolsas abren la semana tras un viernes con el Ibex en 20.020 puntos (+15,7 % en 2026) y el Stoxx 600 en máximo histórico.",
     "Bitcoin ronda los 63.500 $ (−16 % en siete días) y XRP pierde el dólar: el apetito por el riesgo se enfría con los tipos al alza.",
     "CaixaBank Research eleva al 2,6 % el crecimiento de España en 2026 y prevé un 2 % en 2027: seguirá siendo la economía grande que más crece de Europa.",
-    "Financiación: Euríbor en torno al 3,2 %, BCE en el 2,50 % con subida probable en diciembre y bancos como Banca March y Abanca subiendo sus hipotecas fijas."
+    "Financiación: el Euríbor abre la semana en el 3,328 %, máximo del mes; la media de noviembre (3,27 %) ya supera la de octubre y bancos como Banca March y Abanca suben sus fijas."
   ],
   "ukio_takeaways": [
     "Compradores con hipoteca: con el Euríbor cerca del 3,2 % y las fijas encareciéndose, conviene pedir ya la FEIN (oferta vinculante) para fijar el tipo antes de una posible subida del BCE en diciembre.",
@@ -257,23 +257,24 @@
     {
       "id": "euribor12m",
       "label": "Euríbor 12M",
-      "value": 3.217,
+      "value": 3.328,
       "unit": "%",
       "decimals": 3,
-      "change": 0.013,
+      "change": 0.035,
       "change_unit": "pp",
-      "date": "10/11/2026 (diario)",
-      "detail": "Media de octubre: 3,239 % · Noviembre provisional: 3,268 %",
-      "source": "Rankia / Banco de España",
-      "url": "https://www.rankia.com/blog/mejores-hipotecas/7546779-euribor-hoy-11-noviembre-2026",
+      "date": "13/11/2026 (diario)",
+      "detail": "Máximo del mes · Noviembre provisional: 3,272 % · Octubre: 3,239 %",
+      "source": "Rankia / EMMI",
+      "url": "https://www.rankia.com/blog/mejores-hipotecas/7553417-euribor-hoy-16-noviembre",
       "history": [
         3.247,
         3.239,
-        3.268
+        3.268,
+        3.328
       ],
-      "next_release": "2026-11-16",
+      "next_release": "2026-11-17",
       "good_when": "down",
-      "why": "Rompió una racha de cuatro bajadas; sigue alto por la expectativa de que el BCE suba tipos en diciembre para frenar la inflación energética."
+      "why": "Vuelve a subir y marca el máximo de noviembre porque el mercado da por hecha una subida del BCE en diciembre; noviembre apunta a cerrar por encima de octubre."
     },
     {
       "id": "bce",
@@ -476,6 +477,15 @@
   "news": {
     "politica": [
       {
+        "title": "Lula y Sánchez reafirman su apoyo al acuerdo UE-Mercosur",
+        "summary": "El presidente brasileño se reunió con Sánchez en la Moncloa; la aplicación del tratado comercial centró el encuentro.",
+        "impact": "Medio",
+        "source": "ANSA Latina",
+        "url": "https://www.ansalatina.com/americalatina/noticia/latinoamerica/2026/11/16/lula-y-pedro-sanchez-ratifican-su-respaldo-al-acuerto-ue-mercosur_4154763d-305c-4516-b530-44484d497b32.html",
+        "time": "16/11",
+        "new": true
+      },
+      {
         "title": "Sánchez y Feijóo, ante su cara a cara previsto para esta noche",
         "summary": "El PP confirmó su asistencia a un debate a dos el 16 de noviembre en Mediaset y a un debate a cuatro el día 26; algunos calendarios aún lo daban sin fecha cerrada.",
         "impact": "Alto",
@@ -510,18 +520,18 @@
         "url": "https://www.cope.es/programas/mediodia-cope/horas-completas/14-00h-14-nov-2026-mediodia-cope-20261114_3475318.html",
         "time": "14/11",
         "new": false
-      },
-      {
-        "title": "Abascal pide a Feijóo que aclare sus pactos antes del 29-N",
-        "summary": "El líder de Vox exige al PP decir si volvería a pactar con el PSOE. El PNV avisa de que una mayoría PP–Vox le tendrá enfrente.",
-        "impact": "Medio",
-        "source": "Infobae / EFE",
-        "url": "https://www.infobae.com/espana/agencias/2026/11/14/hoy-es-noticia-en-espana-2330/",
-        "time": "14/11",
-        "new": false
       }
     ],
     "economia": [
+      {
+        "title": "El Euríbor abre la semana en máximos del mes: 3,328 %",
+        "summary": "Es el dato del viernes y el más alto de noviembre; la media provisional del mes sube al 3,272 %, por encima de la de octubre (3,239 %).",
+        "impact": "Alto",
+        "source": "Rankia",
+        "url": "https://www.rankia.com/blog/mejores-hipotecas/7553417-euribor-hoy-16-noviembre",
+        "time": "16/11",
+        "new": true
+      },
       {
         "title": "CaixaBank eleva al 2,6 % el crecimiento de España en 2026",
         "summary": "El servicio de estudios prevé un 2 % para 2027 y destaca la baja deuda de los hogares (41 % del PIB frente al 50 % de la eurozona).",
@@ -547,15 +557,6 @@
         "source": "CaixaBank Research",
         "url": "https://www.caixabankresearch.com/es/publicaciones/notas-breves-actualidad-economica-y-financiera/observatorio-bancos-centrales-122",
         "time": "29/10",
-        "new": false
-      },
-      {
-        "title": "El Euríbor rompe cuatro bajadas seguidas",
-        "summary": "El índice a 12 meses sube al 3,217 % el 10 de noviembre. La media provisional del mes (3,268 %) supera la de octubre y está más de un punto por encima de hace un año.",
-        "impact": "Alto",
-        "source": "Rankia",
-        "url": "https://www.rankia.com/blog/mejores-hipotecas/7546779-euribor-hoy-11-noviembre-2026",
-        "time": "11/11",
         "new": false
       },
       {
@@ -805,6 +806,15 @@
     ],
     "inmo_espana": [
       {
+        "title": "En Europa la vivienda sube más que los ingresos: España, quinta",
+        "summary": "La ratio entre precio y renta crece un 24,5 % en España; Portugal lidera con un 60,8 %. Comprar exige cada vez más años de sueldo.",
+        "impact": "Medio",
+        "source": "idealista/news",
+        "url": "https://www.idealista.com/news/inmobiliario/internacional/2026/11/16/924397-los-precios-de-la-vivienda-en-europa-crecen-mas-que-los-ingresos-de-los",
+        "time": "16/11",
+        "new": true
+      },
+      {
         "title": "Las compraventas caen un 5,9 % interanual",
         "summary": "Los registradores contabilizan 164.148 operaciones en el tercer trimestre: tercera caída trimestral consecutiva.",
         "impact": "Alto",
@@ -850,15 +860,6 @@
         "new": false
       },
       {
-        "title": "España dobla a la UE en subida de precios",
-        "summary": "En el primer trimestre la vivienda española subió un 12,8 % interanual, frente al 5,1 % de la UE. Solo Portugal, Bulgaria, Eslovaquia y Croacia suben más.",
-        "impact": "Medio",
-        "source": "AHE / Eurostat",
-        "url": "https://ahe.es/sala-de-prensa/resumen-de-prensa/archivos/25-y-26-7.pdf",
-        "time": "Jul",
-        "new": false
-      },
-      {
         "title": "Récord de cambios de uso",
         "summary": "Las reconversiones de locales y oficinas a vivienda se duplicaron en el primer semestre de 2026.",
         "impact": "Bajo",
@@ -878,6 +879,15 @@
       }
     ],
     "inmo_bcn": [
+      {
+        "title": "Los expertos prevén menos compraventas y menos alquiler en Cataluña",
+        "summary": "Anticipan precios al alza con demanda fuerte, aunque la actividad seguiría por encima de la de 2024.",
+        "impact": "Medio",
+        "source": "idealista/news",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/11/911773-los-expertos-preven-una-caida-de-las-ventas-de-viviendas-y-de-la-oferta-de-alquiler",
+        "time": "11/11",
+        "new": true
+      },
       {
         "title": "Barcelona marca máximo histórico: 5.463 €/m²",
         "summary": "Con un +4,7 % interanual en octubre, según idealista. Nou Barris (+14,1 %) y Sant Andreu (+8,2 %) lideran las subidas.",
@@ -930,15 +940,6 @@
         "source": "idealista",
         "url": "https://www.idealista.com/news/node/904332",
         "time": "2026",
-        "new": false
-      },
-      {
-        "title": "Un piso tarda casi 4 meses en venderse",
-        "summary": "El tiempo medio en mercado en Barcelona es de 3,8 meses, ligeramente más que hace un año.",
-        "impact": "Medio",
-        "source": "Brains Real Estate",
-        "url": "https://brainsre.news/?p=300555",
-        "time": "2T",
         "new": false
       },
       {
@@ -1251,6 +1252,15 @@
     ],
     "obra_nueva": [
       {
+        "title": "Las grandes promotoras ven insuficiente el nuevo Plan de Vivienda",
+        "summary": "Calculan que su dotación es casi seis veces menor de lo necesario; el Ministerio ya ha transferido 800 de los 7.000 millones previstos para el primer año.",
+        "impact": "Alto",
+        "source": "idealista/news",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/16/924402-las-grandes-promotoras-critican-el-nuevo-plan-de-vivienda-es-totalmente",
+        "time": "16/11",
+        "new": true
+      },
+      {
         "title": "La superficie visada para construir crece un 18 %",
         "summary": "20,99 millones de m² en el primer semestre, pero la creación de hogares sigue por encima del ritmo de construcción.",
         "impact": "Medio",
@@ -1266,15 +1276,6 @@
         "source": "BBVA Research",
         "url": "https://www.bbvaresearch.com/wp-content/uploads/2026/07/Perspectivas_y_electricidad.pdf",
         "time": "Jul",
-        "new": false
-      },
-      {
-        "title": "Las promotoras descartan bajar precios",
-        "summary": "Falta de suelo finalista, costes de construcción, mano de obra y burocracia limitan la oferta.",
-        "impact": "Medio",
-        "source": "Capitalbolsa",
-        "url": "https://www.bolsamania.com/capitalbolsa/noticias_amp/empresas/las-promotoras-descartan-bajadas-de-precios-por-la-fuerte-escasez-de-vivienda-nueva--22773314.html",
-        "time": "Jun",
         "new": false
       },
       {
@@ -1306,34 +1307,206 @@
           "url": "https://www.democrata.es/elecciones-generales-espana/feijoo-confirma-su-asistencia-cara-cara-con-sanchez-16-noviembre-debate-cuatro-dia-26/",
           "time": "16/11",
           "new": true
+        },
+        {
+          "title": "Condena unánime a la agresión al candidato del PP por Guipúzcoa",
+          "summary": "Feijóo condenó el ataque a Jon Echevarría y a militantes del PP; el PSOE también lo rechazó: 'la violencia no tiene cabida'.",
+          "impact": "Medio",
+          "source": "Infobae",
+          "url": "https://infobae.com/espana/2026/11/15/campana-de-las-elecciones-generales-29-n-en-directo-los-principales-candidatos-continuan-con-sus-mitines-por-toda-espana",
+          "time": "15/11",
+          "new": true
+        },
+        {
+          "title": "Lula y Sánchez reafirman su apoyo al acuerdo UE-Mercosur",
+          "summary": "El presidente brasileño se reunió con Sánchez en la Moncloa; la aplicación del tratado comercial centró el encuentro.",
+          "impact": "Medio",
+          "source": "ANSA Latina",
+          "url": "https://www.ansalatina.com/americalatina/noticia/latinoamerica/2026/11/16/lula-y-pedro-sanchez-ratifican-su-respaldo-al-acuerto-ue-mercosur_4154763d-305c-4516-b530-44484d497b32.html",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "Yolanda Díaz retira su candidatura a dirigir la OIT",
+          "summary": "Renuncia para no dividir al movimiento sindical y acusa a la dirección actual de llevar a la organización a la peor crisis de su historia; Houngbo seguirá al frente.",
+          "impact": "Medio",
+          "source": "Euronews",
+          "url": "https://es.euronews.com/2026/11/16/yolanda-diaz-retira-candidatura-direccion-oit-crisis-sindical",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "Frente Amplio propone limitar las herencias a 10 millones por heredero",
+          "summary": "También pide al PSOE aprobar antes del 29-N una prestación por crianza de 200 € al mes; el PP propone que voten los exiliados por ETA.",
+          "impact": "Medio",
+          "source": "Euronews",
+          "url": "https://es.euronews.com/2026/11/16/euronews-hoy-las-noticias-del-lunes-16-de-noviembre-de-2026-yolanda-diaz-renuncia-a-lidera",
+          "time": "16/11",
+          "new": true
         }
       ],
       "economia": [
         {
-          "title": "XRP pierde el dólar: mínimo de dos años",
-          "summary": "Toca 0,8952 $, su nivel más bajo desde noviembre de 2024, con salidas de los ETF de XRP.",
+          "title": "El Euríbor abre la semana en máximos del mes: 3,328 %",
+          "summary": "Es el dato del viernes y el más alto de noviembre; la media provisional del mes sube al 3,272 %, por encima de la de octubre (3,239 %).",
           "impact": "Alto",
-          "source": "CryptoTicker",
-          "url": "https://cryptoticker.io/es/caida-xrp-hoy-precio-089-dolares-minimo-desde-noviembre-2024-15-noviembre-2026/",
-          "time": "15/11",
+          "source": "Rankia",
+          "url": "https://www.rankia.com/blog/mejores-hipotecas/7553417-euribor-hoy-16-noviembre",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "El Ibex vuelve a perder los 20.000 puntos",
+          "summary": "A media sesión cedía alrededor de un 0,2 % (unos 19.990 puntos), con Solaria cayendo cerca de un 3 % y caídas generalizadas en Europa.",
+          "impact": "Medio",
+          "source": "elEconomista",
+          "url": "https://www.eleconomista.es/flash/20261116/",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "Wall Street abre en rojo por las tecnológicas",
+          "summary": "El Nasdaq caía más de un 1,5 % en la apertura y el S&P 500 cerca de un 1 %, pendientes de Nvidia y de la salida a bolsa de Anthropic esta semana.",
+          "impact": "Medio",
+          "source": "Bolsamanía",
+          "url": "https://www.bolsamania.com/bolsa-cotizaciones/home.html",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "Bitcoin no remonta: ronda los 64.500 $",
+          "summary": "Sigue cerca de mínimos tras el desplome del fin de semana, con caídas de alrededor del 1 % en el día.",
+          "impact": "Medio",
+          "source": "Bolsamanía",
+          "url": "https://www.bolsamania.com/",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "El comercio prevé 200.000 contratos entre Black Friday y rebajas",
+          "summary": "La campaña de fin de año vuelve a tirar del empleo en el comercio, según los datos difundidos por EFE.",
+          "impact": "Medio",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
+          "time": "16/11",
           "new": true
         }
       ],
       "sociedad": [
         {
-          "title": "Día mundial en recuerdo de las víctimas de tráfico",
-          "summary": "Las asociaciones piden este domingo más protección y formación para peatones, ciclistas y motoristas, los usuarios más vulnerables.",
+          "title": "El Hierro suma 9.090 migrantes llegados en noviembre",
+          "summary": "La ruta canaria mantiene una presión muy alta sobre los servicios de acogida de la isla.",
+          "impact": "Medio",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "Los obispos alertan contra la retórica polarizadora antes del 29-N",
+          "summary": "Piden a los partidos un tono menos agresivo en la recta final de la campaña.",
           "impact": "Bajo",
-          "source": "Infobae / EFE",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/13/temas-del-dia-de-efe-espana-del-sabado-14-de-noviembre-de-2026/",
-          "time": "15/11",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "Lluvias intensas en el oeste y temperaturas por encima de lo normal",
+          "summary": "El temporal sigue afectando a buena parte del país, sobre todo al oeste peninsular.",
+          "impact": "Bajo",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "Homenaje a Julio Fuentes 25 años después de su asesinato",
+          "summary": "La FAPE y la Asociación de la Prensa de Madrid recuerdan al periodista asesinado en Afganistán.",
+          "impact": "Bajo",
+          "source": "Euronews",
+          "url": "https://es.euronews.com/2026/11/16/euronews-hoy-las-noticias-del-lunes-16-de-noviembre-de-2026-yolanda-diaz-renuncia-a-lidera",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "El Prado abre una exposición sobre Rilke en el Día del Flamenco",
+          "summary": "La jornada cultural incluye la actuación de Estrella Morente en Granada por el Día Internacional del Flamenco.",
+          "impact": "Bajo",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "Inglaterra arrebata la Nations League a España",
+          "summary": "La Roja apretó al final, pero no pudo retener el título.",
+          "impact": "Bajo",
+          "source": "Euronews",
+          "url": "https://es.euronews.com/2026/11/16/euronews-hoy-las-noticias-del-lunes-16-de-noviembre-de-2026-yolanda-diaz-renuncia-a-lidera",
+          "time": "16/11",
           "new": true
         }
       ],
-      "inmobiliario": []
+      "inmobiliario": [
+        {
+          "title": "El PSOE promete destinar el 1 % del PIB al año a vivienda",
+          "summary": "Su programa incluye un parque estatal de 100.000 pisos a través de Casa 47, congelar alquileres, registros de fondos y socimis y más impuestos a los grandes propietarios.",
+          "impact": "Alto",
+          "source": "Deia",
+          "url": "https://www.deia.eus/politica/2026/11/16/proponen-pp-vox-psoe-frente-11762379.html",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "Vivienda en el 29-N: así quieren abaratarla PP, Vox, PSOE y Frente Amplio",
+          "summary": "El PP plantea un millón de viviendas en cuatro años con una nueva ley del suelo; Vox, IVA 0 % en la primera vivienda nueva; PSOE y Frente Amplio, inversión pública y más regulación.",
+          "impact": "Alto",
+          "source": "Noticias de Gipuzkoa",
+          "url": "https://www.noticiasdegipuzkoa.eus/politica/2026/11/16/proponen-pp-vox-psoe-frente-11762380.html",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "Las grandes promotoras ven insuficiente el nuevo Plan de Vivienda",
+          "summary": "Calculan que su dotación es casi seis veces menor de lo necesario; el Ministerio ya ha transferido 800 de los 7.000 millones previstos para el primer año.",
+          "impact": "Alto",
+          "source": "idealista/news",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/16/924402-las-grandes-promotoras-critican-el-nuevo-plan-de-vivienda-es-totalmente",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "En Europa la vivienda sube más que los ingresos: España, quinta",
+          "summary": "La ratio entre precio y renta crece un 24,5 % en España; Portugal lidera con un 60,8 %. Comprar exige cada vez más años de sueldo.",
+          "impact": "Medio",
+          "source": "idealista/news",
+          "url": "https://www.idealista.com/news/inmobiliario/internacional/2026/11/16/924397-los-precios-de-la-vivienda-en-europa-crecen-mas-que-los-ingresos-de-los",
+          "time": "16/11",
+          "new": true
+        },
+        {
+          "title": "Los administradores de fincas piden un Pacto de Estado por la Vivienda",
+          "summary": "Presentan cinco propuestas para el 29-N, entre ellas un ente público que promueva vivienda y gestione el suelo.",
+          "impact": "Medio",
+          "source": "idealista/news",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/16/924379-las-cinco-propuestas-en-vivienda-de-los-administradores-de-fincas-para-las",
+          "time": "16/11",
+          "new": true
+        }
+      ]
     },
     "semana": {
       "politica": [
+        {
+          "title": "Condena unánime a la agresión al candidato del PP por Guipúzcoa",
+          "summary": "Feijóo condenó el ataque a Jon Echevarría y a militantes del PP; el PSOE también lo rechazó: 'la violencia no tiene cabida'.",
+          "impact": "Medio",
+          "source": "Infobae",
+          "url": "https://infobae.com/espana/2026/11/15/campana-de-las-elecciones-generales-29-n-en-directo-los-principales-candidatos-continuan-con-sus-mitines-por-toda-espana",
+          "time": "15/11",
+          "new": false
+        },
         {
           "title": "Sánchez pide a Feijóo que acepte el resultado; Feijóo pone la vivienda en una vicepresidencia",
           "summary": "En la segunda jornada de campaña, el candidato socialista dio por hecha su victoria, mientras el líder del PP prometió gestionar la vivienda desde una vicepresidencia si gana.",
@@ -1349,15 +1522,6 @@
           "impact": "Medio",
           "source": "COPE",
           "url": "https://www.cope.es/programas/mediodia-cope/horas-completas/14-00h-14-nov-2026-mediodia-cope-20261114_3475318.html",
-          "time": "14/11",
-          "new": false
-        },
-        {
-          "title": "Abascal pide a Feijóo que aclare sus pactos antes del 29-N",
-          "summary": "El líder de Vox exige al PP decir si volvería a pactar con el PSOE. El PNV avisa de que una mayoría PP–Vox le tendrá enfrente.",
-          "impact": "Medio",
-          "source": "Infobae / EFE",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/14/hoy-es-noticia-en-espana-2330/",
           "time": "14/11",
           "new": false
         },
@@ -1382,6 +1546,15 @@
       ],
       "economia": [
         {
+          "title": "El Euríbor abre la semana en máximos del mes: 3,328 %",
+          "summary": "Es el dato del viernes y el más alto de noviembre; la media provisional del mes sube al 3,272 %, por encima de la de octubre (3,239 %).",
+          "impact": "Alto",
+          "source": "Rankia",
+          "url": "https://www.rankia.com/blog/mejores-hipotecas/7553417-euribor-hoy-16-noviembre",
+          "time": "16/11",
+          "new": false
+        },
+        {
           "title": "Bitcoin se hunde hasta 63.500 $",
           "summary": "Cae un 6,6 % en 24 horas y un 16 % en la semana. Está casi un 50 % por debajo de su récord de 126.080 $.",
           "impact": "Alto",
@@ -1396,15 +1569,6 @@
           "impact": "Alto",
           "source": "El Informador / EFE",
           "url": "https://www.informador.mx/economia/wall-street-cierra-una-semana-de-perdidas-en-tecnologicas-tras-la-crisis-de-nvidia-20261113-0169.html",
-          "time": "13/11",
-          "new": false
-        },
-        {
-          "title": "El Ibex recupera los 20.000 puntos",
-          "summary": "Sube un 3,36 % en la semana y un 15,67 % en el año. El viernes Repsol ganó un 3,3 % y Acciona cayó un 8 %.",
-          "impact": "Alto",
-          "source": "Infobae / EFE",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/13/el-ibex-35-sube-un-027-y-cierra-en-20000-puntos-en-una-sesion-marcada-por-la-cautela/",
           "time": "13/11",
           "new": false
         },
@@ -1429,12 +1593,12 @@
       ],
       "sociedad": [
         {
-          "title": "Día mundial en recuerdo de las víctimas de tráfico",
-          "summary": "Las asociaciones piden este domingo más protección y formación para peatones, ciclistas y motoristas, los usuarios más vulnerables.",
-          "impact": "Bajo",
-          "source": "Infobae / EFE",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/13/temas-del-dia-de-efe-espana-del-sabado-14-de-noviembre-de-2026/",
-          "time": "15/11",
+          "title": "El Hierro suma 9.090 migrantes llegados en noviembre",
+          "summary": "La ruta canaria mantiene una presión muy alta sobre los servicios de acogida de la isla.",
+          "impact": "Medio",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
+          "time": "16/11",
           "new": false
         },
         {
@@ -1476,6 +1640,15 @@
       ],
       "inmobiliario": [
         {
+          "title": "El PSOE promete destinar el 1 % del PIB al año a vivienda",
+          "summary": "Su programa incluye un parque estatal de 100.000 pisos a través de Casa 47, congelar alquileres, registros de fondos y socimis y más impuestos a los grandes propietarios.",
+          "impact": "Alto",
+          "source": "Deia",
+          "url": "https://www.deia.eus/politica/2026/11/16/proponen-pp-vox-psoe-frente-11762379.html",
+          "time": "16/11",
+          "new": false
+        },
+        {
           "title": "Convalidado el decreto de vivienda: límites a fondos hasta 2030 y tope del 2 % al alquiler",
           "summary": "La Diputación Permanente aprobó el RDL 29/2026 por 35 votos a 34. Limita hasta 2030 ciertas compras de vivienda por fondos y grandes tenedores, topa las subidas de alquiler al 2 % hasta 2027, permite prórrogas extraordinarias y crea la línea TU CASA de 10.000 millones.",
           "impact": "Alto",
@@ -1494,12 +1667,12 @@
           "new": false
         },
         {
-          "title": "Préstamos al 0 % para la primera vivienda",
-          "summary": "El decreto convalidado incluye financiación sin intereses con aval del Estado de hasta el 20 % del valor de la vivienda (máximo 50.000 €), a devolver en 10 años.",
-          "impact": "Alto",
-          "source": "idealista",
-          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/12/923779-la-diputacion-permanente-convalida-el-decreto-de-vivienda-y-rechaza-el-de",
-          "time": "12/11",
+          "title": "Los expertos prevén menos compraventas y menos alquiler en Cataluña",
+          "summary": "Anticipan precios al alza con demanda fuerte, aunque la actividad seguiría por encima de la de 2024.",
+          "impact": "Medio",
+          "source": "idealista/news",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/11/911773-los-expertos-preven-una-caida-de-las-ventas-de-viviendas-y-de-la-oferta-de-alquiler",
+          "time": "11/11",
           "new": false
         },
         {
@@ -1509,15 +1682,6 @@
           "source": "Hipotecas.me",
           "url": "https://www.hipotecas.me/noticias/banca-march-abanca-suben-hipoteca-fija-noviembre-2026",
           "time": "10/11",
-          "new": false
-        },
-        {
-          "title": "Vecinos llevan al Ayuntamiento a los tribunales por la reserva del 30 %",
-          "summary": "Denuncian que no se exige vivienda protegida a un fondo que quiere convertir un edificio en coliving; crece la presión para que el consistorio compre bloques en riesgo.",
-          "impact": "Medio",
-          "source": "Ara",
-          "url": "https://es.ara.cat/sociedad/barcelona/llevan-ayuntamiento-barcelona-tribunales-no-cumplir-reserva-30-vivienda-protegida_1_5903484.html",
-          "time": "07/11",
           "new": false
         }
       ]
@@ -1741,7 +1905,7 @@
       "label": "Financiación",
       "status": "bad",
       "value": "Tensionada",
-      "text": "Euríbor en el 3,2 %, los bancos suben las fijas y el BCE apunta a subir tipos en diciembre."
+      "text": "Euríbor en el 3,33 %, máximo del mes; los bancos suben las fijas y el BCE apunta a subir tipos en diciembre."
     },
     {
       "label": "Actividad",
@@ -1771,7 +1935,7 @@
   "forecasts": [
     {
       "topic": "Euríbor a 12 meses",
-      "now": "3,22 % (10/11/2026)",
+      "now": "3,33 % (13/11/2026)",
       "items": [
         {
           "source": "Funcas (panel)",
