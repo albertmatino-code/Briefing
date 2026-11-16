@@ -116,6 +116,7 @@ ol.sixty li::before{content:counter(n);font-family:var(--display);font-weight:60
 .news h4 a:hover{text-decoration:underline;text-underline-offset:3px}
 .news p{margin:0 0 6px;max-width:75ch}
 .news .src{font-size:12px;color:var(--muted);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.news .cat{font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;font-size:11px}
 .new{background:var(--accent);color:var(--surface);font-size:10px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;padding:1px 6px;border-radius:3px}
 .heads{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:0 22px}
 .heads a.h{display:block;text-decoration:none;padding:12px 0;border-bottom:1px solid var(--line)}
@@ -370,6 +371,8 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
 <!-- NOTICIAS -->
 <section class="view" id="v-noticias">
   <div class="page-head"><div><h1>Noticias</h1><p>Las más importantes de cada área, con resumen propio y enlace al medio. La barra de color indica el impacto: rojo alto, ámbar medio, gris bajo.</p></div></div>
+  <div id="n-hoy-box"><h3 class="sub">Hoy <span class="muted" id="n-hoy-date" style="text-transform:none;letter-spacing:0;font-weight:400"></span></h3><div class="panel"><div id="n-hoy"></div></div></div>
+  <div id="n-semana-box"><h3 class="sub">Lo más importante de los últimos 7-10 días</h3><div class="panel"><div id="n-semana"></div></div></div>
   <h3 class="sub">España</h3><div class="tabs" data-tabs="es" data-keys="politica:Política,economia:Economía,sociedad:Sociedad"></div>
   <h3 class="sub">Mundo</h3><div class="tabs" data-tabs="mu" data-keys="mundo_geo:Geopolítica,mundo_eco:Economía global"></div>
   <h3 class="sub">Mercados y cripto</h3><div class="tabs" data-tabs="mk2" data-keys="mercados:Bolsa y empresas,cripto:Cripto"></div>
@@ -572,7 +575,7 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
 
   const newsList = arr => `<ul class="news">${arr.map(n=>`<li><span class="sev ${esc(n.impact)}" title="Impacto ${esc(n.impact)}"></span><div>
       <h4><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}</a></h4><p>${esc(n.summary)}</p>
-      <div class="src">${n.new?'<span class="new">Nuevo</span>':""}<span>${esc(n.source)}</span><span class="num">${esc(n.time)}</span><span>Impacto ${esc(n.impact).toLowerCase()}</span></div></div></li>`).join("")}</ul>`;
+      <div class="src">${n.new?'<span class="new">Nuevo</span>':""}${n.cat?`<span class="cat">${esc(n.cat)}</span>`:""}<span>${esc(n.source)}</span><span class="num">${esc(n.time)}</span><span>Impacto ${esc(n.impact).toLowerCase()}</span></div></div></li>`).join("")}</ul>`;
 
   function render(D){
     const upd = new Date(D.updated), M = D.markets||{}, N = D.news||{};
@@ -620,6 +623,12 @@ footer .srcs{display:flex;flex-wrap:wrap;gap:6px 14px;margin-top:6px}
     if(CONCEPTS.length){ const c = CONCEPTS[Math.floor(upd.getTime()/864e5) % CONCEPTS.length];
       $("#c-title").textContent=c.t; $("#c-text").textContent=c.d; $("#c-title2").textContent=c.t; $("#c-text2").textContent=c.d; }
     const F = D.number_of_day; if(F){ $("#f-val").textContent=F.value; $("#f-label").textContent=F.label; $("#f-ctx").textContent=F.context||""; } else $("#figure").remove();
+
+    // Noticias de hoy y de los últimos 7-10 días
+    [["hoy","#n-hoy"],["semana","#n-semana"]].forEach(([k,sel])=>{
+      const arr = N[k]||[]; if(!arr.length){ $(sel+"-box").remove(); return; }
+      $(sel).innerHTML = newsList(arr); });
+    const hd = $("#n-hoy-date"); if(hd) hd.textContent = upd.toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"});
 
     // Pestañas de noticias
     document.querySelectorAll("[data-tabs]").forEach(box=>{
