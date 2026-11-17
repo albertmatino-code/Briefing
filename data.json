@@ -1,169 +1,193 @@
 {
-  "updated": "2026-11-16T18:30:00+01:00",
-  "edition": "Lunes 16 de noviembre de 2026",
-  "headline": "La vivienda marca el lunes de campaña: el PSOE promete el 1 % del PIB al año y 100.000 pisos públicos, las promotoras tachan de insuficiente el Plan de Vivienda y el Euríbor abre la semana en máximos del mes (3,328 %).",
+  "updated": "2026-11-17T17:40:00+01:00",
+  "edition": "Martes 17 de noviembre de 2026",
+  "headline": "Las compraventas de vivienda se hunden un 13,4 % en septiembre mientras el Euríbor encadena su quinta subida (3,361 %); Bruselas eleva al 2,6 % el crecimiento de España y el Gobierno sube el salario mínimo a 1.286 €.",
   "brief_60s": [
-    "Campaña del 29-N: el PSOE promete el 1 % del PIB anual para vivienda y 100.000 pisos públicos; el PP, un millón de viviendas. Cara a cara Sánchez–Feijóo previsto esta noche.",
-    "Las bolsas abren la semana tras un viernes con el Ibex en 20.020 puntos (+15,7 % en 2026) y el Stoxx 600 en máximo histórico.",
-    "Bitcoin ronda los 63.500 $ (−16 % en siete días) y XRP pierde el dólar: el apetito por el riesgo se enfría con los tipos al alza.",
-    "CaixaBank Research eleva al 2,6 % el crecimiento de España en 2026 y prevé un 2 % en 2027: seguirá siendo la economía grande que más crece de Europa.",
-    "Financiación: el Euríbor abre la semana en el 3,328 %, máximo del mes; la media de noviembre (3,27 %) ya supera la de octubre y bancos como Banca March y Abanca suben sus fijas."
+    "Vivienda: las compraventas caen un 13,4 % en septiembre (INE), la mayor caída en dos años, y las tasadoras no ven una tregua en los precios hasta 2028.",
+    "Financiación: el Euríbor sube por quinta vez seguida hasta el 3,361 %; la media de noviembre (≈3,28 %) encarecerá las revisiones de diciembre.",
+    "Bruselas eleva al 2,6 % el crecimiento de España en 2026, pero sube la inflación prevista al 3,9 %. El Gobierno aprueba un SMI de 1.286 € para 2027.",
+    "Mercados: el Ibex sigue por debajo de 20.000 (≈19.850) tras la caída de Wall Street del lunes (Nasdaq −2,5 %); el Brent se desploma un 4 %, hasta unos 92 $.",
+    "Campaña 29-N: el cara a cara Sánchez–Feijóo será el jueves 19 a las 22:00 (Academia de TV) y RTVE celebrará un debate a ocho el lunes 23."
   ],
   "ukio_takeaways": [
-    "Compradores con hipoteca: con el Euríbor cerca del 3,2 % y las fijas encareciéndose, conviene pedir ya la FEIN (oferta vinculante) para fijar el tipo antes de una posible subida del BCE en diciembre.",
-    "Vendedores: Barcelona sigue en máximos (5.463 €/m²) pero con menos operaciones; hasta el 29-N muchos compradores esperarán a conocer el nuevo Gobierno, así que precios de salida realistas aceleran el cierre.",
-    "Inversores y fondos: el capital sigue entrando en hoteles (3.300 M€ hasta septiembre, +8 %) y alternativos, mientras los fondos de vivienda en alquiler venden en Cataluña. Los edificios con uso hotelero o residencial sin afectar por el decreto de grandes tenedores son los más líquidos."
+    "Compradores: la caída de compraventas da algo más de margen para negociar, pero la financiación se encarece (Euríbor 3,36 %); conviene cerrar ya la oferta vinculante del banco.",
+    "Vendedores: con un 13,4 % menos de operaciones y precios que no bajan, el comprador elige; un precio de salida ajustado al mercado es clave para vender en Barcelona antes de fin de año.",
+    "Inversores y fondos: las tasadoras prevén precios al alza hasta 2028 y el Gobierno acelera la figura de proveedor social de vivienda asequible; el alquiler por habitaciones (494 €, +11 %) sigue ganando peso como alternativa de rentabilidad."
   ],
   "today": [
     {
-      "time": "15:30",
-      "event": "Apertura de Wall Street",
-      "why": "Primera sesión completa de Nvidia con Colette Kress como líder interina."
+      "time": "17:35",
+      "event": "Cierre de las bolsas europeas",
+      "why": "El Ibex intenta no alejarse de los 20.000 puntos con la presión de las tecnológicas."
     },
     {
-      "time": "Noche",
-      "event": "Cara a cara Sánchez–Feijóo (previsto, Mediaset)",
-      "why": "La vivienda, los impuestos y la Ley de Vivienda: lo que se diga afecta a las expectativas de compradores e inversores."
+      "time": "Tarde",
+      "event": "Reunión Gobierno–Canarias sobre migración",
+      "why": "Más de 11.000 llegadas en la primera quincena de noviembre."
     },
     {
-      "time": "Semana",
-      "event": "Cumbre Trump–Putin–Xi (jueves 19)",
-      "why": "Irán y el estrecho de Ormuz en la agenda: impacto directo en el petróleo y la inflación."
+      "time": "Mié 18",
+      "event": "Fijación del precio de la salida a bolsa de Anthropic",
+      "why": "Cotizará el jueves en el Nasdaq; Nvidia se ha comprometido a comprar acciones por unos 10.000 M$."
+    },
+    {
+      "time": "Jue 19, 22:00",
+      "event": "Cara a cara Sánchez–Feijóo y cumbre Trump–Xi–Putin",
+      "why": "La vivienda abre el debate; Irán y el petróleo, en la cumbre de Shenzhen."
     }
   ],
   "markets": {
-    "asof": "Ibex, divisas, materias primas y bonos: cierre del lunes 16/11 · Resto de bolsas: cierre del viernes 13/11 · Cripto: lunes 16/11 por la tarde",
+    "asof": "Europa e Ibex: cotización de media sesión del 17/11 (cierre a las 17:35) · Wall Street: cierre del lunes 16/11 (hoy abre con caídas del 0,2-0,6 %) · Nikkei: cierre 17/11 · Divisas, Brent, oro y bonos: 17/11 · Cripto: 17/11 · DXY: dato del 13/11",
     "indices": [
       {
         "id": "ibex",
         "label": "IBEX 35",
         "region": "España",
-        "value": 19946.6,
-        "change_pct": -0.37,
+        "value": 19849.7,
+        "change_pct": -0.49,
         "history": [
           19742.5,
           19965.5,
           20020.1,
-          19946.6
+          19946.6,
+          19849.7
         ],
-        "why": "Pierde los 20.000 puntos arrastrado por las eléctricas y renovables: Solaria cayó un 5,4 %, Endesa un 2,7 % e Iberdrola un 2,4 %, en una jornada de caídas en toda Europa y de ventas en las tecnológicas de EE. UU."
+        "why": "Sigue por debajo de los 20.000 puntos: las restricciones de EE. UU. a la venta de chips a China y la espera de los resultados de Nvidia castigan a las tecnológicas (Indra cede un 4 %) en toda Europa."
       },
       {
         "id": "sp500",
         "label": "S&P 500",
         "region": "EE. UU.",
-        "value": 7561.67,
-        "change_pct": -0.4,
-        "history": [],
-        "why": "Cedió por el castigo a las tecnológicas tras la dimisión de Jensen Huang en Nvidia, aunque cerró su mejor semana desde agosto (+2,5 %)."
+        "value": 7416.59,
+        "change_pct": -1.92,
+        "history": [
+          7416.59
+        ],
+        "why": "El lunes cerró con su mayor caída en semanas por la venta de valores ligados a la IA, con Nvidia a la cabeza, antes de sus resultados y del estreno de Anthropic en bolsa."
       },
       {
         "id": "nasdaq",
         "label": "Nasdaq Comp.",
         "region": "EE. UU.",
-        "value": 25136.27,
-        "change_pct": -0.91,
-        "history": [],
-        "why": "Es el índice más expuesto a la tecnología: Nvidia (−2 %) y AMD (−9 %) arrastraron a los fabricantes de chips."
+        "value": 24509.76,
+        "change_pct": -2.49,
+        "history": [
+          24509.76
+        ],
+        "why": "Tercera sesión de caídas: el mercado reduce exposición a chips e IA tras la salida de Jensen Huang de Nvidia."
       },
       {
         "id": "dow",
         "label": "Dow Jones",
         "region": "EE. UU.",
-        "value": 52347.55,
-        "change_pct": 0.1,
-        "history": [],
-        "why": "Aguantó en positivo porque pesan menos las tecnológicas y más la industria y la banca."
+        "value": 51608.17,
+        "change_pct": -1.41,
+        "history": [
+          51608.17
+        ],
+        "why": "Cayó más de 700 puntos el lunes, contagiado por la venta tecnológica y el temor a subidas de tipos de la Fed."
       },
       {
         "id": "dax",
         "label": "DAX",
         "region": "Alemania",
-        "value": 26749.95,
-        "change_pct": -0.08,
-        "history": [],
-        "why": "Prácticamente plano tras una semana fuerte (+3,6 %) apoyada en resultados de la banca y pedidos industriales."
+        "value": 26403.64,
+        "change_pct": -0.85,
+        "history": [
+          26403.64
+        ],
+        "why": "Cae arrastrado por las tecnológicas y los fabricantes de semiconductores tras las nuevas restricciones de EE. UU. a China."
       },
       {
         "id": "cac",
         "label": "CAC 40",
         "region": "Francia",
-        "value": 8368.91,
-        "change_pct": 0.09,
-        "history": [],
-        "why": "Ligera subida en una sesión de pocas variaciones en Europa."
+        "value": 8313.71,
+        "change_pct": -0.46,
+        "history": [
+          8313.71
+        ],
+        "why": "Retrocede con el resto de Europa, aunque el lujo y la defensa amortiguan la caída."
       },
       {
         "id": "ftse",
         "label": "FTSE 100",
         "region": "Reino Unido",
-        "value": 10902.56,
-        "change_pct": 0.36,
-        "history": [],
-        "why": "Subió gracias a las petroleras y mineras, muy presentes en el índice británico, por el encarecimiento del crudo."
+        "value": 10811.77,
+        "change_pct": -0.75,
+        "history": [
+          10811.77
+        ],
+        "why": "Baja con las mineras y petroleras, penalizadas por la caída de más del 4 % del Brent."
       },
       {
         "id": "stoxx50",
         "label": "Euro Stoxx 50",
         "region": "Eurozona",
-        "value": 6386.86,
-        "change_pct": -0.19,
-        "history": [],
-        "why": "Leve caída por las tecnológicas europeas, aunque el Stoxx 600 cerró en máximo histórico."
+        "value": 6295.0,
+        "change_pct": -0.8,
+        "history": [
+          6295.0
+        ],
+        "why": "Pierde los 6.300 puntos por la venta de tecnológicas europeas (ASML, SAP) ante las dudas sobre la IA."
       },
       {
         "id": "nikkei",
         "label": "Nikkei 225",
         "region": "Japón",
-        "value": 61142.35,
-        "change_pct": 0.53,
+        "value": 58860.43,
+        "change_pct": -1.34,
         "history": [
           60459.58,
           61248.59,
           60819.36,
-          61142.35
+          61142.35,
+          58860.43
         ],
-        "why": "Fue de los pocos índices asiáticos en verde; el yen débil (160 por dólar) favorece a los exportadores japoneses."
+        "why": "Segunda sesión de caídas por la presión sobre las tecnológicas y las nuevas restricciones de EE. UU. a la exportación de chips avanzados."
       }
     ],
     "fx_commodities": [
       {
         "id": "eurusd",
         "label": "EUR/USD",
-        "value": 1.1023,
+        "value": 1.0997,
         "decimals": 4,
         "change_pct": null,
-        "note": "Nuevo mínimo de 19 meses",
+        "note": "Pierde 1,10: mínimo de 19 meses",
         "history": [
-          1.1023
+          1.1023,
+          1.0997
         ],
-        "why": "El dólar sigue fuerte porque el mercado da por hecha una subida de tipos de la Fed en diciembre y el bono de EE. UU. paga más del 5 %."
+        "why": "El euro cae por debajo de 1,10 dólares porque la Fed sugiere que podrían hacer falta más subidas de tipos y los datos de EE. UU. son sólidos."
       },
       {
         "id": "brent",
         "label": "Brent",
         "unit": "$",
-        "value": 95.4,
+        "value": 91.82,
         "decimals": 2,
-        "change_pct": null,
-        "note": "+57 % en el año",
+        "change_pct": -4.0,
+        "note": "Cae más de un 4 % en el día",
         "history": [
-          95.4
+          95.4,
+          91.82
         ],
-        "why": "Se mantiene cerca de 95 $ con la tensión en Oriente Medio, aunque cerró la semana pasada con una caída del 2,4 % a la espera de la cumbre del jueves sobre Irán."
+        "why": "Se abarata con fuerza ante la expectativa de que la cumbre del jueves entre Trump, Xi y Putin acerque un desenlace en Irán."
       },
       {
         "id": "gold",
         "label": "Oro",
         "unit": "$/oz",
-        "value": 3874,
+        "value": 3888.1,
         "decimals": 0,
-        "change_pct": -0.2,
+        "change_pct": 0.37,
         "note": "−5,5 % en el mes",
         "history": [
-          3874
+          3874,
+          3888.1
         ],
-        "why": "Sigue bajo presión: con el bono de EE. UU. por encima del 5 % y el dólar fuerte, un activo sin intereses resulta menos atractivo."
+        "why": "Repunta ligeramente como refugio ante la caída de las bolsas, aunque el dólar fuerte y el bono de EE. UU. por encima del 5 % lo limitan."
       },
       {
         "id": "dxy",
@@ -179,14 +203,15 @@
         "id": "us10y",
         "label": "Bono EE. UU. 10a",
         "unit": "%",
-        "value": 5.14,
+        "value": 5.12,
         "decimals": 2,
         "change_pct": null,
-        "note": "+29 pb en cinco sesiones",
+        "note": "Por encima del 5 %",
         "history": [
-          5.14
+          5.14,
+          5.12
         ],
-        "why": "Ha subido 29 puntos básicos en cinco sesiones por las apuestas de una subida de la Fed en diciembre."
+        "why": "Se mantiene por encima del 5 % porque la Fed apunta a subir tipos en diciembre para frenar la inflación."
       },
       {
         "id": "fed",
@@ -206,63 +231,67 @@
         "id": "bitcoin",
         "label": "Bitcoin",
         "symbol": "BTC",
-        "usd": 64637,
-        "chg_24h": 0.18,
-        "chg_7d": -14.7,
+        "usd": 64849,
+        "chg_24h": 0.33,
+        "chg_7d": null,
         "history": [
           81004,
           75780,
           73600,
           68700,
           63528,
-          64637
+          64637,
+          64849
         ],
-        "why": "Estabiliza en torno a 64.600 $ tras el desplome del fin de semana, pero siguen las salidas de los ETF y el apetito por el riesgo es bajo con los tipos al alza."
+        "why": "Se estabiliza cerca de 65.000 $ en zona de sobreventa extrema, pero la tendencia sigue bajista por las salidas de los ETF y los tipos altos."
       },
       {
         "id": "ethereum",
         "label": "Ethereum",
         "symbol": "ETH",
-        "usd": 1815,
-        "chg_24h": 0.56,
-        "chg_7d": -19.0,
+        "usd": 1830.93,
+        "chg_24h": 0.88,
+        "chg_7d": null,
         "history": [
           2240,
           1930,
           1905,
-          1815
+          1815,
+          1830.93
         ],
-        "why": "Cotiza cerca de los 1.800 $, un soporte clave; los ETF de ether perdieron 399 millones la semana pasada."
+        "why": "Rebota levemente sobre el soporte de 1.800 $, todavía lastrado por las salidas de los ETF de ether."
       },
       {
         "id": "xrp",
         "label": "XRP",
         "symbol": "XRP",
-        "usd": 0.96,
-        "chg_24h": null,
-        "chg_7d": -17.2,
+        "usd": 0.9555,
+        "chg_24h": -0.47,
+        "chg_7d": null,
         "history": [
           1.0,
           0.9949,
           0.957,
           0.8952,
-          0.96
+          0.96,
+          0.9555
         ],
-        "why": "Sigue por debajo del dólar con salidas de capital y una estructura técnica débil."
+        "why": "Sigue por debajo del dólar con presión técnica y salidas de capital."
       },
       {
         "id": "cardano",
         "label": "Cardano",
         "symbol": "ADA",
-        "usd": 0.1534,
-        "chg_24h": null,
-        "chg_7d": null,
+        "usd": 0.1529,
+        "chg_24h": -0.33,
+        "chg_7d": -13.3,
         "history": [
           0.1643,
           0.1634,
-          0.1534
+          0.1534,
+          0.1529
         ],
-        "why": "Rebote frágil en torno a 0,15 $, todavía bajo presión vendedora como el resto del mercado."
+        "why": "Sexta semana seguida de caídas: ha borrado casi toda la subida del verano, cuando llegó a 0,28 $."
       }
     ]
   },
@@ -270,24 +299,25 @@
     {
       "id": "euribor12m",
       "label": "Euríbor 12M",
-      "value": 3.328,
+      "value": 3.361,
       "unit": "%",
       "decimals": 3,
-      "change": 0.035,
+      "change": 0.011,
       "change_unit": "pp",
-      "date": "13/11/2026 (diario)",
-      "detail": "Máximo del mes · Noviembre provisional: 3,272 % · Octubre: 3,239 %",
-      "source": "Rankia / EMMI",
-      "url": "https://www.rankia.com/blog/mejores-hipotecas/7553417-euribor-hoy-16-noviembre",
+      "date": "17/11/2026 (diario)",
+      "detail": "Quinta subida seguida · Media provisional de noviembre: 3,28 % · Octubre: 3,239 %",
+      "source": "Euribor.com.es / Rankia",
+      "url": "https://www.euribor.com.es/2026/11/17/el-euribor-escala-a-maximos-mensuales/",
       "history": [
         3.247,
         3.239,
         3.268,
-        3.328
+        3.328,
+        3.361
       ],
-      "next_release": "2026-11-17",
+      "next_release": "2026-11-18",
       "good_when": "down",
-      "why": "Vuelve a subir y marca el máximo de noviembre porque el mercado da por hecha una subida del BCE en diciembre; noviembre apunta a cerrar por encima de octubre."
+      "why": "Encadena cinco subidas y marca máximos del mes porque el mercado da por hecha una subida del BCE en diciembre; quien revise la hipoteca en diciembre pagará cerca de 100 € más al mes."
     },
     {
       "id": "bce",
@@ -374,42 +404,43 @@
     {
       "id": "bono10",
       "label": "Bono España 10a",
-      "value": 3.952,
+      "value": 3.962,
       "unit": "%",
       "decimals": 2,
-      "change": 0.008,
+      "change": 0.01,
       "change_unit": "pp",
-      "date": "16/11/2026",
-      "detail": "Prima de riesgo: 65 pb",
-      "source": "Investing.com",
-      "url": "https://es.investing.com/rates-bonds/spain-10-year-bond-yield",
+      "date": "17/11/2026",
+      "detail": "Prima de riesgo: 57 pb",
+      "source": "Demócrata / mercado",
+      "url": "https://www.democrata.es/economia/prima-riesgo-espana-desciende-minimos-historicos-2009/",
       "history": [
-        3.952
+        3.952,
+        3.962
       ],
       "next_release": "2026-11-16",
       "good_when": "down",
-      "why": "Repunta ligeramente arrastrado por los tipos globales: el bono de EE. UU. supera el 5 % y se espera una subida del BCE."
+      "why": "Repunta levemente con los tipos globales al alza (el bono de EE. UU. está por encima del 5 %)."
     },
     {
       "id": "prima",
       "label": "Prima de riesgo",
-      "value": 65,
+      "value": 57,
       "unit": " pb",
       "decimals": 0,
-      "change": -1.7,
+      "change": -8,
       "change_unit": "pb",
-      "date": "16/11/2026",
-      "detail": "Diferencial del bono español frente al alemán a 10 años",
-      "source": "Investing.com",
-      "url": "https://es.investing.com/rates-bonds/spain-10-year-bond-yield",
+      "date": "17/11/2026",
+      "detail": "Diferencial del bono español frente al alemán a 10 años (corrige el dato de 65 pb publicado ayer)",
+      "source": "Demócrata / mercado",
+      "url": "https://www.democrata.es/economia/prima-riesgo-espana-desciende-minimos-historicos-2009/",
       "history": [
         45,
         65,
-        65
+        57
       ],
       "next_release": "2026-11-16",
       "good_when": "down",
-      "why": "Estable en niveles bajos: el mercado sigue viendo a España como un emisor solvente pese a las elecciones del 29-N."
+      "why": "Cerca de mínimos desde 2009: el mercado ve a España como emisor solvente pese a las elecciones del 29-N, porque crece más que sus socios."
     }
   ],
   "real_estate": {
@@ -493,22 +524,40 @@
   "news": {
     "politica": [
       {
+        "title": "El cara a cara Sánchez–Feijóo será el jueves 19 a las 22:00",
+        "summary": "Lo organiza la Academia de Televisión y lo modera María Casado, en cinco bloques: vivienda, economía y fiscalidad, servicios públicos, corrupción, y migración y política exterior.",
+        "impact": "Alto",
+        "source": "elDiario.es",
+        "url": "https://www.eldiario.es/vertele/noticias/debate-cara-a-cara-sanchez-feijoo-sera-jueves-19-noviembre-academia-tv_1_13662406.html",
+        "time": "17/11",
+        "new": true
+      },
+      {
+        "title": "Feijóo, abucheado en un mitin en Eibar",
+        "summary": "Un grupo de radicales increpó al líder del PP en su acto de apoyo a Jon Echeverría, agredido días antes en Hernani; el mitin terminó sin incidentes graves.",
+        "impact": "Medio",
+        "source": "Noticias de Navarra",
+        "url": "https://www.noticiasdenavarra.com/politica/2026/11/17/feijoo-abucheado-increpado-durante-mitin-eibar-11766261.html",
+        "time": "17/11",
+        "new": true
+      },
+      {
+        "title": "RTVE organiza un debate con ocho partidos el lunes 23",
+        "summary": "Participarán PP, PSOE, Vox, Frente Amplio, ERC, Junts, EH Bildu y PNV; un segundo debate de la Academia de TV hacia el 26 sigue sin confirmar.",
+        "impact": "Medio",
+        "source": "Telemadrid",
+        "url": "https://www.telemadrid.es/elecciones/generales/2026/29n-cara-a-cara-sanchez-feijoo_1_2814658.html",
+        "time": "17/11",
+        "new": true
+      },
+      {
         "title": "Lula y Sánchez reafirman su apoyo al acuerdo UE-Mercosur",
         "summary": "El presidente brasileño se reunió con Sánchez en la Moncloa; la aplicación del tratado comercial centró el encuentro.",
         "impact": "Medio",
         "source": "ANSA Latina",
         "url": "https://www.ansalatina.com/americalatina/noticia/latinoamerica/2026/11/16/lula-y-pedro-sanchez-ratifican-su-respaldo-al-acuerto-ue-mercosur_4154763d-305c-4516-b530-44484d497b32.html",
         "time": "16/11",
-        "new": true
-      },
-      {
-        "title": "Sánchez y Feijóo, ante su cara a cara previsto para esta noche",
-        "summary": "El PP confirmó su asistencia a un debate a dos el 16 de noviembre en Mediaset y a un debate a cuatro el día 26; algunos calendarios aún lo daban sin fecha cerrada.",
-        "impact": "Alto",
-        "source": "Demócrata",
-        "url": "https://www.democrata.es/elecciones-generales-espana/feijoo-confirma-su-asistencia-cara-cara-con-sanchez-16-noviembre-debate-cuatro-dia-26/",
-        "time": "16/11",
-        "new": true
+        "new": false
       },
       {
         "title": "El PP lidera la media de encuestas",
@@ -518,27 +567,36 @@
         "url": "https://www.democrata.es/economia/espana-vuelve-huelga-general-14-anos-despues-con-vivienda-como-detonante-puertas-29n/",
         "time": "10/11",
         "new": false
-      },
-      {
-        "title": "Sánchez pide a Feijóo que acepte el resultado; Feijóo pone la vivienda en una vicepresidencia",
-        "summary": "En la segunda jornada de campaña, el candidato socialista dio por hecha su victoria, mientras el líder del PP prometió gestionar la vivienda desde una vicepresidencia si gana.",
-        "impact": "Medio",
-        "source": "Infobae / EFE",
-        "url": "https://www.infobae.com/espana/agencias/2026/11/14/hoy-es-noticia-en-espana-2330/",
-        "time": "14/11",
-        "new": false
-      },
-      {
-        "title": "Los informes de la Guardia Civil y el caso Leire Díez entran en campaña",
-        "summary": "Sánchez reconoce que el PSOE contrata despachos que pagan a Leire Díez, aunque dice desconocer el vínculo. Informes de la Guardia Civil apuntan a contactos con una persona ligada a la trama Ábalos.",
-        "impact": "Medio",
-        "source": "COPE",
-        "url": "https://www.cope.es/programas/mediodia-cope/horas-completas/14-00h-14-nov-2026-mediodia-cope-20261114_3475318.html",
-        "time": "14/11",
-        "new": false
       }
     ],
     "economia": [
+      {
+        "title": "Bruselas eleva al 2,6 % el crecimiento de España, pero sube la inflación al 3,9 %",
+        "summary": "La Comisión Europea sitúa a España a la cabeza de las grandes economías del euro; prevé un paro del 9,9 % y casi un punto más de inflación que en primavera.",
+        "impact": "Alto",
+        "source": "EFE (vía Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/11/17/economia-dice-que-las-previsiones-de-bruselas-confirman-la-trayectoria-singular-de-espana/",
+        "time": "17/11",
+        "new": true
+      },
+      {
+        "title": "El Gobierno sube el salario mínimo un 5,3 %, hasta 1.286 €",
+        "summary": "El Consejo de Ministros aprueba el SMI de 2027 (18.004 € al año), lo deja sin tributar en el IRPF y sube un 4,5 % el sueldo de los funcionarios.",
+        "impact": "Alto",
+        "source": "El Boletín / EFE",
+        "url": "https://www.elboletin.com/el-consejo-de-ministros-aprueba-el-smi-de-1-286-euros-la-subida-del-45-a-funcionarios-y-un-amplio-paquete-economico-y-social/",
+        "time": "17/11",
+        "new": true
+      },
+      {
+        "title": "El Euríbor sube por quinta vez seguida: 3,361 %",
+        "summary": "Marca máximos del mes; con una media de noviembre cercana al 3,28 %, quien revise la hipoteca en diciembre pagará casi 100 € más al mes que hace un año.",
+        "impact": "Alto",
+        "source": "Rankia",
+        "url": "https://www.rankia.com/blog/mejores-hipotecas/7554722-euribor-hoy-17-noviembre-2026",
+        "time": "17/11",
+        "new": true
+      },
       {
         "title": "El Euríbor abre la semana en máximos del mes: 3,328 %",
         "summary": "Es el dato del viernes y el más alto de noviembre; la media provisional del mes sube al 3,272 %, por encima de la de octubre (3,239 %).",
@@ -546,7 +604,7 @@
         "source": "Rankia",
         "url": "https://www.rankia.com/blog/mejores-hipotecas/7553417-euribor-hoy-16-noviembre",
         "time": "16/11",
-        "new": true
+        "new": false
       },
       {
         "title": "CaixaBank eleva al 2,6 % el crecimiento de España en 2026",
@@ -555,37 +613,28 @@
         "source": "Ara",
         "url": "https://es.ara.cat/economia/macroeconomia/caixabank-espanola-seguira-economia-europea-crecera_1_5905111.html",
         "time": "09/11",
-        "new": true
-      },
-      {
-        "title": "La inflación se mantiene en el 4,9 %",
-        "summary": "El IPC adelantado de octubre repite la tasa de septiembre, la más alta desde febrero de 2023, empujado por el gas y los paquetes turísticos. La subyacente sigue en el 3,1 %.",
-        "impact": "Alto",
-        "source": "CaixaBank Research",
-        "url": "https://www.caixabankresearch.com/es/node/14742/printable/print",
-        "time": "30/10",
-        "new": false
-      },
-      {
-        "title": "El BCE pausa en el 2,50 % y Lagarde anuncia su salida",
-        "summary": "El BCE mantuvo los tipos en octubre tras la subida de septiembre. Lagarde dejará el cargo en febrero y el mercado da un 80 % de probabilidad a una subida al 2,75 % en diciembre.",
-        "impact": "Alto",
-        "source": "CaixaBank Research",
-        "url": "https://www.caixabankresearch.com/es/publicaciones/notas-breves-actualidad-economica-y-financiera/observatorio-bancos-centrales-122",
-        "time": "29/10",
-        "new": false
-      },
-      {
-        "title": "El PIB crece un 0,6 % pese al shock energético",
-        "summary": "La economía mantiene el pulso en el tercer trimestre gracias a la demanda interna, aunque con signos de moderación de cara al cuarto.",
-        "impact": "Medio",
-        "source": "CaixaBank Research",
-        "url": "https://www.caixabankresearch.com/es/economia-y-mercados/analisis-coyuntura/economia-espanola-mantiene-pulso-pese-incertidumbre-y-al",
-        "time": "09/11",
         "new": false
       }
     ],
     "sociedad": [
+      {
+        "title": "Canarias recibe más de 11.000 migrantes en la primera quincena de noviembre",
+        "summary": "El Gobierno reúne a los ministerios implicados y al presidente canario, Fernando Clavijo, que critica la falta de previsión.",
+        "impact": "Alto",
+        "source": "EFE (vía Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/11/17/temas-del-dia-de-efe-espana-del-martes-17-de-noviembre-de-2026-1330-horas/",
+        "time": "17/11",
+        "new": true
+      },
+      {
+        "title": "Nuevo estudio sobre acoso escolar y ciberacoso en España",
+        "summary": "La Fundación ColaCao presenta su segundo informe sobre acoso en la infancia y la adolescencia.",
+        "impact": "Medio",
+        "source": "EFE (vía Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/11/17/temas-del-dia-de-efe-espana-del-martes-17-de-noviembre-de-2026-1330-horas/",
+        "time": "17/11",
+        "new": true
+      },
       {
         "title": "Balance de la primera huelga general en 14 años",
         "summary": "El paro del 11-N, convocado por CCOO y UGT por la vivienda, los salarios y los precios, tuvo un seguimiento desigual. Los sindicatos hablan de éxito y la patronal, de fracaso.",
@@ -612,27 +661,18 @@
         "url": "https://costadigital.es/boletin-informativo-sabado-14-de-noviembre-de-2026-espana-andalucia-granada-y-provincia-costa-tropical/",
         "time": "14/11",
         "new": false
-      },
-      {
-        "title": "Día mundial en recuerdo de las víctimas de tráfico",
-        "summary": "Las asociaciones piden este domingo más protección y formación para peatones, ciclistas y motoristas, los usuarios más vulnerables.",
-        "impact": "Bajo",
-        "source": "Infobae / EFE",
-        "url": "https://www.infobae.com/espana/agencias/2026/11/13/temas-del-dia-de-efe-espana-del-sabado-14-de-noviembre-de-2026/",
-        "time": "15/11",
-        "new": false
-      },
-      {
-        "title": "Aviso sobre la financiación de la sanidad pública",
-        "summary": "El nuevo presidente de la Asociación Médica Mundial advierte de que la sanidad universal española no aguantará sin más financiación.",
-        "impact": "Bajo",
-        "source": "Infobae / EFE",
-        "url": "https://www.infobae.com/espana/agencias/2026/11/14/temas-del-dia-de-efe-espana-del-sabado-14-de-noviembre-de-2026-1330h/",
-        "time": "14/11",
-        "new": false
       }
     ],
     "mundo_geo": [
+      {
+        "title": "Trump llega a Asia para la cumbre a tres con Xi y Putin",
+        "summary": "Llega debilitado tras las elecciones de medio mandato y la crisis de Nvidia; Irán y el control de arsenales nucleares, en la agenda del jueves en Shenzhen.",
+        "impact": "Alto",
+        "source": "El Español",
+        "url": "https://www.elespanol.com/mundo/asia/20261117/trump-acude-debilitado-cumbre-putin-xi-shenzhen-derrota-midterms-crisis-nvidia/1003744460535_0.html",
+        "time": "17/11",
+        "new": true
+      },
       {
         "title": "Cumbre inédita Trump–Putin–Xi el jueves en Shenzhen",
         "summary": "La Casa Blanca y el Kremlin confirman la reunión al margen del APEC. Hablarán de la guerra con Irán, pero no de Ucrania.",
@@ -667,15 +707,6 @@
         "source": "El Imparcial / EFE",
         "url": "https://www.elimparcial.es/noticia/228431/economia/el-ibex-sube-un-098-y-roza-la-cota-de-los-20.000-puntos.html",
         "time": "13/11",
-        "new": false
-      },
-      {
-        "title": "Los demócratas controlan las dos cámaras de EE. UU.",
-        "summary": "Tras ganar las midterms, podrán bloquear nuevas iniciativas republicanas en lo que queda de mandato de Trump.",
-        "impact": "Medio",
-        "source": "CaixaBank Research",
-        "url": "https://www.caixabankresearch.com/es/pulso-economico-semanal/semana-del-30-octubre-al-6-noviembre-2026",
-        "time": "06/11",
         "new": false
       }
     ],
@@ -728,6 +759,24 @@
     ],
     "mercados": [
       {
+        "title": "Wall Street sufre su peor sesión en semanas",
+        "summary": "El lunes el S&P 500 cayó un 1,9 % y el Nasdaq un 2,5 % por la venta de valores de IA antes de los resultados de Nvidia y la salida a bolsa de Anthropic.",
+        "impact": "Alto",
+        "source": "CNN",
+        "url": "https://www.cnn.com/2026/11/16/business/stocks-nvidia-ai-anthropic",
+        "time": "16/11",
+        "new": true
+      },
+      {
+        "title": "El Brent se desploma más de un 4 %, hasta unos 92 $",
+        "summary": "La expectativa de avances sobre Irán en la cumbre del jueves entre Trump, Xi y Putin abarata el crudo, una buena noticia para la inflación.",
+        "impact": "Medio",
+        "source": "Bolsamanía",
+        "url": "https://www.bolsamania.com/noticias/mercados/wall-street-martes-17-noviembre-2026-nvidia-resultados--24202852.html",
+        "time": "17/11",
+        "new": true
+      },
+      {
         "title": "Jensen Huang dimite y Nvidia se desploma",
         "summary": "La acción cae un 12,8 % en cinco días. La directora financiera, Colette Kress, asume el liderazgo de forma interina.",
         "impact": "Alto",
@@ -751,24 +800,6 @@
         "impact": "Medio",
         "source": "El Boletín",
         "url": "https://www.elboletin.com/wall-street-rompe-su-racha-de-perdidas-semanales-pese-al-castigo-a-nvidia/",
-        "time": "13/11",
-        "new": false
-      },
-      {
-        "title": "El Stoxx 600 cierra en máximo histórico",
-        "summary": "El índice europeo termina en 664 puntos, apoyado en los resultados de la banca y los pedidos industriales.",
-        "impact": "Medio",
-        "source": "Trading Economics",
-        "url": "https://tradingeconomics.com/euro-area/stock-market",
-        "time": "13/11",
-        "new": false
-      },
-      {
-        "title": "AMD cae casi un 9 % y arrastra a los chips",
-        "summary": "Los semiconductores lideraron las caídas del viernes, con Dell, Broadcom y Coherent también en rojo.",
-        "impact": "Bajo",
-        "source": "TradingKey",
-        "url": "https://www.tradingkey.com/es/analysis/stocks/us-stocks/262305247-us-stock-nasdaq-falls-nvidia-drops-us-october-ppi-tradingkey",
         "time": "13/11",
         "new": false
       }
@@ -822,13 +853,40 @@
     ],
     "inmo_espana": [
       {
+        "title": "Las compraventas de vivienda se hunden un 13,4 % en septiembre",
+        "summary": "El INE registra 54.548 operaciones, la mayor caída en más de dos años; solo la obra nueva sube respecto a agosto.",
+        "impact": "Alto",
+        "source": "elDiario.es",
+        "url": "https://www.eldiario.es/economia/compraventa-vivienda-frena-septiembre-cae-13-4_1_13670004.html",
+        "time": "17/11",
+        "new": true
+      },
+      {
+        "title": "Las tasadoras retrasan a 2028 la tregua en los precios de la vivienda",
+        "summary": "La patronal de tasación prevé que la vivienda siga encareciéndose y que el mercado no se normalice hasta dentro de dos años.",
+        "impact": "Alto",
+        "source": "idealista/news",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924346-las-tasadoras-retrasan-la-tregua-de-los-precios-de-la-vivienda-hasta-2028",
+        "time": "17/11",
+        "new": true
+      },
+      {
+        "title": "Alquilar una habitación cuesta ya 494 € al mes (+11 %)",
+        "summary": "La oferta de habitaciones en pisos compartidos sube un 15 % anual en el tercer trimestre, señal de la falta de alquiler completo.",
+        "impact": "Medio",
+        "source": "idealista/news",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924371-la-oferta-de-habitaciones-se-dispara-un-15-y-el-precio-se-encarece-un-11-en-el",
+        "time": "17/11",
+        "new": true
+      },
+      {
         "title": "En Europa la vivienda sube más que los ingresos: España, quinta",
         "summary": "La ratio entre precio y renta crece un 24,5 % en España; Portugal lidera con un 60,8 %. Comprar exige cada vez más años de sueldo.",
         "impact": "Medio",
         "source": "idealista/news",
         "url": "https://www.idealista.com/news/inmobiliario/internacional/2026/11/16/924397-los-precios-de-la-vivienda-en-europa-crecen-mas-que-los-ingresos-de-los",
         "time": "16/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Las compraventas caen un 5,9 % interanual",
@@ -865,36 +923,18 @@
         "url": "https://brainsre.news/previsiones-vivienda-espana-2026-2027/",
         "time": "Jul",
         "new": false
-      },
-      {
-        "title": "La vivienda usada se estanca en 2.466 €/m²",
-        "summary": "El precio en España apenas sube un 0,04 % mensual en octubre y un 1,97 % en el año, según pisos.com.",
-        "impact": "Medio",
-        "source": "Diari de Tarragona",
-        "url": "https://www.diaridetarragona.com/vivienda/274935/precio-vivienda-tarragona-sigue-alza-supera-1-500-euros-metro-cuadrado.html",
-        "time": "Nov",
-        "new": false
-      },
-      {
-        "title": "Récord de cambios de uso",
-        "summary": "Las reconversiones de locales y oficinas a vivienda se duplicaron en el primer semestre de 2026.",
-        "impact": "Bajo",
-        "source": "Alimarket",
-        "url": "https://www.alimarket.es/construccion/noticia_amp/433179/la-compraventa-de-viviendas-aumenta-un-3-4--interanual-en-agosto",
-        "time": "Oct",
-        "new": false
-      },
-      {
-        "title": "La oferta de vivienda en venta cae un 9 % en un año",
-        "summary": "El stock de pisos anunciados sigue menguando en la mayor parte del país, lo que sostiene los precios aunque bajen las compraventas.",
-        "impact": "Medio",
-        "source": "Artículo14 / idealista",
-        "url": "https://www.articulo14.es/economia/oferta-vivienda-venta-cae-20261022.html",
-        "time": "Oct",
-        "new": true
       }
     ],
     "inmo_bcn": [
+      {
+        "title": "Cataluña: el sector pide liberalizar suelo y bajar el ITP",
+        "summary": "Expertos proponen movilizar el parque privado y rebajar impuestos para reactivar la oferta; alguno plantea derogar la Ley de Vivienda.",
+        "impact": "Medio",
+        "source": "idealista/news",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/919878-liberalizar-suelo-bajar-el-itp-y-mover-el-parque-privado-soluciones-para-reactivar",
+        "time": "17/11",
+        "new": true
+      },
       {
         "title": "Los expertos prevén menos compraventas y menos alquiler en Cataluña",
         "summary": "Anticipan precios al alza con demanda fuerte, aunque la actividad seguiría por encima de la de 2024.",
@@ -902,7 +942,7 @@
         "source": "idealista/news",
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/11/911773-los-expertos-preven-una-caida-de-las-ventas-de-viviendas-y-de-la-oferta-de-alquiler",
         "time": "11/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Barcelona marca máximo histórico: 5.463 €/m²",
@@ -957,18 +997,18 @@
         "url": "https://www.idealista.com/news/node/904332",
         "time": "2026",
         "new": false
-      },
-      {
-        "title": "Vecinos llevan al Ayuntamiento a los tribunales por la reserva del 30 %",
-        "summary": "Denuncian que no se exige vivienda protegida a un fondo que quiere convertir un edificio en coliving; crece la presión para que el consistorio compre bloques en riesgo.",
-        "impact": "Medio",
-        "source": "Ara",
-        "url": "https://es.ara.cat/sociedad/barcelona/llevan-ayuntamiento-barcelona-tribunales-no-cumplir-reserva-30-vivienda-protegida_1_5903484.html",
-        "time": "07/11",
-        "new": true
       }
     ],
     "regulacion": [
+      {
+        "title": "Vía urgente para regular los proveedores sociales de vivienda asequible",
+        "summary": "El Gobierno desarrolla el RDL 29/2026 y publica en el BOE ayudas de hasta 5 millones para construcción industrializada.",
+        "impact": "Alto",
+        "source": "idealista/news",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924725-el-gobierno-tramita-por-via-urgente-la-regulacion-de-los-proveedores-sociales-de",
+        "time": "17/11",
+        "new": true
+      },
       {
         "title": "Convalidado el decreto de vivienda: límites a fondos hasta 2030 y tope del 2 % al alquiler",
         "summary": "La Diputación Permanente aprobó el RDL 29/2026 por 35 votos a 34. Limita hasta 2030 ciertas compras de vivienda por fondos y grandes tenedores, topa las subidas de alquiler al 2 % hasta 2027, permite prórrogas extraordinarias y crea la línea TU CASA de 10.000 millones.",
@@ -1031,18 +1071,18 @@
         "url": "https://www.idealista.com/news/taxonomy/term/297",
         "time": "2026",
         "new": false
-      },
-      {
-        "title": "Collboni quiere limitar la compra especulativa",
-        "summary": "El alcalde defendió prohibir la compra de vivienda a extranjeros extracomunitarios que especulen con el alquiler.",
-        "impact": "Medio",
-        "source": "Bolsamanía / Europa Press",
-        "url": "https://www.bolsamania.com/noticias_amp/empresas/economia--amp-barcelona-anuncia-una-ayuda-de-400-euros-para-facilitar-el-acceso-a-la-vivienda-a-mayores-de-55-anos--21739306.html",
-        "time": "2026",
-        "new": false
       }
     ],
     "hipotecas": [
+      {
+        "title": "El Euríbor sube por quinta vez seguida: 3,361 %",
+        "summary": "Marca máximos del mes; con una media de noviembre cercana al 3,28 %, quien revise la hipoteca en diciembre pagará casi 100 € más al mes que hace un año.",
+        "impact": "Alto",
+        "source": "Rankia",
+        "url": "https://www.rankia.com/blog/mejores-hipotecas/7554722-euribor-hoy-17-noviembre-2026",
+        "time": "17/11",
+        "new": true
+      },
       {
         "title": "Banca March y Abanca encarecen su hipoteca fija",
         "summary": "Banca March sube su fija bonificada del 2,65 % al 3,80 % y Abanca la eleva por segunda vez en un mes, al 3,35 %. Santander (2,96 %) y BBVA (2,95 %) mantienen precio.",
@@ -1078,15 +1118,6 @@
         "url": "https://www.finect.com/usuario/davidcarmona/articulos/la-subida-de-tipos-llega-a-las-hipotecas-fijas-tres-bancos-encarecen-su-oferta",
         "time": "Oct",
         "new": false
-      },
-      {
-        "title": "La hipoteca mixta gana atractivo",
-        "summary": "Con el Euríbor al alza y las fijas encareciéndose, las mixtas (fijo unos años y luego variable) se perfilan como alternativa intermedia.",
-        "impact": "Medio",
-        "source": "HelpMyCash",
-        "url": "https://www.helpmycash.com/blog/evo-bank-el-enesimo-cambio-de-nombre-de-novagalicia-banco",
-        "time": "2026",
-        "new": false
       }
     ],
     "inversion": [
@@ -1097,7 +1128,7 @@
         "source": "Hospitality ON / Colliers",
         "url": "https://hospitality-on.com/en/hospitality/spain-eu33-billion-invested-hotels-driven-local-buyers",
         "time": "Nov",
-        "new": true
+        "new": false
       },
       {
         "title": "España, el país más atractivo de Europa para invertir en inmuebles",
@@ -1221,6 +1252,15 @@
     ],
     "alquiler": [
       {
+        "title": "Alquilar una habitación cuesta ya 494 € al mes (+11 %)",
+        "summary": "La oferta de habitaciones en pisos compartidos sube un 15 % anual en el tercer trimestre, señal de la falta de alquiler completo.",
+        "impact": "Medio",
+        "source": "idealista/news",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924371-la-oferta-de-habitaciones-se-dispara-un-15-y-el-precio-se-encarece-un-11-en-el",
+        "time": "17/11",
+        "new": true
+      },
+      {
         "title": "El alquiler en España sube un 5,6 % y llega a 15,1 €/m²",
         "summary": "Datos de idealista de octubre: las rentas siguen subiendo, aunque a menor ritmo que en 2024.",
         "impact": "Alto",
@@ -1255,15 +1295,6 @@
         "url": "https://es.euronews.com/business/2026/08/12/alquiler-espana-supera-1100-euros-80-m2-ciudades-caras-baratas",
         "time": "Ago",
         "new": false
-      },
-      {
-        "title": "El alquiler de temporada supera la cuarta parte de los contratos en Barcelona",
-        "summary": "Por eso la Generalitat decidió regularlo desde enero.",
-        "impact": "Medio",
-        "source": "Vivara",
-        "url": "https://www.vivara.io/en/blog/legal/nueva-regulacion-del-alquiler.md",
-        "time": "2026",
-        "new": false
       }
     ],
     "obra_nueva": [
@@ -1274,7 +1305,7 @@
         "source": "idealista/news",
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/16/924402-las-grandes-promotoras-critican-el-nuevo-plan-de-vivienda-es-totalmente",
         "time": "16/11",
-        "new": true
+        "new": false
       },
       {
         "title": "La superficie visada para construir crece un 18 %",
@@ -1316,204 +1347,204 @@
     "hoy": {
       "politica": [
         {
-          "title": "Sánchez y Feijóo, ante su cara a cara previsto para esta noche",
-          "summary": "El PP confirmó su asistencia a un debate a dos el 16 de noviembre en Mediaset y a un debate a cuatro el día 26; algunos calendarios aún lo daban sin fecha cerrada.",
+          "title": "El cara a cara Sánchez–Feijóo será el jueves 19 a las 22:00",
+          "summary": "Lo organiza la Academia de Televisión y lo modera María Casado, en cinco bloques: vivienda, economía y fiscalidad, servicios públicos, corrupción, y migración y política exterior.",
           "impact": "Alto",
-          "source": "Demócrata",
-          "url": "https://www.democrata.es/elecciones-generales-espana/feijoo-confirma-su-asistencia-cara-cara-con-sanchez-16-noviembre-debate-cuatro-dia-26/",
-          "time": "16/11",
+          "source": "elDiario.es",
+          "url": "https://www.eldiario.es/vertele/noticias/debate-cara-a-cara-sanchez-feijoo-sera-jueves-19-noviembre-academia-tv_1_13662406.html",
+          "time": "17/11",
           "new": true
         },
         {
-          "title": "Condena unánime a la agresión al candidato del PP por Guipúzcoa",
-          "summary": "Feijóo condenó el ataque a Jon Echevarría y a militantes del PP; el PSOE también lo rechazó: 'la violencia no tiene cabida'.",
+          "title": "Feijóo, abucheado en un mitin en Eibar",
+          "summary": "Un grupo de radicales increpó al líder del PP en su acto de apoyo a Jon Echeverría, agredido días antes en Hernani; el mitin terminó sin incidentes graves.",
           "impact": "Medio",
-          "source": "Infobae",
-          "url": "https://infobae.com/espana/2026/11/15/campana-de-las-elecciones-generales-29-n-en-directo-los-principales-candidatos-continuan-con-sus-mitines-por-toda-espana",
-          "time": "15/11",
+          "source": "Noticias de Navarra",
+          "url": "https://www.noticiasdenavarra.com/politica/2026/11/17/feijoo-abucheado-increpado-durante-mitin-eibar-11766261.html",
+          "time": "17/11",
           "new": true
         },
         {
-          "title": "Lula y Sánchez reafirman su apoyo al acuerdo UE-Mercosur",
-          "summary": "El presidente brasileño se reunió con Sánchez en la Moncloa; la aplicación del tratado comercial centró el encuentro.",
+          "title": "RTVE organiza un debate con ocho partidos el lunes 23",
+          "summary": "Participarán PP, PSOE, Vox, Frente Amplio, ERC, Junts, EH Bildu y PNV; un segundo debate de la Academia de TV hacia el 26 sigue sin confirmar.",
           "impact": "Medio",
-          "source": "ANSA Latina",
-          "url": "https://www.ansalatina.com/americalatina/noticia/latinoamerica/2026/11/16/lula-y-pedro-sanchez-ratifican-su-respaldo-al-acuerto-ue-mercosur_4154763d-305c-4516-b530-44484d497b32.html",
-          "time": "16/11",
+          "source": "Telemadrid",
+          "url": "https://www.telemadrid.es/elecciones/generales/2026/29n-cara-a-cara-sanchez-feijoo_1_2814658.html",
+          "time": "17/11",
           "new": true
         },
         {
-          "title": "Yolanda Díaz retira su candidatura a dirigir la OIT",
-          "summary": "Renuncia para no dividir al movimiento sindical y acusa a la dirección actual de llevar a la organización a la peor crisis de su historia; Houngbo seguirá al frente.",
+          "title": "Frente Amplio presenta en Palma sus propuestas de vivienda",
+          "summary": "El ministro Pablo Bustinduy detalla el programa de la coalición, centrado en vivienda pública y en limitar el peso de los grandes tenedores.",
           "impact": "Medio",
-          "source": "Euronews",
-          "url": "https://es.euronews.com/2026/11/16/yolanda-diaz-retira-candidatura-direccion-oit-crisis-sindical",
-          "time": "16/11",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/17/temas-del-dia-de-efe-espana-del-martes-17-de-noviembre-de-2026-1330-horas/",
+          "time": "17/11",
           "new": true
         },
         {
-          "title": "Frente Amplio propone limitar las herencias a 10 millones por heredero",
-          "summary": "También pide al PSOE aprobar antes del 29-N una prestación por crianza de 200 € al mes; el PP propone que voten los exiliados por ETA.",
-          "impact": "Medio",
-          "source": "Euronews",
-          "url": "https://es.euronews.com/2026/11/16/euronews-hoy-las-noticias-del-lunes-16-de-noviembre-de-2026-yolanda-diaz-renuncia-a-lidera",
-          "time": "16/11",
+          "title": "Quinto día de campaña: Sánchez en Albacete, Abascal en Canarias",
+          "summary": "La agenda de los candidatos se centra en vivienda, migración y servicios públicos a doce días de las elecciones.",
+          "impact": "Bajo",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/17/temas-del-dia-de-efe-espana-del-martes-17-de-noviembre-de-2026-1330-horas/",
+          "time": "17/11",
           "new": true
         }
       ],
       "economia": [
         {
-          "title": "El Euríbor abre la semana en máximos del mes: 3,328 %",
-          "summary": "Es el dato del viernes y el más alto de noviembre; la media provisional del mes sube al 3,272 %, por encima de la de octubre (3,239 %).",
+          "title": "Bruselas eleva al 2,6 % el crecimiento de España, pero sube la inflación al 3,9 %",
+          "summary": "La Comisión Europea sitúa a España a la cabeza de las grandes economías del euro; prevé un paro del 9,9 % y casi un punto más de inflación que en primavera.",
+          "impact": "Alto",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/17/economia-dice-que-las-previsiones-de-bruselas-confirman-la-trayectoria-singular-de-espana/",
+          "time": "17/11",
+          "new": true
+        },
+        {
+          "title": "El Gobierno sube el salario mínimo un 5,3 %, hasta 1.286 €",
+          "summary": "El Consejo de Ministros aprueba el SMI de 2027 (18.004 € al año), lo deja sin tributar en el IRPF y sube un 4,5 % el sueldo de los funcionarios.",
+          "impact": "Alto",
+          "source": "El Boletín / EFE",
+          "url": "https://www.elboletin.com/el-consejo-de-ministros-aprueba-el-smi-de-1-286-euros-la-subida-del-45-a-funcionarios-y-un-amplio-paquete-economico-y-social/",
+          "time": "17/11",
+          "new": true
+        },
+        {
+          "title": "El Euríbor sube por quinta vez seguida: 3,361 %",
+          "summary": "Marca máximos del mes; con una media de noviembre cercana al 3,28 %, quien revise la hipoteca en diciembre pagará casi 100 € más al mes que hace un año.",
           "impact": "Alto",
           "source": "Rankia",
-          "url": "https://www.rankia.com/blog/mejores-hipotecas/7553417-euribor-hoy-16-noviembre",
-          "time": "16/11",
+          "url": "https://www.rankia.com/blog/mejores-hipotecas/7554722-euribor-hoy-17-noviembre-2026",
+          "time": "17/11",
           "new": true
         },
         {
-          "title": "El Ibex vuelve a perder los 20.000 puntos",
-          "summary": "A media sesión cedía alrededor de un 0,2 % (unos 19.990 puntos), con Solaria cayendo cerca de un 3 % y caídas generalizadas en Europa.",
+          "title": "El Brent se desploma más de un 4 %, hasta unos 92 $",
+          "summary": "La expectativa de avances sobre Irán en la cumbre del jueves entre Trump, Xi y Putin abarata el crudo, una buena noticia para la inflación.",
+          "impact": "Medio",
+          "source": "Bolsamanía",
+          "url": "https://www.bolsamania.com/noticias/mercados/wall-street-martes-17-noviembre-2026-nvidia-resultados--24202852.html",
+          "time": "17/11",
+          "new": true
+        },
+        {
+          "title": "El Ibex sigue por debajo de los 20.000 puntos",
+          "summary": "Cede alrededor de un 0,5 % por las restricciones de EE. UU. a los chips para China y la cautela antes de los resultados de Nvidia; Indra cae un 4 %.",
           "impact": "Medio",
           "source": "elEconomista",
-          "url": "https://www.eleconomista.es/flash/20261116/",
-          "time": "16/11",
-          "new": true
-        },
-        {
-          "title": "Wall Street abre en rojo por las tecnológicas",
-          "summary": "El Nasdaq caía más de un 1,5 % en la apertura y el S&P 500 cerca de un 1 %, pendientes de Nvidia y de la salida a bolsa de Anthropic esta semana.",
-          "impact": "Medio",
-          "source": "Bolsamanía",
-          "url": "https://www.bolsamania.com/bolsa-cotizaciones/home.html",
-          "time": "16/11",
-          "new": true
-        },
-        {
-          "title": "Bitcoin no remonta: ronda los 64.500 $",
-          "summary": "Sigue cerca de mínimos tras el desplome del fin de semana, con caídas de alrededor del 1 % en el día.",
-          "impact": "Medio",
-          "source": "Bolsamanía",
-          "url": "https://www.bolsamania.com/",
-          "time": "16/11",
-          "new": true
-        },
-        {
-          "title": "El comercio prevé 200.000 contratos entre Black Friday y rebajas",
-          "summary": "La campaña de fin de año vuelve a tirar del empleo en el comercio, según los datos difundidos por EFE.",
-          "impact": "Medio",
-          "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
-          "time": "16/11",
+          "url": "https://www.eleconomista.es/flash/20261117/",
+          "time": "17/11",
           "new": true
         }
       ],
       "sociedad": [
         {
-          "title": "El Hierro suma 9.090 migrantes llegados en noviembre",
-          "summary": "La ruta canaria mantiene una presión muy alta sobre los servicios de acogida de la isla.",
+          "title": "Canarias recibe más de 11.000 migrantes en la primera quincena de noviembre",
+          "summary": "El Gobierno reúne a los ministerios implicados y al presidente canario, Fernando Clavijo, que critica la falta de previsión.",
+          "impact": "Alto",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/17/temas-del-dia-de-efe-espana-del-martes-17-de-noviembre-de-2026-1330-horas/",
+          "time": "17/11",
+          "new": true
+        },
+        {
+          "title": "Nuevo estudio sobre acoso escolar y ciberacoso en España",
+          "summary": "La Fundación ColaCao presenta su segundo informe sobre acoso en la infancia y la adolescencia.",
           "impact": "Medio",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
-          "time": "16/11",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/17/temas-del-dia-de-efe-espana-del-martes-17-de-noviembre-de-2026-1330-horas/",
+          "time": "17/11",
           "new": true
         },
         {
-          "title": "Los obispos alertan contra la retórica polarizadora antes del 29-N",
-          "summary": "Piden a los partidos un tono menos agresivo en la recta final de la campaña.",
+          "title": "Los funcionarios tendrán una subida salarial del 4,5 %",
+          "summary": "Forma parte del paquete económico y social aprobado hoy por el Consejo de Ministros.",
+          "impact": "Medio",
+          "source": "El Boletín",
+          "url": "https://www.elboletin.com/el-consejo-de-ministros-aprueba-el-smi-de-1-286-euros-la-subida-del-45-a-funcionarios-y-un-amplio-paquete-economico-y-social/",
+          "time": "17/11",
+          "new": true
+        },
+        {
+          "title": "La patronal de Tenerife rechaza la subida del SMI",
+          "summary": "CEOE-Tenerife advierte del coste laboral para las empresas canarias, pese a los bajos salarios y la pobreza en las islas.",
+          "impact": "Medio",
+          "source": "elDiario.es",
+          "url": "https://www.eldiario.es/canariasahora/economia/ceoe-tenerife-subida-smi-coste-laboral-canarias_1_13670073.html",
+          "time": "17/11",
+          "new": true
+        },
+        {
+          "title": "El Reina Sofía inaugura 'La Menesunda según Marta Minujín'",
+          "summary": "La exposición recrea la célebre instalación de la artista argentina.",
           "impact": "Bajo",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
-          "time": "16/11",
-          "new": true
-        },
-        {
-          "title": "Lluvias intensas en el oeste y temperaturas por encima de lo normal",
-          "summary": "El temporal sigue afectando a buena parte del país, sobre todo al oeste peninsular.",
-          "impact": "Bajo",
-          "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
-          "time": "16/11",
-          "new": true
-        },
-        {
-          "title": "Homenaje a Julio Fuentes 25 años después de su asesinato",
-          "summary": "La FAPE y la Asociación de la Prensa de Madrid recuerdan al periodista asesinado en Afganistán.",
-          "impact": "Bajo",
-          "source": "Euronews",
-          "url": "https://es.euronews.com/2026/11/16/euronews-hoy-las-noticias-del-lunes-16-de-noviembre-de-2026-yolanda-diaz-renuncia-a-lidera",
-          "time": "16/11",
-          "new": true
-        },
-        {
-          "title": "El Prado abre una exposición sobre Rilke en el Día del Flamenco",
-          "summary": "La jornada cultural incluye la actuación de Estrella Morente en Granada por el Día Internacional del Flamenco.",
-          "impact": "Bajo",
-          "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
-          "time": "16/11",
-          "new": true
-        },
-        {
-          "title": "Inglaterra arrebata la Nations League a España",
-          "summary": "La Roja apretó al final, pero no pudo retener el título.",
-          "impact": "Bajo",
-          "source": "Euronews",
-          "url": "https://es.euronews.com/2026/11/16/euronews-hoy-las-noticias-del-lunes-16-de-noviembre-de-2026-yolanda-diaz-renuncia-a-lidera",
-          "time": "16/11",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/17/temas-del-dia-de-efe-espana-del-martes-17-de-noviembre-de-2026-1330-horas/",
+          "time": "17/11",
           "new": true
         }
       ],
       "inmobiliario": [
         {
-          "title": "El PSOE promete destinar el 1 % del PIB al año a vivienda",
-          "summary": "Su programa incluye un parque estatal de 100.000 pisos a través de Casa 47, congelar alquileres, registros de fondos y socimis y más impuestos a los grandes propietarios.",
+          "title": "Las compraventas de vivienda se hunden un 13,4 % en septiembre",
+          "summary": "El INE registra 54.548 operaciones, la mayor caída en más de dos años; solo la obra nueva sube respecto a agosto.",
           "impact": "Alto",
-          "source": "Deia",
-          "url": "https://www.deia.eus/politica/2026/11/16/proponen-pp-vox-psoe-frente-11762379.html",
-          "time": "16/11",
+          "source": "elDiario.es",
+          "url": "https://www.eldiario.es/economia/compraventa-vivienda-frena-septiembre-cae-13-4_1_13670004.html",
+          "time": "17/11",
           "new": true
         },
         {
-          "title": "Vivienda en el 29-N: así quieren abaratarla PP, Vox, PSOE y Frente Amplio",
-          "summary": "El PP plantea un millón de viviendas en cuatro años con una nueva ley del suelo; Vox, IVA 0 % en la primera vivienda nueva; PSOE y Frente Amplio, inversión pública y más regulación.",
-          "impact": "Alto",
-          "source": "Noticias de Gipuzkoa",
-          "url": "https://www.noticiasdegipuzkoa.eus/politica/2026/11/16/proponen-pp-vox-psoe-frente-11762380.html",
-          "time": "16/11",
-          "new": true
-        },
-        {
-          "title": "Las grandes promotoras ven insuficiente el nuevo Plan de Vivienda",
-          "summary": "Calculan que su dotación es casi seis veces menor de lo necesario; el Ministerio ya ha transferido 800 de los 7.000 millones previstos para el primer año.",
+          "title": "Las tasadoras retrasan a 2028 la tregua en los precios de la vivienda",
+          "summary": "La patronal de tasación prevé que la vivienda siga encareciéndose y que el mercado no se normalice hasta dentro de dos años.",
           "impact": "Alto",
           "source": "idealista/news",
-          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/16/924402-las-grandes-promotoras-critican-el-nuevo-plan-de-vivienda-es-totalmente",
-          "time": "16/11",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924346-las-tasadoras-retrasan-la-tregua-de-los-precios-de-la-vivienda-hasta-2028",
+          "time": "17/11",
           "new": true
         },
         {
-          "title": "En Europa la vivienda sube más que los ingresos: España, quinta",
-          "summary": "La ratio entre precio y renta crece un 24,5 % en España; Portugal lidera con un 60,8 %. Comprar exige cada vez más años de sueldo.",
+          "title": "Vía urgente para regular los proveedores sociales de vivienda asequible",
+          "summary": "El Gobierno desarrolla el RDL 29/2026 y publica en el BOE ayudas de hasta 5 millones para construcción industrializada.",
+          "impact": "Alto",
+          "source": "idealista/news",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924725-el-gobierno-tramita-por-via-urgente-la-regulacion-de-los-proveedores-sociales-de",
+          "time": "17/11",
+          "new": true
+        },
+        {
+          "title": "Alquilar una habitación cuesta ya 494 € al mes (+11 %)",
+          "summary": "La oferta de habitaciones en pisos compartidos sube un 15 % anual en el tercer trimestre, señal de la falta de alquiler completo.",
           "impact": "Medio",
           "source": "idealista/news",
-          "url": "https://www.idealista.com/news/inmobiliario/internacional/2026/11/16/924397-los-precios-de-la-vivienda-en-europa-crecen-mas-que-los-ingresos-de-los",
-          "time": "16/11",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924371-la-oferta-de-habitaciones-se-dispara-un-15-y-el-precio-se-encarece-un-11-en-el",
+          "time": "17/11",
           "new": true
         },
         {
-          "title": "Los administradores de fincas piden un Pacto de Estado por la Vivienda",
-          "summary": "Presentan cinco propuestas para el 29-N, entre ellas un ente público que promueva vivienda y gestione el suelo.",
+          "title": "Cataluña: el sector pide liberalizar suelo y bajar el ITP",
+          "summary": "Expertos proponen movilizar el parque privado y rebajar impuestos para reactivar la oferta; alguno plantea derogar la Ley de Vivienda.",
           "impact": "Medio",
           "source": "idealista/news",
-          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/16/924379-las-cinco-propuestas-en-vivienda-de-los-administradores-de-fincas-para-las",
-          "time": "16/11",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/919878-liberalizar-suelo-bajar-el-itp-y-mover-el-parque-privado-soluciones-para-reactivar",
+          "time": "17/11",
           "new": true
         }
       ]
     },
     "semana": {
       "politica": [
+        {
+          "title": "El cara a cara Sánchez–Feijóo será el jueves 19 a las 22:00",
+          "summary": "Lo organiza la Academia de Televisión y lo modera María Casado, en cinco bloques: vivienda, economía y fiscalidad, servicios públicos, corrupción, y migración y política exterior.",
+          "impact": "Alto",
+          "source": "elDiario.es",
+          "url": "https://www.eldiario.es/vertele/noticias/debate-cara-a-cara-sanchez-feijoo-sera-jueves-19-noviembre-academia-tv_1_13662406.html",
+          "time": "17/11",
+          "new": false
+        },
         {
           "title": "Condena unánime a la agresión al candidato del PP por Guipúzcoa",
           "summary": "Feijóo condenó el ataque a Jon Echevarría y a militantes del PP; el PSOE también lo rechazó: 'la violencia no tiene cabida'.",
@@ -1549,18 +1580,18 @@
           "url": "https://www.democrata.es/politica/sanchez-arranca-campana-en-sevilla-feijoo-en-badalona-y-abascal-colau-y-montero-optan-por-madrid/",
           "time": "13/11",
           "new": false
-        },
-        {
-          "title": "El PP lidera la media de encuestas",
-          "summary": "La media de 15 institutos sitúa al PP en el 31,5 %, al PSOE en el 26,8 %, a Vox en el 19,1 % y a Frente Amplio en el 6,2 %. La publicación de encuestas se prohíbe desde el 24 de noviembre.",
-          "impact": "Alto",
-          "source": "Demócrata",
-          "url": "https://www.democrata.es/economia/espana-vuelve-huelga-general-14-anos-despues-con-vivienda-como-detonante-puertas-29n/",
-          "time": "10/11",
-          "new": false
         }
       ],
       "economia": [
+        {
+          "title": "Bruselas eleva al 2,6 % el crecimiento de España, pero sube la inflación al 3,9 %",
+          "summary": "La Comisión Europea sitúa a España a la cabeza de las grandes economías del euro; prevé un paro del 9,9 % y casi un punto más de inflación que en primavera.",
+          "impact": "Alto",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/17/economia-dice-que-las-previsiones-de-bruselas-confirman-la-trayectoria-singular-de-espana/",
+          "time": "17/11",
+          "new": false
+        },
         {
           "title": "El Euríbor abre la semana en máximos del mes: 3,328 %",
           "summary": "Es el dato del viernes y el más alto de noviembre; la media provisional del mes sube al 3,272 %, por encima de la de octubre (3,239 %).",
@@ -1596,18 +1627,18 @@
           "url": "https://nordfx.com/market-news/market-pulse-november-13-2026",
           "time": "13/11",
           "new": false
-        },
-        {
-          "title": "CaixaBank eleva al 2,6 % el crecimiento de España en 2026",
-          "summary": "El servicio de estudios prevé un 2 % para 2027 y destaca la baja deuda de los hogares (41 % del PIB frente al 50 % de la eurozona).",
-          "impact": "Medio",
-          "source": "Ara",
-          "url": "https://es.ara.cat/economia/macroeconomia/caixabank-espanola-seguira-economia-europea-crecera_1_5905111.html",
-          "time": "09/11",
-          "new": false
         }
       ],
       "sociedad": [
+        {
+          "title": "Canarias recibe más de 11.000 migrantes en la primera quincena de noviembre",
+          "summary": "El Gobierno reúne a los ministerios implicados y al presidente canario, Fernando Clavijo, que critica la falta de previsión.",
+          "impact": "Alto",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/17/temas-del-dia-de-efe-espana-del-martes-17-de-noviembre-de-2026-1330-horas/",
+          "time": "17/11",
+          "new": false
+        },
         {
           "title": "El Hierro suma 9.090 migrantes llegados en noviembre",
           "summary": "La ruta canaria mantiene una presión muy alta sobre los servicios de acogida de la isla.",
@@ -1643,18 +1674,18 @@
           "url": "https://www.infobae.com/espana/agencias/2026/11/14/temas-del-dia-de-efe-espana-del-sabado-14-de-noviembre-de-2026-1330h/",
           "time": "14/11",
           "new": false
-        },
-        {
-          "title": "Balance de la primera huelga general en 14 años",
-          "summary": "El paro del 11-N, convocado por CCOO y UGT por la vivienda, los salarios y los precios, tuvo un seguimiento desigual. Los sindicatos hablan de éxito y la patronal, de fracaso.",
-          "impact": "Alto",
-          "source": "COPE",
-          "url": "https://www.cope.es/programas/mediodia-cope/horas-completas/14-00h-14-nov-2026-mediodia-cope-20261114_3475318.html",
-          "time": "11/11",
-          "new": false
         }
       ],
       "inmobiliario": [
+        {
+          "title": "Las compraventas de vivienda se hunden un 13,4 % en septiembre",
+          "summary": "El INE registra 54.548 operaciones, la mayor caída en más de dos años; solo la obra nueva sube respecto a agosto.",
+          "impact": "Alto",
+          "source": "elDiario.es",
+          "url": "https://www.eldiario.es/economia/compraventa-vivienda-frena-septiembre-cae-13-4_1_13670004.html",
+          "time": "17/11",
+          "new": false
+        },
         {
           "title": "El PSOE promete destinar el 1 % del PIB al año a vivienda",
           "summary": "Su programa incluye un parque estatal de 100.000 pisos a través de Casa 47, congelar alquileres, registros de fondos y socimis y más impuestos a los grandes propietarios.",
@@ -1689,15 +1720,6 @@
           "source": "idealista/news",
           "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/11/911773-los-expertos-preven-una-caida-de-las-ventas-de-viviendas-y-de-la-oferta-de-alquiler",
           "time": "11/11",
-          "new": false
-        },
-        {
-          "title": "Banca March y Abanca encarecen su hipoteca fija",
-          "summary": "Banca March sube su fija bonificada del 2,65 % al 3,80 % y Abanca la eleva por segunda vez en un mes, al 3,35 %. Santander (2,96 %) y BBVA (2,95 %) mantienen precio.",
-          "impact": "Alto",
-          "source": "Hipotecas.me",
-          "url": "https://www.hipotecas.me/noticias/banca-march-abanca-suben-hipoteca-fija-noviembre-2026",
-          "time": "10/11",
           "new": false
         }
       ]
@@ -1778,14 +1800,24 @@
   },
   "agenda": [
     {
-      "date": "Lun 16 nov",
-      "event": "Cara a cara Sánchez–Feijóo (previsto, Mediaset)",
-      "why": "Vivienda, impuestos y Ley de Vivienda en el debate."
+      "date": "Mié 18 nov",
+      "event": "Precio de la salida a bolsa de Anthropic",
+      "why": "Prueba de apetito por la IA tras la caída de Nvidia."
+    },
+    {
+      "date": "Jue 19 nov, 22:00",
+      "event": "Cara a cara Sánchez–Feijóo (Academia de TV)",
+      "why": "Vivienda, fiscalidad y corrupción en el único debate a dos."
     },
     {
       "date": "Jue 19 nov",
-      "event": "Cumbre Trump–Putin–Xi",
+      "event": "Cumbre Trump–Xi–Putin en Shenzhen",
       "why": "Irán y Ormuz: petróleo e inflación."
+    },
+    {
+      "date": "Lun 23 nov",
+      "event": "Debate a ocho en RTVE",
+      "why": "Todos los grupos con representación."
     },
     {
       "date": "Mar 24 nov",
@@ -1793,14 +1825,9 @@
       "why": "Últimos sondeos del 29-N."
     },
     {
-      "date": "Jue 26 nov",
-      "event": "Debate a cuatro",
-      "why": "Último gran debate antes de la votación."
-    },
-    {
       "date": "Vie 27 nov",
       "event": "IPC adelantado de noviembre (INE)",
-      "why": "CaixaBank espera que siga por encima del 4 %."
+      "why": "Bruselas prevé una inflación media del 3,9 % en 2026."
     },
     {
       "date": "Dom 29 nov",
@@ -1808,9 +1835,9 @@
       "why": "Gobierno, Ley de Vivienda y precio del crudo."
     },
     {
-      "date": "Inicio dic",
-      "event": "Euríbor de noviembre (BOE), afiliación, PMI e idealista de noviembre",
-      "why": "Revisión de hipotecas, empleo y precios por distrito."
+      "date": "Mar 1 dic",
+      "event": "Subasta de Letras a 6 y 12 meses",
+      "why": "Termómetro de los tipos a corto antes del BCE."
     },
     {
       "date": "Diciembre",
@@ -1873,9 +1900,9 @@
     }
   ],
   "number_of_day": {
-    "value": "2,6 %",
-    "label": "Crecimiento previsto de España en 2026 (CaixaBank Research)",
-    "context": "Es casi el triple que la media de la eurozona. Que la economía crezca sostiene el empleo y la demanda de vivienda, pero también los precios: con más gente trabajando y poca oferta, el piso sigue subiendo aunque se vendan menos."
+    "value": "−13,4 %",
+    "label": "Caída de las compraventas de vivienda en septiembre (INE)",
+    "context": "Es la mayor caída en más de dos años. Que se vendan menos pisos no significa que bajen los precios: con poca oferta, los precios siguen subiendo y la caída refleja sobre todo que muchos compradores ya no llegan, por precio y por hipotecas más caras."
   },
   "programs": {
     "title": "Vivienda en el 29-N: qué propone cada partido",
@@ -1921,13 +1948,13 @@
       "label": "Financiación",
       "status": "bad",
       "value": "Tensionada",
-      "text": "Euríbor en el 3,33 %, máximo del mes; los bancos suben las fijas y el BCE apunta a subir tipos en diciembre."
+      "text": "Euríbor en el 3,361 % tras cinco subidas seguidas; los bancos suben las fijas y el BCE apunta a subir en diciembre."
     },
     {
       "label": "Actividad",
-      "status": "warn",
-      "value": "A la baja",
-      "text": "Compraventas −5,9 % anual en España. Menos operaciones y más negociación."
+      "status": "bad",
+      "value": "Cayendo",
+      "text": "Compraventas −13,4 % en septiembre (INE), la mayor caída en dos años; el comprador gana poder de negociación."
     },
     {
       "label": "Regulación",
@@ -1939,7 +1966,7 @@
       "label": "Comprador extranjero",
       "status": "good",
       "value": "Favorable",
-      "text": "El euro en mínimos de 19 meses abarata España para compradores en dólares."
+      "text": "El euro, por debajo de 1,10 dólares (mínimo de 19 meses), abarata España para compradores en dólares."
     },
     {
       "label": "Inversión institucional",
@@ -1951,7 +1978,7 @@
   "forecasts": [
     {
       "topic": "Euríbor a 12 meses",
-      "now": "3,33 % (13/11/2026)",
+      "now": "3,36 % (17/11/2026)",
       "items": [
         {
           "source": "Funcas (panel)",
@@ -1996,6 +2023,13 @@
       "now": "4,9 % (octubre)",
       "items": [
         {
+          "source": "Comisión Europea",
+          "date": "17/11/2026",
+          "horizon": "2026",
+          "value": "3,9 % (casi 1 punto más que en primavera)",
+          "url": "https://www.que.es/2026/11/17/prevision-inflacion-espana-bruselas/"
+        },
+        {
           "source": "CaixaBank Research",
           "date": "30/10/2026",
           "horizon": "Nov–dic 2026",
@@ -2010,12 +2044,19 @@
           "url": "https://futurfinances.com/?p=51397"
         }
       ],
-      "read": "La clave es el petróleo: Bankinter supone un Brent a 85 $ a final de año (hoy 95 $)."
+      "read": "Bruselas sube su previsión de inflación al 3,9 % por el petróleo caro; la caída del Brent de hoy (-4 %) sería la primera buena noticia si se consolida."
     },
     {
       "topic": "PIB de España",
       "now": "+0,6 % trimestral (3T)",
       "items": [
+        {
+          "source": "Comisión Europea",
+          "date": "17/11/2026",
+          "horizon": "2026",
+          "value": "+2,6 %",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/17/economia-dice-que-las-previsiones-de-bruselas-confirman-la-trayectoria-singular-de-espana/"
+        },
         {
           "source": "CaixaBank Research",
           "date": "09/11/2026",
@@ -2031,7 +2072,7 @@
           "url": "https://futurfinances.com/?p=51397"
         }
       ],
-      "read": "CaixaBank, con datos más recientes, es más optimista que Bankinter: España seguiría creciendo muy por encima de la eurozona, aunque frenando en 2027 por la energía cara y los tipos más altos."
+      "read": "Bruselas coincide con CaixaBank: España crecerá un 2,6 % en 2026, la que más entre las grandes economías del euro, aunque frenará en 2027."
     },
     {
       "topic": "Precio de la vivienda en España",
@@ -2077,7 +2118,7 @@
     },
     {
       "topic": "Petróleo Brent",
-      "now": "≈ 95 $",
+      "now": "≈ 92 $ (17/11/2026)",
       "items": [
         {
           "source": "Bankinter",
@@ -2612,7 +2653,7 @@
         },
         {
           "label": "Prima de riesgo",
-          "value": "65 pb",
+          "value": "57 pb",
           "status": "good",
           "id": "prima"
         },
@@ -2814,7 +2855,7 @@
   "macro": {
     "updated": "2026-11-15",
     "curve": {
-      "date": "16/11/2026 (10 a) · últimas subastas",
+      "date": "17/11/2026 (10 a) · últimas subastas (letras 3/11)",
       "points": [
         {
           "plazo": "6 m",
@@ -2834,7 +2875,7 @@
         {
           "plazo": "10 a",
           "years": 10,
-          "value": 3.952
+          "value": 3.962
         },
         {
           "plazo": "15 a",
@@ -2920,17 +2961,18 @@
           {
             "id": "bono10",
             "label": "Bono a 10 años",
-            "value": 3.952,
+            "value": 3.962,
             "unit": "%",
             "decimals": 3,
             "change": null,
             "change_unit": null,
-            "date": "16/11/2026",
+            "date": "17/11/2026",
             "detail": "",
             "source": "Mercado",
             "url": "https://www.idealista.com/news/taxonomy/term/17056",
             "history": [
-              3.952
+              3.952,
+              3.962
             ],
             "good_when": null,
             "why": "La referencia de la curva; ver también la prima de riesgo.",
@@ -2976,12 +3018,12 @@
           {
             "id": "pendiente",
             "label": "Pendiente 10 a − 12 m",
-            "value": 0.884,
+            "value": 0.894,
             "unit": " pp",
             "decimals": 2,
             "change": null,
             "change_unit": null,
-            "date": "16/11/2026",
+            "date": "17/11/2026",
             "detail": "",
             "source": "Cálculo propio",
             "url": "https://www.finect.com/usuario/eduardogarcia/articulos/la-rentabilidad-de-las-letras-del-tesoro-a-12-meses-x-al-x",
@@ -3033,19 +3075,22 @@
           {
             "id": "smi",
             "label": "Salario mínimo (SMI)",
-            "value": 1221,
+            "value": 1286,
             "unit": "€/mes",
             "decimals": 0,
-            "change": 3.1,
+            "change": 5.3,
             "change_unit": "%",
-            "date": "2026 · RD 126/2026",
-            "detail": "17.094 € al año",
-            "source": "BOE / Deia",
-            "url": "https://www.deia.eus/economia/2026/02/17/gobierno-espanol-da-luz-verde-10711068.amp.html",
-            "history": [],
+            "date": "2027 · aprobado el 17/11/2026",
+            "detail": "18.004 € al año en 14 pagas; el Gobierno lo deja exento de IRPF",
+            "source": "EFE / El Boletín",
+            "url": "https://www.elboletin.com/el-consejo-de-ministros-aprueba-el-smi-de-1-286-euros-la-subida-del-45-a-funcionarios-y-un-amplio-paquete-economico-y-social/",
+            "history": [
+              1221,
+              1286
+            ],
             "good_when": "up",
-            "why": "Subida del 3,1 % aprobada en febrero con efectos desde enero.",
-            "situation": "1.221 € en 14 pagas: 17.094 € al año o 40,70 € al día. Mantiene el objetivo del 60 % del salario medio."
+            "why": "El Gobierno aprueba una subida del 5,3 % para 2027, por encima de la inflación, y una deducción para que no tribute en el IRPF.",
+            "situation": "1.286 € en 14 pagas a partir de enero de 2027. Sube los costes de las empresas intensivas en mano de obra; la patronal canaria la rechaza."
           },
           {
             "id": "coste_salarial",
