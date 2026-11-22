@@ -1,38 +1,38 @@
 {
-  "updated": "2026-11-21T17:15:00+01:00",
-  "edition": "Sábado 21 de noviembre de 2026",
-  "headline": "Semana negra en bolsa: Wall Street entra en corrección, el Nasdaq se hunde un 5,3 % y el Ibex pierde un 5,7 % semanal; en Barcelona la oferta de alquiler cae un 25 % mientras Neinor y Cevasa suman 410 pisos asequibles.",
+  "updated": "2026-11-22T17:15:00+01:00",
+  "edition": "Domingo 22 de noviembre de 2026",
+  "headline": "Último domingo de campaña: Sánchez y Feijóo coinciden en Murcia a una semana del 29-N, Irán se abre a reabrir Ormuz y bitcoin rebota por encima de 60.000 $ tras la semana negra en bolsa.",
   "brief_60s": [
-    "Wall Street vive su peor día desde abril de 2025: el Nasdaq cae un 5,3 % y borra lo ganado en 2026, y el S&P 500 entra en corrección tras siete sesiones de caídas.",
-    "El Ibex cierra la semana en 18.873 puntos (−5,7 %) y Europa sufre su peor semana desde marzo por las dudas sobre la rentabilidad de la IA.",
-    "Bitcoin pierde los 60.000 $ (≈57.500) y el oro se hunde un 14,6 % en el mes; el bono de EE. UU. vuelve por debajo del 5 % como refugio.",
-    "Barcelona: la oferta de alquiler cae un 25 % (516 anuncios) y Neinor y Cevasa suman 410 pisos de alquiler asequible a su alianza en la ciudad.",
-    "Campaña: último fin de semana antes del 29-N; Feijóo pide no confiarse, Sánchez se centra en Canarias y Belarra descarta gobernar con el PSOE."
+    "Campaña: Sánchez y Feijóo hacen mítines en Murcia con media hora de diferencia; el lunes es el último día para publicar encuestas.",
+    "Irán se declara dispuesto a reabrir el estrecho de Ormuz si alcanza un acuerdo con EE. UU.: si se confirma, el petróleo podría seguir bajando (Brent en 92,57 $).",
+    "Semana negra en bolsa: el Ibex cerró en 18.873 (−5,7 % semanal), el Nasdaq cayó un 5,3 % el viernes y el S&P 500 entró en corrección.",
+    "Bitcoin rebota hasta unos 60.900 $ el fin de semana tras perder los 60.000; el oro acumula un −14,6 % en noviembre.",
+    "Vivienda: Barcelona tiene solo 516 pisos en alquiler anunciados y es la ciudad con las habitaciones más caras (662 €/mes)."
   ],
   "ukio_takeaways": [
-    "Compradores: el desplome de la bolsa puede enfriar la demanda de quien pensaba vender acciones para comprar; para quien tiene ahorro líquido, la volatilidad refuerza el piso como activo refugio.",
-    "Vendedores en Barcelona: con solo 516 pisos en alquiler anunciados, muchos propietarios prefieren vender; los compradores de inversión tienen más oferta para elegir, así que el precio de salida debe ser competitivo.",
-    "Inversores y fondos: la caída de las bolsas y del bono de EE. UU. por debajo del 5 % puede reorientar capital hacia activos reales; en Barcelona, el modelo de alianza con el sector público (Neinor-Cevasa) es la vía más clara para invertir en alquiler a gran escala."
+    "Compradores: si se confirma la reapertura de Ormuz, un petróleo más barato aliviaría la inflación y podría frenar las subidas del BCE, lo que daría un respiro al Euríbor en 2027.",
+    "Vendedores en Barcelona: la escasez extrema de alquiler (516 anuncios) mantiene una fuerte demanda de compra de pequeños inversores; los pisos pequeños y bien situados siguen siendo los más líquidos.",
+    "Inversores y fondos: la semana que empieza estará marcada por la volatilidad bursátil y el 29-N; conviene mantener las operaciones en marcha pero con cláusulas que contemplen cambios regulatorios tras las elecciones."
   ],
   "today": [
     {
-      "time": "Mañana y mediodía",
-      "event": "Sánchez en Canarias, Feijóo en Valencia, Abascal en Sevilla y Colau en Barcelona",
-      "why": "Último fin de semana de campaña antes del 29-N."
+      "time": "Mediodía",
+      "event": "Mítines de Sánchez y Feijóo en Murcia",
+      "why": "Último domingo de campaña; vivienda e inmigración en el centro."
     },
     {
-      "time": "Fin de semana",
-      "event": "Mercados cripto abiertos tras el desplome de Wall Street",
-      "why": "Bitcoin ya ha perdido los 60.000 $: termómetro del apetito por el riesgo antes de la apertura del lunes."
+      "time": "Tarde",
+      "event": "Final de las ATP Finals: Alcaraz en Turín",
+      "why": "Cierre de la temporada de tenis."
     },
     {
-      "time": "Domingo",
-      "event": "Sánchez y Feijóo coinciden en Murcia, en mítines distintos",
-      "why": "La vivienda y la inmigración marcan la recta final."
+      "time": "Lunes 23",
+      "event": "Último día para publicar encuestas y debate a ocho en RTVE",
+      "why": "A partir del martes, prohibición de sondeos hasta el 29-N."
     }
   ],
   "markets": {
-    "asof": "Bolsas europeas y Wall Street: cierre del viernes 20/11 · Nikkei: cierre 20/11 · Oro, DXY y bono de EE. UU.: cierre 20/11 · EUR/USD y Brent: 20/11 (sin cierre fiable) · Cripto: sábado 21/11",
+    "asof": "Bolsas, divisas, oro, DXY y bonos: cierre del viernes 20/11 (fin de semana sin cotización) · Brent: cierre 20/11 · EUR/USD: 20/11 · Cripto: domingo 22/11 mediodía",
     "indices": [
       {
         "id": "ibex",
@@ -195,18 +195,19 @@
         "id": "brent",
         "label": "Brent",
         "unit": "$",
-        "value": 92.77,
+        "value": 92.57,
         "decimals": 2,
-        "change_pct": null,
-        "note": "≈ −20 % en noviembre",
+        "change_pct": 0.64,
+        "note": "Tres semanas seguidas de caídas; ≈ −20 % en noviembre",
         "history": [
           95.4,
           91.82,
           92.34,
           92.28,
-          92.77
+          92.77,
+          92.57
         ],
-        "why": "Acumula una caída cercana al 20 % en el mes por el aumento de suministro acordado en la cumbre de Shenzhen y el temor a una desaceleración."
+        "why": "Repuntó el viernes, pero encadena tres semanas de caídas por el aumento de la oferta y el temor a un superávit; el domingo Irán se dijo dispuesto a reabrir Ormuz si hay acuerdo con EE. UU."
       },
       {
         "id": "gold",
@@ -272,9 +273,9 @@
         "id": "bitcoin",
         "label": "Bitcoin",
         "symbol": "BTC",
-        "usd": 57460,
-        "chg_24h": -6.6,
-        "chg_7d": -9.6,
+        "usd": 60898,
+        "chg_24h": 6.0,
+        "chg_7d": -4.1,
         "history": [
           81004,
           75780,
@@ -286,17 +287,18 @@
           64530,
           63519,
           61497,
-          57460
+          57460,
+          60898
         ],
-        "why": "Pierde los 60.000 $ por primera vez desde el verano, contagiado por el desplome del Nasdaq y con el sentimiento en 'miedo extremo'."
+        "why": "Rebota por encima de 60.000 $ el fin de semana tras el desplome del viernes, aunque la tendencia sigue bajista."
       },
       {
         "id": "ethereum",
         "label": "Ethereum",
         "symbol": "ETH",
-        "usd": 1619.88,
-        "chg_24h": -6.4,
-        "chg_7d": -15.0,
+        "usd": 1706.53,
+        "chg_24h": 5.3,
+        "chg_7d": -10.4,
         "history": [
           2240,
           1930,
@@ -306,17 +308,18 @@
           1805.2,
           1803.44,
           1730.91,
-          1619.88
+          1619.88,
+          1706.53
         ],
-        "why": "Cae a mínimos del año arrastrado por la venta generalizada de activos de riesgo."
+        "why": "Recupera los 1.700 $ con el rebote del fin de semana, todavía lejos de los niveles de principios de mes."
       },
       {
         "id": "xrp",
         "label": "XRP",
         "symbol": "XRP",
-        "usd": 0.88,
-        "chg_24h": -8.2,
-        "chg_7d": -1.7,
+        "usd": 0.9309,
+        "chg_24h": 5.8,
+        "chg_7d": 4.0,
         "history": [
           1.0,
           0.9949,
@@ -327,25 +330,27 @@
           0.98,
           0.9665,
           0.9591,
-          0.88
+          0.88,
+          0.9309
         ],
-        "why": "Vuelve a caer con fuerza tras el rebote de mitad de semana, siguiendo a bitcoin."
+        "why": "Aguanta por encima de 0,93 $ y es de las pocas grandes cripto que sube en la semana."
       },
       {
         "id": "cardano",
         "label": "Cardano",
         "symbol": "ADA",
-        "usd": 0.1388,
-        "chg_24h": null,
-        "chg_7d": -15.1,
+        "usd": 0.1457,
+        "chg_24h": 5.0,
+        "chg_7d": -10.8,
         "history": [
           0.1643,
           0.1634,
           0.1534,
           0.1529,
-          0.1388
+          0.1388,
+          0.1457
         ],
-        "why": "Marca nuevos mínimos en torno a 0,14 $ en un mercado cripto en 'miedo extremo'."
+        "why": "Rebote técnico desde mínimos, en un mercado que sigue en 'miedo extremo'."
       }
     ]
   },
@@ -584,13 +589,40 @@
   "news": {
     "politica": [
       {
+        "title": "Sánchez y Feijóo coinciden en Murcia en el último domingo de campaña",
+        "summary": "Mítines separados por media hora; Sánchez reunió a unas 7.000 personas tras ser declarado persona non grata por el Gobierno regional.",
+        "impact": "Alto",
+        "source": "Infobae",
+        "url": "https://www.infobae.com/espana/2026/11/22/elecciones-generales-29-n-en-directo-nueva-jornada-de-mitines-por-toda-espana-sanchez-y-feijoo-estaran-en-murcia-abascal-en-zaragoza-y-colau-en-canarias/",
+        "time": "22/11",
+        "new": true
+      },
+      {
+        "title": "Lunes, último día para publicar encuestas",
+        "summary": "A partir del martes 24 la ley prohíbe difundir sondeos hasta la jornada electoral.",
+        "impact": "Medio",
+        "source": "EFE (vía Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/11/22/temas-del-dia-de-efe-espana-del-domingo-22-de-noviembre-de-2026-1400-horas/",
+        "time": "22/11",
+        "new": true
+      },
+      {
+        "title": "Encuesta en Murcia: el PP ganaría y PSOE y Vox empatan a tres escaños",
+        "summary": "El barómetro UCAM OBEDE es el primero que da al PSOE opciones de conservar sus tres diputados en la región.",
+        "impact": "Medio",
+        "source": "Murcia Plaza",
+        "url": "https://murciaplaza.com/murciaplaza/region/encuesta-el-pp-ganaria-las-elecciones-del-29n-en-la-region-de-murcia-con-psoe-y-vox-empatados-a-tres-escanos",
+        "time": "22/11",
+        "new": true
+      },
+      {
         "title": "Feijóo pide no confiarse: 'Sánchez herido es más peligroso'",
         "summary": "Tras el cara a cara, el PP intenta evitar la desmovilización; Sánchez asegura que salió satisfecho del debate.",
         "impact": "Alto",
         "source": "EFE (vía Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2026/11/21/temas-del-dia-de-efe-espana-del-sabado-21-de-noviembre-de-2026-330-horas/",
         "time": "21/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Belarra descarta volver a gobernar con el PSOE",
@@ -599,33 +631,6 @@
         "source": "EFE (vía Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2026/11/21/temas-del-dia-de-efe-espana-del-sabado-21-de-noviembre-de-2026-330-horas/",
         "time": "21/11",
-        "new": true
-      },
-      {
-        "title": "Abascal, en Sevilla; Colau, en Barcelona",
-        "summary": "Vox celebra su segundo gran mitin andaluz y Frente Amplio su gran acto en Barcelona; mañana Sánchez y Feijóo coinciden en Murcia.",
-        "impact": "Medio",
-        "source": "Demócrata",
-        "url": "https://www.democrata.es/politica/abascal-celebra-este-sabado-en-sevilla-su-segundo-mitin-de-campana-en-andalucia/",
-        "time": "21/11",
-        "new": true
-      },
-      {
-        "title": "El cara a cara gira en torno a la vivienda",
-        "summary": "Sánchez pidió a Feijóo que no derogue la Ley de Vivienda; Feijóo propuso incentivos fiscales y avales públicos de hasta el 100 % de la hipoteca y le reprochó la caída de la oferta de alquiler.",
-        "impact": "Alto",
-        "source": "idealista/news",
-        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/20/925347-sanchez-a-feijoo-en-el-debate-no-derogue-la-ley-de-vivienda",
-        "time": "20/11",
-        "new": false
-      },
-      {
-        "title": "Verificación del debate: vivienda, pensiones e inflación",
-        "summary": "La vivienda fue la palabra más repetida (24 veces Feijóo, 16 Sánchez); los datos oficiales hablan de 719.602 viviendas terminadas en ocho años, no de un millón.",
-        "impact": "Alto",
-        "source": "El Diario de Madrid",
-        "url": "https://www.eldiariodemadrid.es/politica/verificacion-debate-sanchez-feijoo-vivienda-pensiones-inflacion-criminalidad/20261120133313147506.html",
-        "time": "20/11",
         "new": false
       }
     ],
@@ -678,13 +683,31 @@
     ],
     "sociedad": [
       {
+        "title": "Vence el plazo del sistema de depósito de envases sin que esté en marcha",
+        "summary": "No hay operadores autorizados ni reglas definidas para el SDDR de botellas y latas.",
+        "impact": "Medio",
+        "source": "EFE (vía Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/11/22/temas-del-dia-de-efe-espana-del-domingo-22-de-noviembre-de-2026-1400-horas/",
+        "time": "22/11",
+        "new": true
+      },
+      {
+        "title": "Vuelve el frío: rachas de viento de hasta 90 km/h",
+        "summary": "Aemet avisa por viento en el Cantábrico, el este peninsular y Baleares, con descenso general de temperaturas.",
+        "impact": "Medio",
+        "source": "El Cronista",
+        "url": "https://www.cronista.com/espana/actualidad-es/regresa-el-frio-este-domingo-22-de-noviembre-fuertes-rachas-de-viento-de-90-kmh-y-lluvias-afectaran-a-estas-zonas-del-pais/",
+        "time": "22/11",
+        "new": true
+      },
+      {
         "title": "Desconvocada la huelga de maquinistas del lunes 23",
         "summary": "Se evitan las cancelaciones de trenes; Adif empieza a reconstruir la vía del accidente de Urda.",
         "impact": "Alto",
         "source": "EFE (vía Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2026/11/20/temas-del-dia-de-efe-espana-del-viernes-20-de-noviembre-1350-horas/",
         "time": "20/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Movilizaciones europeas contra el precio de la vivienda",
@@ -693,7 +716,7 @@
         "source": "EFE (vía Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2026/11/20/temas-del-dia-de-efe-espana-del-viernes-20-de-noviembre-1350-horas/",
         "time": "20/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Los maquinistas desconvocan la huelga ferroviaria del 23 de noviembre",
@@ -703,27 +726,27 @@
         "url": "https://www.infobae.com/espana/agencias/2026/11/20/temas-del-dia-de-efe-espana-del-viernes-20-de-noviembre-1350-horas/",
         "time": "20/11",
         "new": false
-      },
-      {
-        "title": "La Policía frustra la implantación en España del grupo prorruso NoName057",
-        "summary": "El grupo de ciberataques intentaba organizarse en España en plena campaña electoral.",
-        "impact": "Alto",
-        "source": "EFE (vía Infobae)",
-        "url": "https://www.infobae.com/espana/agencias/2026/11/20/temas-del-dia-de-efe-espana-del-viernes-20-de-noviembre-1350-horas/",
-        "time": "20/11",
-        "new": false
-      },
-      {
-        "title": "Protestas en varios países europeos por el precio de la vivienda",
-        "summary": "Estudiantes y sindicatos convocan movilizaciones contra el coste de la vivienda y de la vida, también en España.",
-        "impact": "Medio",
-        "source": "EFE (vía Infobae)",
-        "url": "https://www.infobae.com/espana/agencias/2026/11/20/temas-del-dia-de-efe-espana-del-viernes-20-de-noviembre-1350-horas/",
-        "time": "20/11",
-        "new": false
       }
     ],
     "mundo_geo": [
+      {
+        "title": "Irán, dispuesto a reabrir Ormuz si hay acuerdo con EE. UU.",
+        "summary": "Teherán se abre a reabrir el estrecho, aunque rechaza sacar del país su uranio enriquecido; una salida al conflicto abarataría el petróleo.",
+        "impact": "Alto",
+        "source": "EFE (vía Infobae)",
+        "url": "https://www.infobae.com/america/agencias/2026/11/22/temas-del-dia-de-efe-internacional-del-domingo-22-de-noviembre-1200-gmt/",
+        "time": "22/11",
+        "new": true
+      },
+      {
+        "title": "Bloqueo en la COP31: la UE y Panamá rechazan el último borrador",
+        "summary": "La cumbre del clima se alarga sin acuerdo sobre la reducción de emisiones.",
+        "impact": "Medio",
+        "source": "EFE (vía Infobae)",
+        "url": "https://www.infobae.com/america/agencias/2026/11/22/temas-del-dia-de-efe-internacional-del-domingo-22-de-noviembre-1200-gmt/",
+        "time": "22/11",
+        "new": true
+      },
       {
         "title": "Trump, Xi y Putin firman una 'Declaración sobre la Paz' sin compromisos sobre Irán",
         "summary": "Acuerdan aumentar el suministro de petróleo y abrir un diálogo nuclear, pero el texto no menciona las guerras de Irán ni de Ucrania.",
@@ -750,27 +773,18 @@
         "url": "https://www.mdzol.com/mundo/2026/11/14/inedita-cumbre-entre-trump-putin-y-xi-jinping-iran-en-la-agenda-pero-ucrania-no-1995423.html",
         "time": "14/11",
         "new": false
-      },
-      {
-        "title": "Trump dice que no necesita un acuerdo de paz con Irán",
-        "summary": "El presidente apartó a JD Vance de las conversaciones. Irán exige autorización a los buques para cruzar Ormuz.",
-        "impact": "Alto",
-        "source": "Todo sobre RRII",
-        "url": "https://noticiastodosobrerrii.substack.com/p/reporte-guerra-medio-oriente-todo-927",
-        "time": "12/11",
-        "new": false
-      },
-      {
-        "title": "Trump podría no atacar Irán si no hay provocaciones",
-        "summary": "Según tres fuentes, el presidente ha dicho a sus asesores que esperará mientras Teherán y los hutíes no provoquen a EE. UU.",
-        "impact": "Medio",
-        "source": "Times of Israel",
-        "url": "https://www.timesofisrael.com/liveblog-november-14-2026/",
-        "time": "14/11",
-        "new": false
       }
     ],
     "mundo_eco": [
+      {
+        "title": "El Brent suma tres semanas de caídas",
+        "summary": "Cerró el viernes en 92,57 $ (+0,64 %), pero el mercado anticipa un exceso de oferta a final de año; acumula un −20 % en noviembre.",
+        "impact": "Medio",
+        "source": "Infobae / EFE",
+        "url": "https://www.infobae.com/america/agencias/2026/11/20/el-brent-sube-064-hasta-9257-dolares-pero-firma-tres-semanas-consecutivas-de-caidas/",
+        "time": "20/11",
+        "new": true
+      },
       {
         "title": "Las actas de la Fed anticipan una subida de tipos en diciembre",
         "summary": "Casi todo el comité ve apropiado subir; dos miembros ya votaron a favor en octubre. Más presión sobre el BCE y el Euríbor.",
@@ -806,15 +820,6 @@
         "url": "https://www.euribor.com.es/2026/11/13/analisis-de-mercados-13-de-noviembre-de-2026-13-noviembre-2026/",
         "time": "13/11",
         "new": false
-      },
-      {
-        "title": "El oro baja de 3.900 $ por el dólar y los rendimientos",
-        "summary": "El metal cede un 5,5 % en el mes: con los bonos de EE. UU. por encima del 5 %, pierde atractivo frente a la renta fija.",
-        "impact": "Bajo",
-        "source": "Trading Economics",
-        "url": "https://es.tradingeconomics.com/commodity/gold",
-        "time": "13/11",
-        "new": false
       }
     ],
     "mercados": [
@@ -825,7 +830,7 @@
         "source": "NPR",
         "url": "https://npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
         "time": "20/11",
-        "new": true
+        "new": false
       },
       {
         "title": "El Ibex se deja un 5,7 % en la semana y pierde los 19.000 puntos",
@@ -834,7 +839,7 @@
         "source": "Valencia Plaza",
         "url": "https://valenciaplaza.com/valenciaplaza/bolsas/las-ventas-volvieron-a-imponerse-en-la-semana-bursatil-con-el-ibex-35-dejandose-un-57",
         "time": "20/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Europa cierra su peor semana desde marzo",
@@ -843,7 +848,7 @@
         "source": "El Boletín",
         "url": "https://www.elboletin.com/las-bolsas-europeas-se-desploman-y-cierran-su-peor-semana-desde-marzo-por-las-dudas-sobre-la-inteligencia-artificial/amp/",
         "time": "20/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Wall Street encadena seis sesiones de caídas y el Nasdaq entra en negativo en 2026",
@@ -866,13 +871,22 @@
     ],
     "cripto": [
       {
+        "title": "Bitcoin rebota por encima de los 60.000 dólares",
+        "summary": "Recupera parte del desplome del viernes, aunque la tendencia de fondo sigue siendo bajista.",
+        "impact": "Medio",
+        "source": "DiarioBitcoin",
+        "url": "https://diariobitcoin.com/analisis/bitcoin-rebota-pero-la-tendencia-sigue-bajo-presion-el-22-de-noviembre-de-2026",
+        "time": "22/11",
+        "new": true
+      },
+      {
         "title": "Bitcoin pierde los 60.000 dólares",
         "summary": "Cotiza en torno a 57.500 $ el sábado, contagiado por el desplome del Nasdaq; ethereum cae a 1.620 $.",
         "impact": "Alto",
         "source": "La Nación",
         "url": "https://www.lanacion.com.ar/economia/IA/criptomonedas-hoy-cotizacion-de-las-principales-divisas-digitales-al-21-de-noviembre-nid21112026/",
         "time": "21/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Bitcoin se hunde hasta 63.500 $",
@@ -899,15 +913,6 @@
         "source": "Euribor.com.es",
         "url": "https://www.euribor.com.es/2026/11/14/ethereum-cae-un-385-a-1-905-y-arrastra-a-solana/",
         "time": "14/11",
-        "new": false
-      },
-      {
-        "title": "Fuga de los ETF de bitcoin",
-        "summary": "Salidas netas de 1.280 millones de dólares entre el 2 y el 6 de noviembre: el saldo de 2026 vuelve a ser negativo.",
-        "impact": "Medio",
-        "source": "CryptoTicker",
-        "url": "https://cryptoticker.io/es/noticias-criptomonedas-semana-resumen-calendario-noviembre-2026/",
-        "time": "08/11",
         "new": false
       }
     ],
@@ -987,13 +992,22 @@
     ],
     "inmo_bcn": [
       {
+        "title": "Barcelona, la ciudad con el alquiler de habitaciones más caro: 662 €",
+        "summary": "Pese a que la oferta de habitaciones sube un 22 % anual, el precio se mantiene, reflejo de la escasez de pisos completos en alquiler.",
+        "impact": "Medio",
+        "source": "El Confidencial Digital",
+        "url": "https://www.elconfidencialdigital.com/elconfidencialdigital/ecd-judicial/legal/barcelona-662-euros-habitacion-pese-alza-oferta/202611190947261503790.html",
+        "time": "19/11",
+        "new": true
+      },
+      {
         "title": "La oferta de alquiler en Barcelona cae un 25 %: solo 516 anuncios",
         "summary": "Madrid tiene 4.142; 12 capitales no llegan a 30 pisos anunciados, según idealista.",
         "impact": "Alto",
         "source": "Infobae",
         "url": "https://www.infobae.com/america/agencias/2026/11/21/la-oferta-de-alquiler-no-alcanza-las-30-viviendas-en-12-capitales-espanolas-segun-idealista/",
         "time": "21/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Neinor y Cevasa suman 410 pisos al plan de alquiler asequible de Barcelona",
@@ -1002,7 +1016,7 @@
         "source": "idealista/news",
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/20/925226-neinor-y-cevasa-suman-410-pisos-al-plan-de-alquiler-asequible-de-barcelona",
         "time": "20/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Barcelona: la vivienda tasada sube un 10,8 %, hasta 4.616 €/m²",
@@ -1047,15 +1061,6 @@
         "source": "idealista/news",
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/11/911773-los-expertos-preven-una-caida-de-las-ventas-de-viviendas-y-de-la-oferta-de-alquiler",
         "time": "11/11",
-        "new": false
-      },
-      {
-        "title": "Barcelona marca máximo histórico: 5.463 €/m²",
-        "summary": "Con un +4,7 % interanual en octubre, según idealista. Nou Barris (+14,1 %) y Sant Andreu (+8,2 %) lideran las subidas.",
-        "impact": "Alto",
-        "source": "idealista",
-        "url": "https://www.idealista.com/sala-de-prensa/informes-precio-vivienda/venta/cataluna/barcelona-provincia/barcelona/",
-        "time": "Nov",
         "new": false
       }
     ],
@@ -1312,13 +1317,22 @@
     ],
     "alquiler": [
       {
+        "title": "Barcelona, la ciudad con el alquiler de habitaciones más caro: 662 €",
+        "summary": "Pese a que la oferta de habitaciones sube un 22 % anual, el precio se mantiene, reflejo de la escasez de pisos completos en alquiler.",
+        "impact": "Medio",
+        "source": "El Confidencial Digital",
+        "url": "https://www.elconfidencialdigital.com/elconfidencialdigital/ecd-judicial/legal/barcelona-662-euros-habitacion-pese-alza-oferta/202611190947261503790.html",
+        "time": "19/11",
+        "new": true
+      },
+      {
         "title": "La oferta de alquiler en Barcelona cae un 25 %: solo 516 anuncios",
         "summary": "Madrid tiene 4.142; 12 capitales no llegan a 30 pisos anunciados, según idealista.",
         "impact": "Alto",
         "source": "Infobae",
         "url": "https://www.infobae.com/america/agencias/2026/11/21/la-oferta-de-alquiler-no-alcanza-las-30-viviendas-en-12-capitales-espanolas-segun-idealista/",
         "time": "21/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Alquiler en mínimos: 12 capitales tienen menos de 30 pisos anunciados",
@@ -1346,15 +1360,6 @@
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/924371-la-oferta-de-habitaciones-se-dispara-un-15-y-el-precio-se-encarece-un-11-en-el",
         "time": "17/11",
         "new": false
-      },
-      {
-        "title": "El alquiler en España sube un 5,6 % y llega a 15,1 €/m²",
-        "summary": "Datos de idealista de octubre: las rentas siguen subiendo, aunque a menor ritmo que en 2024.",
-        "impact": "Alto",
-        "source": "ESdiario / idealista",
-        "url": "https://www.esdiario.com/economia/261103/201953/precio-alquiler-sigue-imparable-sube-5-6-interanual-octubre.html",
-        "time": "Nov",
-        "new": false
       }
     ],
     "obra_nueva": [
@@ -1365,7 +1370,7 @@
         "source": "idealista/news",
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/20/925226-neinor-y-cevasa-suman-410-pisos-al-plan-de-alquiler-asequible-de-barcelona",
         "time": "20/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Cecotec levantará en Almussafes una gigafactoría de vivienda industrializada",
@@ -1407,6 +1412,42 @@
     "hoy": {
       "politica": [
         {
+          "title": "Sánchez y Feijóo coinciden en Murcia en el último domingo de campaña",
+          "summary": "Mítines separados por media hora; Sánchez reunió a unas 7.000 personas tras ser declarado persona non grata por el Gobierno regional.",
+          "impact": "Alto",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/espana/2026/11/22/elecciones-generales-29-n-en-directo-nueva-jornada-de-mitines-por-toda-espana-sanchez-y-feijoo-estaran-en-murcia-abascal-en-zaragoza-y-colau-en-canarias/",
+          "time": "22/11",
+          "new": true
+        },
+        {
+          "title": "Lunes, último día para publicar encuestas",
+          "summary": "A partir del martes 24 la ley prohíbe difundir sondeos hasta la jornada electoral.",
+          "impact": "Medio",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/22/temas-del-dia-de-efe-espana-del-domingo-22-de-noviembre-de-2026-1400-horas/",
+          "time": "22/11",
+          "new": true
+        },
+        {
+          "title": "Encuesta en Murcia: el PP ganaría y PSOE y Vox empatan a tres escaños",
+          "summary": "El barómetro UCAM OBEDE es el primero que da al PSOE opciones de conservar sus tres diputados en la región.",
+          "impact": "Medio",
+          "source": "Murcia Plaza",
+          "url": "https://murciaplaza.com/murciaplaza/region/encuesta-el-pp-ganaria-las-elecciones-del-29n-en-la-region-de-murcia-con-psoe-y-vox-empatados-a-tres-escanos",
+          "time": "22/11",
+          "new": true
+        },
+        {
+          "title": "Aznar advierte en La Rioja contra un nuevo Gobierno socialista",
+          "summary": "El expresidente participa en la campaña del PP en Calahorra; Abascal hace campaña en Zaragoza y Colau en Las Palmas.",
+          "impact": "Medio",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/22/temas-del-dia-de-efe-espana-del-domingo-22-de-noviembre-de-2026-1400-horas/",
+          "time": "22/11",
+          "new": true
+        },
+        {
           "title": "Feijóo pide no confiarse: 'Sánchez herido es más peligroso'",
           "summary": "Tras el cara a cara, el PP intenta evitar la desmovilización; Sánchez asegura que salió satisfecho del debate.",
           "impact": "Alto",
@@ -1414,45 +1455,18 @@
           "url": "https://www.infobae.com/espana/agencias/2026/11/21/temas-del-dia-de-efe-espana-del-sabado-21-de-noviembre-de-2026-330-horas/",
           "time": "21/11",
           "new": true
-        },
-        {
-          "title": "Belarra descarta volver a gobernar con el PSOE",
-          "summary": "La líder de Podemos acusa a los socialistas de 'rendirse' ante la derecha.",
-          "impact": "Medio",
-          "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/21/temas-del-dia-de-efe-espana-del-sabado-21-de-noviembre-de-2026-330-horas/",
-          "time": "21/11",
-          "new": true
-        },
-        {
-          "title": "Sánchez centra su campaña en Canarias en la inmigración",
-          "summary": "Entrevista en Onda Cero y actos en Tenerife y Gran Canaria en el último fin de semana antes del 29-N.",
-          "impact": "Medio",
-          "source": "Vozpópuli",
-          "url": "https://www.vozpopuli.com/espana/elecciones-generales-del-29-n-en-directo-sanchez-feijoo-abascal-encabezan-los-mitines-de-este-sabado.html",
-          "time": "21/11",
-          "new": true
-        },
-        {
-          "title": "Abascal, en Sevilla; Colau, en Barcelona",
-          "summary": "Vox celebra su segundo gran mitin andaluz y Frente Amplio su gran acto en Barcelona; mañana Sánchez y Feijóo coinciden en Murcia.",
-          "impact": "Medio",
-          "source": "Demócrata",
-          "url": "https://www.democrata.es/politica/abascal-celebra-este-sabado-en-sevilla-su-segundo-mitin-de-campana-en-andalucia/",
-          "time": "21/11",
-          "new": true
-        },
-        {
-          "title": "La resaca del cara a cara cierra la primera semana de campaña",
-          "summary": "Los dos grandes partidos reivindican la victoria; la vivienda fue el tema más repetido del debate.",
-          "impact": "Medio",
-          "source": "Infobae / EFE",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/20/la-resaca-del-cara-a-cara-sanchez-feijoo-cierra-la-primera-semana-de-campana-29n/",
-          "time": "20/11",
-          "new": true
         }
       ],
       "economia": [
+        {
+          "title": "Irán, dispuesto a reabrir Ormuz si hay acuerdo con EE. UU.",
+          "summary": "Teherán se abre a reabrir el estrecho, aunque rechaza sacar del país su uranio enriquecido; una salida al conflicto abarataría el petróleo.",
+          "impact": "Alto",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/america/agencias/2026/11/22/temas-del-dia-de-efe-internacional-del-domingo-22-de-noviembre-1200-gmt/",
+          "time": "22/11",
+          "new": true
+        },
         {
           "title": "Wall Street se desploma: el S&P 500 entra en corrección y el Nasdaq cae un 5,3 %",
           "summary": "Peor jornada desde abril de 2025; el Nasdaq borra sus ganancias del año y el S&P 500 suma siete sesiones de caídas (−9 % en la semana).",
@@ -1463,86 +1477,77 @@
           "new": true
         },
         {
-          "title": "El Ibex se deja un 5,7 % en la semana y pierde los 19.000 puntos",
-          "summary": "Cerró el viernes en 18.873 (−1,63 %), en su quinta sesión seguida de caídas por el ajuste tecnológico.",
-          "impact": "Alto",
-          "source": "Valencia Plaza",
-          "url": "https://valenciaplaza.com/valenciaplaza/bolsas/las-ventas-volvieron-a-imponerse-en-la-semana-bursatil-con-el-ibex-35-dejandose-un-57",
-          "time": "20/11",
-          "new": true
-        },
-        {
-          "title": "Europa cierra su peor semana desde marzo",
-          "summary": "El DAX cae un 2,6 % el viernes (−7,4 % en la semana) y el Euro Stoxx 50 pierde los 6.000 puntos por las dudas sobre la rentabilidad de la IA.",
-          "impact": "Alto",
-          "source": "El Boletín",
-          "url": "https://www.elboletin.com/las-bolsas-europeas-se-desploman-y-cierran-su-peor-semana-desde-marzo-por-las-dudas-sobre-la-inteligencia-artificial/amp/",
-          "time": "20/11",
-          "new": true
-        },
-        {
-          "title": "Bitcoin pierde los 60.000 dólares",
-          "summary": "Cotiza en torno a 57.500 $ el sábado, contagiado por el desplome del Nasdaq; ethereum cae a 1.620 $.",
-          "impact": "Alto",
-          "source": "La Nación",
-          "url": "https://www.lanacion.com.ar/economia/IA/criptomonedas-hoy-cotizacion-de-las-principales-divisas-digitales-al-21-de-noviembre-nid21112026/",
-          "time": "21/11",
-          "new": true
-        },
-        {
-          "title": "El oro se hunde un 14,6 % en noviembre",
-          "summary": "Cae a unos 3.535 $ por las ventas forzadas para cubrir pérdidas en bolsa y la expectativa de una Fed más dura.",
+          "title": "Bitcoin rebota por encima de los 60.000 dólares",
+          "summary": "Recupera parte del desplome del viernes, aunque la tendencia de fondo sigue siendo bajista.",
           "impact": "Medio",
-          "source": "FXStreet",
-          "url": "https://www.fxstreet.es/news/el-oro-se-prepara-para-la-mayor-caida-semanal-desde-marzo-mientras-las-expectativas-de-una-subida-de-tipos-de-la-fed-y-las-ventas-forzadas-pesan-en-el-mercado-202611201124",
+          "source": "DiarioBitcoin",
+          "url": "https://diariobitcoin.com/analisis/bitcoin-rebota-pero-la-tendencia-sigue-bajo-presion-el-22-de-noviembre-de-2026",
+          "time": "22/11",
+          "new": true
+        },
+        {
+          "title": "El Brent suma tres semanas de caídas",
+          "summary": "Cerró el viernes en 92,57 $ (+0,64 %), pero el mercado anticipa un exceso de oferta a final de año; acumula un −20 % en noviembre.",
+          "impact": "Medio",
+          "source": "Infobae / EFE",
+          "url": "https://www.infobae.com/america/agencias/2026/11/20/el-brent-sube-064-hasta-9257-dolares-pero-firma-tres-semanas-consecutivas-de-caidas/",
           "time": "20/11",
+          "new": true
+        },
+        {
+          "title": "Los latinoamericanos ya son uno de cada tres afiliados extranjeros",
+          "summary": "Su peso en la Seguridad Social no deja de crecer y sostiene buena parte del aumento del empleo.",
+          "impact": "Medio",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/22/temas-del-dia-de-efe-espana-del-domingo-22-de-noviembre-de-2026-1400-horas/",
+          "time": "22/11",
           "new": true
         }
       ],
       "sociedad": [
         {
-          "title": "Desconvocada la huelga de maquinistas del lunes 23",
-          "summary": "Se evitan las cancelaciones de trenes; Adif empieza a reconstruir la vía del accidente de Urda.",
-          "impact": "Alto",
-          "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/20/temas-del-dia-de-efe-espana-del-viernes-20-de-noviembre-1350-horas/",
-          "time": "20/11",
-          "new": true
-        },
-        {
-          "title": "Movilizaciones europeas contra el precio de la vivienda",
-          "summary": "Estudiantes y sindicatos protestan en varios países, también en España, por el coste de la vivienda y de la vida.",
+          "title": "Vence el plazo del sistema de depósito de envases sin que esté en marcha",
+          "summary": "No hay operadores autorizados ni reglas definidas para el SDDR de botellas y latas.",
           "impact": "Medio",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/20/temas-del-dia-de-efe-espana-del-viernes-20-de-noviembre-1350-horas/",
-          "time": "20/11",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/22/temas-del-dia-de-efe-espana-del-domingo-22-de-noviembre-de-2026-1400-horas/",
+          "time": "22/11",
           "new": true
         },
         {
-          "title": "Los españoles en el exterior ya votan presencialmente para el 29-N",
-          "summary": "Pueden hacerlo en consulados y embajadas hasta el 26 de noviembre.",
+          "title": "Vuelve el frío: rachas de viento de hasta 90 km/h",
+          "summary": "Aemet avisa por viento en el Cantábrico, el este peninsular y Baleares, con descenso general de temperaturas.",
+          "impact": "Medio",
+          "source": "El Cronista",
+          "url": "https://www.cronista.com/espana/actualidad-es/regresa-el-frio-este-domingo-22-de-noviembre-fuertes-rachas-de-viento-de-90-kmh-y-lluvias-afectaran-a-estas-zonas-del-pais/",
+          "time": "22/11",
+          "new": true
+        },
+        {
+          "title": "Alcaraz juega la final de las ATP Finals en Turín",
+          "summary": "El tenista murciano busca cerrar la temporada con el título de maestros.",
           "impact": "Medio",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/21/temas-del-dia-de-efe-espana-del-sabado-21-de-noviembre-de-2026-330-horas/",
-          "time": "21/11",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/22/temas-del-dia-de-efe-espana-del-domingo-22-de-noviembre-de-2026-1400-horas/",
+          "time": "22/11",
           "new": true
         },
         {
-          "title": "Clausura del Festival de Cine de Gijón",
-          "summary": "La 64.ª edición cierra esta tarde con su gala de premios.",
-          "impact": "Bajo",
+          "title": "Bloqueo en la COP31: la UE y Panamá rechazan el último borrador",
+          "summary": "La cumbre del clima se alarga sin acuerdo sobre la reducción de emisiones.",
+          "impact": "Medio",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/21/temas-del-dia-de-efe-espana-del-sabado-21-de-noviembre-de-2026-330-horas/",
-          "time": "21/11",
+          "url": "https://www.infobae.com/america/agencias/2026/11/22/temas-del-dia-de-efe-internacional-del-domingo-22-de-noviembre-1200-gmt/",
+          "time": "22/11",
           "new": true
         },
         {
-          "title": "Un pastelero de Burgos gana la Copa del Mundo de Panettone",
-          "summary": "Miguel Ángel Castro se impone en el certamen celebrado en Milán.",
-          "impact": "Bajo",
+          "title": "Uno de cada tres afiliados extranjeros ya es latinoamericano",
+          "summary": "Su peso en la Seguridad Social no deja de crecer y sostiene buena parte del aumento del empleo.",
+          "impact": "Medio",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/21/temas-del-dia-de-efe-espana-del-sabado-21-de-noviembre-de-2026-330-horas/",
-          "time": "21/11",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/22/temas-del-dia-de-efe-espana-del-domingo-22-de-noviembre-de-2026-1400-horas/",
+          "time": "22/11",
           "new": true
         }
       ],
@@ -1566,6 +1571,15 @@
           "new": true
         },
         {
+          "title": "Barcelona, la ciudad con el alquiler de habitaciones más caro: 662 €",
+          "summary": "Pese a que la oferta de habitaciones sube un 22 % anual, el precio se mantiene, reflejo de la escasez de pisos completos en alquiler.",
+          "impact": "Medio",
+          "source": "El Confidencial Digital",
+          "url": "https://www.elconfidencialdigital.com/elconfidencialdigital/ecd-judicial/legal/barcelona-662-euros-habitacion-pese-alza-oferta/202611190947261503790.html",
+          "time": "19/11",
+          "new": true
+        },
+        {
           "title": "Debate: Sánchez pide no derogar la Ley de Vivienda; Feijóo promete avales del 100 %",
           "summary": "Sánchez pidió a Feijóo que no derogue la Ley de Vivienda; Feijóo propuso incentivos fiscales y avales públicos de hasta el 100 % de la hipoteca y le reprochó la caída de la oferta de alquiler.",
           "impact": "Alto",
@@ -1582,20 +1596,20 @@
           "url": "https://www.tinsa.es/sala-de-prensa/notas-de-prensa/imie-mercados-locales-3t2026/",
           "time": "20/11",
           "new": true
-        },
-        {
-          "title": "Barcelona: la vivienda tasada sube un 10,8 %, hasta 4.616 €/m²",
-          "summary": "Según Tinsa, el precio en la ciudad crece algo menos que la media española en el tercer trimestre.",
-          "impact": "Alto",
-          "source": "Capital",
-          "url": "https://capital.es/economia/la-vivienda-nueva-y-usada-se-encarece-un-147-interanual-en-el-tercer-trimestre-de-2026/222043",
-          "time": "20/11",
-          "new": true
         }
       ]
     },
     "semana": {
       "politica": [
+        {
+          "title": "Sánchez y Feijóo coinciden en Murcia en el último domingo de campaña",
+          "summary": "Mítines separados por media hora; Sánchez reunió a unas 7.000 personas tras ser declarado persona non grata por el Gobierno regional.",
+          "impact": "Alto",
+          "source": "Infobae",
+          "url": "https://www.infobae.com/espana/2026/11/22/elecciones-generales-29-n-en-directo-nueva-jornada-de-mitines-por-toda-espana-sanchez-y-feijoo-estaran-en-murcia-abascal-en-zaragoza-y-colau-en-canarias/",
+          "time": "22/11",
+          "new": false
+        },
         {
           "title": "Feijóo pide no confiarse: 'Sánchez herido es más peligroso'",
           "summary": "Tras el cara a cara, el PP intenta evitar la desmovilización; Sánchez asegura que salió satisfecho del debate.",
@@ -1631,18 +1645,18 @@
           "url": "https://infobae.com/espana/2026/11/15/campana-de-las-elecciones-generales-29-n-en-directo-los-principales-candidatos-continuan-con-sus-mitines-por-toda-espana",
           "time": "15/11",
           "new": false
-        },
-        {
-          "title": "Sánchez pide a Feijóo que acepte el resultado; Feijóo pone la vivienda en una vicepresidencia",
-          "summary": "En la segunda jornada de campaña, el candidato socialista dio por hecha su victoria, mientras el líder del PP prometió gestionar la vivienda desde una vicepresidencia si gana.",
-          "impact": "Medio",
-          "source": "Infobae / EFE",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/14/hoy-es-noticia-en-espana-2330/",
-          "time": "14/11",
-          "new": false
         }
       ],
       "economia": [
+        {
+          "title": "Irán, dispuesto a reabrir Ormuz si hay acuerdo con EE. UU.",
+          "summary": "Teherán se abre a reabrir el estrecho, aunque rechaza sacar del país su uranio enriquecido; una salida al conflicto abarataría el petróleo.",
+          "impact": "Alto",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/america/agencias/2026/11/22/temas-del-dia-de-efe-internacional-del-domingo-22-de-noviembre-1200-gmt/",
+          "time": "22/11",
+          "new": false
+        },
         {
           "title": "Wall Street se desploma: el S&P 500 entra en corrección y el Nasdaq cae un 5,3 %",
           "summary": "Peor jornada desde abril de 2025; el Nasdaq borra sus ganancias del año y el S&P 500 suma siete sesiones de caídas (−9 % en la semana).",
@@ -1678,18 +1692,18 @@
           "url": "https://www.infobae.com/america/agencias/2026/11/20/el-nikkei-se-desploma-un-506-arrastrado-por-las-dudas-en-el-sector-de-la-ia/",
           "time": "20/11",
           "new": false
-        },
-        {
-          "title": "Anthropic sale a bolsa a 83 $ y firma la mayor OPV de la historia",
-          "summary": "Capta unos 81.300 millones de dólares con una valoración de alrededor de 1,5 billones, por encima del récord de SpaceX; se esperaba que abriera cerca de 105 $.",
-          "impact": "Alto",
-          "source": "El Español",
-          "url": "https://www.elespanol.com/invertia/mercados/20261118/anthropic-supera-propias-previsiones-fija-precio-acciones-salir-bolsa-dolares/1003744463389_0.html",
-          "time": "19/11",
-          "new": false
         }
       ],
       "sociedad": [
+        {
+          "title": "Vence el plazo del sistema de depósito de envases sin que esté en marcha",
+          "summary": "No hay operadores autorizados ni reglas definidas para el SDDR de botellas y latas.",
+          "impact": "Medio",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/22/temas-del-dia-de-efe-espana-del-domingo-22-de-noviembre-de-2026-1400-horas/",
+          "time": "22/11",
+          "new": false
+        },
         {
           "title": "Los maquinistas desconvocan la huelga ferroviaria del 23 de noviembre",
           "summary": "Se evita el paro previsto para el lunes; un juez autoriza a Adif a reconstruir el tramo del accidente de Urda.",
@@ -1724,15 +1738,6 @@
           "source": "EFE (vía Infobae)",
           "url": "https://www.infobae.com/espana/agencias/2026/11/17/temas-del-dia-de-efe-espana-del-martes-17-de-noviembre-de-2026-1330-horas/",
           "time": "17/11",
-          "new": false
-        },
-        {
-          "title": "El Hierro suma 9.090 migrantes llegados en noviembre",
-          "summary": "La ruta canaria mantiene una presión muy alta sobre los servicios de acogida de la isla.",
-          "impact": "Medio",
-          "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/16/temas-del-dia-de-efe-espana-del-lunes-16-de-noviembre-de-2026-1345-horas/",
-          "time": "16/11",
           "new": false
         }
       ],
@@ -1950,9 +1955,9 @@
     }
   ],
   "number_of_day": {
-    "value": "516",
-    "label": "Pisos en alquiler anunciados en Barcelona (idealista)",
-    "context": "Una ciudad de 1,7 millones de habitantes con poco más de 500 pisos en alquiler permanente anunciados. La oferta ha caído un 25 % y Madrid tiene ocho veces más. Con tan poca oferta, quien busca piso compite por cada vivienda y muchos propietarios optan por vender o por el alquiler de temporada."
+    "value": "−20 %",
+    "label": "Caída del Brent en noviembre",
+    "context": "El petróleo ha pasado de unos 115 $ a unos 92 $ en un mes por el aumento de la oferta y las expectativas sobre Irán. Un crudo más barato rebaja la inflación con unos meses de retraso, y eso es lo que podría llevar al BCE a dejar de subir tipos y aliviar el Euríbor."
   },
   "programs": {
     "title": "Vivienda en el 29-N: qué propone cada partido",
