@@ -1,45 +1,45 @@
 {
-  "updated": "2026-11-23T17:35:00+01:00",
-  "edition": "Lunes 23 de noviembre de 2026",
-  "headline": "Rebote tras la semana negra: Nvidia restituye a Jensen Huang y Wall Street se dispara; últimas encuestas del 29-N con PP primera fuerza y la vivienda, primera preocupación para un récord del 59,5 %.",
+  "updated": "2026-11-24T17:30:00+01:00",
+  "edition": "Martes 24 de noviembre de 2026",
+  "headline": "El último Consejo de Ministros prorroga el impuesto a la banca para destinar 1.400 millones a vivienda, la Generalitat compra 460 pisos sociales a CaixaBank y el Euríbor roza su máximo del año (3,376 %).",
   "brief_60s": [
-    "Nvidia restituye a Jensen Huang como CEO y la acción sube un 30 %: Wall Street rebota con fuerza (Nasdaq +5,8 % en la apertura) y el Ibex recupera los 19.000 puntos.",
-    "Último día de encuestas: la mayoría sitúa al PP como primera fuerza y a PP y Vox por encima de la mayoría absoluta; esta noche, debate a ocho en RTVE.",
-    "Sánchez propone un impuesto a las fortunas de más de 100 millones para financiar vivienda; el CIS marca un récord: la vivienda preocupa al 59,5 %.",
-    "PMI de la eurozona estable en 51,7: Alemania en máximos desde 2022 (55,0) y Francia en contracción (47,9).",
-    "Obra nueva: los visados superan las 93.000 viviendas hasta julio, máximo desde 2008; el Euríbor se mantiene en el 3,37 %."
+    "Último Consejo de Ministros antes del 29-N: prórroga del impuesto a la banca (1.400 millones para vivienda en 2027) y rebaja del IRPF a autónomos.",
+    "La Generalitat compra 460 pisos sociales a CaixaBank por 40,3 millones, 66 de ellos en Badalona y Terrassa, que pasan al parque público.",
+    "El Euríbor sube al 3,376 %, a 9 milésimas del máximo del año; la media de noviembre (3,31 %) supera en más de un punto la de 2025.",
+    "Campaña: el Supremo aplica la amnistía a Puigdemont y desde hoy no pueden publicarse encuestas; el debate a ocho giró en torno a la vivienda.",
+    "Mercados: tras el rally del lunes (Nasdaq +6,5 %), las tecnológicas recogen beneficios; tres petroleros arden en Ormuz, pero el Brent baja a 89 $."
   ],
   "ukio_takeaways": [
-    "Compradores: el Euríbor sigue cerca de máximos (3,37 %) y la próxima revisión será más cara; a seis días del 29-N, las propuestas (avales del 100 %, IVA reducido o más vivienda pública) pueden cambiar las condiciones en 2027, pero no conviene paralizar una compra por ello.",
-    "Vendedores en Barcelona: la escasez de oferta y la preocupación récord por la vivienda sostienen la demanda; la obra nueva crece, pero tardará años en notarse en la ciudad, así que el producto existente mantiene su valor.",
-    "Inversores y fondos: el rebote bursátil reduce la presión inmediata, pero el resultado del 29-N decidirá si se mantienen la Ley de Vivienda y el decreto de grandes tenedores; conviene preparar escenarios para ambos resultados."
+    "Compradores: el Euríbor en máximos del año encarece las revisiones de diciembre; para comprar en Barcelona en 2027 conviene fijar el tipo cuanto antes.",
+    "Vendedores e inversores: las administraciones (Generalitat, Ayuntamiento) son hoy compradores activos de vivienda social y de carteras bancarias; para quien vende bloques o carteras con inquilinos vulnerables, el sector público es una salida real.",
+    "Fondos y bancos: la prórroga del impuesto a la banca y su destino a vivienda refuerzan el papel público en el mercado; las carteras de vivienda social de las entidades tienen comprador en las administraciones."
   ],
   "today": [
     {
+      "time": "Mañana",
+      "event": "Último Consejo de Ministros antes del 29-N",
+      "why": "Prórroga del impuesto a la banca para vivienda y rebaja del IRPF a autónomos."
+    },
+    {
       "time": "Todo el día",
-      "event": "Último día para publicar encuestas del 29-N",
-      "why": "Desde mañana, prohibición de difundir sondeos."
+      "event": "Empieza la prohibición de publicar encuestas",
+      "why": "No habrá sondeos hasta la noche electoral."
     },
     {
-      "time": "15:30",
-      "event": "Wall Street abre con fuerte rebote",
-      "why": "Nvidia restituye a Jensen Huang; el S&P 500 sube cerca de un 4 %."
-    },
-    {
-      "time": "22:00",
-      "event": "Debate a ocho en RTVE",
-      "why": "El primer bloque es vivienda y estado del bienestar."
+      "time": "Tarde",
+      "event": "Sánchez en Barcelona, Feijóo en Alicante",
+      "why": "Recta final de campaña, con la amnistía a Puigdemont en el debate."
     }
   ],
   "markets": {
-    "asof": "Ibex: intradía 23/11 · DAX, CAC, FTSE y Euro Stoxx 50: apertura 23/11 · S&P 500 y Nasdaq: apertura 23/11 · Dow Jones: cierre 20/11 (hoy abre con +2,1 %) · Nikkei: cierre 20/11 (Japón festivo) · Oro y Brent: 23/11 · EUR/USD, DXY y bono de EE. UU.: 20/11 · Cripto: 23/11 (Cardano: 22/11)",
+    "asof": "Ibex: mediodía 24/11 · DAX, CAC, FTSE y Euro Stoxx 50: apertura 24/11 · Wall Street: cierre del lunes 23/11 (hoy, S&P −1,2 % y Nasdaq −1,8 % a media sesión) · Nikkei: cierre 24/11 · EUR/USD, DXY y Brent: 24/11 · Oro: 23/11 · Bono de EE. UU.: 20/11 · Cripto: 24/11 (XRP: 23/11; Cardano: 22/11)",
     "indices": [
       {
         "id": "ibex",
         "label": "IBEX 35",
         "region": "España",
-        "value": 19117.78,
-        "change_pct": 1.23,
+        "value": 19056.8,
+        "change_pct": -0.65,
         "history": [
           19742.5,
           19965.5,
@@ -50,125 +50,133 @@
           19291.8,
           19018.6,
           18873.1,
-          19117.78
+          19117.78,
+          19056.8
         ],
-        "why": "Rebota tras perder un 5,7 % la semana pasada, liderado por ArcelorMittal, ACS y Acerinox y animado por la vuelta de Jensen Huang a Nvidia, que reactiva la tecnología."
+        "why": "Recoge beneficios tras el rebote del lunes y se juega los 19.000 puntos: Solaria (−4,3 %, mínimos de octubre de 2025), las acereras y los bancos lastran."
       },
       {
         "id": "sp500",
         "label": "S&P 500",
         "region": "EE. UU.",
-        "value": 7181.0,
-        "change_pct": 3.9,
+        "value": 7237.0,
+        "change_pct": 4.73,
         "history": [
           7416.59,
           7340.53,
           7323.63,
           7175.83,
           6910.39,
-          7181.0
+          7181.0,
+          7237.0
         ],
-        "why": "Fuerte rebote en la apertura tras la corrección: Nvidia restituye a Jensen Huang como CEO y la acción se dispara más de un 30 %."
+        "why": "Cierre del lunes: subió un 4,7 % y cortó siete sesiones de caídas tras la vuelta de Huang a Nvidia; hoy cede en torno a un 1 %."
       },
       {
         "id": "nasdaq",
         "label": "Nasdaq Comp.",
         "region": "EE. UU.",
-        "value": 23924.0,
-        "change_pct": 5.8,
+        "value": 24089.0,
+        "change_pct": 6.51,
         "history": [
           24509.76,
           24328.38,
           24429.88,
           23879.2,
           22617.73,
-          23924.0
+          23924.0,
+          24089.0
         ],
-        "why": "Recupera casi todo lo perdido el viernes gracias al regreso de Huang a Nvidia y al rebote del sector de IA."
+        "why": "Cierre del lunes: su mayor subida en años (+6,5 %) con Nvidia +31 %; hoy los semiconductores recogen beneficios (−1,8 %)."
       },
       {
         "id": "dow",
         "label": "Dow Jones",
         "region": "EE. UU.",
-        "value": 48147.33,
-        "change_pct": -1.93,
+        "value": 49595.0,
+        "change_pct": 3.01,
         "history": [
           51608.17,
           50759.42,
           50198.17,
           49097.06,
-          48147.33
+          48147.33,
+          49595.0
         ],
-        "why": "Cae casi 950 puntos y acumula un −8 % en la semana, con la Fed apuntando a otra subida de tipos en diciembre."
+        "why": "Cierre del lunes: +3 % en el rebote generalizado; hoy cede ligeramente."
       },
       {
         "id": "dax",
         "label": "DAX",
         "region": "Alemania",
-        "value": 24946.75,
-        "change_pct": 0.43,
+        "value": 25270.12,
+        "change_pct": -0.37,
         "history": [
           26403.64,
           26074.04,
           25866.0,
           25207.2,
           24802.0,
-          24946.75
+          24946.75,
+          25270.12
         ],
-        "why": "Sube apoyado en el PMI alemán, en máximos desde 2022 (55,0), y en el rebote tecnológico."
+        "why": "Cede tras subir un 2,2 % el lunes (25.359) con el regreso de Huang a Nvidia; los semiconductores corrigen."
       },
       {
         "id": "cac",
         "label": "CAC 40",
         "region": "Francia",
-        "value": 7961.27,
-        "change_pct": 0.42,
+        "value": 8068.22,
+        "change_pct": 0.29,
         "history": [
           8313.71,
           8228.0,
           8195.86,
           8029.08,
           7928.0,
-          7961.27
+          7961.27,
+          8068.22
         ],
-        "why": "Rebota con Europa pese a que el PMI francés empeora (47,9), en contracción."
+        "why": "Los valores franceses sostienen a Europa tras el rebote del lunes."
       },
       {
         "id": "ftse",
         "label": "FTSE 100",
         "region": "Reino Unido",
-        "value": 10362.75,
-        "change_pct": 0.16,
+        "value": 10467.26,
+        "change_pct": null,
         "history": [
           10811.77,
           10551.0,
           10349.0,
-          10362.75
+          10362.75,
+          10467.26
         ],
-        "why": "Avance moderado; tiene menos peso tecnológico y aprovecha menos el rebote."
+        "why": "Se mantiene tras el rebote del lunes; las petroleras sufren con la caída del Brent."
       },
       {
         "id": "stoxx50",
         "label": "Euro Stoxx 50",
         "region": "Eurozona",
-        "value": 5967.05,
-        "change_pct": 0.42,
+        "value": 6072.15,
+        "change_pct": -0.04,
         "history": [
           6295.0,
           6212.11,
           6200.0,
           6043.65,
           5949.0,
-          5967.05
+          5967.05,
+          6072.15
         ],
-        "why": "Intenta recuperar los 6.000 puntos tras la peor semana desde marzo."
+        "why": "Plano por encima de los 6.000 puntos tras subir un 2,4 % el lunes."
       },
       {
         "id": "nikkei",
         "label": "Nikkei 225",
         "region": "Japón",
-        "value": 56436.65,
-        "change_pct": -5.06,
+        "value": 58644.63,
+        "change_pct": 3.91,
         "history": [
           60459.58,
           61248.59,
@@ -176,36 +184,38 @@
           61142.35,
           58860.43,
           59024.28,
-          56436.65
+          56436.65,
+          58644.63
         ],
-        "why": "Se desploma un 5 % (−8 % en la semana) por las dudas sobre la IA: SoftBank cae un 14,5 % y Advantest un 10 %."
+        "why": "Rebota un 3,9 % tras el festivo, liderado por las tecnológicas y semiconductores por el regreso de Huang a Nvidia."
       }
     ],
     "fx_commodities": [
       {
         "id": "eurusd",
         "label": "EUR/USD",
-        "value": 1.0982,
+        "value": 1.0911,
         "decimals": 4,
         "change_pct": null,
-        "note": "Cerca del mínimo de 19 meses",
+        "note": "A un paso del mínimo de 52 semanas",
         "history": [
           1.1023,
           1.0997,
           1.0984,
           1.1001,
-          1.0982
+          1.0982,
+          1.0911
         ],
-        "why": "El dólar actúa como refugio en una semana de caídas en bolsa y por la expectativa de una Fed más dura."
+        "why": "El euro sigue débil porque el mercado espera más subidas de la Fed que del BCE; el dólar acumula un +2,3 % en noviembre."
       },
       {
         "id": "brent",
         "label": "Brent",
         "unit": "$",
-        "value": 91.41,
+        "value": 89.11,
         "decimals": 2,
-        "change_pct": -1.25,
-        "note": "Banda estrecha hasta la OPEP+ del 29/11",
+        "change_pct": -0.29,
+        "note": "Cerca de mínimos de tres meses",
         "history": [
           95.4,
           91.82,
@@ -213,9 +223,10 @@
           92.28,
           92.77,
           92.57,
-          91.41
+          91.41,
+          89.11
         ],
-        "why": "Cede por la expectativa de un exceso de oferta y por la disposición de Irán a reabrir Ormuz; el mercado espera a la reunión de la OPEP+."
+        "why": "Baja pese a que tres petroleros ardieron tras chocar con minas en Ormuz: el mercado pesa más el exceso de oferta y la posible reapertura del estrecho."
       },
       {
         "id": "gold",
@@ -237,16 +248,17 @@
       {
         "id": "dxy",
         "label": "Índice dólar (DXY)",
-        "value": 103.8,
+        "value": 104.26,
         "decimals": 2,
-        "change_pct": -0.05,
-        "note": "Cerca de máximos de 19 meses",
+        "change_pct": null,
+        "note": "Máximos desde abril de 2025",
         "history": [
           103.61,
           103.76,
-          103.8
+          103.8,
+          104.26
         ],
-        "why": "El dólar se mantiene fuerte como refugio y por las apuestas de otra subida de tipos de la Fed."
+        "why": "El dólar se mantiene en máximos por las expectativas de nuevas subidas de tipos en EE. UU."
       },
       {
         "id": "us10y",
@@ -282,9 +294,9 @@
         "id": "bitcoin",
         "label": "Bitcoin",
         "symbol": "BTC",
-        "usd": 61027.57,
-        "chg_24h": 0.2,
-        "chg_7d": -5.6,
+        "usd": 60225.35,
+        "chg_24h": -1.61,
+        "chg_7d": -7.1,
         "history": [
           81004,
           75780,
@@ -298,17 +310,18 @@
           61497,
           57460,
           60898,
-          61027.57
+          61027.57,
+          60225.35
         ],
-        "why": "Se estabiliza en torno a 61.000 $ con el rebote de las bolsas, todavía lejos de los 75.000 $ de hace dos semanas."
+        "why": "Vuelve a acercarse a los 60.000 $ con la recogida de beneficios en tecnología; sigue un 52 % por debajo de su récord."
       },
       {
         "id": "ethereum",
         "label": "Ethereum",
         "symbol": "ETH",
-        "usd": 1708.36,
-        "chg_24h": 0.1,
-        "chg_7d": -5.9,
+        "usd": 1695,
+        "chg_24h": -0.8,
+        "chg_7d": -7.4,
         "history": [
           2240,
           1930,
@@ -320,9 +333,10 @@
           1730.91,
           1619.88,
           1706.53,
-          1708.36
+          1708.36,
+          1695
         ],
-        "why": "Se mantiene en torno a 1.700 $; el mercado cripto sigue en 'miedo extremo' pese al rebote bursátil."
+        "why": "Ronda los 1.700 $ sin fuerza para rebotar, en un mercado cripto en 'miedo extremo'."
       },
       {
         "id": "xrp",
@@ -370,15 +384,15 @@
     {
       "id": "euribor12m",
       "label": "Euríbor 12M",
-      "value": 3.37,
+      "value": 3.376,
       "unit": "%",
       "decimals": 3,
-      "change": -0.002,
+      "change": 0.006,
       "change_unit": "pp",
-      "date": "23/11/2026 (diario)",
-      "detail": "Media provisional de noviembre: 3,30 % · Octubre: 3,239 %",
-      "source": "Euribor.com.es / Rankia",
-      "url": "https://www.euribor.com.es/2026/11/23/el-euribor-comienza-la-semana-con-una-bajadita-2/",
+      "date": "24/11/2026 (diario)",
+      "detail": "A 0,009 puntos del máximo de 2026 · Media provisional de noviembre: 3,31 % · +1,09 pp frente a noviembre de 2025",
+      "source": "Euribordiario / Economía Responsable",
+      "url": "https://www.euribordiario.es/noticias/euribor-hoy-aumenta-24-noviembre-2026-3308",
       "history": [
         3.247,
         3.239,
@@ -388,11 +402,12 @@
         3.351,
         3.343,
         3.372,
-        3.37
+        3.37,
+        3.376
       ],
-      "next_release": "2026-11-24",
+      "next_release": "2026-11-25",
       "good_when": "down",
-      "why": "Prácticamente plano, cerca de máximos del año; la media de noviembre (3,30 %) encarecerá unos 100 € al mes las revisiones de diciembre frente a hace un año."
+      "why": "Se queda a un paso del máximo del año: el mercado sigue esperando una subida del BCE en diciembre; la revisión de diciembre ya no se salva."
     },
     {
       "id": "bce",
@@ -479,47 +494,49 @@
     {
       "id": "bono10",
       "label": "Bono España 10a",
-      "value": 3.894,
+      "value": 3.838,
       "unit": "%",
       "decimals": 2,
-      "change": -0.046,
+      "change": -0.026,
       "change_unit": "pp",
-      "date": "23/11/2026 (media sesión)",
-      "detail": "Prima de riesgo: ≈ 56 pb (dato del 20/11)",
-      "source": "Demócrata",
-      "url": "https://democrata.es/economia/el-ibex-35-supera-los-19-000-puntos-a-media-sesion-con-un-avance-del-0-73",
+      "date": "24/11/2026 (media sesión)",
+      "detail": "Prima de riesgo: 59 pb (cierre del 23/11)",
+      "source": "Pressdigital",
+      "url": "https://pressdigital.es/articulo/economia/2026-11-24/6106849-ibex-35-compromete-19000-puntos-media-sesionpese-furor-vuelta-huang-nvidia",
       "history": [
         3.952,
         3.962,
         3.942,
         3.94,
-        3.894
+        3.894,
+        3.838
       ],
       "next_release": "2026-11-16",
       "good_when": "down",
-      "why": "Baja porque el desplome de las bolsas ha llevado dinero a la deuda pública y se moderan las apuestas por subidas fuertes de la Fed."
+      "why": "Sigue bajando: el dinero busca refugio en la deuda y el petróleo más barato reduce las expectativas de inflación."
     },
     {
       "id": "prima",
       "label": "Prima de riesgo",
-      "value": 56,
+      "value": 59,
       "unit": " pb",
       "decimals": 0,
-      "change": -1,
+      "change": 3,
       "change_unit": "pb",
-      "date": "20/11/2026",
+      "date": "23/11/2026",
       "detail": "Diferencial del bono español frente al alemán a 10 años (corrige el dato de 65 pb publicado ayer)",
-      "source": "Infobae",
-      "url": "https://www.infobae.com/espana/2026/11/20/la-bolsa-se-dispara-con-pedro-sanchez-el-ibex-35-sube-un-137-en-esta-legislatura-y-supera-a-los-principales-indices-mundiales/",
+      "source": "Economía Responsable",
+      "url": "https://www.economiaresponsablefinanzas.com/inversiones/mercados/mercados-hoy-23-noviembre-2026/",
       "history": [
         45,
         65,
         57,
-        56
+        56,
+        59
       ],
       "next_release": "2026-11-16",
       "good_when": "down",
-      "why": "Ha bajado de 103 a 56 puntos desde las elecciones de 2023: el mercado no penaliza la incertidumbre del 29-N."
+      "why": "Repunta ligeramente en la recta final de la campaña, pero sigue en niveles muy bajos."
     }
   ],
   "real_estate": {
@@ -603,13 +620,40 @@
   "news": {
     "politica": [
       {
+        "title": "El Supremo aplica la amnistía a Puigdemont",
+        "summary": "La decisión, conocida el lunes, entra de lleno en la última semana de campaña; hoy Sánchez hace campaña en Barcelona y Feijóo en Alicante.",
+        "impact": "Alto",
+        "source": "EFE (vía Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+        "time": "24/11",
+        "new": true
+      },
+      {
+        "title": "El último Consejo de Ministros prorroga el impuesto a la banca para vivienda",
+        "summary": "Prevé recaudar 1.400 millones en 2027 para política de vivienda; aprueba también una rebaja del IRPF a autónomos de 465 millones.",
+        "impact": "Alto",
+        "source": "idealista/news",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/24/925801-el-gobierno-prorroga-el-impuesto-a-la-banca-para-recaudar-1-400-millones-y",
+        "time": "24/11",
+        "new": true
+      },
+      {
+        "title": "Vivienda, pensiones y pactos incendian el debate a ocho de RTVE",
+        "summary": "La izquierda pidió al PSOE intervenir el mercado de la vivienda; el PP atribuyó a la Ley de Vivienda la caída de la oferta en Cataluña. El jueves, debate a cuatro.",
+        "impact": "Alto",
+        "source": "Catalunya Press",
+        "url": "https://www.catalunyapress.es/articulo/politica-nacional/2026-11-23/6105861-vivienda-pensiones-eta-incendian-debate-ocho-rtve-seis-dias-29n",
+        "time": "23/11",
+        "new": true
+      },
+      {
         "title": "Últimas encuestas: PP primera fuerza y mayoría con Vox",
         "summary": "Hoy es el último día para publicar sondeos; la mayoría sitúa a PP y Vox por encima de 176 escaños (40dB, algo por debajo de 190; GAD3, 194).",
         "impact": "Alto",
         "source": "EFE (vía Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
         "time": "23/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Sánchez propone un impuesto a las fortunas de más de 100 millones para financiar vivienda",
@@ -618,37 +662,19 @@
         "source": "EFE (vía Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
         "time": "23/11",
-        "new": true
-      },
-      {
-        "title": "Debate a ocho esta noche en RTVE",
-        "summary": "Portavoces de PP, PSOE, Vox, Frente Amplio, ERC, Junts, EH Bildu y PNV debaten sobre vivienda, economía y pactos; el jueves 26, debate a cuatro.",
-        "impact": "Medio",
-        "source": "elDiario.es",
-        "url": "https://www.eldiario.es/vertele/noticias/claves-debate-ocho-rtve-xabier-fortes-horario-verlo-bloques-politicos-participan_1_13685685.html",
-        "time": "23/11",
-        "new": true
-      },
-      {
-        "title": "Sánchez y Feijóo coinciden en Murcia en el último domingo de campaña",
-        "summary": "Mítines separados por media hora; Sánchez reunió a unas 7.000 personas tras ser declarado persona non grata por el Gobierno regional.",
-        "impact": "Alto",
-        "source": "Infobae",
-        "url": "https://www.infobae.com/espana/2026/11/22/elecciones-generales-29-n-en-directo-nueva-jornada-de-mitines-por-toda-espana-sanchez-y-feijoo-estaran-en-murcia-abascal-en-zaragoza-y-colau-en-canarias/",
-        "time": "22/11",
-        "new": false
-      },
-      {
-        "title": "Lunes, último día para publicar encuestas",
-        "summary": "A partir del martes 24 la ley prohíbe difundir sondeos hasta la jornada electoral.",
-        "impact": "Medio",
-        "source": "EFE (vía Infobae)",
-        "url": "https://www.infobae.com/espana/agencias/2026/11/22/temas-del-dia-de-efe-espana-del-domingo-22-de-noviembre-de-2026-1400-horas/",
-        "time": "22/11",
         "new": false
       }
     ],
     "economia": [
+      {
+        "title": "El Euríbor sube al 3,376 %, a un paso del máximo del año",
+        "summary": "La media de noviembre (3,31 %) supera en más de un punto la de hace un año.",
+        "impact": "Alto",
+        "source": "Euribordiario",
+        "url": "https://www.euribordiario.es/noticias/euribor-hoy-aumenta-24-noviembre-2026-3308",
+        "time": "24/11",
+        "new": true
+      },
       {
         "title": "El PMI de la eurozona se mantiene en 51,7: Alemania tira, Francia se hunde",
         "summary": "Alemania marca máximos desde 2022 (55,0) y Francia cae a 47,9; S&P Global apunta a un PIB del +0,3 % en el cuarto trimestre.",
@@ -656,7 +682,7 @@
         "source": "Infobae",
         "url": "https://www.infobae.com/america/agencias/2026/11/23/el-pmi-de-la-zona-euro-sugiere-un-crecimiento-del-pib-del-03-en-el-cuarto-trimestre/",
         "time": "23/11",
-        "new": true
+        "new": false
       },
       {
         "title": "El Euríbor empieza la semana casi plano: 3,370 %",
@@ -665,7 +691,7 @@
         "source": "Euribor.com.es",
         "url": "https://www.euribor.com.es/2026/11/23/el-euribor-comienza-la-semana-con-una-bajadita-2/",
         "time": "23/11",
-        "new": true
+        "new": false
       },
       {
         "title": "El Euríbor cierra la semana con una fuerte subida: 3,372 %",
@@ -684,18 +710,27 @@
         "url": "https://swissinfo.ch/spa/las-actas-de-la-%C3%BAltima-reuni%C3%B3n-de-la-fed-apuntan-a-una-nueva-subida-de-tipos-en-diciembre/92403915",
         "time": "18/11",
         "new": false
-      },
-      {
-        "title": "El Euríbor baja por segundo día, al 3,343 %",
-        "summary": "Pese a la bajada, la media de noviembre (≈3,29 %) supera la de octubre y el plazo a 3 meses marca máximos desde 2024.",
-        "impact": "Alto",
-        "source": "Euribordiario",
-        "url": "https://www.euribordiario.es/noticias/cotizacion-euribor-hoy-19-noviembre-2026",
-        "time": "19/11",
-        "new": false
       }
     ],
     "sociedad": [
+      {
+        "title": "Comisión interministerial con Canarias por la inmigración",
+        "summary": "El Gobierno y Fernando Clavijo abordan el aumento de llegadas irregulares a las islas.",
+        "impact": "Alto",
+        "source": "EFE (vía Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+        "time": "24/11",
+        "new": true
+      },
+      {
+        "title": "El INE publica el censo de población a 1 de enero de 2026",
+        "summary": "La población residente sigue creciendo gracias a la inmigración.",
+        "impact": "Medio",
+        "source": "EFE (vía Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+        "time": "24/11",
+        "new": true
+      },
       {
         "title": "La jueza del caso Andic interroga a testigos en Martorell",
         "summary": "Investiga la muerte del fundador de Mango, padre de Jonathan Andic.",
@@ -703,7 +738,7 @@
         "source": "EFE (vía Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
         "time": "23/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Marc Márquez logra su octavo Mundial de MotoGP",
@@ -712,7 +747,7 @@
         "source": "EFE (vía Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
         "time": "23/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Vence el plazo del sistema de depósito de envases sin que esté en marcha",
@@ -722,27 +757,18 @@
         "url": "https://www.infobae.com/espana/agencias/2026/11/22/temas-del-dia-de-efe-espana-del-domingo-22-de-noviembre-de-2026-1400-horas/",
         "time": "22/11",
         "new": false
-      },
-      {
-        "title": "Vuelve el frío: rachas de viento de hasta 90 km/h",
-        "summary": "Aemet avisa por viento en el Cantábrico, el este peninsular y Baleares, con descenso general de temperaturas.",
-        "impact": "Medio",
-        "source": "El Cronista",
-        "url": "https://www.cronista.com/espana/actualidad-es/regresa-el-frio-este-domingo-22-de-noviembre-fuertes-rachas-de-viento-de-90-kmh-y-lluvias-afectaran-a-estas-zonas-del-pais/",
-        "time": "22/11",
-        "new": false
-      },
-      {
-        "title": "Desconvocada la huelga de maquinistas del lunes 23",
-        "summary": "Se evitan las cancelaciones de trenes; Adif empieza a reconstruir la vía del accidente de Urda.",
-        "impact": "Alto",
-        "source": "EFE (vía Infobae)",
-        "url": "https://www.infobae.com/espana/agencias/2026/11/20/temas-del-dia-de-efe-espana-del-viernes-20-de-noviembre-1350-horas/",
-        "time": "20/11",
-        "new": false
       }
     ],
     "mundo_geo": [
+      {
+        "title": "Tres petroleros arden tras chocar con minas en Ormuz",
+        "summary": "La Armada iraní informa del incidente con buques escoltados por EE. UU.; aun así, el Brent baja a unos 89 $, cerca de mínimos de tres meses.",
+        "impact": "Alto",
+        "source": "France 24",
+        "url": "https://www.france24.com/es/medio-oriente/20261124-oriente-medio-ocho-palestinos-mueren-en-ataques-israel%C3%ADes-tres-petroleros-chocan-con-minas-en-ormuz",
+        "time": "24/11",
+        "new": true
+      },
       {
         "title": "Irán, dispuesto a reabrir Ormuz si hay acuerdo con EE. UU.",
         "summary": "Teherán se abre a reabrir el estrecho, aunque rechaza sacar del país su uranio enriquecido; una salida al conflicto abarataría el petróleo.",
@@ -778,15 +804,6 @@
         "url": "https://www.elespanol.com/mundo/asia/20261117/trump-acude-debilitado-cumbre-putin-xi-shenzhen-derrota-midterms-crisis-nvidia/1003744460535_0.html",
         "time": "17/11",
         "new": false
-      },
-      {
-        "title": "Cumbre inédita Trump–Putin–Xi el jueves en Shenzhen",
-        "summary": "La Casa Blanca y el Kremlin confirman la reunión al margen del APEC. Hablarán de la guerra con Irán, pero no de Ucrania.",
-        "impact": "Alto",
-        "source": "MDZ / AFP",
-        "url": "https://www.mdzol.com/mundo/2026/11/14/inedita-cumbre-entre-trump-putin-y-xi-jinping-iran-en-la-agenda-pero-ucrania-no-1995423.html",
-        "time": "14/11",
-        "new": false
       }
     ],
     "mundo_eco": [
@@ -797,7 +814,7 @@
         "source": "Infobae",
         "url": "https://www.infobae.com/america/agencias/2026/11/23/el-pmi-de-la-zona-euro-sugiere-un-crecimiento-del-pib-del-03-en-el-cuarto-trimestre/",
         "time": "23/11",
-        "new": true
+        "new": false
       },
       {
         "title": "El Brent suma tres semanas de caídas",
@@ -838,13 +855,40 @@
     ],
     "mercados": [
       {
+        "title": "Wall Street vive su mayor subida en años con la vuelta de Huang",
+        "summary": "El lunes el S&P 500 ganó un 4,7 % y el Nasdaq un 6,5 % (Nvidia +31 %); hoy recogen beneficios los semiconductores.",
+        "impact": "Alto",
+        "source": "Estrategias de Inversión",
+        "url": "https://www.estrategiasdeinversion.com/actualidad/noticias/bolsa-eeuu/dow-jones-sp-500-y-nasdaq-suben-al-cierre-tras-n-972749",
+        "time": "24/11",
+        "new": true
+      },
+      {
+        "title": "El Ibex se juega los 19.000 puntos",
+        "summary": "Recoge beneficios tras el rebote del lunes, con Solaria en mínimos desde octubre de 2025.",
+        "impact": "Medio",
+        "source": "Estrategias de Inversión",
+        "url": "https://www.estrategiasdeinversion.com/actualidad/noticias/bolsa-espana/el-ibex-35-se-frena-lastrado-por-endesa-arcelormittal-n-972785",
+        "time": "24/11",
+        "new": true
+      },
+      {
+        "title": "El Nikkei rebota un 3,9 % tras el festivo",
+        "summary": "Las tecnológicas japonesas se suman al rally por el regreso de Huang a Nvidia.",
+        "impact": "Medio",
+        "source": "Boursorama / Reuters",
+        "url": "https://www.boursorama.com/bourse/actualites/le-nikkei-finit-en-hausse-de-3-91-d187909d3f0dc9405bd64cdaf04acd25",
+        "time": "24/11",
+        "new": true
+      },
+      {
         "title": "Nvidia restituye a Jensen Huang como CEO y la acción se dispara un 30 %",
         "summary": "La decisión, unánime, llega dos semanas después de su salida; Wall Street rebota con fuerza (Nasdaq +5,8 % en la apertura).",
         "impact": "Alto",
         "source": "Infobae",
         "url": "https://www.infobae.com/tecno/2026/11/23/jensen-huang-vuelve-como-ceo-de-nvidia-y-la-accion-sube-318/",
         "time": "23/11",
-        "new": true
+        "new": false
       },
       {
         "title": "El Ibex rebota y recupera los 19.000 puntos",
@@ -853,33 +897,6 @@
         "source": "Estrategias de Inversión",
         "url": "https://estrategiasdeinversion.com/actualidad/noticias/bolsa-espana/el-ibex-35-rebota-con-timidez-por-encima-de-los-n-972401",
         "time": "23/11",
-        "new": true
-      },
-      {
-        "title": "Wall Street se desploma: el S&P 500 entra en corrección y el Nasdaq cae un 5,3 %",
-        "summary": "Peor jornada desde abril de 2025; el Nasdaq borra sus ganancias del año y el S&P 500 suma siete sesiones de caídas (−9 % en la semana).",
-        "impact": "Alto",
-        "source": "NPR",
-        "url": "https://npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
-        "time": "20/11",
-        "new": false
-      },
-      {
-        "title": "El Ibex se deja un 5,7 % en la semana y pierde los 19.000 puntos",
-        "summary": "Cerró el viernes en 18.873 (−1,63 %), en su quinta sesión seguida de caídas por el ajuste tecnológico.",
-        "impact": "Alto",
-        "source": "Valencia Plaza",
-        "url": "https://valenciaplaza.com/valenciaplaza/bolsas/las-ventas-volvieron-a-imponerse-en-la-semana-bursatil-con-el-ibex-35-dejandose-un-57",
-        "time": "20/11",
-        "new": false
-      },
-      {
-        "title": "Europa cierra su peor semana desde marzo",
-        "summary": "El DAX cae un 2,6 % el viernes (−7,4 % en la semana) y el Euro Stoxx 50 pierde los 6.000 puntos por las dudas sobre la rentabilidad de la IA.",
-        "impact": "Alto",
-        "source": "El Boletín",
-        "url": "https://www.elboletin.com/las-bolsas-europeas-se-desploman-y-cierran-su-peor-semana-desde-marzo-por-las-dudas-sobre-la-inteligencia-artificial/amp/",
-        "time": "20/11",
         "new": false
       }
     ],
@@ -932,13 +949,22 @@
     ],
     "inmo_espana": [
       {
+        "title": "Las ventas exprés de vivienda se reducen en las grandes capitales",
+        "summary": "El 8 % de los pisos vendidos en el 3T no estuvo ni una semana anunciado; la usada sube un 11,2 % anual hasta 2.955 €/m².",
+        "impact": "Medio",
+        "source": "idealista/news",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/24/925671-el-fenomeno-de-las-ventas-expres-de-viviendas-se-reduce-en-las-grandes-capitales",
+        "time": "24/11",
+        "new": true
+      },
+      {
         "title": "La vivienda, primer problema para el 59,5 % de los españoles",
         "summary": "El CIS de noviembre marca un récord, con la huelga general y las protestas del 11 de noviembre como telón de fondo.",
         "impact": "Alto",
         "source": "idealista/news",
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/23/925711-la-preocupacion-por-la-vivienda-marca-nuevo-record-y-crece-la-que-genera-la",
         "time": "23/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Los visados de obra nueva superan las 93.000 viviendas hasta julio",
@@ -947,7 +973,7 @@
         "source": "idealista/news",
         "url": "https://www.idealista.com/news/inmobiliario/construccion/2026/11/23/925436-los-visados-de-obra-nueva-superan-las-93-000-viviendas-hasta-julio-maximos",
         "time": "23/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Tinsa: la vivienda sube un 14,7 % en el tercer trimestre, con signos de desaceleración",
@@ -993,18 +1019,18 @@
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/18/924885-laura-fernandez-asval-madrid-a-dia-de-hoy-es-un-oasis-para-el-inversor-inmobiliario",
         "time": "18/11",
         "new": false
-      },
-      {
-        "title": "Las compraventas de vivienda se hunden un 13,4 % en septiembre",
-        "summary": "El INE registra 54.548 operaciones, la mayor caída en más de dos años; solo la obra nueva sube respecto a agosto.",
-        "impact": "Alto",
-        "source": "elDiario.es",
-        "url": "https://www.eldiario.es/economia/compraventa-vivienda-frena-septiembre-cae-13-4_1_13670004.html",
-        "time": "17/11",
-        "new": false
       }
     ],
     "inmo_bcn": [
+      {
+        "title": "La Generalitat compra 460 pisos sociales a CaixaBank por 40,3 millones",
+        "summary": "Pasan al parque público en 72 municipios (66 en Badalona y Terrassa) y no podrán volver al mercado privado.",
+        "impact": "Alto",
+        "source": "Metrópoli Abierta",
+        "url": "https://metropoliabierta.elespanol.com/gran-barcelona/20261124/barcelona-amplia-parque-publico-vivienda-govern-compra-pisos-badalona-terrassa-dedicados-alquiler-social/1003742814740_0.html",
+        "time": "24/11",
+        "new": true
+      },
       {
         "title": "Barcelona, la ciudad con el alquiler de habitaciones más caro: 662 €",
         "summary": "Pese a que la oferta de habitaciones sube un 22 % anual, el precio se mantiene, reflejo de la escasez de pisos completos en alquiler.",
@@ -1067,18 +1093,18 @@
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/17/919878-liberalizar-suelo-bajar-el-itp-y-mover-el-parque-privado-soluciones-para-reactivar",
         "time": "17/11",
         "new": false
-      },
-      {
-        "title": "Los expertos prevén menos compraventas y menos alquiler en Cataluña",
-        "summary": "Anticipan precios al alza con demanda fuerte, aunque la actividad seguiría por encima de la de 2024.",
-        "impact": "Medio",
-        "source": "idealista/news",
-        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/11/911773-los-expertos-preven-una-caida-de-las-ventas-de-viviendas-y-de-la-oferta-de-alquiler",
-        "time": "11/11",
-        "new": false
       }
     ],
     "regulacion": [
+      {
+        "title": "El último Consejo de Ministros prorroga el impuesto a la banca para vivienda",
+        "summary": "Prevé recaudar 1.400 millones en 2027 para política de vivienda; aprueba también una rebaja del IRPF a autónomos de 465 millones.",
+        "impact": "Alto",
+        "source": "idealista/news",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/24/925801-el-gobierno-prorroga-el-impuesto-a-la-banca-para-recaudar-1-400-millones-y",
+        "time": "24/11",
+        "new": true
+      },
       {
         "title": "Los agentes inmobiliarios se protegen ante la 'inseguridad jurídica' del decreto",
         "summary": "La FAI prevé que las operaciones de alquiler caigan entre un 25 % y un 30 % en los próximos meses.",
@@ -1086,7 +1112,7 @@
         "source": "idealista/news",
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/22/925365-los-agentes-inmobiliarios-adoptan-medidas-preventivas-ante-la-inseguridad-juridica",
         "time": "22/11",
-        "new": true
+        "new": false
       },
       {
         "title": "El cara a cara gira en torno a la vivienda",
@@ -1141,18 +1167,18 @@
         "url": "https://provivienda.org/observatorio/real-decreto-ley-26-2026-que-cambia-en-el-precio-del-alquiler-y-la-vivienda-asequible/",
         "time": "12/11",
         "new": false
-      },
-      {
-        "title": "Cataluña ya regula el alquiler de temporada y por habitaciones",
-        "summary": "La Ley 11/2025, vigente desde el 1 de enero, somete estos contratos al índice de precios en zonas tensionadas si no tienen causa justificada (trabajo, estudios, salud).",
-        "impact": "Alto",
-        "source": "Net2rent",
-        "url": "https://net2rent.com/nueva-ley-regulacion-alquiler-temporal-cataluna/",
-        "time": "Vigente",
-        "new": false
       }
     ],
     "hipotecas": [
+      {
+        "title": "El Euríbor sube al 3,376 %, a un paso del máximo del año",
+        "summary": "La media de noviembre (3,31 %) supera en más de un punto la de hace un año.",
+        "impact": "Alto",
+        "source": "Euribordiario",
+        "url": "https://www.euribordiario.es/noticias/euribor-hoy-aumenta-24-noviembre-2026-3308",
+        "time": "24/11",
+        "new": true
+      },
       {
         "title": "El Euríbor empieza la semana casi plano: 3,370 %",
         "summary": "La media provisional de noviembre se sitúa en el 3,30 %, cerca de máximos del año.",
@@ -1160,7 +1186,7 @@
         "source": "Euribor.com.es",
         "url": "https://www.euribor.com.es/2026/11/23/el-euribor-comienza-la-semana-con-una-bajadita-2/",
         "time": "23/11",
-        "new": true
+        "new": false
       },
       {
         "title": "El Euríbor cierra la semana con una fuerte subida: 3,372 %",
@@ -1188,18 +1214,18 @@
         "url": "https://www.euribor.com.es/2026/11/18/euribor-respiro-alerta/",
         "time": "18/11",
         "new": false
-      },
-      {
-        "title": "El Euríbor sube por quinta vez seguida: 3,361 %",
-        "summary": "Marca máximos del mes; con una media de noviembre cercana al 3,28 %, quien revise la hipoteca en diciembre pagará casi 100 € más al mes que hace un año.",
-        "impact": "Alto",
-        "source": "Rankia",
-        "url": "https://www.rankia.com/blog/mejores-hipotecas/7554722-euribor-hoy-17-noviembre-2026",
-        "time": "17/11",
-        "new": false
       }
     ],
     "inversion": [
+      {
+        "title": "La Generalitat compra 460 pisos sociales a CaixaBank por 40,3 millones",
+        "summary": "Pasan al parque público en 72 municipios (66 en Badalona y Terrassa) y no podrán volver al mercado privado.",
+        "impact": "Alto",
+        "source": "Metrópoli Abierta",
+        "url": "https://metropoliabierta.elespanol.com/gran-barcelona/20261124/barcelona-amplia-parque-publico-vivienda-govern-compra-pisos-badalona-terrassa-dedicados-alquiler-social/1003742814740_0.html",
+        "time": "24/11",
+        "new": true
+      },
       {
         "title": "Amancio Ortega compra un rascacielos de viviendas de lujo en Chicago",
         "summary": "Pontegadea paga unos 180 millones de euros por una torre de 390 pisos, en línea con su apuesta por el residencial de alquiler fuera de España.",
@@ -1261,15 +1287,6 @@
         "source": "Brainsre",
         "url": "https://brainsre.news/tishman-speyer-freo-compran-edificio-oficinas/",
         "time": "2026",
-        "new": false
-      },
-      {
-        "title": "El Govern compra siete plantas del Banco de España en plaza Catalunya",
-        "summary": "58,4 millones por 13.114 m², más unos 36,9 millones de rehabilitación; traslado previsto hacia 2033.",
-        "impact": "Bajo",
-        "source": "Brainsre",
-        "url": "https://brainsre.news/generalitat-compra-banco-espana-barcelona-58-4/",
-        "time": "Jun",
         "new": false
       }
     ],
@@ -1337,7 +1354,7 @@
         "source": "idealista/news",
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/22/925365-los-agentes-inmobiliarios-adoptan-medidas-preventivas-ante-la-inseguridad-juridica",
         "time": "22/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Barcelona, la ciudad con el alquiler de habitaciones más caro: 662 €",
@@ -1384,7 +1401,7 @@
         "source": "idealista/news",
         "url": "https://www.idealista.com/news/inmobiliario/construccion/2026/11/23/925436-los-visados-de-obra-nueva-superan-las-93-000-viviendas-hasta-julio-maximos",
         "time": "23/11",
-        "new": true
+        "new": false
       },
       {
         "title": "Neinor y Cevasa suman 410 pisos al plan de alquiler asequible de Barcelona",
@@ -1426,195 +1443,204 @@
     "hoy": {
       "politica": [
         {
-          "title": "Últimas encuestas: PP primera fuerza y mayoría con Vox",
-          "summary": "Hoy es el último día para publicar sondeos; la mayoría sitúa a PP y Vox por encima de 176 escaños (40dB, algo por debajo de 190; GAD3, 194).",
+          "title": "El Supremo aplica la amnistía a Puigdemont",
+          "summary": "La decisión, conocida el lunes, entra de lleno en la última semana de campaña; hoy Sánchez hace campaña en Barcelona y Feijóo en Alicante.",
           "impact": "Alto",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
-          "time": "23/11",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+          "time": "24/11",
           "new": true
         },
         {
-          "title": "Sánchez propone un impuesto a las fortunas de más de 100 millones para financiar vivienda",
-          "summary": "Lo anuncia en un acto en Córdoba con María Jesús Montero; Abascal hace campaña en Palencia.",
-          "impact": "Alto",
-          "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
-          "time": "23/11",
-          "new": true
-        },
-        {
-          "title": "Debate a ocho esta noche en RTVE",
-          "summary": "Portavoces de PP, PSOE, Vox, Frente Amplio, ERC, Junts, EH Bildu y PNV debaten sobre vivienda, economía y pactos; el jueves 26, debate a cuatro.",
-          "impact": "Medio",
-          "source": "elDiario.es",
-          "url": "https://www.eldiario.es/vertele/noticias/claves-debate-ocho-rtve-xabier-fortes-horario-verlo-bloques-politicos-participan_1_13685685.html",
-          "time": "23/11",
-          "new": true
-        },
-        {
-          "title": "CIS: la vivienda preocupa más que nunca (59,5 %)",
-          "summary": "El CIS de noviembre marca un récord, con la huelga general y las protestas del 11 de noviembre como telón de fondo.",
+          "title": "El último Consejo de Ministros prorroga el impuesto a la banca para vivienda",
+          "summary": "Prevé recaudar 1.400 millones en 2027 para política de vivienda; aprueba también una rebaja del IRPF a autónomos de 465 millones.",
           "impact": "Alto",
           "source": "idealista/news",
-          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/23/925711-la-preocupacion-por-la-vivienda-marca-nuevo-record-y-crece-la-que-genera-la",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/24/925801-el-gobierno-prorroga-el-impuesto-a-la-banca-para-recaudar-1-400-millones-y",
+          "time": "24/11",
+          "new": true
+        },
+        {
+          "title": "Vivienda, pensiones y pactos incendian el debate a ocho de RTVE",
+          "summary": "La izquierda pidió al PSOE intervenir el mercado de la vivienda; el PP atribuyó a la Ley de Vivienda la caída de la oferta en Cataluña. El jueves, debate a cuatro.",
+          "impact": "Alto",
+          "source": "Catalunya Press",
+          "url": "https://www.catalunyapress.es/articulo/politica-nacional/2026-11-23/6105861-vivienda-pensiones-eta-incendian-debate-ocho-rtve-seis-dias-29n",
           "time": "23/11",
           "new": true
         },
         {
-          "title": "Sánchez y Feijóo coinciden en Murcia en el último domingo de campaña",
-          "summary": "Mítines separados por media hora; Sánchez reunió a unas 7.000 personas tras ser declarado persona non grata por el Gobierno regional.",
-          "impact": "Alto",
-          "source": "Infobae",
-          "url": "https://www.infobae.com/espana/2026/11/22/elecciones-generales-29-n-en-directo-nueva-jornada-de-mitines-por-toda-espana-sanchez-y-feijoo-estaran-en-murcia-abascal-en-zaragoza-y-colau-en-canarias/",
-          "time": "22/11",
+          "title": "Empieza la prohibición de publicar encuestas",
+          "summary": "Hasta el 29-N no pueden difundirse sondeos; los últimos daban al PP como primera fuerza.",
+          "impact": "Medio",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+          "time": "24/11",
+          "new": true
+        },
+        {
+          "title": "Ayuso acusa a Sánchez de falta de 'humanidad' por recurrir la ley del concebido",
+          "summary": "El Gobierno lleva al Constitucional la norma madrileña; el choque se suma a la recta final de campaña.",
+          "impact": "Medio",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+          "time": "24/11",
           "new": true
         }
       ],
       "economia": [
         {
-          "title": "Nvidia restituye a Jensen Huang como CEO y la acción se dispara un 30 %",
-          "summary": "La decisión, unánime, llega dos semanas después de su salida; Wall Street rebota con fuerza (Nasdaq +5,8 % en la apertura).",
+          "title": "Tres petroleros arden tras chocar con minas en Ormuz",
+          "summary": "La Armada iraní informa del incidente con buques escoltados por EE. UU.; aun así, el Brent baja a unos 89 $, cerca de mínimos de tres meses.",
           "impact": "Alto",
-          "source": "Infobae",
-          "url": "https://www.infobae.com/tecno/2026/11/23/jensen-huang-vuelve-como-ceo-de-nvidia-y-la-accion-sube-318/",
-          "time": "23/11",
+          "source": "France 24",
+          "url": "https://www.france24.com/es/medio-oriente/20261124-oriente-medio-ocho-palestinos-mueren-en-ataques-israel%C3%ADes-tres-petroleros-chocan-con-minas-en-ormuz",
+          "time": "24/11",
           "new": true
         },
         {
-          "title": "El PMI de la eurozona se mantiene en 51,7: Alemania tira, Francia se hunde",
-          "summary": "Alemania marca máximos desde 2022 (55,0) y Francia cae a 47,9; S&P Global apunta a un PIB del +0,3 % en el cuarto trimestre.",
+          "title": "Wall Street vive su mayor subida en años con la vuelta de Huang",
+          "summary": "El lunes el S&P 500 ganó un 4,7 % y el Nasdaq un 6,5 % (Nvidia +31 %); hoy recogen beneficios los semiconductores.",
           "impact": "Alto",
-          "source": "Infobae",
-          "url": "https://www.infobae.com/america/agencias/2026/11/23/el-pmi-de-la-zona-euro-sugiere-un-crecimiento-del-pib-del-03-en-el-cuarto-trimestre/",
-          "time": "23/11",
+          "source": "Estrategias de Inversión",
+          "url": "https://www.estrategiasdeinversion.com/actualidad/noticias/bolsa-eeuu/dow-jones-sp-500-y-nasdaq-suben-al-cierre-tras-n-972749",
+          "time": "24/11",
           "new": true
         },
         {
-          "title": "El Ibex rebota y recupera los 19.000 puntos",
-          "summary": "Sube más de un 1 % tras perder un 5,7 % la semana pasada, con ArcelorMittal, ACS y Acerinox al frente.",
+          "title": "El Euríbor sube al 3,376 %, a un paso del máximo del año",
+          "summary": "La media de noviembre (3,31 %) supera en más de un punto la de hace un año.",
+          "impact": "Alto",
+          "source": "Euribordiario",
+          "url": "https://www.euribordiario.es/noticias/euribor-hoy-aumenta-24-noviembre-2026-3308",
+          "time": "24/11",
+          "new": true
+        },
+        {
+          "title": "El Ibex se juega los 19.000 puntos",
+          "summary": "Recoge beneficios tras el rebote del lunes, con Solaria en mínimos desde octubre de 2025.",
           "impact": "Medio",
           "source": "Estrategias de Inversión",
-          "url": "https://estrategiasdeinversion.com/actualidad/noticias/bolsa-espana/el-ibex-35-rebota-con-timidez-por-encima-de-los-n-972401",
-          "time": "23/11",
+          "url": "https://www.estrategiasdeinversion.com/actualidad/noticias/bolsa-espana/el-ibex-35-se-frena-lastrado-por-endesa-arcelormittal-n-972785",
+          "time": "24/11",
           "new": true
         },
         {
-          "title": "El Euríbor empieza la semana casi plano: 3,370 %",
-          "summary": "La media provisional de noviembre se sitúa en el 3,30 %, cerca de máximos del año.",
+          "title": "El Nikkei rebota un 3,9 % tras el festivo",
+          "summary": "Las tecnológicas japonesas se suman al rally por el regreso de Huang a Nvidia.",
           "impact": "Medio",
-          "source": "Euribor.com.es",
-          "url": "https://www.euribor.com.es/2026/11/23/el-euribor-comienza-la-semana-con-una-bajadita-2/",
-          "time": "23/11",
-          "new": true
-        },
-        {
-          "title": "El oro rebota más de un 2 % y recupera los 3.600 $",
-          "summary": "Se moderan las apuestas por una subida de medio punto de la Fed en diciembre.",
-          "impact": "Medio",
-          "source": "FXStreet",
-          "url": "https://www.fxstreet.es/news/el-oro-sube-mas-de-un-2-mientras-se-desvanecen-las-apuestas-por-una-subida-de-medio-punto-de-la-fed-el-pce-de-eeuu-centra-la-atencion-202611231117",
-          "time": "23/11",
+          "source": "Boursorama / Reuters",
+          "url": "https://www.boursorama.com/bourse/actualites/le-nikkei-finit-en-hausse-de-3-91-d187909d3f0dc9405bd64cdaf04acd25",
+          "time": "24/11",
           "new": true
         }
       ],
       "sociedad": [
         {
-          "title": "La jueza del caso Andic interroga a testigos en Martorell",
-          "summary": "Investiga la muerte del fundador de Mango, padre de Jonathan Andic.",
-          "impact": "Medio",
+          "title": "Comisión interministerial con Canarias por la inmigración",
+          "summary": "El Gobierno y Fernando Clavijo abordan el aumento de llegadas irregulares a las islas.",
+          "impact": "Alto",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
-          "time": "23/11",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+          "time": "24/11",
           "new": true
         },
         {
-          "title": "Junta de jueces en Madrid sobre el 'caso residencias'",
-          "summary": "La Audiencia Provincial busca unificar criterios sobre las causas por las muertes en residencias durante la pandemia.",
+          "title": "Declara por videoconferencia Cintia Rocho en el caso Leire",
+          "summary": "La causa afecta a David Sánchez, hermano del presidente del Gobierno.",
           "impact": "Medio",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
-          "time": "23/11",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+          "time": "24/11",
           "new": true
         },
         {
-          "title": "Marc Márquez logra su octavo Mundial de MotoGP",
-          "summary": "España prepara además la fase final de la Copa Davis en Bolonia.",
+          "title": "El INE publica el censo de población a 1 de enero de 2026",
+          "summary": "La población residente sigue creciendo gracias a la inmigración.",
           "impact": "Medio",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
-          "time": "23/11",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+          "time": "24/11",
           "new": true
         },
         {
-          "title": "Nieblas densas en la meseta norte y cierzo en Tarragona",
-          "summary": "Aemet avisa de mala visibilidad en carreteras de Castilla y León.",
+          "title": "Un frente atlántico trae lluvias a casi todo el país y nieve en las montañas",
+          "summary": "Precipitaciones generalizadas y nevadas en las sierras del centro y del norte.",
           "impact": "Bajo",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
-          "time": "23/11",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+          "time": "24/11",
           "new": true
         },
         {
-          "title": "Felipe VI preside una jornada sobre Francisco de Vitoria",
-          "summary": "Acto académico en Madrid sobre el pensador del derecho internacional.",
+          "title": "Premios Meninas en Logroño contra la violencia de género",
+          "summary": "El Ministerio de Igualdad reconoce a personas e instituciones que luchan contra la violencia machista.",
           "impact": "Bajo",
           "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
-          "time": "23/11",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+          "time": "24/11",
           "new": true
         }
       ],
       "inmobiliario": [
         {
-          "title": "La vivienda, primer problema para el 59,5 % de los españoles",
-          "summary": "El CIS de noviembre marca un récord, con la huelga general y las protestas del 11 de noviembre como telón de fondo.",
+          "title": "Impuesto a la banca prorrogado: 1.400 millones para vivienda",
+          "summary": "Prevé recaudar 1.400 millones en 2027 para política de vivienda; aprueba también una rebaja del IRPF a autónomos de 465 millones.",
           "impact": "Alto",
           "source": "idealista/news",
-          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/23/925711-la-preocupacion-por-la-vivienda-marca-nuevo-record-y-crece-la-que-genera-la",
-          "time": "23/11",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/24/925801-el-gobierno-prorroga-el-impuesto-a-la-banca-para-recaudar-1-400-millones-y",
+          "time": "24/11",
           "new": true
         },
         {
-          "title": "Los visados de obra nueva superan las 93.000 viviendas hasta julio",
-          "summary": "Máximo desde 2008 (+10,9 %); 2026 podría cerrar con más de 100.000 viviendas terminadas por primera vez desde 2012.",
+          "title": "La Generalitat compra 460 pisos sociales a CaixaBank por 40,3 millones",
+          "summary": "Pasan al parque público en 72 municipios (66 en Badalona y Terrassa) y no podrán volver al mercado privado.",
           "impact": "Alto",
-          "source": "idealista/news",
-          "url": "https://www.idealista.com/news/inmobiliario/construccion/2026/11/23/925436-los-visados-de-obra-nueva-superan-las-93-000-viviendas-hasta-julio-maximos",
-          "time": "23/11",
+          "source": "Metrópoli Abierta",
+          "url": "https://metropoliabierta.elespanol.com/gran-barcelona/20261124/barcelona-amplia-parque-publico-vivienda-govern-compra-pisos-badalona-terrassa-dedicados-alquiler-social/1003742814740_0.html",
+          "time": "24/11",
           "new": true
         },
         {
-          "title": "Sánchez: impuesto a las grandes fortunas para financiar vivienda",
-          "summary": "Lo anuncia en un acto en Córdoba con María Jesús Montero; Abascal hace campaña en Palencia.",
-          "impact": "Alto",
-          "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/23/temas-del-dia-de-efe-espana-del-lunes-23-de-noviembre-de-2026-1330-horas/",
-          "time": "23/11",
-          "new": true
-        },
-        {
-          "title": "Los agentes inmobiliarios se protegen ante la 'inseguridad jurídica' del decreto",
-          "summary": "La FAI prevé que las operaciones de alquiler caigan entre un 25 % y un 30 % en los próximos meses.",
-          "impact": "Alto",
-          "source": "idealista/news",
-          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/22/925365-los-agentes-inmobiliarios-adoptan-medidas-preventivas-ante-la-inseguridad-juridica",
-          "time": "22/11",
-          "new": true
-        },
-        {
-          "title": "Norman Foster: los gobiernos deberían ceder suelo a valor social",
-          "summary": "El arquitecto, de 91 años, pide iniciativas públicas más osadas para la vivienda.",
+          "title": "Las ventas exprés de vivienda se reducen en las grandes capitales",
+          "summary": "El 8 % de los pisos vendidos en el 3T no estuvo ni una semana anunciado; la usada sube un 11,2 % anual hasta 2.955 €/m².",
           "impact": "Medio",
           "source": "idealista/news",
-          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/23/925716-norman-foster-a-sus-91-anos-sobre-la-vivienda-en-el-pasado-los-gobiernos-tomaban",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/24/925671-el-fenomeno-de-las-ventas-expres-de-viviendas-se-reduce-en-las-grandes-capitales",
+          "time": "24/11",
+          "new": true
+        },
+        {
+          "title": "La vivienda abre el debate a ocho: intervenir el mercado o construir",
+          "summary": "La izquierda pidió al PSOE intervenir el mercado de la vivienda; el PP atribuyó a la Ley de Vivienda la caída de la oferta en Cataluña. El jueves, debate a cuatro.",
+          "impact": "Alto",
+          "source": "Catalunya Press",
+          "url": "https://www.catalunyapress.es/articulo/politica-nacional/2026-11-23/6105861-vivienda-pensiones-eta-incendian-debate-ocho-rtve-seis-dias-29n",
           "time": "23/11",
+          "new": true
+        },
+        {
+          "title": "Hipotecas: el Euríbor roza el máximo del año (3,376 %)",
+          "summary": "La media de noviembre (3,31 %) supera en más de un punto la de hace un año.",
+          "impact": "Alto",
+          "source": "Euribordiario",
+          "url": "https://www.euribordiario.es/noticias/euribor-hoy-aumenta-24-noviembre-2026-3308",
+          "time": "24/11",
           "new": true
         }
       ]
     },
     "semana": {
       "politica": [
+        {
+          "title": "El Supremo aplica la amnistía a Puigdemont",
+          "summary": "La decisión, conocida el lunes, entra de lleno en la última semana de campaña; hoy Sánchez hace campaña en Barcelona y Feijóo en Alicante.",
+          "impact": "Alto",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+          "time": "24/11",
+          "new": false
+        },
         {
           "title": "Últimas encuestas: PP primera fuerza y mayoría con Vox",
           "summary": "Hoy es el último día para publicar sondeos; la mayoría sitúa a PP y Vox por encima de 176 escaños (40dB, algo por debajo de 190; GAD3, 194).",
@@ -1650,18 +1676,27 @@
           "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/20/925347-sanchez-a-feijoo-en-el-debate-no-derogue-la-ley-de-vivienda",
           "time": "20/11",
           "new": false
-        },
-        {
-          "title": "El juez del caso Leire lleva a una pieza secreta los pagos del PSOE a abogados",
-          "summary": "La investigación sobre los pagos queda bajo secreto en plena campaña electoral.",
-          "impact": "Alto",
-          "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/18/temas-del-dia-de-efe-espana-del-miercoles-18-de-noviembre-de-2026-1345-horas/",
-          "time": "18/11",
-          "new": false
         }
       ],
       "economia": [
+        {
+          "title": "Wall Street vive su mayor subida en años con la vuelta de Huang",
+          "summary": "El lunes el S&P 500 ganó un 4,7 % y el Nasdaq un 6,5 % (Nvidia +31 %); hoy recogen beneficios los semiconductores.",
+          "impact": "Alto",
+          "source": "Estrategias de Inversión",
+          "url": "https://www.estrategiasdeinversion.com/actualidad/noticias/bolsa-eeuu/dow-jones-sp-500-y-nasdaq-suben-al-cierre-tras-n-972749",
+          "time": "24/11",
+          "new": false
+        },
+        {
+          "title": "Tres petroleros arden tras chocar con minas en Ormuz",
+          "summary": "La Armada iraní informa del incidente con buques escoltados por EE. UU.; aun así, el Brent baja a unos 89 $, cerca de mínimos de tres meses.",
+          "impact": "Alto",
+          "source": "France 24",
+          "url": "https://www.france24.com/es/medio-oriente/20261124-oriente-medio-ocho-palestinos-mueren-en-ataques-israel%C3%ADes-tres-petroleros-chocan-con-minas-en-ormuz",
+          "time": "24/11",
+          "new": false
+        },
         {
           "title": "Nvidia restituye a Jensen Huang como CEO y la acción se dispara un 30 %",
           "summary": "La decisión, unánime, llega dos semanas después de su salida; Wall Street rebota con fuerza (Nasdaq +5,8 % en la apertura).",
@@ -1688,27 +1723,18 @@
           "url": "https://npr.org/2026/11/20/g-s1-154797/nasdaq-sp500-stock-market-ai-sink-negative",
           "time": "20/11",
           "new": false
-        },
-        {
-          "title": "El Ibex se deja un 5,7 % en la semana y pierde los 19.000 puntos",
-          "summary": "Cerró el viernes en 18.873 (−1,63 %), en su quinta sesión seguida de caídas por el ajuste tecnológico.",
-          "impact": "Alto",
-          "source": "Valencia Plaza",
-          "url": "https://valenciaplaza.com/valenciaplaza/bolsas/las-ventas-volvieron-a-imponerse-en-la-semana-bursatil-con-el-ibex-35-dejandose-un-57",
-          "time": "20/11",
-          "new": false
-        },
-        {
-          "title": "Wall Street encadena seis sesiones de caídas y el Nasdaq entra en negativo en 2026",
-          "summary": "El jueves el S&P 500 cayó un 2 % y el Nasdaq un 2,25 %; hoy las ventas siguen pese al estreno de Anthropic.",
-          "impact": "Alto",
-          "source": "Infobae",
-          "url": "https://www.infobae.com/estados-unidos/2026/11/19/wall-street-cayo-y-registra-su-racha-de-perdidas-mas-larga-desde-2024-pese-al-impactante-debut-de-anthropic/",
-          "time": "20/11",
-          "new": false
         }
       ],
       "sociedad": [
+        {
+          "title": "Comisión interministerial con Canarias por la inmigración",
+          "summary": "El Gobierno y Fernando Clavijo abordan el aumento de llegadas irregulares a las islas.",
+          "impact": "Alto",
+          "source": "EFE (vía Infobae)",
+          "url": "https://www.infobae.com/espana/agencias/2026/11/24/temas-del-dia-de-efe-espana-del-martes-24-de-noviembre-de-2026-1330-horas/",
+          "time": "24/11",
+          "new": false
+        },
         {
           "title": "Marc Márquez logra su octavo Mundial de MotoGP",
           "summary": "España prepara además la fase final de la Copa Davis en Bolonia.",
@@ -1744,18 +1770,27 @@
           "url": "https://www.infobae.com/espana/agencias/2026/11/19/temas-del-dia-de-efe-espana-del-jueves-19-de-noviembre-de-2026-1345-horas/",
           "time": "19/11",
           "new": false
-        },
-        {
-          "title": "Los nacimientos suben un 1,2 % en 2025 y rompen la tendencia a la baja",
-          "summary": "Primera subida en años, en parte por la llegada de población inmigrante en edad de tener hijos.",
-          "impact": "Medio",
-          "source": "EFE (vía Infobae)",
-          "url": "https://www.infobae.com/espana/agencias/2026/11/18/temas-del-dia-de-efe-espana-del-miercoles-18-de-noviembre-de-2026-1345-horas/",
-          "time": "18/11",
-          "new": false
         }
       ],
       "inmobiliario": [
+        {
+          "title": "La Generalitat compra 460 pisos sociales a CaixaBank por 40,3 millones",
+          "summary": "Pasan al parque público en 72 municipios (66 en Badalona y Terrassa) y no podrán volver al mercado privado.",
+          "impact": "Alto",
+          "source": "Metrópoli Abierta",
+          "url": "https://metropoliabierta.elespanol.com/gran-barcelona/20261124/barcelona-amplia-parque-publico-vivienda-govern-compra-pisos-badalona-terrassa-dedicados-alquiler-social/1003742814740_0.html",
+          "time": "24/11",
+          "new": false
+        },
+        {
+          "title": "El último Consejo de Ministros prorroga el impuesto a la banca para vivienda",
+          "summary": "Prevé recaudar 1.400 millones en 2027 para política de vivienda; aprueba también una rebaja del IRPF a autónomos de 465 millones.",
+          "impact": "Alto",
+          "source": "idealista/news",
+          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/24/925801-el-gobierno-prorroga-el-impuesto-a-la-banca-para-recaudar-1-400-millones-y",
+          "time": "24/11",
+          "new": false
+        },
         {
           "title": "La vivienda, primer problema para el 59,5 % de los españoles",
           "summary": "El CIS de noviembre marca un récord, con la huelga general y las protestas del 11 de noviembre como telón de fondo.",
@@ -1781,24 +1816,6 @@
           "source": "Infobae",
           "url": "https://www.infobae.com/america/agencias/2026/11/21/la-oferta-de-alquiler-no-alcanza-las-30-viviendas-en-12-capitales-espanolas-segun-idealista/",
           "time": "21/11",
-          "new": false
-        },
-        {
-          "title": "Neinor y Cevasa suman 410 pisos al plan de alquiler asequible de Barcelona",
-          "summary": "Arranca la segunda fase de su alianza: 717 viviendas protegidas en ocho promociones; las primeras 340 ya están en obras.",
-          "impact": "Alto",
-          "source": "idealista/news",
-          "url": "https://www.idealista.com/news/inmobiliario/vivienda/2026/11/20/925226-neinor-y-cevasa-suman-410-pisos-al-plan-de-alquiler-asequible-de-barcelona",
-          "time": "20/11",
-          "new": false
-        },
-        {
-          "title": "Tinsa: la vivienda sube un 14,7 % en el tercer trimestre, con signos de desaceleración",
-          "summary": "El precio medio de la vivienda tasada sigue en máximos, aunque el ritmo de subida empieza a moderarse.",
-          "impact": "Alto",
-          "source": "Tinsa",
-          "url": "https://www.tinsa.es/sala-de-prensa/notas-de-prensa/imie-mercados-locales-3t2026/",
-          "time": "20/11",
           "new": false
         }
       ]
@@ -1878,11 +1895,6 @@
     ]
   },
   "agenda": [
-    {
-      "date": "Mar 24 nov",
-      "event": "Empieza la prohibición de publicar encuestas",
-      "why": "Últimos sondeos del 29-N."
-    },
     {
       "date": "Jue 26 nov",
       "event": "Debate a cuatro (Sánchez, Feijóo, Abascal y Colau)",
@@ -1964,9 +1976,9 @@
     }
   ],
   "number_of_day": {
-    "value": "59,5 %",
-    "label": "Españoles para los que la vivienda es el primer problema (CIS)",
-    "context": "Es el récord de la serie. Cuando un problema se vuelve la primera preocupación, los partidos compiten con propuestas, y lo que gane el 29-N cambiará la regulación del alquiler, la fiscalidad y las ayudas a la compra."
+    "value": "460",
+    "label": "Pisos sociales que la Generalitat compra a CaixaBank",
+    "context": "Por 40,3 millones, unos 87.500 € por vivienda. Las administraciones compran pisos ya ocupados por familias vulnerables para que no vuelvan al mercado libre: es una forma de ampliar el parque público más rápida que construir."
   },
   "programs": {
     "title": "Vivienda en el 29-N: qué propone cada partido",
@@ -2012,7 +2024,7 @@
       "label": "Financiación",
       "status": "bad",
       "value": "Tensionada",
-      "text": "El Euríbor sube al 3,372 % (máximo del mes) y la media de noviembre (3,30 %) supera la de octubre; la Fed y el BCE apuntan a subir en diciembre."
+      "text": "Euríbor en el 3,376 %, a un paso del máximo del año; la media de noviembre (3,31 %) supera la de octubre y el BCE apunta a subir en diciembre."
     },
     {
       "label": "Actividad",
@@ -2030,7 +2042,7 @@
       "label": "Comprador extranjero",
       "status": "good",
       "value": "Favorable",
-      "text": "El euro, en 1,098 dólares (cerca del mínimo de 52 semanas), abarata España para compradores en dólares."
+      "text": "El euro, en 1,091 dólares (cerca del mínimo de 52 semanas), abarata España para compradores en dólares."
     },
     {
       "label": "Inversión institucional",
@@ -2042,7 +2054,7 @@
   "forecasts": [
     {
       "topic": "Euríbor a 12 meses",
-      "now": "3,37 % (23/11/2026)",
+      "now": "3,38 % (24/11/2026)",
       "items": [
         {
           "source": "Funcas (panel)",
@@ -2189,7 +2201,7 @@
     },
     {
       "topic": "Petróleo Brent",
-      "now": "≈ 91 $ (23/11/2026)",
+      "now": "≈ 89 $ (24/11/2026, mínimos de tres meses)",
       "items": [
         {
           "source": "Bankinter",
@@ -2726,7 +2738,7 @@
         },
         {
           "label": "Prima de riesgo",
-          "value": "56 pb",
+          "value": "59 pb",
           "status": "good",
           "id": "prima"
         },
@@ -2948,7 +2960,7 @@
         {
           "plazo": "10 a",
           "years": 10,
-          "value": 3.894
+          "value": 3.838
         },
         {
           "plazo": "15 a",
@@ -3034,12 +3046,12 @@
           {
             "id": "bono10",
             "label": "Bono a 10 años",
-            "value": 3.894,
+            "value": 3.838,
             "unit": "%",
             "decimals": 3,
             "change": null,
             "change_unit": null,
-            "date": "23/11/2026",
+            "date": "24/11/2026",
             "detail": "",
             "source": "Mercado",
             "url": "https://www.idealista.com/news/taxonomy/term/17056",
@@ -3048,7 +3060,8 @@
               3.962,
               3.942,
               3.94,
-              3.894
+              3.894,
+              3.838
             ],
             "good_when": null,
             "why": "La referencia de la curva; ver también la prima de riesgo.",
@@ -3094,12 +3107,12 @@
           {
             "id": "pendiente",
             "label": "Pendiente 10 a − 12 m",
-            "value": 0.826,
+            "value": 0.77,
             "unit": " pp",
             "decimals": 2,
             "change": null,
             "change_unit": null,
-            "date": "23/11/2026",
+            "date": "24/11/2026",
             "detail": "",
             "source": "Cálculo propio",
             "url": "https://www.finect.com/usuario/eduardogarcia/articulos/la-rentabilidad-de-las-letras-del-tesoro-a-12-meses-x-al-x",
